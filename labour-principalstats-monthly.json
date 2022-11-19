@@ -1,6 +1,6 @@
 {
     "file": {
-        "catagory": "LABOUR",
+        "category": "LABOUR",
         "category_en": "Labour",
         "category_bm": "Tenaga Buruh",
         "file_name": "labour-principalstats-monthly.parquet",
