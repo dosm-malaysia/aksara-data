@@ -93,10 +93,14 @@
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [
+                        "state"
+                    ]
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "state"
+                    ],
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
@@ -135,10 +139,14 @@
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [
+                        "state"
+                    ]
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "state"
+                    ],
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
@@ -177,10 +185,14 @@
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [
+                        "state"
+                    ]
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "state"
+                    ],
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
@@ -219,10 +231,14 @@
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [
+                        "state"
+                    ]
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "state"
+                    ],
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
@@ -261,10 +277,14 @@
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [
+                        "state"
+                    ]
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "state"
+                    ],
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
@@ -303,10 +323,14 @@
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [
+                        "state"
+                    ]
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "state"
+                    ],
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
