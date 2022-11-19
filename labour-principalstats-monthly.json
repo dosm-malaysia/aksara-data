@@ -6,8 +6,8 @@
         "file_name": "labour-principalstats-monthly.parquet",
         "bucket": "economy_public",
         "link_parquet": "https://storage.googleapis.com/economy-public/labour-principalstats-monthly.parquet",
-        "link_csv": "https://storage.googleapis.com/economy_public/labour-principalstats-monthly.csv",
-        "link_metadata": "https://storage.googleapis.com/economy_public/labour-principalstats-monthly-metadata.json",
+        "link_csv": "https://storage.googleapis.com/economy-public/labour-principalstats-monthly.csv",
+        "link_metadata": "https://storage.googleapis.com/economy-public/labour-principalstats-monthly-metadata.json",
         "description": {
             "en": "The data displayed above is part of the principal labour force statistics released monthly by DOSM.",
             "bm": "Data yang dipaparkan di atas adalah sebahagian daripada statistik utama tenaga buruh yang diterbitkan secara bulanan oleh DOSM."
