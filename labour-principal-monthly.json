@@ -3,7 +3,7 @@
         "category": "LABOUR",
         "category_en": "Labour",
         "category_bm": "Tenaga Buruh",
-        "file_name": "labour-principal-monthly.parquet",
+        "file_name": "https://storage.googleapis.com/economy-public/labour-principal-monthly.parquet",
         "bucket": "economy-public",
         "link_parquet": "https://storage.googleapis.com/economy-public/labour-principal-monthly.parquet",
         "link_csv": "https://storage.googleapis.com/economy-public/labour-principal-monthly.csv",
