@@ -5,7 +5,7 @@
         "category_bm": "Tenaga Buruh",
         "file_name": "labour-principalstats-monthly.parquet",
         "bucket": "economy_public",
-        "link_parquet": "https://storage.googleapis.com/economy_public/labour-principalstats-monthly.parquet",
+        "link_parquet": "https://storage.googleapis.com/economy-public/labour-principalstats-monthly.parquet",
         "link_csv": "https://storage.googleapis.com/economy_public/labour-principalstats-monthly.csv",
         "link_metadata": "https://storage.googleapis.com/economy_public/labour-principalstats-monthly-metadata.json",
         "description": {
