@@ -1,0 +1,564 @@
+{
+    "file": {
+        "category": "AGRICULTURE",
+        "category_en": "Agriculture",
+        "category_bm": "Pertanian",
+        "file_name": "principal_statistics_cattle.parquet",
+        "bucket": "dosm-public-agriculture",
+        "link_parquet": "https://storage.googleapis.com/dosm-public-agriculture/principal_statistics_cattle.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-agriculture/principal_statistics_cattle.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-agriculture/principal_statistics_cattle_metadata.json",
+        "description": {
+            "en": "The data displayed above is part of the principal labour force statistics released monthly by DOSM.",
+            "bm": "Data yang dipaparkan di atas adalah sebahagian daripada statistik utama tenaga buruh yang diterbitkan secara bulanan oleh DOSM."
+        },
+        "variables": [
+            {
+                "id": 1,
+                "name": "population",
+                "title_en": "Cattle: Population",
+                "title_bm": "Lembu: Populasi",
+                "desc_en": "[Integer] The number of cattle in Malaysia.",
+                "desc_bm": "[Integer] Bilangan lembu di Malaysia."
+            },
+            {
+                "id": 2,
+                "name": "recorded_slaughter",
+                "title_en": "Cattle: Recorded Slaughter",
+                "title_bm": "Lembu: Rekod_Sembelihan",
+                "desc_en": "[Integer] The number of recorded slaughter.",
+                "desc_bm": "[Integer] Bilangan sembelihan yang direkod."
+            },
+            {
+                "id": 3,
+                "name": "imports_cattle",
+                "title_en": "Cattle: Imports Live Cattle",
+                "title_bm": "Lembu: Import Lembu Hidup",
+                "desc_en": "[Integer] The number of imports live cattle for slaughter in quantity.",
+                "desc_bm": "[Integer] Jumlah import lembu hidup untuk sembelihan."
+            },
+            {
+                "id": 4,
+                "name": "imports_cattle_rm",
+                "title_en": "Cattle: Imports Live Cattle_RM",
+                "title_bm": "Lembu:  Import Lembu Hidup RM",
+                "desc_en": "[Integer] The number of imports live cattle for slaughter in RM (Million).",
+                "desc_bm": "[Integer] Jumlah import lembu hidup untuk sembelihan dalam RM (Juta)."
+            },
+            {
+                "id": 5,
+                "name": "imports_beef",
+                "title_en": "Cattle: Imports Beef",
+                "title_bm": "Lembu:  Import Daging Lembu RM",
+                "desc_en": "[Integer] The number of imports beef in tonne.",
+                "desc_bm": "[Integer] Jumlah import daging lembu dalam tan."
+            },
+            {
+                "id": 6,
+                "name": "imports_beef_rm",
+                "title_en": "Cattle: Imports Beef RM",
+                "title_bm": "Lembu:  Import Lembu RM",
+                "desc_en": "[Integer] The number of Imports Beef in RM (Million).",
+                "desc_bm": "[Integer] Jumlah import daging lembu dalam RM (Juta)."
+            },
+			
+			 {
+                "id": 7,
+                "name": "exports",
+                "title_en": "Cattle: Export Beef Cattle",
+                "title_bm": "Lembu:  Export Daging Lembu",
+                "desc_en": "[Integer] The number of exports beef cattle in tonne.",
+                "desc_bm": "[Integer] Jumlah eksport daging lembu dalam tan."
+            },
+			
+			 {
+                "id": 8,
+                "name": "exports_rm",
+                "title_en": "Cattle: Export Beef Cattle RM",
+                "title_bm": "Lembu:  Eksport Daging Lembu RM",
+                "desc_en": "[Integer] The number of exports beef cattle in RM (Million).",
+                "desc_bm": "[Integer] Jumlah eksport daging lembu dalam RM (Juta)."
+            },
+			
+			 {
+                "id": 9,
+                "name": "production",
+                "title_en": "Cattle: Local Production of Beef Cattle Quantity Tonne",
+                "title_bm": "Lembu:  Pengeluaran Setempat daging lembu dalam tan",
+                "desc_en": "[Integer] The number of local production beef cattle in tonne.",
+                "desc_bm": "[Integer] Jumlah pengeluaran setempat daging lembu dalam tan."
+            },
+			
+			 {
+                "id": 10,
+                "name": "production_rm",
+                "title_en": "Cattle: Local Production of Beef Cattle RM",
+                "title_bm": "Lembu:  Pengeluaran Setempat daging lembu RM",
+                "desc_en": "[Integer] The number of local production beef cattle in RM (Million).",
+                "desc_bm": "[Integer] Jumlah pengeluaran setempat daging lembu dalam RM (Juta)."
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 1,
+            "catalog_filters": {
+                "frequency": "YEARLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2000",
+                "end": "2019",
+                "data_source": "DOSM"
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-07-31 23:59",
+                "last_updated": "2022-09-30 12:00",
+                "next_update": "2022-10-30 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "population",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 2,
+            "catalog_filters": {
+                "frequency": "YEARLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2000",
+                "end": "2019",
+                "data_source": "DOSM"
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-07-31 23:59",
+                "last_updated": "2022-09-30 12:00",
+                "next_update": "2022-10-30 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "recorded_slaughter",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 3,
+            "catalog_filters": {
+                "frequency": "YEARLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2000",
+                "end": "2019",
+                "data_source": "DOSM"
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-07-31 23:59",
+                "last_updated": "2022-09-30 12:00",
+                "next_update": "2022-10-30 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "imports_cattle,
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 4,
+            "catalog_filters": {
+                "frequency": "YEARLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2000",
+                "end": "2019",
+                "data_source": "DOSM"
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-07-31 23:59",
+                "last_updated": "2022-09-30 12:00",
+                "next_update": "2022-10-30 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "imports_cattle_rm",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 5,
+            "catalog_filters": {
+                "frequency": "YEARLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2000",
+                "end": "2019",
+                "data_source": "DOSM"
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-07-31 23:59",
+                "last_updated": "2022-09-30 12:00",
+                "next_update": "2022-10-30 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "imports_beef",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 6,
+            "catalog_filters": {
+                "frequency": "YEARLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2000",
+                "end": "2019",
+                "data_source": "DOSM"
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-07-31 23:59",
+                "last_updated": "2022-09-30 12:00",
+                "next_update": "2022-10-30 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "imports_beef_rm",
+                        "line": ""
+                    }
+                }
+            }
+        },
+		{
+            "id": 7,
+            "catalog_filters": {
+                "frequency": "YEARLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2000",
+                "end": "2019",
+                "data_source": "DOSM"
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-07-31 23:59",
+                "last_updated": "2022-09-30 12:00",
+                "next_update": "2022-10-30 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "exports",
+                        "line": ""
+                    }
+                }
+            }
+        },
+		{
+            "id": 8,
+            "catalog_filters": {
+                "frequency": "YEARLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2000",
+                "end": "2019",
+                "data_source": "DOSM"
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-07-31 23:59",
+                "last_updated": "2022-09-30 12:00",
+                "next_update": "2022-10-30 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "exports_rm",
+                        "line": ""
+                    }
+                }
+            }
+        },
+		{
+            "id": 9,
+            "catalog_filters": {
+                "frequency": "YEARLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2000",
+                "end": "2019",
+                "data_source": "DOSM"
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-07-31 23:59",
+                "last_updated": "2022-09-30 12:00",
+                "next_update": "2022-10-30 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "production",
+                        "line": ""
+                    }
+                }
+            }
+        },
+		{
+            "id": 10,
+            "catalog_filters": {
+                "frequency": "YEARLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2000",
+                "end": "2019",
+                "data_source": "DOSM"
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-07-31 23:59",
+                "last_updated": "2022-09-30 12:00",
+                "next_update": "2022-10-30 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "production_rm",
+                        "line": ""
+                    }
+                }
+            }
+        }
+    ]
+}
