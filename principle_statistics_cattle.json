@@ -232,7 +232,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "imports_cattle,
+                        "y": "imports_cattle",
                         "line": ""
                     }
                 }
