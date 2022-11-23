@@ -212,7 +212,7 @@
                     "operation": "SUM",
                     "format": {
                         "x": "date",
-                        "y": "import",
+                        "y": "imports",
                         "line": ""
                     }
                 }
@@ -258,7 +258,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "import_rm",
+                        "y": "imports_rm",
                         "line": ""
                     }
                 }
