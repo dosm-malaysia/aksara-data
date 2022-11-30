@@ -1,0 +1,71 @@
+{
+    "file": {
+        "category": "ECONOMY",
+        "category_en": "Economy",
+        "category_bm": "Economy",
+        "file_name": "hiesba_2019_parlimen.parquet",
+        "bucket": "economy-public",
+        "link_parquet": "https://storage.googleapis.com/economy-public/hiesba_2019_parlimen.parquet",
+        "link_csv": "https://storage.googleapis.com/economy-public/hiesba_2019_parlimen.csv",
+        "link_metadata": "https://storage.googleapis.com/economy-public/hiesba_2019_parlimen_meta.json",
+        "description": {
+            "en": "The data displayed above is part of a broader dataset on COVID-19 cases, which includes data on new cases, imported cases, active cases, and recoveries. Breakdowns by age and vaccination status are also available.",
+            "bm": "Data yang dipaparkan di atas adalah sebahagian daripada dataset tentang kes COVID-19, yang merangkumi data kes baru, kes import, kes aktif, dan kes sembuh. Pecahan mengikut kumpulan umur dan status vaksinasi juga terkandung dalam set data ini."
+        },
+        "variables": [
+            {
+                "id": 1,
+                "name": "poverty_incidence",
+                "title_en": "Poverty Rate by Parliamen",
+                "title_bm": "Kadar Kemiskinan mengikut Parlimen",
+                "desc_en": "[Float] The proportion of households in a parliament constituency living below the 2019 Poverty Line Income.",
+                "desc_bm": "[Float] Peratus daripada isi rumah yang pendapatannya berada di bawah Pendapatan Garis Kemiskinan 2019."
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 1,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "STATE"
+                ],
+                "start": "2019",
+                "end": "2019",
+                "data_source": "DOSM"
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-11-14 23:59",
+                "last_updated": "2022-11-15 00:01",
+                "next_update": "2022-11-16 00:01"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "color": "reds",
+                    "file_json": "parlimen.json",
+                    "format": {
+                        "x": "parlimen",
+                        "y": "poverty_incidence",
+                        "line": ""
+                    }
+                }
+            }
+        }
+    ]
+}
