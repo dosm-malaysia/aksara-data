@@ -57,7 +57,7 @@
                 },
                 "chart_variables": {
                     "parents": [],
-                    "color": "reds",
+                    "color": "red_yellow_blue",
                     "file_json": "parlimen.json",
                     "format": {
                         "x": "parlimen",
