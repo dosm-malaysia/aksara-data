@@ -1,0 +1,188 @@
+{
+    "file": {
+        "bucket": "covid-public",
+        "file_name": "covid_clusters",
+        "category": "COVID-19",
+        "category_en": "COVID-19",
+        "category_bm": "COVID-19",
+        "description": {
+            "en": "The table below documents all COVID-19 clusters as categorised and announced by the Ministry of Health Malaysia.",
+            "bm": "Jadual di bawah mendokumentasikan semua kluster COVID-19 seperti mana yang diklasifikasikan dan diumumkan oleh Kementerian Kesihatan Malaysia."
+        },
+        "link_parquet": "https://storage.googleapis.com/covid-public/covid_clusters.parquet",
+        "link_csv": "https://storage.googleapis.com/covid-public/covid_clusters.csv",
+        "link_metadata": "https://storage.googleapis.com/covid-public/covid_clusters.metadata",
+        "variables": [
+            {
+                "id": 0,
+                "name": "COVID-19 Clusters",
+                "title_en": "COVID-19 Clusters",
+                "title_bm": "Kluster COVID-19",
+                "desc_en": "Two or more COVID-19 cases associated with the same location, group, or event around the same time.",
+                "desc_bm": "Dua atau lebih kes COVID-19 yang berkaitrapat dengan sesuatu lokasi, kumpulan, atau peristiwa pada waktu yang sama."
+            },
+            {
+                "id": 1,
+                "name": "cluster",
+                "title_en": "Placeholder",
+                "title_bm": "Pemegangtempat",
+                "desc_en": "Placeholder",
+                "desc_bm": "Pemegangtempat"
+            },
+            {
+                "id": 2,
+                "name": "state",
+                "title_en": "Placeholder",
+                "title_bm": "Pemegangtempat",
+                "desc_en": "Placeholder",
+                "desc_bm": "Pemegangtempat"
+            },
+            {
+                "id": 3,
+                "name": "district",
+                "title_en": "Placeholder",
+                "title_bm": "Pemegangtempat",
+                "desc_en": "Placeholder",
+                "desc_bm": "Pemegangtempat"
+            },
+            {
+                "id": 4,
+                "name": "date_announced",
+                "title_en": "Placeholder",
+                "title_bm": "Pemegangtempat",
+                "desc_en": "Placeholder",
+                "desc_bm": "Pemegangtempat"
+            },
+            {
+                "id": 5,
+                "name": "date_last_onset",
+                "title_en": "Placeholder",
+                "title_bm": "Pemegangtempat",
+                "desc_en": "Placeholder",
+                "desc_bm": "Pemegangtempat"
+            },
+            {
+                "id": 6,
+                "name": "category",
+                "title_en": "Placeholder",
+                "title_bm": "Pemegangtempat",
+                "desc_en": "Placeholder",
+                "desc_bm": "Pemegangtempat"
+            },
+            {
+                "id": 7,
+                "name": "status",
+                "title_en": "Placeholder",
+                "title_bm": "Pemegangtempat",
+                "desc_en": "Placeholder",
+                "desc_bm": "Pemegangtempat"
+            },
+            {
+                "id": 8,
+                "name": "cases_new",
+                "title_en": "Placeholder",
+                "title_bm": "Pemegangtempat",
+                "desc_en": "Placeholder",
+                "desc_bm": "Pemegangtempat"
+            },
+            {
+                "id": 9,
+                "name": "cases_total",
+                "title_en": "Placeholder",
+                "title_bm": "Pemegangtempat",
+                "desc_en": "Placeholder",
+                "desc_bm": "Pemegangtempat"
+            },
+            {
+                "id": 10,
+                "name": "cases_active",
+                "title_en": "Placeholder",
+                "title_bm": "Pemegangtempat",
+                "desc_en": "Placeholder",
+                "desc_bm": "Pemegangtempat"
+            },
+            {
+                "id": 11,
+                "name": "tests",
+                "title_en": "Placeholder",
+                "title_bm": "Pemegangtempat",
+                "desc_en": "Placeholder",
+                "desc_bm": "Pemegangtempat"
+            },
+            {
+                "id": 12,
+                "name": "icu",
+                "title_en": "Placeholder",
+                "title_bm": "Pemegangtempat",
+                "desc_en": "Placeholder",
+                "desc_bm": "Pemegangtempat"
+            },
+            {
+                "id": 13,
+                "name": "deaths",
+                "title_en": "Placeholder",
+                "title_bm": "Pemegangtempat",
+                "desc_en": "Placeholder",
+                "desc_bm": "Pemegangtempat"
+            },
+            {
+                "id": 14,
+                "name": "recovered",
+                "title_en": "Placeholder",
+                "title_bm": "Pemegangtempat",
+                "desc_en": "Placeholder",
+                "desc_bm": "Pemegangtempat"
+            },
+            {
+                "id": 15,
+                "name": "summary_bm",
+                "title_en": "Placeholder",
+                "title_bm": "Pemegangtempat",
+                "desc_en": "Placeholder",
+                "desc_bm": "Pemegangtempat"
+            },
+            {
+                "id": 16,
+                "name": "summary_en",
+                "title_en": "Placeholder",
+                "title_bm": "Pemegangtempat",
+                "desc_en": "Placeholder",
+                "desc_bm": "Pemegangtempat"
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 0,
+            "catalog_filters": {
+                "frequency": "DAILY",
+                "geographic": ["DISTRICT","STATE","NATIONAL"],
+                "start": "2020",
+                "end": "2022",
+                "data_source": "KKM"
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-11-29 23:59",
+                "last_updated": "2022-11-29 23:59",
+                "next_update": "2022-11-30 23:59"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TABLE",
+                "chart_filters": {
+                    "FREEZE": ["cluster"],
+                    "EXCLUDE": ["summary_bm","summary_en"]
+                }
+            }
+        }
+    ]
+}
