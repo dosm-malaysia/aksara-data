@@ -18,7 +18,8 @@
               "population" : ["population_density", "female_male", "household_size", "birth_rate", "death_rate", "dep_young", "dep_old"],
               "economy" : ["income_mean", "expenditure_mean", "gini", "poverty", "labour_urate", "labour_prate", "agegroup_working"],
               "public_services" : ["electricity", "water", "hospital", "clinic", "school", "police_fire", "grocery"]
-            }
+            },
+            "tooltip" : false
         }
       },
       "pyramid_chart" : {

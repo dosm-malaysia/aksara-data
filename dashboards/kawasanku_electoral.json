@@ -55,7 +55,8 @@
               "police_fire",
               "grocery"
             ]
-          }
+          },
+          "tooltip" : true
         }
       },
       "pyramid_chart": {
