@@ -1,5 +1,6 @@
 {
     "dashboard_name": "interestrates_dashboard",
+    "manual_trigger" : "",
     "required_params": [],
     "optional_params": [],
     "charts": {

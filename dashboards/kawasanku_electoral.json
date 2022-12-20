@@ -1,5 +1,6 @@
 {
     "dashboard_name": "kawasanku_electoral",
+    "manual_trigger" : "",
     "required_params": [
       "area",
       "area-type"
