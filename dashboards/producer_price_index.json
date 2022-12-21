@@ -1,0 +1,41 @@
+{
+    "dashboard_name": "producer_price_index",
+    "manual_trigger" : "",
+    "required_params": [],
+    "optional_params": [],
+    "charts": {
+      "timeseries": {
+        "name": "timeseries",
+        "chart_type": "timeseries_chart",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/ppi_main_timeseries.parquet",
+        "data_as_of" : "2022-11-25 23:50",
+        "api_type": "static",
+        "api_params": [],
+        "variables": {
+            "chart_type" : {
+                "x": "date",
+                "overall" : "overall",
+                "agriculture" : "agriculture",
+                "mining" : "mining",
+                "manufacturing" : "manufacturing",
+                "electricity" : "electricity",
+                "water" : "water",
+                "recession" : "recession"                                             
+            }
+        }
+      },
+      "statistics": {
+        "name": "statistics",
+        "chart_type": "custom_chart",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/ppi_main_timeseries_callout.parquet",
+        "data_as_of" : "2022-11-25 23:59",
+        "api_type": "static",
+        "api_params": [],
+        "variables": {
+          "keys": ["chart_type", "chart"],
+          "columns": ["callout"],
+          "null_vals": null
+        }
+      }      
+    }
+}
