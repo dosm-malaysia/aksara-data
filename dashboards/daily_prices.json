@@ -1,7 +1,7 @@
 {
     "dashboard_name": "daily_prices",
     "manual_trigger" : "",
-    "required_params": [],
+    "required_params": ["state", "category", "item"],
     "optional_params": [],
     "charts": {
       "timeseries": {
@@ -9,8 +9,8 @@
         "chart_type": "timeseries_chart",
         "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/myprice_timeseries_query.parquet",
         "data_as_of" : "2022-11-25 23:59",
-        "api_type": "static",
-        "api_params": [],
+        "api_type": "dynamic",
+        "api_params": ["state", "category", "item"],
         "variables": {
             "state":{
                 "category" : {
