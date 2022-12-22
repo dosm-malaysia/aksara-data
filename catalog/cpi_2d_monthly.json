@@ -24,96 +24,96 @@
             {
                 "id": 2,
                 "name": "food_beverage",
-                "title_en": "Food & Beverage",
-                "title_bm": "Food & Beverage",
+                "title_en": "CPI by Category: Food & Beverage",
+                "title_bm": "CPI by Category: Food & Beverage",
                 "desc_en": "[Float] Index (2010 = 100)",
                 "desc_bm": "[Float] Index (2010 = 100)"
             },
             {
                 "id": 3,
                 "name": "alcohol_tobacco",
-                "title_en": "Alcohol & Tobacco",
-                "title_bm": "Alcohol & Tobacco",
+                "title_en": "CPI by Category: Alcohol & Tobacco",
+                "title_bm": "CPI by Category: Alcohol & Tobacco",
                 "desc_en": "[Float] Index (2010 = 100)",
                 "desc_bm": "[Float] Index (2010 = 100)"
             },
             {
                 "id": 4,
                 "name": "clothing_footwear",
-                "title_en": "Clothing & Footwear",
-                "title_bm": "Clothing & Footwear",
+                "title_en": "CPI by Category: Clothing & Footwear",
+                "title_bm": "CPI by Category: Clothing & Footwear",
                 "desc_en": "[Float] Index (2010 = 100)",
                 "desc_bm": "[Float] Index (2010 = 100)"
             },
             {
                 "id": 5,
                 "name": "housing_utilities",
-                "title_en": "Housing & Utilities",
-                "title_bm": "Housing & Utilities",
+                "title_en": "CPI by Category: Housing & Utilities",
+                "title_bm": "CPI by Category: Housing & Utilities",
                 "desc_en": "[Float] Index (2010 = 100)",
                 "desc_bm": "[Float] Index (2010 = 100)"
             },
             {
                 "id": 6,
                 "name": "furnishings",
-                "title_en": "Housing Equipment",
-                "title_bm": "Housing Equipment",
+                "title_en": "CPI by Category: Housing Equipment",
+                "title_bm": "CPI by Category: Housing Equipment",
                 "desc_en": "[Float] Index (2010 = 100)",
                 "desc_bm": "[Float] Index (2010 = 100)"
             },
             {
                 "id": 7,
                 "name": "health",
-                "title_en": "Healthcare",
-                "title_bm": "Healthcare",
+                "title_en": "CPI by Category: Healthcare",
+                "title_bm": "CPI by Category: Healthcare",
                 "desc_en": "[Float] Index (2010 = 100)",
                 "desc_bm": "[Float] Index (2010 = 100)"
             },
             {
                 "id": 8,
                 "name": "transport",
-                "title_en": "Transportation",
-                "title_bm": "Transportation",
+                "title_en": "CPI by Category: Transportation",
+                "title_bm": "CPI by Category: Transportation",
                 "desc_en": "[Float] Index (2010 = 100)",
                 "desc_bm": "[Float] Index (2010 = 100)"
             },
             {
                 "id": 9,
                 "name": "communication",
-                "title_en": "Communication",
-                "title_bm": "Communication",
+                "title_en": "CPI by Category: Communication",
+                "title_bm": "CPI by Category: Communication",
                 "desc_en": "[Float] Index (2010 = 100)",
                 "desc_bm": "[Float] Index (2010 = 100)"
             },
             {
                 "id": 10,
                 "name": "recreation_culture",
-                "title_en": "Recreation & Culture",
-                "title_bm": "Recreation & Culture",
+                "title_en": "CPI by Category: Recreation & Culture",
+                "title_bm": "CPI by Category: Recreation & Culture",
                 "desc_en": "[Float] Index (2010 = 100)",
                 "desc_bm": "[Float] Index (2010 = 100)"
             },
             {
                 "id": 11,
                 "name": "education",
-                "title_en": "Education",
-                "title_bm": "Education",
+                "title_en": "CPI by Category: Education",
+                "title_bm": "CPI by Category: Education",
                 "desc_en": "[Float] Index (2010 = 100)",
                 "desc_bm": "[Float] Index (2010 = 100)"
             },
             {
                 "id": 12,
                 "name": "hospitality",
-                "title_en": "Restaurants & Hotels",
-                "title_bm": "Restaurants & Hotels",
+                "title_en": "CPI by Category: Restaurants & Hotels",
+                "title_bm": "CPI by Category: Restaurants & Hotels",
                 "desc_en": "[Float] Index (2010 = 100)",
                 "desc_bm": "[Float] Index (2010 = 100)"
             },
             {
                 "id": 13,
                 "name": "misc",
-                "title_en": "Miscellaneous Others",
-                "title_bm": "Miscellaneous Others",
+                "title_en": "CPI by Category: Miscellaneous Others",
+                "title_bm": "CPI by Category: Miscellaneous Others",
                 "desc_en": "[Float] Index (2010 = 100)",
                 "desc_bm": "[Float] Index (2010 = 100)"
             }
