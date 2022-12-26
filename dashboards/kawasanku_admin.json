@@ -1,6 +1,6 @@
 {
     "dashboard_name": "kawasanku_admin",
-    "manual_trigger" : "",
+    "manual_trigger" : "2022-12-26 10:14",
     "required_params": ["area", "area-type"],
     "optional_params": [],
     "charts": {
