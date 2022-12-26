@@ -44,7 +44,7 @@
                 ],
                 "start": "2019",
                 "end": "2019",
-                "data_source": "DOSM"
+                "data_source": ["DOSM"]
             },
             "metadata_neutral": {
                 "data_as_of": "2022-11-14 23:59",
@@ -87,7 +87,7 @@
                 ],
                 "start": "2019",
                 "end": "2019",
-                "data_source": "DOSM"
+                "data_source": ["DOSM"]
             },
             "metadata_neutral": {
                 "data_as_of": "2022-11-14 23:59",
