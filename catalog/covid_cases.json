@@ -1,8 +1,11 @@
 {
     "file": {
-        "category": "COVID-19",
-        "category_en": "COVID-19",
-        "category_bm": "COVID-19",
+        "category":"HEALTHCARE",
+        "category_en":"Healthcare",
+        "category_bm":"Kesihatan",
+        "subcategory": "COVID-19",
+        "subcategory_en": "COVID-19",
+        "subcategory_bm": "COVID-19",
         "file_name": "covid_cases.parquet",
         "bucket": "covid_public",
         "link_parquet": "https://storage.googleapis.com/covid-public/covid_cases.parquet",
@@ -181,7 +184,7 @@
                 ],
                 "start": "2020",
                 "end": "2022",
-                "data_source": "KKM"
+                "data_source": ["KKM","DOSM"]
             },
             "metadata_neutral": {
                 "data_as_of": "2022-11-14 23:59",

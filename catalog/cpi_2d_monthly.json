@@ -5,6 +5,9 @@
         "category": "ECONOMY",
         "category_en": "Economy",
         "category_bm": "Ekonomi",
+        "subcategory":"COL",
+        "subcategory_en":"Cost of Living",
+        "subcategory_bm":"Kos Sara Hidup",
         "description": {
             "en": "The data displayed above is part of DOSM's monthly CPI release, which presents statistics on the cost of purchasing 12 main groups of goods and services",
             "bm": "The data displayed above is part of DOSM's monthly CPI release, which presents statistics on the cost of purchasing 12 main groups of goods and services"

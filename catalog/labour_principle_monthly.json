@@ -1,8 +1,11 @@
 {
     "file": {
-        "category": "LABOUR",
-        "category_en": "Labour",
-        "category_bm": "Tenaga Buruh",
+        "category":"ECONOMY",
+        "category_en":"Economy",
+        "category_bm":"Ekonomi",
+        "subcategory": "LABOUR",
+        "subcategory_en": "Labour",
+        "subcategory_bm": "Tenaga Buruh",
         "file_name": "labour_principal_monthly.parquet",
         "bucket": "economy-public",
         "link_parquet": "https://storage.googleapis.com/economy-public/labour_principal_monthly.parquet",

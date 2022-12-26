@@ -2,9 +2,12 @@
     "file": {
         "bucket": "covid-public",
         "file_name": "covid_clusters",
-        "category": "COVID-19",
-        "category_en": "COVID-19",
-        "category_bm": "COVID-19",
+        "category":"HEALTHCARE",
+        "category_en":"Healthcare",
+        "category_bm":"Kesihatan",
+        "subcategory": "COVID-19",
+        "subcategory_en": "COVID-19",
+        "subcategory_bm": "COVID-19",
         "description": {
             "en": "The table below documents all COVID-19 clusters as categorised and announced by the Ministry of Health Malaysia.",
             "bm": "Jadual di bawah mendokumentasikan semua kluster COVID-19 seperti mana yang diklasifikasikan dan diumumkan oleh Kementerian Kesihatan Malaysia."
