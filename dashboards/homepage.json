@@ -36,21 +36,16 @@
       },
       "table_summary": {
         "name": "table_summary",
-        "chart_type": "snapshot_chart",
+        "chart_type": "metrics_table",
         "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_metrics_table.parquet",
         "data_as_of" : "2022-11-25 23:59",
         "api_type": "static",
         "api_params": [],
         "variables": {
-          "main_key": "time_period",
-          "replace_word": "",
-          "null_vals": null,
-          "data": {
-            "data": [
-              "chart_type",
-              "route",
-              "count"
-            ]
+          "keys" : ["time_period", "chart_type"],
+          "obj_attr" : {
+              "route" : "id", 
+              "count" : "count"
           }
         }
       }     
