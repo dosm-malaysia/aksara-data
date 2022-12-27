@@ -45,7 +45,9 @@
           "keys" : ["time_period", "chart_type"],
           "obj_attr" : {
               "route" : "id", 
-              "count" : "count"
+              "count" : "count",
+              "name_en" : "name_en",
+              "name_bm" : "name_bm"
           }
         }
       }     
