@@ -1,7 +1,7 @@
 {
     "dashboard_name": "consumer_price_index",
     "manual_trigger" : "",
-    "required_params": ["item_code", "lang"],
+    "required_params": [],
     "optional_params": [],
     "charts": {
       "timeseries": {
@@ -49,15 +49,13 @@
         "chart_type": "timeseries_chart",
         "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_4d_query_timeseries.parquet?ignoreCache=1",
         "data_as_of" : "2022-11-25 23:50",
-        "api_type": "dynamic",
-        "api_params": ["item_code", "lang"],
+        "api_type": "static",
+        "api_params": [],
         "variables": {
             "item_code" : {
               "lang" : {
-                "item_name" : {
-                  "x": "date",
-                  "y" : "value"
-                }
+                "x": "date",
+                "y" : "value"
               }
             }
         }
