@@ -89,16 +89,12 @@
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "sex",
-                        "age_group",
-                        "ethnicity"
+                        "age_group"
                     ]
                 },
                 "chart_variables": {
                     "parents": [
-                        "sex",
-                        "age_group",
-                        "ethnicity"
+                        "age_group"
                     ],
                     "operation": "SUM",
                     "format": {
