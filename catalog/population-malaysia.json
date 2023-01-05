@@ -68,7 +68,7 @@
                 ],
                 "start": "1991",
                 "end": "2022",
-                "data_source": "DOSM"
+                "data_source": ["DOSM"]
             },
             "metadata_neutral": {
                 "data_as_of": "31/7/2022 23:59",
