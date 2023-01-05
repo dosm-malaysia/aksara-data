@@ -96,7 +96,7 @@
                     "parents": [
                         "age_group"
                     ],
-                    "operation": "SUM",
+                    "operation": "MEDIAN",
                     "format": {
                         "x": "date",
                         "y": "population",
