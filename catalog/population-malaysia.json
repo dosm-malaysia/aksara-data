@@ -21,8 +21,8 @@
                 "name": "date",
                 "title_en": "Date",
                 "title_bm": "Date",
-                "desc_en": "[Date] The year of the estimate, represented in YYYY-MM-DD format, with MM-DD = 01-01",
-                "desc_bm": "[Date] The year of the estimate, represented in YYYY-MM-DD format, with MM-DD = 01-01"
+                "desc_en": "[Date] The year of the estimate, represented in YYYY-MM-DD format, with MM-DD = 01-01 for all values",
+                "desc_bm": "[Date] The year of the estimate, represented in YYYY-MM-DD format, with MM-DD = 01-01 for all values"
             },
             {
                 "id": -1,
