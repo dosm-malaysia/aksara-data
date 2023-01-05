@@ -62,7 +62,7 @@
         {
             "id": 1,
             "catalog_filters": {
-                "frequency": "MONTHLY",
+                "frequency": "YEARLY",
                 "geographic": [
                     "NATIONAL"
                 ],
