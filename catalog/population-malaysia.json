@@ -97,7 +97,7 @@
                 "chart_variables": {
                     "parents": [
                         "sex",
-                        "age",
+                        "age_group",
                         "ethnicity"
                     ],
                     "operation": "SUM",
