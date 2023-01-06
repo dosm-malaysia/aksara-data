@@ -55,7 +55,6 @@
           "lang" : {
             "level" : {
               "name" : {
-                "x": "date",
                 "y" : "value"
               }
             }                                
