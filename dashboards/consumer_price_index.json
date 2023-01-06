@@ -52,14 +52,14 @@
         "api_type": "static",
         "api_params": [],
         "variables": {
-            "lang" : {
-              "level" : {
-                "name" : {
-                  "x": "date",
-                  "y" : "value"
-                }
-              }                                
-            }
+          "lang" : {
+            "level" : {
+              "name" : {
+                "x": "date",
+                "y" : "value"
+              }
+            }                                
+          }
         }      
       }
     }
