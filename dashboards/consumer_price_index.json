@@ -43,6 +43,24 @@
           "columns": ["callout"],
           "null_vals": null
         }
+      },
+      "timeseries_6d" : {
+        "name": "timeseries_6d",
+        "chart_type": "timeseries_chart",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_query_timeseries_6d.parquet",
+        "data_as_of" : "2022-11-25 23:50",
+        "api_type": "static",
+        "api_params": [],
+        "variables": {
+            "lang" : {
+              "level" : {
+                "name" : {
+                  "x": "date",
+                  "y" : "value"
+                }
+              }                                
+            }
+        }      
       }
     }
 }
