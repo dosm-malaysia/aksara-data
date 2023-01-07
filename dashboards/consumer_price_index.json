@@ -1,86 +1,105 @@
 {
-    "dashboard_name": "consumer_price_index",
-    "manual_trigger" : "2023-01-07 14:56:30",
-    "required_params": [],
-    "optional_params": [],
-    "charts": {
-      "timeseries": {
-        "name": "timeseries",
-        "chart_type": "timeseries_chart",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_main_timeseries.parquet",
-        "data_as_of" : "2022-11-25 23:50",
-        "api_type": "static",
-        "api_params": [],
-        "variables": {
-            "chart_type" : {
-                "x": "date",
-                "overall" : "overall",
-                "food_beverage" : "food_beverage",
-                "alcohol_tobacco" : "alcohol_tobacco",
-                "clothing_footwear" : "clothing_footwear",
-                "housing_utilities" : "housing_utilities",
-                "furnishings" : "furnishings",
-                "health" : "health",
-                "transport" : "transport",
-                "communication" : "communication",
-                "recreation_culture" : "recreation_culture",
-                "education" : "education",
-                "hospitality" : "hospitality",
-                "misc" : "misc",
-                "recession" : "recession"                                
-            }
+  "dashboard_name": "consumer_price_index",
+  "manual_trigger": "2023-01-07 23:53:04",
+  "required_params": [],
+  "optional_params": [],
+  "charts": {
+    "timeseries": {
+      "name": "timeseries",
+      "chart_type": "timeseries_chart",
+      "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_main_timeseries.parquet",
+      "data_as_of": "2022-11-25 23:50",
+      "api_type": "static",
+      "api_params": [],
+      "variables": {
+        "chart_type": {
+          "x": "date",
+          "overall": "overall",
+          "food_beverage": "food_beverage",
+          "alcohol_tobacco": "alcohol_tobacco",
+          "clothing_footwear": "clothing_footwear",
+          "housing_utilities": "housing_utilities",
+          "furnishings": "furnishings",
+          "health": "health",
+          "transport": "transport",
+          "communication": "communication",
+          "recreation_culture": "recreation_culture",
+          "education": "education",
+          "hospitality": "hospitality",
+          "misc": "misc",
+          "recession": "recession"
         }
-      },
-      "statistics": {
-        "name": "statistics",
-        "chart_type": "custom_chart",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_main_timeseries_callout.parquet",
-        "data_as_of" : "2022-11-25 23:59",
-        "api_type": "static",
-        "api_params": [],
-        "variables": {
-          "keys": ["chart_type", "chart"],
-          "columns": ["callout"],
-          "null_vals": null
+      }
+    },
+    "statistics": {
+      "name": "statistics",
+      "chart_type": "custom_chart",
+      "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_main_timeseries_callout.parquet",
+      "data_as_of": "2022-11-25 23:59",
+      "api_type": "static",
+      "api_params": [],
+      "variables": {
+        "keys": [
+          "chart_type",
+          "chart"
+        ],
+        "columns": [
+          "callout"
+        ],
+        "null_vals": null
+      }
+    },
+    "timeseries_6d": {
+      "name": "timeseries_6d",
+      "chart_type": "timeseries_shared",
+      "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_query_timeseries_4d.parquet",
+      "data_as_of": "2022-11-30 23:59",
+      "api_type": "individual_chart",
+      "api_params": [
+        "lang",
+        "level"
+      ],
+      "variables": {
+        "keys": [
+          "lang",
+          "level",
+          "name"
+        ],
+        "constant": {
+          "x": "date"
+        },
+        "attributes": {
+          "y": "value"
         }
-      },
-      "timeseries_6d" : {
-        "name": "timeseries_6d",
-        "chart_type": "timeseries_shared",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_query_timeseries_4d.parquet",
-        "data_as_of" : "2022-11-30 23:59",
-        "api_type": "individual_chart",
-        "api_params": ["lang", "level"],
-        "variables": {
-          "keys" : ["lang","level", "name"],
-          "constant" : {
-              "x" : "date"
-          },
-          "attributes" : {
-              "y" : "value"
-          }
-        }      
-      },
-      "snapshot_4d" : {
-        "name": "snapshot_4d",
-        "chart_type": "timeseries_shared",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_query_snapshot_4d.parquet",
-        "data_as_of" : "2022-11-30 23:59",
-        "api_type": "individual_chart",
-        "api_params": ["lang", "level"],
-        "variables": {
-          "keys" : ["lang","level", "name"],
-          "constant" : {
-              "x" : "date"
-          },
-          "attributes" : {
-              "y1" : "weight",
-              "y2" : "yoy_latest",
-              "y3" : "yoy_avg",
-              "y4" : "mom_latest",
-              "y5" : "mom_avg",
-          }
-        }      
+      }
+    },
+    "snapshot_4d": {
+      "name": "snapshot_4d",
+      "chart_type": "timeseries_shared",
+      "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_query_snapshot_4d.parquet",
+      "data_as_of": "2022-11-30 23:59",
+      "api_type": "individual_chart",
+      "api_params": [
+        "lang",
+        "level"
+      ],
+      "variables": {
+        "keys": [
+          "lang",
+          "level",
+          "name"
+        ],
+        "constant": {
+          "x": "date"
+        },
+        "attributes": {
+          "y1": "weight",
+          "y2": "yoy_latest",
+          "y3": "yoy_avg",
+          "y4": "mom_latest",
+          "y5": "mom_avg"
+        }
       }
     }
+  }
 }
