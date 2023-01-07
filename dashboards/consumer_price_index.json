@@ -47,8 +47,8 @@
       "timeseries_6d" : {
         "name": "timeseries_6d",
         "chart_type": "timeseries_shared",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_query_timeseries_4d_new.parquet",
-        "data_as_of" : "2022-11-25 23:50",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_query_timeseries_4d.parquet",
+        "data_as_of" : "2022-11-30 23:59",
         "api_type": "individual_chart",
         "api_params": ["lang", "level"],
         "variables": {
@@ -58,6 +58,27 @@
           },
           "attributes" : {
               "y" : "value"
+          }
+        }      
+      },
+      "snapshot_4d" : {
+        "name": "snapshot_4d",
+        "chart_type": "timeseries_shared",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_query_snapshot_4d.parquet",
+        "data_as_of" : "2022-11-30 23:59",
+        "api_type": "individual_chart",
+        "api_params": ["lang", "level"],
+        "variables": {
+          "keys" : ["lang","level", "name"],
+          "constant" : {
+              "x" : "date"
+          },
+          "attributes" : {
+              "y1" : "weight",
+              "y2" : "yoy_latest",
+              "y3" : "yoy_avg",
+              "y4" : "mom_latest",
+              "y5" : "mom_avg",
           }
         }      
       }
