@@ -78,7 +78,7 @@
               "y2" : "yoy_latest",
               "y3" : "yoy_avg",
               "y4" : "mom_latest",
-              "y5" : "mom_avg",
+              "y5" : "mom_avg"
           }
         }      
       }
