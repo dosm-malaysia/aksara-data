@@ -1,6 +1,6 @@
 {
     "dashboard_name": "consumer_price_index",
-    "manual_trigger" : "",
+    "manual_trigger" : "2023-07-01 13:45",
     "required_params": [],
     "optional_params": [],
     "charts": {
