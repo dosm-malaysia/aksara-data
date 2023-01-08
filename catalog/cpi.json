@@ -43,7 +43,7 @@
             {
                 "id": 3,
                 "name": "food_beverage",
-                "title_en": "CPI: ",
+                "title_en": "CPI: Food & Non-Alcoholic Beverages",
                 "title_bm": "IHP: Makanan & Minuman Bukan Alkohol         ",
                 "desc_en": "[Float] Index, with base 2010 = 100",
                 "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
@@ -51,7 +51,7 @@
             {
                 "id": 4,
                 "name": "alcohol_tobacco",
-                "title_en": "CPI: ",
+                "title_en": "CPI: Alcoholic Beverages & Tobacco",
                 "title_bm": "IHP: Minuman Alkohol & Tembakau        ",
                 "desc_en": "[Float] Index, with base 2010 = 100",
                 "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
@@ -59,7 +59,7 @@
             {
                 "id": 5,
                 "name": "clothing_footwear",
-                "title_en": "CPI: ",
+                "title_en": "CPI: Clothing & Footwear",
                 "title_bm": "IHP: Pakaian & Kasut            ",
                 "desc_en": "[Float] Index, with base 2010 = 100",
                 "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
@@ -67,7 +67,7 @@
             {
                 "id": 6,
                 "name": "housing_utilities",
-                "title_en": "CPI: ",
+                "title_en": "CPI: Housing, Water, Electricity, Gas & Other Fuels",
                 "title_bm": "IHP: Perumahan, Air, Elektrik, Gas & Bahan Api Lain  ",
                 "desc_en": "[Float] Index, with base 2010 = 100",
                 "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
@@ -75,7 +75,7 @@
             {
                 "id": 7,
                 "name": "furnishings",
-                "title_en": "CPI: ",
+                "title_en": "CPI: Furnishings, Household Equipment & Routine Household Maintenance",
                 "title_bm": "IHP: Hiasan, Perkakasan & Penyelenggaraan Isi Rumah   ",
                 "desc_en": "[Float] Index, with base 2010 = 100",
                 "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
@@ -83,7 +83,7 @@
             {
                 "id": 8,
                 "name": "health",
-                "title_en": "CPI: ",
+                "title_en": "CPI: Health",
                 "title_bm": "IHP: Kesihatan                   ",
                 "desc_en": "[Float] Index, with base 2010 = 100",
                 "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
@@ -91,7 +91,7 @@
             {
                 "id": 9,
                 "name": "transport",
-                "title_en": "CPI: ",
+                "title_en": "CPI: Transport",
                 "title_bm": "IHP: Pengangkutan                ",
                 "desc_en": "[Float] Index, with base 2010 = 100",
                 "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
@@ -99,7 +99,7 @@
             {
                 "id": 10,
                 "name": "communication",
-                "title_en": "CPI: ",
+                "title_en": "CPI: Communication",
                 "title_bm": "IHP: Komunikasi                   ",
                 "desc_en": "[Float] Index, with base 2010 = 100",
                 "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
@@ -107,7 +107,7 @@
             {
                 "id": 11,
                 "name": "recreation_culture",
-                "title_en": "CPI: ",
+                "title_en": "CPI: Recreation Services & Culture",
                 "title_bm": "IHP: Perkhidmatan Rekreasi & Kebudayaan       ",
                 "desc_en": "[Float] Index, with base 2010 = 100",
                 "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
@@ -115,7 +115,7 @@
             {
                 "id": 12,
                 "name": "education",
-                "title_en": "CPI: ",
+                "title_en": "CPI: Education",
                 "title_bm": "IHP: Pendidikan                  ",
                 "desc_en": "[Float] Index, with base 2010 = 100",
                 "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
@@ -123,7 +123,7 @@
             {
                 "id": 13,
                 "name": "hospitality",
-                "title_en": "CPI: ",
+                "title_en": "CPI: Restaurants & Hotels",
                 "title_bm": "IHP: Restoran & Hotel          ",
                 "desc_en": "[Float] Index, with base 2010 = 100",
                 "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
@@ -131,7 +131,7 @@
             {
                 "id": 14,
                 "name": "misc",
-                "title_en": "CPI: ",
+                "title_en": "CPI: Miscellaneous Goods & Services",
                 "title_bm": "IHP: Pelbagai Barangan & Perkhidmatan            ",
                 "desc_en": "[Float] Index, with base 2010 = 100",
                 "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
@@ -139,7 +139,7 @@
             {
                 "id": 15,
                 "name": "core_food_beverage",
-                "title_en": "Core CPI: ",
+                "title_en": "Core CPI: Food & Non-Alcoholic Beverages",
                 "title_bm": "IHP Teras: Makanan & Minuman Bukan Alkohol         ",
                 "desc_en": "[Float] Index, with base 2010 = 100",
                 "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
@@ -309,7 +309,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "core_overall",
                         "line": ""
                     }
                 }
@@ -353,7 +353,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "food_beverage",
                         "line": ""
                     }
                 }
@@ -397,7 +397,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "alcohol_tobacco",
                         "line": ""
                     }
                 }
@@ -441,7 +441,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "clothing_footwear",
                         "line": ""
                     }
                 }
@@ -485,7 +485,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "housing_utilities",
                         "line": ""
                     }
                 }
@@ -529,7 +529,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "furnishings",
                         "line": ""
                     }
                 }
@@ -573,7 +573,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "health",
                         "line": ""
                     }
                 }
@@ -617,7 +617,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "transport",
                         "line": ""
                     }
                 }
@@ -661,7 +661,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "communication",
                         "line": ""
                     }
                 }
@@ -705,7 +705,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "recreation_culture",
                         "line": ""
                     }
                 }
@@ -749,7 +749,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "education",
                         "line": ""
                     }
                 }
@@ -793,7 +793,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "hospitality",
                         "line": ""
                     }
                 }
@@ -837,7 +837,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "misc",
                         "line": ""
                     }
                 }
@@ -881,7 +881,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "core_food_beverage",
                         "line": ""
                     }
                 }
@@ -925,7 +925,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "core_clothing_footwear",
                         "line": ""
                     }
                 }
@@ -969,7 +969,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "core_housing_utilities",
                         "line": ""
                     }
                 }
@@ -1013,7 +1013,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "core_furnishings",
                         "line": ""
                     }
                 }
@@ -1057,7 +1057,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "core_health",
                         "line": ""
                     }
                 }
@@ -1101,7 +1101,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "core_transport",
                         "line": ""
                     }
                 }
@@ -1145,7 +1145,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "core_communication",
                         "line": ""
                     }
                 }
@@ -1189,7 +1189,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "core_recreation_culture",
                         "line": ""
                     }
                 }
@@ -1233,7 +1233,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "core_education",
                         "line": ""
                     }
                 }
@@ -1277,7 +1277,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "core_hospitality",
                         "line": ""
                     }
                 }
@@ -1321,7 +1321,7 @@
                     "operation": "MEAN",
                     "format": {
                         "x": "date",
-                        "y": "overall",
+                        "y": "core_misc",
                         "line": ""
                     }
                 }
