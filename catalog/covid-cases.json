@@ -1,0 +1,495 @@
+{
+    "file": {
+        "bucket": "dosm-public-healthcare",
+        "file_name": "covid-cases",
+        "category": "HEALTHCARE",
+        "category_en": "Healthcare",
+        "category_bm": "Kesihatan",
+        "subcategory": "COVID-19",
+        "subcategory_en": "COVID-19",
+        "subcategory_bm": "COVID-19",
+        "description": {
+            "en": "This data documents COVID-19 cases as announced by the Ministry of Health Malaysia, with various breakdowns.",
+            "bm": "Data ini mendokumentasikan semua kes COVID-19 seperti mana yang diumumkan oleh Kementerian Kesihatan Malaysia."
+        },
+        "link_parquet": "https://storage.googleapis.com/dosm-public-healthcare/covid-cases.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-healthcare/covid-cases.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-healthcare/covid-cases.metadata",
+        "variables": [
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+            },
+            {
+                "id": -1,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] Name of the state (16 in total) or Malaysia",
+                "desc_bm": "[Kategori] Name negeri (16 keseluruhan) atau Malaysia"
+            },
+            {
+                "id": 1,
+                "name": "cases_new",
+                "title_en": "New Cases",
+                "title_bm": "Kes Baru",
+                "desc_en": "[Integer] Cases",
+                "desc_bm": "[Integer] Kes"
+            },
+            {
+                "id": 2,
+                "name": "cases_import",
+                "title_en": "Imported Cases",
+                "title_bm": "Kes Impot",
+                "desc_en": "[Integer] Cases",
+                "desc_bm": "[Integer] Kes"
+            },
+            {
+                "id": 3,
+                "name": "cases_recovered",
+                "title_en": "Recoveries",
+                "title_bm": "Kes Sembuh",
+                "desc_en": "[Integer] Cases",
+                "desc_bm": "[Integer] Kes"
+            },
+            {
+                "id": 4,
+                "name": "cases_active",
+                "title_en": "Active Cases",
+                "title_bm": "Kes Aktif",
+                "desc_en": "[Integer] Cases",
+                "desc_bm": "[Integer] Kes"
+            },
+            {
+                "id": 5,
+                "name": "cases_unvax",
+                "title_en": "Unvaccinated Cases",
+                "title_bm": "Kes Tidak Divaksinasi",
+                "desc_en": "[Integer] Cases",
+                "desc_bm": "[Integer] Kes"
+            },
+            {
+                "id": 6,
+                "name": "cases_pvax",
+                "title_en": "Partially Vaccinated Cases",
+                "title_bm": "Kes Tidak Lengkap Divaksinasi",
+                "desc_en": "[Integer] Cases",
+                "desc_bm": "[Integer] Kes"
+            },
+            {
+                "id": 7,
+                "name": "cases_fvax",
+                "title_en": "Fully Vaccinated Cases",
+                "title_bm": "Kes Lengkap Divaksinasi",
+                "desc_en": "[Integer] Cases",
+                "desc_bm": "[Integer] Kes"
+            },
+            {
+                "id": 8,
+                "name": "cases_boost",
+                "title_en": "Boosted Cases",
+                "title_bm": "Kes Lengkap Penggalak",
+                "desc_en": "[Integer] Cases",
+                "desc_bm": "[Integer] Kes"
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 1,
+            "catalog_filters": {
+                "frequency": "DAILY",
+                "geographic": [
+                    "STATE",
+                    "NATIONAL"
+                ],
+                "start": "2020",
+                "end": "2023",
+                "data_source": [
+                    "KKM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-07 23:59",
+                "last_updated": "2023-01-08 00:01",
+                "next_update": "2023-01-09 00:01"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "cases_new",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 2,
+            "catalog_filters": {
+                "frequency": "DAILY",
+                "geographic": [
+                    "STATE",
+                    "NATIONAL"
+                ],
+                "start": "2020",
+                "end": "2023",
+                "data_source": [
+                    "KKM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-07 23:59",
+                "last_updated": "2023-01-08 00:01",
+                "next_update": "2023-01-09 00:01"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "cases_import",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 3,
+            "catalog_filters": {
+                "frequency": "DAILY",
+                "geographic": [
+                    "STATE",
+                    "NATIONAL"
+                ],
+                "start": "2020",
+                "end": "2023",
+                "data_source": [
+                    "KKM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-07 23:59",
+                "last_updated": "2023-01-08 00:01",
+                "next_update": "2023-01-09 00:01"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "cases_recovered",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 4,
+            "catalog_filters": {
+                "frequency": "DAILY",
+                "geographic": [
+                    "STATE",
+                    "NATIONAL"
+                ],
+                "start": "2020",
+                "end": "2023",
+                "data_source": [
+                    "KKM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-07 23:59",
+                "last_updated": "2023-01-08 00:01",
+                "next_update": "2023-01-09 00:01"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "cases_active",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 5,
+            "catalog_filters": {
+                "frequency": "DAILY",
+                "geographic": [
+                    "STATE",
+                    "NATIONAL"
+                ],
+                "start": "2020",
+                "end": "2023",
+                "data_source": [
+                    "KKM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-07 23:59",
+                "last_updated": "2023-01-08 00:01",
+                "next_update": "2023-01-09 00:01"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "cases_unvax",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 6,
+            "catalog_filters": {
+                "frequency": "DAILY",
+                "geographic": [
+                    "STATE",
+                    "NATIONAL"
+                ],
+                "start": "2020",
+                "end": "2023",
+                "data_source": [
+                    "KKM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-07 23:59",
+                "last_updated": "2023-01-08 00:01",
+                "next_update": "2023-01-09 00:01"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "cases_pvax",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 7,
+            "catalog_filters": {
+                "frequency": "DAILY",
+                "geographic": [
+                    "STATE",
+                    "NATIONAL"
+                ],
+                "start": "2020",
+                "end": "2023",
+                "data_source": [
+                    "KKM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-07 23:59",
+                "last_updated": "2023-01-08 00:01",
+                "next_update": "2023-01-09 00:01"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "cases_fvax",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 8,
+            "catalog_filters": {
+                "frequency": "DAILY",
+                "geographic": [
+                    "STATE",
+                    "NATIONAL"
+                ],
+                "start": "2020",
+                "end": "2023",
+                "data_source": [
+                    "KKM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-07 23:59",
+                "last_updated": "2023-01-08 00:01",
+                "next_update": "2023-01-09 00:01"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "cases_boost",
+                        "line": ""
+                    }
+                }
+            }
+        }
+    ]
+}
