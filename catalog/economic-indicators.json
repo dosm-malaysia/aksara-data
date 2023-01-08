@@ -1,0 +1,291 @@
+{
+    "file": {
+        "bucket": "dosm-public-economy",
+        "file_name": "economic-indicators",
+        "category": "ECONOMY",
+        "category_en": "Economy",
+        "category_bm": "Ekonomi",
+        "subcategory": "INDICATORS",
+        "subcategory_en": "Economic Indicators",
+        "subcategory_bm": "Penunjuk Ekonomi",
+        "description": {
+            "en": "The Malaysian Economic Indicators presents current economic information with the purpose of monitoring the economic situation of the country on a monthly basis. It consists of Leading, Coincident and Lagging indicators for Composite\nand Diffusion Indexes.",
+            "bm": "Penerbitan Penunjuk Ekonomi Malaysia ini memberikan maklumat ekonomi semasa yang bertujuan untuk memantau kedudukan ekonomi Negara. Ia terdiri daripada Indeks Pelopor, Serentak dan Susulan bagi Indeks\nKomposit dan Indeks Difusi yang diterbitkan secara bulanan."
+        },
+        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/economic-indicators.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-economy/economic-indicators.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-economy/economic-indicators.metadata",
+        "variables": [
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+            },
+            {
+                "id": 1,
+                "name": "leading",
+                "title_en": "Leading Index",
+                "title_bm": "Indeks Pelopor",
+                "desc_en": "[Float] The Leading Index measures anticipations of the overall economic activity in the months\nahead. The index tells us where the economy is going. ",
+                "desc_bm": "[Apung] Indeks Pelopor merupakan ukuran jangkaan keseluruhan aktiviti ekonomi untuk masa hadapan. Indeks ini memberitahu kita ke mana arah tuju ekonomi. "
+            },
+            {
+                "id": 2,
+                "name": "coincident",
+                "title_en": "Coincident Index",
+                "title_bm": "Indeks Serentak",
+                "desc_en": "[Float] The Coincident Index is a comprehensive measure of the overall current economic\nperformance",
+                "desc_bm": "[Apung] Indeks Serentak merupakan ukuran komprehensif terhadap prestasi keseluruhan ekonomi\nsemasa. "
+            },
+            {
+                "id": 3,
+                "name": "lagging",
+                "title_en": "Lagging Index",
+                "title_bm": "Indeks Susulan",
+                "desc_en": "[Float] The Lagging Index is to validate the signal of the Leading and Coincident Indexes",
+                "desc_bm": "[Apung] Indeks Susulan berfungsi sebagai pengesah kepada isyarat Indeks Pelopor dan Indeks Serentak. "
+            },
+            {
+                "id": 4,
+                "name": "leading_diffusion",
+                "title_en": "Leading Index (Diffusion)",
+                "title_bm": "Indeks Pelopor (Difusi)",
+                "desc_en": "[Float] The Diffusion Index is a complement to the Composite Index. It is used to assist in making a decision\nespecially in determining turning point of economic cycle. The value of 100 for Diffusion Index implies that all components are increasing and the value of zero shows that all components are decreasing",
+                "desc_bm": "[Apung] Indeks Difusi adalah pelengkap kepada Indeks Komposit. Ia digunakan untuk membantu membuat\nkeputusan terutamanya dalam penentuan titik pusing kitaran ekonomi. Nilai 100 bagi Indeks Difusi menunjukkan semua komponen meningkat dan nilai sifar bermaksud semua komponen mengalami penurunan."
+            },
+            {
+                "id": 5,
+                "name": "coincident_diffusion",
+                "title_en": "Coincident Index (Diffusion)",
+                "title_bm": "Indeks Serentak (Difusi)",
+                "desc_en": "[Float] The Diffusion Index is a complement to the Composite Index. It is used to assist in making a decision\nespecially in determining turning point of economic cycle. The value of 100 for Diffusion Index implies that all components are increasing and the value of zero shows that all components are decreasing",
+                "desc_bm": "[Apung] Indeks Difusi adalah pelengkap kepada Indeks Komposit. Ia digunakan untuk membantu membuat\nkeputusan terutamanya dalam penentuan titik pusing kitaran ekonomi. Nilai 100 bagi Indeks Difusi menunjukkan semua komponen meningkat dan nilai sifar bermaksud semua komponen mengalami penurunan."
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 1,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "1991",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-10-31 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "leading",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 2,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "1991",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-10-31 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "coincident",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 3,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "1991",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-10-31 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "lagging",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 4,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "1991",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-10-31 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "leading_diffusion",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 5,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "1991",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-10-31 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "coincident_diffusion",
+                        "line": ""
+                    }
+                }
+            }
+        }
+    ]
+}
