@@ -1,0 +1,811 @@
+{
+    "file": {
+        "bucket": "dosm-public-economy",
+        "file_name": "ipi",
+        "category": "ECONOMY",
+        "category_en": "Economy",
+        "category_bm": "Ekonomi",
+        "subcategory": "IPI",
+        "subcategory_en": "Industrial Production",
+        "subcategory_bm": "Pengeluaran Perindustrian",
+        "description": {
+            "en": "The Industrial Production Index (IPI) publication is a monthly publication which covers three main sectors namely Mining, Manufacturing and Electricity which in line with the industrial definition in the International Recommendations for the Index of Industrial Production (IRIIP), 2010. ",
+            "bm": "Penerbitan Indeks Pengeluaran Perindustrian (IPP) merupakan penerbitan bulanan yang meliputi tiga sektor utama iaitu Perlombongan, Pembuatan dan Elektrik selari dengan definisi perindustrian dalam International Recommendations for the Index of Industrial Production (IRIIP), 2010."
+        },
+        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/ipi.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-economy/ipi.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-economy/ipi.metadata",
+        "variables": [
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to -01-01",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai -01-01"
+            },
+            {
+                "id": 1,
+                "name": "overall",
+                "title_en": "IPI (Industrial Production Index)",
+                "title_bm": "IPP (Indeks Pengeluaran Perindustrian)",
+                "desc_en": "[Float] Index, with base 2015 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+            },
+            {
+                "id": 2,
+                "name": "mining",
+                "title_en": "IPI: Mining",
+                "title_bm": "IPP: Perlombongan",
+                "desc_en": "[Float] Index, with base 2015 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+            },
+            {
+                "id": 3,
+                "name": "mfg",
+                "title_en": "IPI: Manufacturing",
+                "title_bm": "IPP: Pembuatan",
+                "desc_en": "[Float] Index, with base 2015 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+            },
+            {
+                "id": 4,
+                "name": "electric",
+                "title_en": "IPI: Electricity",
+                "title_bm": "IPP: Elektrik",
+                "desc_en": "[Float] Index, with base 2015 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+            },
+            {
+                "id": 5,
+                "name": "mfg_food",
+                "title_en": "IPI: Manufacturing (Food, Beverages and Tobacco)",
+                "title_bm": "IPP: Pembuatan(Makanan, Minuman dan Tembakau)",
+                "desc_en": "[Float] Index, with base 2015 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+            },
+            {
+                "id": 6,
+                "name": "mfg_textiles",
+                "title_en": "IPI: Manufacturing (Textiles, Wearing Apparel, Leather Products and Footwear)",
+                "title_bm": "IPP: Pembuatan(Produk Tekstil, Pakaian, Kulit dan Kasut)",
+                "desc_en": "[Float] Index, with base 2015 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+            },
+            {
+                "id": 7,
+                "name": "mfg_wood",
+                "title_en": "IPI: Manufacturing (Wood Products, Furniture, Paper Products, Printing)",
+                "title_bm": "IPP: Pembuatan(Produk Kayu, Perabot, Keluaran Kertas, Percetakan)",
+                "desc_en": "[Float] Index, with base 2015 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+            },
+            {
+                "id": 8,
+                "name": "mfg_petroleum",
+                "title_en": "IPI: Manufacturing (Petroleum, Chemical, Rubber and Plastic Products)",
+                "title_bm": "IPP: Pembuatan(Produk Petroleum, Kimia, Getah dan Plastik)",
+                "desc_en": "[Float] Index, with base 2015 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+            },
+            {
+                "id": 9,
+                "name": "mfg_metal",
+                "title_en": "IPI: Manufacturing (Non-metallic Mineral Products, Basic Metal and Fabricated Metal Products)",
+                "title_bm": "IPP: Pembuatan(Produk Mineral Bukan Logam, Logam Asas dan Produk Logam yang Direka)",
+                "desc_en": "[Float] Index, with base 2015 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+            },
+            {
+                "id": 10,
+                "name": "mfg_electric",
+                "title_en": "IPI: Manufacturing (Electrical and Electronics Products)",
+                "title_bm": "IPP: Pembuatan(Produk Peralatan Elektrik dan Elektronik)",
+                "desc_en": "[Float] Index, with base 2015 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+            },
+            {
+                "id": 11,
+                "name": "mfg_transport",
+                "title_en": "IPI: Manufacturing (Transport Equipment and Other Manufactures)",
+                "title_bm": "IPP: Pembuatan(Kelengkapan Pengangkutan dan Pembuatan Lain)",
+                "desc_en": "[Float] Index, with base 2015 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+            },
+            {
+                "id": 12,
+                "name": "overall_sa",
+                "title_en": "IPI (sa)",
+                "title_bm": "IPP (tsm)",
+                "desc_en": "[Float] Index, with base 2015 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+            },
+            {
+                "id": 13,
+                "name": "mining_sa",
+                "title_en": "IPI: Mining (sa)",
+                "title_bm": "IPP: Perlombongan (tsm)",
+                "desc_en": "[Float] Index, with base 2015 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+            },
+            {
+                "id": 14,
+                "name": "mfg_sa",
+                "title_en": "IPI: Manufacturing (sa)",
+                "title_bm": "IPP: Pembuatan (tsm)",
+                "desc_en": "[Float] Index, with base 2015 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+            },
+            {
+                "id": 15,
+                "name": "electric_sa",
+                "title_en": "IPI: Electricity (sa)",
+                "title_bm": "IPP: Elektrik (tsm)",
+                "desc_en": "[Float] Index, with base 2015 = 100",
+                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 1,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-10-31 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "overall",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 2,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-10-31 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "mining",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 3,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-10-31 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "mfg",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 4,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-10-31 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "electric",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 5,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-10-31 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "mfg_food",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 6,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-10-31 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "mfg_textiles",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 7,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-10-31 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "mfg_wood",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 8,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-10-31 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "mfg_petroleum",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 9,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-10-31 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "mfg_metal",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 10,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-10-31 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "mfg_electric",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 11,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-10-31 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "mfg_transport",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 12,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-10-31 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "overall_sa",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 13,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-10-31 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "mining_sa",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 14,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-10-31 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "mfg_sa",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 15,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-10-31 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "electric_sa",
+                        "line": ""
+                    }
+                }
+            }
+        }
+    ]
+}
