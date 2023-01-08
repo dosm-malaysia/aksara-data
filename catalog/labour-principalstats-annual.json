@@ -59,7 +59,7 @@
             {
                 "id": 5,
                 "name": "u_rate",
-                "title_en": "Unemployed Rate (Annual)",
+                "title_en": "Unemployment Rate (Annual)",
                 "title_bm": "Kadar Pengangguran (Tahunan)",
                 "desc_en": "[Float] Variable",
                 "desc_bm": "[Apung] Pembolehubah"
