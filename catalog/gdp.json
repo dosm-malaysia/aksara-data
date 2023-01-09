@@ -1,0 +1,823 @@
+{
+    "file": {
+        "bucket": "dosm-public-economy",
+        "file_name": "gdp",
+        "category": "ECONOMY",
+        "category_en": "Economy",
+        "category_bm": "Ekonomi",
+        "subcategory": "NATACC",
+        "subcategory_en": "National Accounts",
+        "subcategory_bm": "Akaun Nasional",
+        "description": {
+            "en": "Laporan ini merangkumi anggaran statistik akaun negara suku tahunan mengikut aktiviti ekonomi dan jenis perbelanjaan pada harga semasa dan harga malar tahun asas 2015.",
+            "bm": "This publication contains statistics of quarterly national accounts estimates by economic activity and type of expenditure in both current and constant prices at base year 2015."
+        },
+        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/gdp.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-economy/gdp.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-economy/gdp.metadata",
+        "variables": [
+            {
+                "id": -1,
+                "name": "series_type",
+                "title_en": "Series Type",
+                "title_bm": "Jenis Siri",
+                "desc_en": "[Categorical] real, real_sa, or nominal",
+                "desc_bm": "[Kategori] real, real_sa, atau nominal"
+            },
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to -01-01",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai -01-01"
+            },
+            {
+                "id": 1,
+                "name": "overall",
+                "title_en": "GDP (Gross Domestic Product)",
+                "title_bm": "KDNK (Keluaran Dalam Negeri Kasar)",
+                "desc_en": "[Integer, RM mil] Variable",
+                "desc_bm": "[Integer, RM juta] Pembolehubah"
+            },
+            {
+                "id": 2,
+                "name": "supply_agri",
+                "title_en": "GDP by Activity: Agriculture",
+                "title_bm": "KDNK mengikut Aktiviti: Pertanian",
+                "desc_en": "[Integer, RM mil] Variable",
+                "desc_bm": "[Integer, RM juta] Pembolehubah"
+            },
+            {
+                "id": 3,
+                "name": "supply_mining",
+                "title_en": "GDP by Activity: Mining",
+                "title_bm": "KDNK mengikut Aktiviti: Perlombongan",
+                "desc_en": "[Integer, RM mil] Variable",
+                "desc_bm": "[Integer, RM juta] Pembolehubah"
+            },
+            {
+                "id": 4,
+                "name": "supply_manufacturing",
+                "title_en": "GDP by Activity: Manufacturing",
+                "title_bm": "KDNK mengikut Aktiviti: Pembuatan",
+                "desc_en": "[Integer, RM mil] Variable",
+                "desc_bm": "[Integer, RM juta] Pembolehubah"
+            },
+            {
+                "id": 5,
+                "name": "supply_construction",
+                "title_en": "GDP by Activity: Construction",
+                "title_bm": "KDNK mengikut Aktiviti: Pembinaan",
+                "desc_en": "[Integer, RM mil] Variable",
+                "desc_bm": "[Integer, RM juta] Pembolehubah"
+            },
+            {
+                "id": 6,
+                "name": "supply_services",
+                "title_en": "GDP by Activity: Services",
+                "title_bm": "KDNK mengikut Aktiviti: Perkhidmatan",
+                "desc_en": "[Integer, RM mil] Variable",
+                "desc_bm": "[Integer, RM juta] Pembolehubah"
+            },
+            {
+                "id": 7,
+                "name": "supply_import_duties",
+                "title_en": "GDP by Activity: Import Duties",
+                "title_bm": "KDNK mengikut Aktiviti: Duti Impot",
+                "desc_en": "[Integer, RM mil] Variable",
+                "desc_bm": "[Integer, RM juta] Pembolehubah"
+            },
+            {
+                "id": 8,
+                "name": "demand_c",
+                "title_en": "GDP by Expenditure: Private Consumption",
+                "title_bm": "KDNK mengikut Perbelanjaan: Penggunaan Swasta",
+                "desc_en": "[Integer, RM mil] Variable",
+                "desc_bm": "[Integer, RM juta] Pembolehubah"
+            },
+            {
+                "id": 9,
+                "name": "demand_g",
+                "title_en": "GDP by Expenditure: Government Spending",
+                "title_bm": "KDNK mengikut Perbelanjaan: Penggunaan Kerajaan",
+                "desc_en": "[Integer, RM mil] Variable",
+                "desc_bm": "[Integer, RM juta] Pembolehubah"
+            },
+            {
+                "id": 10,
+                "name": "demand_i",
+                "title_en": "GDP by Expenditure: GFCF",
+                "title_bm": "KDNK mengikut Perbelanjaan: PMTK",
+                "desc_en": "[Integer, RM mil] Variable",
+                "desc_bm": "[Integer, RM juta] Pembolehubah"
+            },
+            {
+                "id": 11,
+                "name": "demand_x",
+                "title_en": "GDP by Expenditure: Exports",
+                "title_bm": "KDNK mengikut Perbelanjaan: Ekspot",
+                "desc_en": "[Integer, RM mil] Variable",
+                "desc_bm": "[Integer, RM juta] Pembolehubah"
+            },
+            {
+                "id": 12,
+                "name": "demand_m",
+                "title_en": "GDP by Expenditure: Imports",
+                "title_bm": "KDNK mengikut Perbelanjaan: Impot",
+                "desc_en": "[Integer, RM mil] Variable",
+                "desc_bm": "[Integer, RM juta] Pembolehubah"
+            },
+            {
+                "id": 13,
+                "name": "demand_nx",
+                "title_en": "GDP by Expenditure: Net Exports",
+                "title_bm": "KDNK mengikut Perbelanjaan: Ekspot Bersih",
+                "desc_en": "[Integer, RM mil] Variable",
+                "desc_bm": "[Integer, RM juta] Pembolehubah"
+            },
+            {
+                "id": 14,
+                "name": "demand_inventory",
+                "title_en": "GDP by Expenditure: Change in Inventories",
+                "title_bm": "KDNK mengikut Perbelanjaan: Perubahan Inventori",
+                "desc_en": "[Integer, RM mil] Variable",
+                "desc_bm": "[Integer, RM juta] Pembolehubah"
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 1,
+            "catalog_filters": {
+                "frequency": "QUARTERLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-09-30 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "series_type"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "series_type"
+                    ],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "overall",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 2,
+            "catalog_filters": {
+                "frequency": "QUARTERLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-09-30 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "series_type"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "series_type"
+                    ],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "supply_agri",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 3,
+            "catalog_filters": {
+                "frequency": "QUARTERLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-09-30 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "series_type"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "series_type"
+                    ],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "supply_mining",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 4,
+            "catalog_filters": {
+                "frequency": "QUARTERLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-09-30 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "series_type"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "series_type"
+                    ],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "supply_manufacturing",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 5,
+            "catalog_filters": {
+                "frequency": "QUARTERLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-09-30 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "series_type"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "series_type"
+                    ],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "supply_construction",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 6,
+            "catalog_filters": {
+                "frequency": "QUARTERLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-09-30 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "series_type"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "series_type"
+                    ],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "supply_services",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 7,
+            "catalog_filters": {
+                "frequency": "QUARTERLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-09-30 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "series_type"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "series_type"
+                    ],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "supply_import_duties",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 8,
+            "catalog_filters": {
+                "frequency": "QUARTERLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-09-30 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "series_type"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "series_type"
+                    ],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "demand_c",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 9,
+            "catalog_filters": {
+                "frequency": "QUARTERLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-09-30 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "series_type"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "series_type"
+                    ],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "demand_g",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 10,
+            "catalog_filters": {
+                "frequency": "QUARTERLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-09-30 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "series_type"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "series_type"
+                    ],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "demand_i",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 11,
+            "catalog_filters": {
+                "frequency": "QUARTERLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-09-30 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "series_type"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "series_type"
+                    ],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "demand_x",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 12,
+            "catalog_filters": {
+                "frequency": "QUARTERLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-09-30 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "series_type"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "series_type"
+                    ],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "demand_m",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 13,
+            "catalog_filters": {
+                "frequency": "QUARTERLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-09-30 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "series_type"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "series_type"
+                    ],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "demand_nx",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 14,
+            "catalog_filters": {
+                "frequency": "QUARTERLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2015",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-09-30 23:59",
+                "last_updated": "2022-12-23 12:00",
+                "next_update": "2023-01-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "series_type"
+                    ]
+                },
+                "chart_variables": {
+                    "parents": [
+                        "series_type"
+                    ],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "demand_inventory",
+                        "line": ""
+                    }
+                }
+            }
+        }
+    ]
+}
