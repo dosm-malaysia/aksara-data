@@ -1,7 +1,7 @@
 {
     "file": {
         "bucket": "dosm-public-healthcare",
-        "file_name": "covid-cases",
+        "file_name": "covid-cases-new",
         "category": "HEALTHCARE",
         "category_en": "Healthcare",
         "category_bm": "Kesihatan",
@@ -12,9 +12,9 @@
             "en": "This data documents COVID-19 cases as announced by the Ministry of Health Malaysia, with various breakdowns for analysis.",
             "bm": "Data ini mendokumentasikan semua kes COVID-19 seperti mana yang diumumkan oleh Kementerian Kesihatan Malaysia, dengan beberapa perincian untuk tujuan analisa."
         },
-        "link_parquet": "https://storage.googleapis.com/dosm-public-healthcare/covid-cases.parquet",
-        "link_csv": "https://storage.googleapis.com/dosm-public-healthcare/covid-cases.csv",
-        "link_metadata": "https://storage.googleapis.com/dosm-public-healthcare/covid-cases.metadata",
+        "link_parquet": "https://storage.googleapis.com/dosm-public-healthcare/covid-cases-new.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-healthcare/covid-cases-new.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-healthcare/covid-cases-new.metadata",
         "variables": [
             {
                 "id": -1,
