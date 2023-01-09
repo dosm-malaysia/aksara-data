@@ -9,8 +9,8 @@
         "subcategory_en": "COVID-19",
         "subcategory_bm": "COVID-19",
         "description": {
-            "en": "This data documents COVID-19 cases as announced by the Ministry of Health Malaysia, with various breakdowns for analysis.",
-            "bm": "Data ini mendokumentasikan semua kes COVID-19 seperti mana yang diumumkan oleh Kementerian Kesihatan Malaysia, dengan beberapa perincian untuk tujuan analisa."
+            "en": "This data documents COVID-19 cases as announced by the Ministry of Health Malaysia, with various breakdowns.",
+            "bm": "Data ini mendokumentasikan semua kes COVID-19 seperti mana yang diumumkan oleh Kementerian Kesihatan Malaysia."
         },
         "link_parquet": "https://storage.googleapis.com/dosm-public-healthcare/covid-cases-new.parquet",
         "link_csv": "https://storage.googleapis.com/dosm-public-healthcare/covid-cases-new.csv",
@@ -121,10 +121,10 @@
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases."
+                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 },
                 "bm": {
-                    "methodology": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell.",
+                    "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
                     "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 }
             },
@@ -170,10 +170,10 @@
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases."
+                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 },
                 "bm": {
-                    "methodology": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell.",
+                    "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
                     "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 }
             },
@@ -219,10 +219,10 @@
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases."
+                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 },
                 "bm": {
-                    "methodology": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell.",
+                    "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
                     "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 }
             },
@@ -268,10 +268,10 @@
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases."
+                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 },
                 "bm": {
-                    "methodology": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell.",
+                    "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
                     "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 }
             },
@@ -317,10 +317,10 @@
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases."
+                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 },
                 "bm": {
-                    "methodology": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell.",
+                    "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
                     "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 }
             },
@@ -366,10 +366,10 @@
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases."
+                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 },
                 "bm": {
-                    "methodology": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell.",
+                    "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
                     "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 }
             },
@@ -415,10 +415,10 @@
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases."
+                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 },
                 "bm": {
-                    "methodology": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell.",
+                    "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
                     "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 }
             },
@@ -464,10 +464,10 @@
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases."
+                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 },
                 "bm": {
-                    "methodology": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell.",
+                    "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
                     "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 }
             },
