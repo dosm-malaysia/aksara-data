@@ -5,9 +5,9 @@
         "category": "ECONOMY",
         "category_en": "Economy",
         "category_bm": "Ekonomi",
-        "subcategory": "PRICES",
+        "subcategory": "PRICES_CONSUMER",
         "subcategory_en": "Consumer Prices",
-        "subcategory_bm": "Harge Pengguna",
+        "subcategory_bm": "Harga Pengguna",
         "description": {
             "en": "The publication of Consumer Price Index (CPI), Malaysia is a monthly publication which presents statistics covering 12 main groups of goods and services. This is consistent with the classification according to the United Nations \"Classification of Individual Consumption According to Purpose (COICOP)\".",
             "bm": "Penerbitan Indeks Harga Pengguna (IHP), Malaysia merupakan penerbitan bulanan yang memaparkan statistik meliputi 12 kumpulan utama barangan dan perkhidmatan. Ini selaras dengan klasifikasi yang berpandukan kepada United Nations \"Classification of Individual Consumption According to Purpose (COICOP)\"."
