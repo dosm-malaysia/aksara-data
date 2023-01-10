@@ -35,88 +35,88 @@
             {
                 "id": 1,
                 "name": "undi_keluar_peti",
-                "title_en": "Ballots Released",
-                "title_bm": "Undi Keluar Peti",
+                "title_en": "GE15: Ballots Released",
+                "title_bm": "PRU15: Undi Keluar Peti",
                 "desc_en": "[Integer] The number of ballots officially released.",
                 "desc_bm": "[Integer] The number of ballots officially released."
             },
             {
                 "id": 2,
                 "name": "undi_dalam_peti",
-                "title_en": "Ballots Received",
-                "title_bm": "Undi Dalam Peti",
+                "title_en": "GE15: Ballots Received",
+                "title_bm": "PRU15: Undi Dalam Peti",
                 "desc_en": "[Integer] Number of ballots returned for counting.",
                 "desc_bm": "[Integer] Number of ballots returned for counting."
             },
             {
                 "id": 3,
                 "name": "undi_tak_kembali",
-                "title_en": "Ballots Not Returned",
-                "title_bm": "Undi Tak Kembali",
+                "title_en": "GE15: Ballots Not Returned",
+                "title_bm": "PRU15: Undi Tak Kembali",
                 "desc_en": "[Integer] Number of ballots not returned after being released, including postal ballots that were not returned to the polling station by the time of counting.",
                 "desc_bm": "[Integer] Number of ballots not returned after being released, including postal ballots that were not returned to the polling station by the time of counting."
             },
             {
                 "id": 4,
                 "name": "undi_tolak",
-                "title_en": "Rejected Votes",
-                "title_bm": "Undi Tolak",
+                "title_en": "GE15: Rejected Votes",
+                "title_bm": "PRU15: Undi Tolak",
                 "desc_en": "[Integer] Number of ballots returned but rejected during the counting process.",
                 "desc_bm": "[Integer] Number of ballots returned but rejected during the counting process."
             },
             {
                 "id": 5,
                 "name": "majoriti",
-                "title_en": "Majority",
-                "title_bm": "Majoriti",
+                "title_en": "GE15: Majority",
+                "title_bm": "PRU15: Majoriti",
                 "desc_en": "[Integer] Difference between the number of votes won by the victorious candidate, and their closest competitor.",
                 "desc_bm": "[Integer] Difference between the number of votes won by the victorious candidate, and their closest competitor."
             },
             {
                 "id": 6,
                 "name": "peratus_keluar",
-                "title_en": "Voter Turnout",
-                "title_bm": "Peratus Keluar",
+                "title_en": "GE15: Voter Turnout",
+                "title_bm": "PRU15: Peratus Keluar",
                 "desc_en": "[Float] Proportion of registered voters who voted.",
                 "desc_bm": "[Float] Proportion of registered voters who voted."
             },
             {
                 "id": 7,
                 "name": "pengundi_jumlah",
-                "title_en": "Registered Voters",
-                "title_bm": "Pengundi Berdaftar",
+                "title_en": "GE15: Registered Voters",
+                "title_bm": "PRU15: Pengundi Berdaftar",
                 "desc_en": "[Integer] Number of individuals eligible to vote.",
                 "desc_bm": "[Integer] Number of individuals eligible to vote."
             },
             {
                 "id": 8,
                 "name": "pengundi_tidak_hadir",
-                "title_en": "Non-Voters",
-                "title_bm": "Jumlah Tidak Mengundi",
+                "title_en": "GE15: Non-Voters",
+                "title_bm": "PRU15: Jumlah Tidak Mengundi",
                 "desc_en": "[Integer] Number of eligible voters who did not vote.",
                 "desc_bm": "[Integer] Number of eligible voters who did not vote."
             },
             {
                 "id": 9,
                 "name": "peratus_tolak",
-                "title_en": "Rejected Votes (% of Total Votes)",
-                "title_bm": "Undi Tolak (% daripada Jumlah Undi)",
+                "title_en": "GE15: Rejected Votes (% of Total Votes)",
+                "title_bm": "PRU15: Undi Tolak (% daripada Jumlah Undi)",
                 "desc_en": "[Float] Proportion of returned vallots rejected during the counting process.",
                 "desc_bm": "[Float] Proportion of returned vallots rejected during the counting process."
             },
             {
                 "id": 10,
                 "name": "nisbah_tolak_majoriti",
-                "title_en": "Rejected Votes (% of Majority)",
-                "title_bm": "Undi Tolak (% daripada Majoriti)",
+                "title_en": "GE15: Rejected Votes (% of Majority)",
+                "title_bm": "PRU15: Undi Tolak (% daripada Majoriti)",
                 "desc_en": "[Float] Ratio of rejected votes to the winning margin. A value more than 100 indicates that the number of rejected votes exceeded the margin of victory.",
                 "desc_bm": "[Float] Ratio of rejected votes to the winning margin. A value more than 100 indicates that the number of rejected votes exceeded the margin of victory."
             },
             {
                 "id": 11,
                 "name": "nisbah_tidakhadir_majoriti",
-                "title_en": "Non-Voters (% of Majority)",
-                "title_bm": "Jumlah Tidak Mengundi (% daripada Majoriti)",
+                "title_en": "GE15: Non-Voters (% of Majority)",
+                "title_bm": "PRU15: Jumlah Tidak Mengundi (% daripada Majoriti)",
                 "desc_en": "[Float] Ratio of non-voters to the winning margin. A value more than 100 indicates that the number of eligible voters who did not vote exceeded the margin of victory.",
                 "desc_bm": "[Float] Ratio of non-voters to the winning margin. A value more than 100 indicates that the number of eligible voters who did not vote exceeded the margin of victory."
             }
@@ -128,7 +128,7 @@
             "catalog_filters": {
                 "frequency": "INFREQUENT",
                 "geographic": [
-                    "PARLIAMENT"
+                    "PARLIMEN"
                 ],
                 "start": "2022",
                 "end": "2022",
@@ -139,7 +139,7 @@
             "metadata_neutral": {
                 "data_as_of": "2022-12-07 23:59",
                 "last_updated": "2022-12-07 23:59",
-                "next_update": "-"
+                "next_update": "2022-12-07 23:59"
             },
             "metadata_lang": {
                 "en": {
@@ -158,8 +158,8 @@
                 },
                 "chart_variables": {
                     "parents": [],
-                    "color": "reds",
-                    "file_json": "parlimen.json",
+                    "color": "Reds",
+                    "file_json": "parlimen",
                     "format": {
                         "x": "parlimen",
                         "y": "undi_keluar_peti"
@@ -172,7 +172,7 @@
             "catalog_filters": {
                 "frequency": "INFREQUENT",
                 "geographic": [
-                    "PARLIAMENT"
+                    "PARLIMEN"
                 ],
                 "start": "2022",
                 "end": "2022",
@@ -183,7 +183,7 @@
             "metadata_neutral": {
                 "data_as_of": "2022-12-07 23:59",
                 "last_updated": "2022-12-07 23:59",
-                "next_update": "-"
+                "next_update": "2022-12-07 23:59"
             },
             "metadata_lang": {
                 "en": {
@@ -202,8 +202,8 @@
                 },
                 "chart_variables": {
                     "parents": [],
-                    "color": "reds",
-                    "file_json": "parlimen.json",
+                    "color": "Reds",
+                    "file_json": "parlimen",
                     "format": {
                         "x": "parlimen",
                         "y": "undi_dalam_peti"
@@ -216,7 +216,7 @@
             "catalog_filters": {
                 "frequency": "INFREQUENT",
                 "geographic": [
-                    "PARLIAMENT"
+                    "PARLIMEN"
                 ],
                 "start": "2022",
                 "end": "2022",
@@ -227,7 +227,7 @@
             "metadata_neutral": {
                 "data_as_of": "2022-12-07 23:59",
                 "last_updated": "2022-12-07 23:59",
-                "next_update": "-"
+                "next_update": "2022-12-07 23:59"
             },
             "metadata_lang": {
                 "en": {
@@ -246,8 +246,8 @@
                 },
                 "chart_variables": {
                     "parents": [],
-                    "color": "reds",
-                    "file_json": "parlimen.json",
+                    "color": "Reds",
+                    "file_json": "parlimen",
                     "format": {
                         "x": "parlimen",
                         "y": "undi_tak_kembali"
@@ -260,7 +260,7 @@
             "catalog_filters": {
                 "frequency": "INFREQUENT",
                 "geographic": [
-                    "PARLIAMENT"
+                    "PARLIMEN"
                 ],
                 "start": "2022",
                 "end": "2022",
@@ -271,7 +271,7 @@
             "metadata_neutral": {
                 "data_as_of": "2022-12-07 23:59",
                 "last_updated": "2022-12-07 23:59",
-                "next_update": "-"
+                "next_update": "2022-12-07 23:59"
             },
             "metadata_lang": {
                 "en": {
@@ -290,8 +290,8 @@
                 },
                 "chart_variables": {
                     "parents": [],
-                    "color": "reds",
-                    "file_json": "parlimen.json",
+                    "color": "Reds",
+                    "file_json": "parlimen",
                     "format": {
                         "x": "parlimen",
                         "y": "undi_tolak"
@@ -304,7 +304,7 @@
             "catalog_filters": {
                 "frequency": "INFREQUENT",
                 "geographic": [
-                    "PARLIAMENT"
+                    "PARLIMEN"
                 ],
                 "start": "2022",
                 "end": "2022",
@@ -315,7 +315,7 @@
             "metadata_neutral": {
                 "data_as_of": "2022-12-07 23:59",
                 "last_updated": "2022-12-07 23:59",
-                "next_update": "-"
+                "next_update": "2022-12-07 23:59"
             },
             "metadata_lang": {
                 "en": {
@@ -334,8 +334,8 @@
                 },
                 "chart_variables": {
                     "parents": [],
-                    "color": "reds",
-                    "file_json": "parlimen.json",
+                    "color": "Reds",
+                    "file_json": "parlimen",
                     "format": {
                         "x": "parlimen",
                         "y": "majoriti"
@@ -348,7 +348,7 @@
             "catalog_filters": {
                 "frequency": "INFREQUENT",
                 "geographic": [
-                    "PARLIAMENT"
+                    "PARLIMEN"
                 ],
                 "start": "2022",
                 "end": "2022",
@@ -359,7 +359,7 @@
             "metadata_neutral": {
                 "data_as_of": "2022-12-07 23:59",
                 "last_updated": "2022-12-07 23:59",
-                "next_update": "-"
+                "next_update": "2022-12-07 23:59"
             },
             "metadata_lang": {
                 "en": {
@@ -378,8 +378,8 @@
                 },
                 "chart_variables": {
                     "parents": [],
-                    "color": "reds",
-                    "file_json": "parlimen.json",
+                    "color": "Reds",
+                    "file_json": "parlimen",
                     "format": {
                         "x": "parlimen",
                         "y": "peratus_keluar"
@@ -392,7 +392,7 @@
             "catalog_filters": {
                 "frequency": "INFREQUENT",
                 "geographic": [
-                    "PARLIAMENT"
+                    "PARLIMEN"
                 ],
                 "start": "2022",
                 "end": "2022",
@@ -403,7 +403,7 @@
             "metadata_neutral": {
                 "data_as_of": "2022-12-07 23:59",
                 "last_updated": "2022-12-07 23:59",
-                "next_update": "-"
+                "next_update": "2022-12-07 23:59"
             },
             "metadata_lang": {
                 "en": {
@@ -422,8 +422,8 @@
                 },
                 "chart_variables": {
                     "parents": [],
-                    "color": "reds",
-                    "file_json": "parlimen.json",
+                    "color": "Reds",
+                    "file_json": "parlimen",
                     "format": {
                         "x": "parlimen",
                         "y": "pengundi_jumlah"
@@ -436,7 +436,7 @@
             "catalog_filters": {
                 "frequency": "INFREQUENT",
                 "geographic": [
-                    "PARLIAMENT"
+                    "PARLIMEN"
                 ],
                 "start": "2022",
                 "end": "2022",
@@ -447,7 +447,7 @@
             "metadata_neutral": {
                 "data_as_of": "2022-12-07 23:59",
                 "last_updated": "2022-12-07 23:59",
-                "next_update": "-"
+                "next_update": "2022-12-07 23:59"
             },
             "metadata_lang": {
                 "en": {
@@ -466,8 +466,8 @@
                 },
                 "chart_variables": {
                     "parents": [],
-                    "color": "reds",
-                    "file_json": "parlimen.json",
+                    "color": "Reds",
+                    "file_json": "parlimen",
                     "format": {
                         "x": "parlimen",
                         "y": "pengundi_tidak_hadir"
@@ -480,7 +480,7 @@
             "catalog_filters": {
                 "frequency": "INFREQUENT",
                 "geographic": [
-                    "PARLIAMENT"
+                    "PARLIMEN"
                 ],
                 "start": "2022",
                 "end": "2022",
@@ -491,7 +491,7 @@
             "metadata_neutral": {
                 "data_as_of": "2022-12-07 23:59",
                 "last_updated": "2022-12-07 23:59",
-                "next_update": "-"
+                "next_update": "2022-12-07 23:59"
             },
             "metadata_lang": {
                 "en": {
@@ -510,8 +510,8 @@
                 },
                 "chart_variables": {
                     "parents": [],
-                    "color": "reds",
-                    "file_json": "parlimen.json",
+                    "color": "Reds",
+                    "file_json": "parlimen",
                     "format": {
                         "x": "parlimen",
                         "y": "peratus_tolak"
@@ -524,7 +524,7 @@
             "catalog_filters": {
                 "frequency": "INFREQUENT",
                 "geographic": [
-                    "PARLIAMENT"
+                    "PARLIMEN"
                 ],
                 "start": "2022",
                 "end": "2022",
@@ -535,7 +535,7 @@
             "metadata_neutral": {
                 "data_as_of": "2022-12-07 23:59",
                 "last_updated": "2022-12-07 23:59",
-                "next_update": "-"
+                "next_update": "2022-12-07 23:59"
             },
             "metadata_lang": {
                 "en": {
@@ -554,8 +554,8 @@
                 },
                 "chart_variables": {
                     "parents": [],
-                    "color": "reds",
-                    "file_json": "parlimen.json",
+                    "color": "Reds",
+                    "file_json": "parlimen",
                     "format": {
                         "x": "parlimen",
                         "y": "nisbah_tolak_majoriti"
@@ -568,7 +568,7 @@
             "catalog_filters": {
                 "frequency": "INFREQUENT",
                 "geographic": [
-                    "PARLIAMENT"
+                    "PARLIMEN"
                 ],
                 "start": "2022",
                 "end": "2022",
@@ -579,7 +579,7 @@
             "metadata_neutral": {
                 "data_as_of": "2022-12-07 23:59",
                 "last_updated": "2022-12-07 23:59",
-                "next_update": "-"
+                "next_update": "2022-12-07 23:59"
             },
             "metadata_lang": {
                 "en": {
@@ -598,8 +598,8 @@
                 },
                 "chart_variables": {
                     "parents": [],
-                    "color": "reds",
-                    "file_json": "parlimen.json",
+                    "color": "Reds",
+                    "file_json": "parlimen",
                     "format": {
                         "x": "parlimen",
                         "y": "nisbah_tidakhadir_majoriti"
