@@ -126,11 +126,11 @@
         {
             "id": 1,
             "catalog_filters": {
-                "frequency": "INFREQUENT",
+                "frequency": "YEARLY",
                 "geographic": [
                     "PARLIMEN"
                 ],
-                "start": "2021",
+                "start": "2022",
                 "end": "2022",
                 "data_source": [
                     "SPR"
@@ -170,11 +170,11 @@
         {
             "id": 2,
             "catalog_filters": {
-                "frequency": "INFREQUENT",
+                "frequency": "YEARLY",
                 "geographic": [
                     "PARLIMEN"
                 ],
-                "start": "2021",
+                "start": "2022",
                 "end": "2022",
                 "data_source": [
                     "SPR"
@@ -214,11 +214,11 @@
         {
             "id": 3,
             "catalog_filters": {
-                "frequency": "INFREQUENT",
+                "frequency": "YEARLY",
                 "geographic": [
                     "PARLIMEN"
                 ],
-                "start": "2021",
+                "start": "2022",
                 "end": "2022",
                 "data_source": [
                     "SPR"
@@ -258,11 +258,11 @@
         {
             "id": 4,
             "catalog_filters": {
-                "frequency": "INFREQUENT",
+                "frequency": "YEARLY",
                 "geographic": [
                     "PARLIMEN"
                 ],
-                "start": "2021",
+                "start": "2022",
                 "end": "2022",
                 "data_source": [
                     "SPR"
@@ -302,11 +302,11 @@
         {
             "id": 5,
             "catalog_filters": {
-                "frequency": "INFREQUENT",
+                "frequency": "YEARLY",
                 "geographic": [
                     "PARLIMEN"
                 ],
-                "start": "2021",
+                "start": "2022",
                 "end": "2022",
                 "data_source": [
                     "SPR"
@@ -346,11 +346,11 @@
         {
             "id": 6,
             "catalog_filters": {
-                "frequency": "INFREQUENT",
+                "frequency": "YEARLY",
                 "geographic": [
                     "PARLIMEN"
                 ],
-                "start": "2021",
+                "start": "2022",
                 "end": "2022",
                 "data_source": [
                     "SPR"
@@ -390,11 +390,11 @@
         {
             "id": 7,
             "catalog_filters": {
-                "frequency": "INFREQUENT",
+                "frequency": "YEARLY",
                 "geographic": [
                     "PARLIMEN"
                 ],
-                "start": "2021",
+                "start": "2022",
                 "end": "2022",
                 "data_source": [
                     "SPR"
@@ -434,11 +434,11 @@
         {
             "id": 8,
             "catalog_filters": {
-                "frequency": "INFREQUENT",
+                "frequency": "YEARLY",
                 "geographic": [
                     "PARLIMEN"
                 ],
-                "start": "2021",
+                "start": "2022",
                 "end": "2022",
                 "data_source": [
                     "SPR"
@@ -478,11 +478,11 @@
         {
             "id": 9,
             "catalog_filters": {
-                "frequency": "INFREQUENT",
+                "frequency": "YEARLY",
                 "geographic": [
                     "PARLIMEN"
                 ],
-                "start": "2021",
+                "start": "2022",
                 "end": "2022",
                 "data_source": [
                     "SPR"
@@ -522,11 +522,11 @@
         {
             "id": 10,
             "catalog_filters": {
-                "frequency": "INFREQUENT",
+                "frequency": "YEARLY",
                 "geographic": [
                     "PARLIMEN"
                 ],
-                "start": "2021",
+                "start": "2022",
                 "end": "2022",
                 "data_source": [
                     "SPR"
@@ -566,11 +566,11 @@
         {
             "id": 11,
             "catalog_filters": {
-                "frequency": "INFREQUENT",
+                "frequency": "YEARLY",
                 "geographic": [
                     "PARLIMEN"
                 ],
-                "start": "2021",
+                "start": "2022",
                 "end": "2022",
                 "data_source": [
                     "SPR"
