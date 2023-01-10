@@ -1,6 +1,6 @@
 {
     "dashboard_name": "exchange_rates",
-    "manual_trigger" : "",
+    "manual_trigger" : "done",
     "required_params": [],
     "optional_params": [],
     "charts": {
