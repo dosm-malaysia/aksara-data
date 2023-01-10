@@ -25,7 +25,7 @@
                 "desc_bm": "[Float] Peratus daripada isi rumah yang pendapatannya berada di bawah Pendapatan Garis Kemiskinan 2019."
             },
             {
-                "id": 1,
+                "id": 2,
                 "name": "gini",
                 "title_en": "Gini Coefficient by Parliament",
                 "title_bm": "Pekali Gini mengikut Parlimen",
