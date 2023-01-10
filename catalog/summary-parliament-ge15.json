@@ -126,7 +126,7 @@
         {
             "id": 1,
             "catalog_filters": {
-                "frequency": "YEARLY",
+                "frequency": "INFREQUENT",
                 "geographic": [
                     "PARLIMEN"
                 ],
@@ -170,7 +170,7 @@
         {
             "id": 2,
             "catalog_filters": {
-                "frequency": "YEARLY",
+                "frequency": "INFREQUENT",
                 "geographic": [
                     "PARLIMEN"
                 ],
@@ -214,7 +214,7 @@
         {
             "id": 3,
             "catalog_filters": {
-                "frequency": "YEARLY",
+                "frequency": "INFREQUENT",
                 "geographic": [
                     "PARLIMEN"
                 ],
@@ -258,7 +258,7 @@
         {
             "id": 4,
             "catalog_filters": {
-                "frequency": "YEARLY",
+                "frequency": "INFREQUENT",
                 "geographic": [
                     "PARLIMEN"
                 ],
@@ -302,7 +302,7 @@
         {
             "id": 5,
             "catalog_filters": {
-                "frequency": "YEARLY",
+                "frequency": "INFREQUENT",
                 "geographic": [
                     "PARLIMEN"
                 ],
@@ -346,7 +346,7 @@
         {
             "id": 6,
             "catalog_filters": {
-                "frequency": "YEARLY",
+                "frequency": "INFREQUENT",
                 "geographic": [
                     "PARLIMEN"
                 ],
@@ -390,7 +390,7 @@
         {
             "id": 7,
             "catalog_filters": {
-                "frequency": "YEARLY",
+                "frequency": "INFREQUENT",
                 "geographic": [
                     "PARLIMEN"
                 ],
@@ -434,7 +434,7 @@
         {
             "id": 8,
             "catalog_filters": {
-                "frequency": "YEARLY",
+                "frequency": "INFREQUENT",
                 "geographic": [
                     "PARLIMEN"
                 ],
@@ -478,7 +478,7 @@
         {
             "id": 9,
             "catalog_filters": {
-                "frequency": "YEARLY",
+                "frequency": "INFREQUENT",
                 "geographic": [
                     "PARLIMEN"
                 ],
@@ -522,7 +522,7 @@
         {
             "id": 10,
             "catalog_filters": {
-                "frequency": "YEARLY",
+                "frequency": "INFREQUENT",
                 "geographic": [
                     "PARLIMEN"
                 ],
@@ -566,7 +566,7 @@
         {
             "id": 11,
             "catalog_filters": {
-                "frequency": "YEARLY",
+                "frequency": "INFREQUENT",
                 "geographic": [
                     "PARLIMEN"
                 ],
