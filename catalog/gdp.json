@@ -151,6 +151,7 @@
             "id": 1,
             "catalog_filters": {
                 "frequency": "QUARTERLY",
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -186,7 +187,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "NONE",
+                    "operation": "SUM",
                     "format": {
                         "x": "date",
                         "y": "overall",
@@ -199,6 +200,7 @@
             "id": 2,
             "catalog_filters": {
                 "frequency": "QUARTERLY",
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -234,7 +236,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "NONE",
+                    "operation": "SUM",
                     "format": {
                         "x": "date",
                         "y": "supply_agri",
@@ -247,6 +249,7 @@
             "id": 3,
             "catalog_filters": {
                 "frequency": "QUARTERLY",
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -282,7 +285,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "NONE",
+                    "operation": "SUM",
                     "format": {
                         "x": "date",
                         "y": "supply_mining",
@@ -295,6 +298,7 @@
             "id": 4,
             "catalog_filters": {
                 "frequency": "QUARTERLY",
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -330,7 +334,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "NONE",
+                    "operation": "SUM",
                     "format": {
                         "x": "date",
                         "y": "supply_manufacturing",
@@ -343,6 +347,7 @@
             "id": 5,
             "catalog_filters": {
                 "frequency": "QUARTERLY",
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -378,7 +383,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "NONE",
+                    "operation": "SUM",
                     "format": {
                         "x": "date",
                         "y": "supply_construction",
@@ -391,6 +396,7 @@
             "id": 6,
             "catalog_filters": {
                 "frequency": "QUARTERLY",
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -426,7 +432,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "NONE",
+                    "operation": "SUM",
                     "format": {
                         "x": "date",
                         "y": "supply_services",
@@ -439,6 +445,7 @@
             "id": 7,
             "catalog_filters": {
                 "frequency": "QUARTERLY",
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -474,7 +481,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "NONE",
+                    "operation": "SUM",
                     "format": {
                         "x": "date",
                         "y": "supply_import_duties",
@@ -487,6 +494,7 @@
             "id": 8,
             "catalog_filters": {
                 "frequency": "QUARTERLY",
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -522,7 +530,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "NONE",
+                    "operation": "SUM",
                     "format": {
                         "x": "date",
                         "y": "demand_c",
@@ -535,6 +543,7 @@
             "id": 9,
             "catalog_filters": {
                 "frequency": "QUARTERLY",
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -570,7 +579,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "NONE",
+                    "operation": "SUM",
                     "format": {
                         "x": "date",
                         "y": "demand_g",
@@ -583,6 +592,7 @@
             "id": 10,
             "catalog_filters": {
                 "frequency": "QUARTERLY",
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -618,7 +628,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "NONE",
+                    "operation": "SUM",
                     "format": {
                         "x": "date",
                         "y": "demand_i",
@@ -631,6 +641,7 @@
             "id": 11,
             "catalog_filters": {
                 "frequency": "QUARTERLY",
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -666,7 +677,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "NONE",
+                    "operation": "SUM",
                     "format": {
                         "x": "date",
                         "y": "demand_x",
@@ -679,6 +690,7 @@
             "id": 12,
             "catalog_filters": {
                 "frequency": "QUARTERLY",
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -714,7 +726,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "NONE",
+                    "operation": "SUM",
                     "format": {
                         "x": "date",
                         "y": "demand_m",
@@ -727,6 +739,7 @@
             "id": 13,
             "catalog_filters": {
                 "frequency": "QUARTERLY",
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -762,7 +775,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "NONE",
+                    "operation": "SUM",
                     "format": {
                         "x": "date",
                         "y": "demand_nx",
@@ -775,6 +788,7 @@
             "id": 14,
             "catalog_filters": {
                 "frequency": "QUARTERLY",
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -810,7 +824,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "NONE",
+                    "operation": "SUM",
                     "format": {
                         "x": "date",
                         "y": "demand_inventory",

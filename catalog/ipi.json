@@ -151,6 +151,7 @@
             "id": 1,
             "catalog_filters": {
                 "frequency": "MONTHLY",
+                "limit_frequency": false,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -195,6 +196,7 @@
             "id": 2,
             "catalog_filters": {
                 "frequency": "MONTHLY",
+                "limit_frequency": false,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -239,6 +241,7 @@
             "id": 3,
             "catalog_filters": {
                 "frequency": "MONTHLY",
+                "limit_frequency": false,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -283,6 +286,7 @@
             "id": 4,
             "catalog_filters": {
                 "frequency": "MONTHLY",
+                "limit_frequency": false,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -327,6 +331,7 @@
             "id": 5,
             "catalog_filters": {
                 "frequency": "MONTHLY",
+                "limit_frequency": false,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -371,6 +376,7 @@
             "id": 6,
             "catalog_filters": {
                 "frequency": "MONTHLY",
+                "limit_frequency": false,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -415,6 +421,7 @@
             "id": 7,
             "catalog_filters": {
                 "frequency": "MONTHLY",
+                "limit_frequency": false,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -459,6 +466,7 @@
             "id": 8,
             "catalog_filters": {
                 "frequency": "MONTHLY",
+                "limit_frequency": false,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -503,6 +511,7 @@
             "id": 9,
             "catalog_filters": {
                 "frequency": "MONTHLY",
+                "limit_frequency": false,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -547,6 +556,7 @@
             "id": 10,
             "catalog_filters": {
                 "frequency": "MONTHLY",
+                "limit_frequency": false,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -591,6 +601,7 @@
             "id": 11,
             "catalog_filters": {
                 "frequency": "MONTHLY",
+                "limit_frequency": false,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -635,6 +646,7 @@
             "id": 12,
             "catalog_filters": {
                 "frequency": "MONTHLY",
+                "limit_frequency": false,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -679,6 +691,7 @@
             "id": 13,
             "catalog_filters": {
                 "frequency": "MONTHLY",
+                "limit_frequency": false,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -723,6 +736,7 @@
             "id": 14,
             "catalog_filters": {
                 "frequency": "MONTHLY",
+                "limit_frequency": false,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -767,6 +781,7 @@
             "id": 15,
             "catalog_filters": {
                 "frequency": "MONTHLY",
+                "limit_frequency": false,
                 "geographic": [
                     "NATIONAL"
                 ],

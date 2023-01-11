@@ -79,6 +79,7 @@
             "id": 1,
             "catalog_filters": {
                 "frequency": "MONTHLY",
+                "limit_frequency": false,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -123,6 +124,7 @@
             "id": 2,
             "catalog_filters": {
                 "frequency": "MONTHLY",
+                "limit_frequency": false,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -167,6 +169,7 @@
             "id": 3,
             "catalog_filters": {
                 "frequency": "MONTHLY",
+                "limit_frequency": false,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -211,6 +214,7 @@
             "id": 4,
             "catalog_filters": {
                 "frequency": "MONTHLY",
+                "limit_frequency": false,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -255,6 +259,7 @@
             "id": 5,
             "catalog_filters": {
                 "frequency": "MONTHLY",
+                "limit_frequency": false,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -299,6 +304,7 @@
             "id": 6,
             "catalog_filters": {
                 "frequency": "MONTHLY",
+                "limit_frequency": false,
                 "geographic": [
                     "NATIONAL"
                 ],
