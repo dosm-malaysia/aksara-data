@@ -18,11 +18,11 @@
         "variables": [
             {
                 "id": 0,
-                "name": "table_title",
-                "title_en": "Date",
-                "title_bm": "Tarikh",
-                "desc_en": "[Date] The date in YYYY-MM-DD format",
-                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+                "name": "PriceCatcher: January 2023 (preview)",
+                "title_en": "PriceCatcher: January 2023 (preview)",
+                "title_bm": "PriceCatcher: Januari 2023 (preview)",
+                "desc_en": "The table below provides a preview of the full dataset, which contains over a million prices. We recommend that you download and work with the data in a coding environment.",
+                "desc_bm": "Jadual di bawah memberi pratonton kepada dataset penuh yang mengandungi lebih daripada sejuta harga. Kami sarankan anda memuat turun dan menganalisa data dengan menggunakan kod."
             },
             {
                 "id": 1,
