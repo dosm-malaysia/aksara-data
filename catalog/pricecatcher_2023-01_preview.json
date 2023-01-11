@@ -1,0 +1,99 @@
+{
+    "file": {
+        "bucket": "dosm-public-pricecatcher",
+        "file_name": "pricecatcher_2023-01_preview",
+        "category": "ECONOMY",
+        "category_en": "Economy",
+        "category_bm": "Ekonomi",
+        "subcategory": "PRICECATCHER",
+        "subcategory_en": "PriceCatcher (KPDNKSH)",
+        "subcategory_bm": "PriceCatcher (KPDNKSH)",
+        "description": {
+            "en": "PriceCatcher is a mobile app developed by the Ministry of Domestic Trade and Cost of Living (KPDNKSH, formerly KPDNHEP) to help users compare the prices of key items in their area. Prices are collected and verified by groundstaff on a daily basis, with over 2 million prices collected every month. This dataset makes that wealth of data available to you for analysis.",
+            "bm": "PriceCatcher adalah aplikasi mudah ali yang dibangunkan oleh Kementerian Perdagangan Dalam Negeri dan Kos Sara Hidup (KPDNKSH, dahulunya KPDNHEP) untuk membantu pengguna mendapatkan harga barangan cepumas di sekeliling mereka. Harga dipungut dah disahkan oleh staf di lapangan, dengan lebih 2 juta harga dipungut setiap bulan. Dataset ini membolehkan anda menggunakan data raya tersebut untuk analisa lanjut."
+        },
+        "link_parquet": "https://storage.googleapis.com/dosm-public-pricecatcher/pricecatcher_2023-01.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-pricecatcher/pricecatcher_2023-01.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-pricecatcher/pricecatcher_2023-01.metadata",
+        "variables": [
+            {
+                "id": 0,
+                "name": "table_title",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+            },
+            {
+                "id": 1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+            },
+            {
+                "id": 2,
+                "name": "premise_code",
+                "title_en": "Premise Code",
+                "title_bm": "Kod Premis",
+                "desc_en": "[Categorical] Integer representing the premise, to be mapped using the Premise Lookup Table (available in the OpenDOSM Data Catalogue). The lookup table will give you the premise name, address, district, and state.",
+                "desc_bm": "[Kategori] Integer yang melambangkan premis, yang perlu dipadankan dengan Jadual Carian Premis (boleh didapati di Katalog Data OpenDOSM). Jadual carian membolehkan anda mendapatkan nama, alamat, daerah, dan negeri bagi setiap premis."
+            },
+            {
+                "id": 3,
+                "name": "item_code",
+                "title_en": "Item Code",
+                "title_bm": "Kod Barangan",
+                "desc_en": "[Categorical] Integer representing the item, to be mapped using the Item Lookup Table (available in the Data Catalogue). The lookup table will give you the item name, unit of measurement, and categorisation.",
+                "desc_bm": "[Kategori] Integer yang melambangkan barangan, yang perlu dipadankan dengan Jadual Carian Barangan (boleh didapati di Katalog Data OpenDOSM). Jadual carian membolehkan anda mendapatkan nama, unit ukuran, dan kategori bagi setiap barang."
+            },
+            {
+                "id": 4,
+                "name": "price",
+                "title_en": "Price",
+                "title_bm": "Harga",
+                "desc_en": "[Float] Price in RM",
+                "desc_bm": "[Apung] Harga dalam RM"
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 0,
+            "catalog_filters": {
+                "frequency": "DAILY",
+                "geographic": [
+                    "DISTRICT"
+                ],
+                "start": "2023",
+                "end": "2023",
+                "data_source": [
+                    "KPDNKSH"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-10 23:59",
+                "last_updated": "2023-01-11 12:00",
+                "next_update": "2023-01-12 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Prices are collected and verified by groundstaff on a daily basis, with over 2 million prices collected every month.",
+                    "caveat": "This data is collected for the purpose of price surveillance, and is excellent for high-frequency analysis of specific items in specific locations. Inflation surveillance requires a different approach, in particular to ensure proper representativeness. Inflation analysis should be conducted using DOSM's CPI data."
+                },
+                "bm": {
+                    "methodology": "Harga dipungut dah disahkan oleh staf di lapangan, dengan lebih 2 juta harga dipungut setiap bulan.",
+                    "caveat": "This data is collected for the purpose of price surveillance, and is excellent for high-frequency analysis of specific items in specific locations. Inflation surveillance requires a different approach, in particular to ensure proper representativeness. Inflation analysis should be conducted using DOSM's CPI data."
+                }
+            },
+            "chart": {
+                "chart_type": "TABLE",
+                "chart_filters": {
+                    "FREEZE": [],
+                    "EXCLUDE": []
+                }
+            }
+        }
+    ]
+}
