@@ -1,6 +1,6 @@
 {
     "dashboard_name": "currency",
-    "manual_trigger" : "2",
+    "manual_trigger" : "",
     "required_params": [],
     "optional_params": [],
     "charts": {
@@ -33,7 +33,9 @@
                 "coin_rm1" : "coin_rm1", 
                 "coin_rm5" : "coin_rm5", 
                 "coin_others" : "coin_others",
-                "recession" : "recession"       
+                "recession" : "recession",
+                "cny" : "cny",
+                "eid" : "eid"       
             }
         }
       },
