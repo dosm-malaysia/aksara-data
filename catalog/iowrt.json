@@ -127,7 +127,7 @@
             "id": 1,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -138,9 +138,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-10-31 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-11-30 23:59",
+                "last_updated": "2023-01-11 12:00",
+                "next_update": "2023-02-08 12:00"
             },
             "metadata_lang": {
                 "en": {
@@ -172,7 +172,7 @@
             "id": 2,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -183,9 +183,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-10-31 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-11-30 23:59",
+                "last_updated": "2023-01-11 12:00",
+                "next_update": "2023-02-08 12:00"
             },
             "metadata_lang": {
                 "en": {
@@ -217,7 +217,7 @@
             "id": 3,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -228,9 +228,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-10-31 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-11-30 23:59",
+                "last_updated": "2023-01-11 12:00",
+                "next_update": "2023-02-08 12:00"
             },
             "metadata_lang": {
                 "en": {
@@ -262,7 +262,7 @@
             "id": 4,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -273,9 +273,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-10-31 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-11-30 23:59",
+                "last_updated": "2023-01-11 12:00",
+                "next_update": "2023-02-08 12:00"
             },
             "metadata_lang": {
                 "en": {
@@ -307,7 +307,7 @@
             "id": 5,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -318,9 +318,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-10-31 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-11-30 23:59",
+                "last_updated": "2023-01-11 12:00",
+                "next_update": "2023-02-08 12:00"
             },
             "metadata_lang": {
                 "en": {
@@ -352,7 +352,7 @@
             "id": 6,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -363,9 +363,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-10-31 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-11-30 23:59",
+                "last_updated": "2023-01-11 12:00",
+                "next_update": "2023-02-08 12:00"
             },
             "metadata_lang": {
                 "en": {
@@ -397,7 +397,7 @@
             "id": 7,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -408,9 +408,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-10-31 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-11-30 23:59",
+                "last_updated": "2023-01-11 12:00",
+                "next_update": "2023-02-08 12:00"
             },
             "metadata_lang": {
                 "en": {
@@ -442,7 +442,7 @@
             "id": 8,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -453,9 +453,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-10-31 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-11-30 23:59",
+                "last_updated": "2023-01-11 12:00",
+                "next_update": "2023-02-08 12:00"
             },
             "metadata_lang": {
                 "en": {
@@ -487,7 +487,7 @@
             "id": 9,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -498,9 +498,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-10-31 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-11-30 23:59",
+                "last_updated": "2023-01-11 12:00",
+                "next_update": "2023-02-08 12:00"
             },
             "metadata_lang": {
                 "en": {
@@ -532,7 +532,7 @@
             "id": 10,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -543,9 +543,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-10-31 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-11-30 23:59",
+                "last_updated": "2023-01-11 12:00",
+                "next_update": "2023-02-08 12:00"
             },
             "metadata_lang": {
                 "en": {
@@ -577,7 +577,7 @@
             "id": 11,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -588,9 +588,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-10-31 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-11-30 23:59",
+                "last_updated": "2023-01-11 12:00",
+                "next_update": "2023-02-08 12:00"
             },
             "metadata_lang": {
                 "en": {
@@ -622,7 +622,7 @@
             "id": 12,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -633,9 +633,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-10-31 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-11-30 23:59",
+                "last_updated": "2023-01-11 12:00",
+                "next_update": "2023-02-08 12:00"
             },
             "metadata_lang": {
                 "en": {
