@@ -7,7 +7,7 @@
       "timeseries": {
         "name": "timeseries",
         "chart_type": "timeseries_chart",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/currency_timeseries.parquet??ignoreCache=1",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/currency_timeseries_adhoc.parquet",
         "data_as_of" : "2022-11-30 23:59",
         "api_type": "static",
         "api_params": [],
@@ -42,7 +42,7 @@
       "bar_chart": {
         "name": "bar_chart",
         "chart_type": "bar_meter",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/currency_barmeter.parquet",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/currency_barmeter_adhoc.parquet",
         "data_as_of" : "2022-11-30 23:59",
         "api_type": "static",
         "api_params": [],
@@ -66,7 +66,7 @@
       "statistics": {
         "name": "statistics",
         "chart_type": "custom_chart",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/currency_timeseries_callout.parquet??ignoreCache=1",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/currency_timeseries_callout_adhoc.parquet",
         "data_as_of" : "2022-11-30 23:59",
         "api_type": "static",
         "api_params": [],
