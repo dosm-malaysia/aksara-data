@@ -4,6 +4,19 @@
     "required_params": [],
     "optional_params": [],
     "charts": {
+      "highlight": {
+        "name": "highlight",
+        "chart_type": "custom_chart",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_main_callout.parquet",
+        "data_as_of" : "2023-01-10 23:59",
+        "api_type": "static",
+        "api_params": [],
+        "variables": {
+          "keys": ["chart"],
+          "columns": ["callout"],
+          "null_vals": null
+        }
+      },
       "timeseries": {
         "name": "timeseries",
         "chart_type": "timeseries_chart",
@@ -30,7 +43,7 @@
         "api_params": [],
         "variables": {
           "keys": ["chart"],
-          "columns": ["callout"],
+          "columns": ["callout1","callout2"],
           "null_vals": null
         }
       },
