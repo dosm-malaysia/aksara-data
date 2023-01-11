@@ -1,13 +1,13 @@
 {
     "dashboard_name": "homepage",
-    "manual_trigger" : "1",
+    "manual_trigger" : "",
     "required_params": [],
     "optional_params": [],
     "charts": {
       "highlight": {
         "name": "highlight",
         "chart_type": "custom_chart",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_main_callout.parquet",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_main_callout.parquet?ignoreCache=1",
         "data_as_of" : "2023-01-10 23:59",
         "api_type": "static",
         "api_params": [],
