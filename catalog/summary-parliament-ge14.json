@@ -9,8 +9,8 @@
         "subcategory_en": "Voting Statistics",
         "subcategory_bm": "Statistik Undi",
         "description": {
-            "en": "This dataset provides a headline summary of key voting statistics for GE14 at parliament level, including voter turnout, margin of victory, and rejected votes. GE15 was held on 9th May 2018.",
-            "bm": "Dataset ini merumuskan statistik undi penting bagi PRU15 di peringkat parlimen, termasuk peratus keluar, margin kemenangan, dan undi tolak. PRU15 dilaksanakan pada9 Mei 2018."
+            "en": "This dataset provides a headline summary of key voting statistics for GE14 at parliament level, including voter turnout, margin of victory, and rejected votes. GE14 was held on 9th May 2018.",
+            "bm": "Dataset ini merumuskan statistik undi penting bagi PRU14 di peringkat parlimen, termasuk peratus keluar, margin kemenangan, dan undi tolak. PRU14 dilaksanakan pada 9 Mei 2018."
         },
         "link_parquet": "https://storage.googleapis.com/dosm-public-elections/summary-parliament-ge14.parquet",
         "link_csv": "https://storage.googleapis.com/dosm-public-elections/summary-parliament-ge14.csv",
