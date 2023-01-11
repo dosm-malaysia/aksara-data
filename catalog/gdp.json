@@ -186,7 +186,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "SUM",
+                    "operation": "NONE",
                     "format": {
                         "x": "date",
                         "y": "overall",
@@ -234,7 +234,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "SUM",
+                    "operation": "NONE",
                     "format": {
                         "x": "date",
                         "y": "supply_agri",
@@ -282,7 +282,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "SUM",
+                    "operation": "NONE",
                     "format": {
                         "x": "date",
                         "y": "supply_mining",
@@ -330,7 +330,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "SUM",
+                    "operation": "NONE",
                     "format": {
                         "x": "date",
                         "y": "supply_manufacturing",
@@ -378,7 +378,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "SUM",
+                    "operation": "NONE",
                     "format": {
                         "x": "date",
                         "y": "supply_construction",
@@ -426,7 +426,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "SUM",
+                    "operation": "NONE",
                     "format": {
                         "x": "date",
                         "y": "supply_services",
@@ -474,7 +474,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "SUM",
+                    "operation": "NONE",
                     "format": {
                         "x": "date",
                         "y": "supply_import_duties",
@@ -522,7 +522,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "SUM",
+                    "operation": "NONE",
                     "format": {
                         "x": "date",
                         "y": "demand_c",
@@ -570,7 +570,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "SUM",
+                    "operation": "NONE",
                     "format": {
                         "x": "date",
                         "y": "demand_g",
@@ -618,7 +618,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "SUM",
+                    "operation": "NONE",
                     "format": {
                         "x": "date",
                         "y": "demand_i",
@@ -666,7 +666,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "SUM",
+                    "operation": "NONE",
                     "format": {
                         "x": "date",
                         "y": "demand_x",
@@ -714,7 +714,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "SUM",
+                    "operation": "NONE",
                     "format": {
                         "x": "date",
                         "y": "demand_m",
@@ -762,7 +762,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "SUM",
+                    "operation": "NONE",
                     "format": {
                         "x": "date",
                         "y": "demand_nx",
@@ -810,7 +810,7 @@
                     "parents": [
                         "series_type"
                     ],
-                    "operation": "SUM",
+                    "operation": "NONE",
                     "format": {
                         "x": "date",
                         "y": "demand_inventory",
