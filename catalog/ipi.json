@@ -30,7 +30,7 @@
                 "title_en": "IPI (Industrial Production Index)",
                 "title_bm": "IPP (Indeks Pengeluaran Perindustrian)",
                 "desc_en": "[Float] Index, with base 2015 = 100",
-                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2015 = 100"
             },
             {
                 "id": 2,
@@ -38,7 +38,7 @@
                 "title_en": "IPI: Mining",
                 "title_bm": "IPP: Perlombongan",
                 "desc_en": "[Float] Index, with base 2015 = 100",
-                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2015 = 100"
             },
             {
                 "id": 3,
@@ -46,7 +46,7 @@
                 "title_en": "IPI: Manufacturing",
                 "title_bm": "IPP: Pembuatan",
                 "desc_en": "[Float] Index, with base 2015 = 100",
-                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2015 = 100"
             },
             {
                 "id": 4,
@@ -54,7 +54,7 @@
                 "title_en": "IPI: Electricity",
                 "title_bm": "IPP: Elektrik",
                 "desc_en": "[Float] Index, with base 2015 = 100",
-                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2015 = 100"
             },
             {
                 "id": 5,
@@ -62,7 +62,7 @@
                 "title_en": "IPI: Manufacturing (Food, Beverages and Tobacco)",
                 "title_bm": "IPP: Pembuatan(Makanan, Minuman dan Tembakau)",
                 "desc_en": "[Float] Index, with base 2015 = 100",
-                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2015 = 100"
             },
             {
                 "id": 6,
@@ -70,7 +70,7 @@
                 "title_en": "IPI: Manufacturing (Textiles, Wearing Apparel, Leather Products and Footwear)",
                 "title_bm": "IPP: Pembuatan(Produk Tekstil, Pakaian, Kulit dan Kasut)",
                 "desc_en": "[Float] Index, with base 2015 = 100",
-                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2015 = 100"
             },
             {
                 "id": 7,
@@ -78,7 +78,7 @@
                 "title_en": "IPI: Manufacturing (Wood Products, Furniture, Paper Products, Printing)",
                 "title_bm": "IPP: Pembuatan(Produk Kayu, Perabot, Keluaran Kertas, Percetakan)",
                 "desc_en": "[Float] Index, with base 2015 = 100",
-                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2015 = 100"
             },
             {
                 "id": 8,
@@ -86,7 +86,7 @@
                 "title_en": "IPI: Manufacturing (Petroleum, Chemical, Rubber and Plastic Products)",
                 "title_bm": "IPP: Pembuatan(Produk Petroleum, Kimia, Getah dan Plastik)",
                 "desc_en": "[Float] Index, with base 2015 = 100",
-                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2015 = 100"
             },
             {
                 "id": 9,
@@ -94,7 +94,7 @@
                 "title_en": "IPI: Manufacturing (Non-metallic Mineral Products, Basic Metal and Fabricated Metal Products)",
                 "title_bm": "IPP: Pembuatan(Produk Mineral Bukan Logam, Logam Asas dan Produk Logam yang Direka)",
                 "desc_en": "[Float] Index, with base 2015 = 100",
-                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2015 = 100"
             },
             {
                 "id": 10,
@@ -102,7 +102,7 @@
                 "title_en": "IPI: Manufacturing (Electrical and Electronics Products)",
                 "title_bm": "IPP: Pembuatan(Produk Peralatan Elektrik dan Elektronik)",
                 "desc_en": "[Float] Index, with base 2015 = 100",
-                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2015 = 100"
             },
             {
                 "id": 11,
@@ -110,7 +110,7 @@
                 "title_en": "IPI: Manufacturing (Transport Equipment and Other Manufactures)",
                 "title_bm": "IPP: Pembuatan(Kelengkapan Pengangkutan dan Pembuatan Lain)",
                 "desc_en": "[Float] Index, with base 2015 = 100",
-                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2015 = 100"
             },
             {
                 "id": 12,
@@ -118,7 +118,7 @@
                 "title_en": "IPI (sa)",
                 "title_bm": "IPP (tsm)",
                 "desc_en": "[Float] Index, with base 2015 = 100",
-                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2015 = 100"
             },
             {
                 "id": 13,
@@ -126,7 +126,7 @@
                 "title_en": "IPI: Mining (sa)",
                 "title_bm": "IPP: Perlombongan (tsm)",
                 "desc_en": "[Float] Index, with base 2015 = 100",
-                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2015 = 100"
             },
             {
                 "id": 14,
@@ -134,7 +134,7 @@
                 "title_en": "IPI: Manufacturing (sa)",
                 "title_bm": "IPP: Pembuatan (tsm)",
                 "desc_en": "[Float] Index, with base 2015 = 100",
-                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2015 = 100"
             },
             {
                 "id": 15,
@@ -142,7 +142,7 @@
                 "title_en": "IPI: Electricity (sa)",
                 "title_bm": "IPP: Elektrik (tsm)",
                 "desc_en": "[Float] Index, with base 2015 = 100",
-                "desc_bm": "[Apung] Indeks, dengan asas 2015 = 100"
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2015 = 100"
             }
         ]
     },
@@ -168,12 +168,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
+                    "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
+                    "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia."
                 }
             },
             "chart": {
@@ -213,12 +213,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
+                    "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
+                    "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia."
                 }
             },
             "chart": {
@@ -258,12 +258,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
+                    "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
+                    "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia."
                 }
             },
             "chart": {
@@ -303,12 +303,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
+                    "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
+                    "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia."
                 }
             },
             "chart": {
@@ -348,12 +348,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
+                    "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
+                    "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia."
                 }
             },
             "chart": {
@@ -393,12 +393,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
+                    "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
+                    "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia."
                 }
             },
             "chart": {
@@ -438,12 +438,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
+                    "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
+                    "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia."
                 }
             },
             "chart": {
@@ -483,12 +483,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
+                    "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
+                    "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia."
                 }
             },
             "chart": {
@@ -528,12 +528,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
+                    "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
+                    "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia."
                 }
             },
             "chart": {
@@ -573,12 +573,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
+                    "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
+                    "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia."
                 }
             },
             "chart": {
@@ -618,12 +618,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
+                    "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
+                    "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia."
                 }
             },
             "chart": {
@@ -663,12 +663,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
+                    "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
+                    "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia."
                 }
             },
             "chart": {
@@ -708,12 +708,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
+                    "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
+                    "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia."
                 }
             },
             "chart": {
@@ -753,12 +753,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
+                    "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
+                    "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia."
                 }
             },
             "chart": {
@@ -798,12 +798,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
+                    "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
+                    "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia."
                 }
             },
             "chart": {

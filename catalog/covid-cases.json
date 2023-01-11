@@ -1,7 +1,7 @@
 {
     "file": {
         "bucket": "dosm-public-healthcare",
-        "file_name": "covid-cases-new",
+        "file_name": "covid-cases",
         "category": "HEALTHCARE",
         "category_en": "Healthcare",
         "category_bm": "Kesihatan",
@@ -12,9 +12,9 @@
             "en": "This data documents COVID-19 cases as announced by the Ministry of Health Malaysia, with various breakdowns.",
             "bm": "Data ini mendokumentasikan semua kes COVID-19 seperti mana yang diumumkan oleh Kementerian Kesihatan Malaysia."
         },
-        "link_parquet": "https://storage.googleapis.com/dosm-public-healthcare/covid-cases-new.parquet",
-        "link_csv": "https://storage.googleapis.com/dosm-public-healthcare/covid-cases-new.csv",
-        "link_metadata": "https://storage.googleapis.com/dosm-public-healthcare/covid-cases-new.metadata",
+        "link_parquet": "https://storage.googleapis.com/dosm-public-healthcare/covid-cases.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-healthcare/covid-cases.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-healthcare/covid-cases.metadata",
         "variables": [
             {
                 "id": -1,
@@ -115,18 +115,18 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-07 23:59",
-                "last_updated": "2023-01-08 00:01",
-                "next_update": "2023-01-09 00:01"
+                "data_as_of": "2023-01-11 23:59",
+                "last_updated": "2023-01-12 00:01",
+                "next_update": "2023-01-13 00:01"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
+                    "caveat": "The number of confirmed cases may be less than the number of actual cases due to under-testing and under-reporting of test results. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 },
                 "bm": {
-                    "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
+                    "methodology": "Kes COVID-19 adalah kes seperti yang ditakrifkan dalam Anneks 1 Panduan COVID-19 KKM, yang memerincakan definisi bagi kes PUI, dan kes disahkan.",
+                    "caveat": "Jumlah kes yang diumumkan mungkin kurang daripada jumlah kes yang disebenar sama ada kerana saringan tidak dapat mengesan semua kes, ataupun keputusan saringan tidak dilaporkan. Isu ini berkemungkinan semakin menjadi susulan pelonggaran sekatan COVID-19 selepas Mei 2023."
                 }
             },
             "chart": {
@@ -165,18 +165,18 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-07 23:59",
-                "last_updated": "2023-01-08 00:01",
-                "next_update": "2023-01-09 00:01"
+                "data_as_of": "2023-01-11 23:59",
+                "last_updated": "2023-01-12 00:01",
+                "next_update": "2023-01-13 00:01"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
+                    "caveat": "The number of confirmed cases may be less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 },
                 "bm": {
-                    "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
+                    "methodology": "Kes COVID-19 adalah kes seperti yang ditakrifkan dalam Anneks 1 Panduan COVID-19 KKM, yang memerincakan definisi bagi kes PUI, dan kes disahkan.",
+                    "caveat": "Jumlah kes yang diumumkan mungkin kurang daripada jumlah kes yang disebenar sama ada kerana saringan tidak dapat mengesan semua kes, ataupun keputusan saringan tidak dilaporkan. Isu ini berkemungkinan semakin menjadi susulan pelonggaran sekatan COVID-19 selepas Mei 2023."
                 }
             },
             "chart": {
@@ -215,18 +215,18 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-07 23:59",
-                "last_updated": "2023-01-08 00:01",
-                "next_update": "2023-01-09 00:01"
+                "data_as_of": "2023-01-11 23:59",
+                "last_updated": "2023-01-12 00:01",
+                "next_update": "2023-01-13 00:01"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
+                    "caveat": "The number of confirmed cases may be less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 },
                 "bm": {
-                    "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
+                    "methodology": "Kes COVID-19 adalah kes seperti yang ditakrifkan dalam Anneks 1 Panduan COVID-19 KKM, yang memerincakan definisi bagi kes PUI, dan kes disahkan.",
+                    "caveat": "Jumlah kes yang diumumkan mungkin kurang daripada jumlah kes yang disebenar sama ada kerana saringan tidak dapat mengesan semua kes, ataupun keputusan saringan tidak dilaporkan. Isu ini berkemungkinan semakin menjadi susulan pelonggaran sekatan COVID-19 selepas Mei 2023."
                 }
             },
             "chart": {
@@ -265,18 +265,18 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-07 23:59",
-                "last_updated": "2023-01-08 00:01",
-                "next_update": "2023-01-09 00:01"
+                "data_as_of": "2023-01-11 23:59",
+                "last_updated": "2023-01-12 00:01",
+                "next_update": "2023-01-13 00:01"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
+                    "caveat": "The number of confirmed cases may be less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 },
                 "bm": {
-                    "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
+                    "methodology": "Kes COVID-19 adalah kes seperti yang ditakrifkan dalam Anneks 1 Panduan COVID-19 KKM, yang memerincakan definisi bagi kes PUI, dan kes disahkan.",
+                    "caveat": "Jumlah kes yang diumumkan mungkin kurang daripada jumlah kes yang disebenar sama ada kerana saringan tidak dapat mengesan semua kes, ataupun keputusan saringan tidak dilaporkan. Isu ini berkemungkinan semakin menjadi susulan pelonggaran sekatan COVID-19 selepas Mei 2023."
                 }
             },
             "chart": {
@@ -315,18 +315,18 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-07 23:59",
-                "last_updated": "2023-01-08 00:01",
-                "next_update": "2023-01-09 00:01"
+                "data_as_of": "2023-01-11 23:59",
+                "last_updated": "2023-01-12 00:01",
+                "next_update": "2023-01-13 00:01"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
+                    "caveat": "The number of confirmed cases may be less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 },
                 "bm": {
-                    "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
+                    "methodology": "Kes COVID-19 adalah kes seperti yang ditakrifkan dalam Anneks 1 Panduan COVID-19 KKM, yang memerincakan definisi bagi kes PUI, dan kes disahkan.",
+                    "caveat": "Jumlah kes yang diumumkan mungkin kurang daripada jumlah kes yang disebenar sama ada kerana saringan tidak dapat mengesan semua kes, ataupun keputusan saringan tidak dilaporkan. Isu ini berkemungkinan semakin menjadi susulan pelonggaran sekatan COVID-19 selepas Mei 2023."
                 }
             },
             "chart": {
@@ -365,18 +365,18 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-07 23:59",
-                "last_updated": "2023-01-08 00:01",
-                "next_update": "2023-01-09 00:01"
+                "data_as_of": "2023-01-11 23:59",
+                "last_updated": "2023-01-12 00:01",
+                "next_update": "2023-01-13 00:01"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
+                    "caveat": "The number of confirmed cases may be less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 },
                 "bm": {
-                    "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
+                    "methodology": "Kes COVID-19 adalah kes seperti yang ditakrifkan dalam Anneks 1 Panduan COVID-19 KKM, yang memerincakan definisi bagi kes PUI, dan kes disahkan.",
+                    "caveat": "Jumlah kes yang diumumkan mungkin kurang daripada jumlah kes yang disebenar sama ada kerana saringan tidak dapat mengesan semua kes, ataupun keputusan saringan tidak dilaporkan. Isu ini berkemungkinan semakin menjadi susulan pelonggaran sekatan COVID-19 selepas Mei 2023."
                 }
             },
             "chart": {
@@ -415,18 +415,18 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-07 23:59",
-                "last_updated": "2023-01-08 00:01",
-                "next_update": "2023-01-09 00:01"
+                "data_as_of": "2023-01-11 23:59",
+                "last_updated": "2023-01-12 00:01",
+                "next_update": "2023-01-13 00:01"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
+                    "caveat": "The number of confirmed cases may be less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 },
                 "bm": {
-                    "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
+                    "methodology": "Kes COVID-19 adalah kes seperti yang ditakrifkan dalam Anneks 1 Panduan COVID-19 KKM, yang memerincakan definisi bagi kes PUI, dan kes disahkan.",
+                    "caveat": "Jumlah kes yang diumumkan mungkin kurang daripada jumlah kes yang disebenar sama ada kerana saringan tidak dapat mengesan semua kes, ataupun keputusan saringan tidak dilaporkan. Isu ini berkemungkinan semakin menjadi susulan pelonggaran sekatan COVID-19 selepas Mei 2023."
                 }
             },
             "chart": {
@@ -465,18 +465,18 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-07 23:59",
-                "last_updated": "2023-01-08 00:01",
-                "next_update": "2023-01-09 00:01"
+                "data_as_of": "2023-01-11 23:59",
+                "last_updated": "2023-01-12 00:01",
+                "next_update": "2023-01-13 00:01"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
+                    "caveat": "The number of confirmed cases may be less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
                 },
                 "bm": {
-                    "methodology": "Confirmed COVID-19 cases are cases as defined in Annex 1 of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
-                    "caveat": "The number of confirmed cases is less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell."
+                    "methodology": "Kes COVID-19 adalah kes seperti yang ditakrifkan dalam Anneks 1 Panduan COVID-19 KKM, yang memerincakan definisi bagi kes PUI, dan kes disahkan.",
+                    "caveat": "Jumlah kes yang diumumkan mungkin kurang daripada jumlah kes yang disebenar sama ada kerana saringan tidak dapat mengesan semua kes, ataupun keputusan saringan tidak dilaporkan. Isu ini berkemungkinan semakin menjadi susulan pelonggaran sekatan COVID-19 selepas Mei 2023."
                 }
             },
             "chart": {

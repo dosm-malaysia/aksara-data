@@ -37,112 +37,112 @@
                 "name": "overall",
                 "title_en": "GDP (Gross Domestic Product)",
                 "title_bm": "KDNK (Keluaran Dalam Negeri Kasar)",
-                "desc_en": "[Integer, RM mil] Variable",
-                "desc_bm": "[Integer, RM juta] Pembolehubah"
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015."
             },
             {
                 "id": 2,
                 "name": "supply_agri",
                 "title_en": "GDP by Activity: Agriculture",
                 "title_bm": "KDNK mengikut Aktiviti: Pertanian",
-                "desc_en": "[Integer, RM mil] Variable",
-                "desc_bm": "[Integer, RM juta] Pembolehubah"
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015."
             },
             {
                 "id": 3,
                 "name": "supply_mining",
                 "title_en": "GDP by Activity: Mining",
                 "title_bm": "KDNK mengikut Aktiviti: Perlombongan",
-                "desc_en": "[Integer, RM mil] Variable",
-                "desc_bm": "[Integer, RM juta] Pembolehubah"
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015."
             },
             {
                 "id": 4,
                 "name": "supply_manufacturing",
                 "title_en": "GDP by Activity: Manufacturing",
                 "title_bm": "KDNK mengikut Aktiviti: Pembuatan",
-                "desc_en": "[Integer, RM mil] Variable",
-                "desc_bm": "[Integer, RM juta] Pembolehubah"
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015."
             },
             {
                 "id": 5,
                 "name": "supply_construction",
                 "title_en": "GDP by Activity: Construction",
                 "title_bm": "KDNK mengikut Aktiviti: Pembinaan",
-                "desc_en": "[Integer, RM mil] Variable",
-                "desc_bm": "[Integer, RM juta] Pembolehubah"
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015."
             },
             {
                 "id": 6,
                 "name": "supply_services",
                 "title_en": "GDP by Activity: Services",
                 "title_bm": "KDNK mengikut Aktiviti: Perkhidmatan",
-                "desc_en": "[Integer, RM mil] Variable",
-                "desc_bm": "[Integer, RM juta] Pembolehubah"
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015."
             },
             {
                 "id": 7,
                 "name": "supply_import_duties",
                 "title_en": "GDP by Activity: Import Duties",
                 "title_bm": "KDNK mengikut Aktiviti: Duti Impot",
-                "desc_en": "[Integer, RM mil] Variable",
-                "desc_bm": "[Integer, RM juta] Pembolehubah"
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015."
             },
             {
                 "id": 8,
                 "name": "demand_c",
                 "title_en": "GDP by Expenditure: Private Consumption",
                 "title_bm": "KDNK mengikut Perbelanjaan: Penggunaan Swasta",
-                "desc_en": "[Integer, RM mil] Variable",
-                "desc_bm": "[Integer, RM juta] Pembolehubah"
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015."
             },
             {
                 "id": 9,
                 "name": "demand_g",
                 "title_en": "GDP by Expenditure: Government Spending",
                 "title_bm": "KDNK mengikut Perbelanjaan: Penggunaan Kerajaan",
-                "desc_en": "[Integer, RM mil] Variable",
-                "desc_bm": "[Integer, RM juta] Pembolehubah"
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015."
             },
             {
                 "id": 10,
                 "name": "demand_i",
                 "title_en": "GDP by Expenditure: GFCF",
                 "title_bm": "KDNK mengikut Perbelanjaan: PMTK",
-                "desc_en": "[Integer, RM mil] Variable",
-                "desc_bm": "[Integer, RM juta] Pembolehubah"
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015."
             },
             {
                 "id": 11,
                 "name": "demand_x",
                 "title_en": "GDP by Expenditure: Exports",
                 "title_bm": "KDNK mengikut Perbelanjaan: Ekspot",
-                "desc_en": "[Integer, RM mil] Variable",
-                "desc_bm": "[Integer, RM juta] Pembolehubah"
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015."
             },
             {
                 "id": 12,
                 "name": "demand_m",
                 "title_en": "GDP by Expenditure: Imports",
                 "title_bm": "KDNK mengikut Perbelanjaan: Impot",
-                "desc_en": "[Integer, RM mil] Variable",
-                "desc_bm": "[Integer, RM juta] Pembolehubah"
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015."
             },
             {
                 "id": 13,
                 "name": "demand_nx",
                 "title_en": "GDP by Expenditure: Net Exports",
                 "title_bm": "KDNK mengikut Perbelanjaan: Ekspot Bersih",
-                "desc_en": "[Integer, RM mil] Variable",
-                "desc_bm": "[Integer, RM juta] Pembolehubah"
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015."
             },
             {
                 "id": 14,
                 "name": "demand_inventory",
                 "title_en": "GDP by Expenditure: Change in Inventories",
                 "title_bm": "KDNK mengikut Perbelanjaan: Perubahan Inventori",
-                "desc_en": "[Integer, RM mil] Variable",
-                "desc_bm": "[Integer, RM juta] Pembolehubah"
+                "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
+                "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015."
             }
         ]
     },
@@ -168,12 +168,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
                 }
             },
             "chart": {
@@ -217,12 +217,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
                 }
             },
             "chart": {
@@ -266,12 +266,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
                 }
             },
             "chart": {
@@ -315,12 +315,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
                 }
             },
             "chart": {
@@ -364,12 +364,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
                 }
             },
             "chart": {
@@ -413,12 +413,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
                 }
             },
             "chart": {
@@ -462,12 +462,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
                 }
             },
             "chart": {
@@ -511,12 +511,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
                 }
             },
             "chart": {
@@ -560,12 +560,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
                 }
             },
             "chart": {
@@ -609,12 +609,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
                 }
             },
             "chart": {
@@ -658,12 +658,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
                 }
             },
             "chart": {
@@ -707,12 +707,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
                 }
             },
             "chart": {
@@ -756,12 +756,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
                 }
             },
             "chart": {
@@ -805,12 +805,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
                 }
             },
             "chart": {

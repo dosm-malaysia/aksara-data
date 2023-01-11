@@ -29,96 +29,96 @@
                 "name": "overall_sales",
                 "title_en": "Sales Value",
                 "title_bm": "Nilai Jualan Keseluruhan",
-                "desc_en": "[Integer, RM] Variable",
-                "desc_bm": "[Integer, RM] Pembolehubah"
+                "desc_en": "[Integer] Amount in RM",
+                "desc_bm": "[Integer] Jumlah dalam RM"
             },
             {
                 "id": 2,
                 "name": "wholesale_sales",
                 "title_en": "Sales Value of Wholesale Trade",
                 "title_bm": "Nilai Jualan Perdagangan Borong",
-                "desc_en": "[Integer, RM] Variable",
-                "desc_bm": "[Integer, RM] Pembolehubah"
+                "desc_en": "[Integer] Amount in RM",
+                "desc_bm": "[Integer] Jumlah dalam RM"
             },
             {
                 "id": 3,
                 "name": "retail_sales",
                 "title_en": "Sales Value of Retail Trade",
                 "title_bm": "Nilai Jualan Perdagangan Borong",
-                "desc_en": "[Integer, RM] Variable",
-                "desc_bm": "[Integer, RM] Pembolehubah"
+                "desc_en": "[Integer] Amount in RM",
+                "desc_bm": "[Integer] Jumlah dalam RM"
             },
             {
                 "id": 4,
                 "name": "motor_sales",
                 "title_en": "Sales Value of Motor Vehicles",
                 "title_bm": "Nilai Jualan Kendaraan Bermotor",
-                "desc_en": "[Integer, RM] Variable",
-                "desc_bm": "[Integer, RM] Pembolehubah"
+                "desc_en": "[Integer] Amount in RM",
+                "desc_bm": "[Integer] Jumlah dalam RM"
             },
             {
                 "id": 5,
                 "name": "overall_index",
                 "title_en": "Volume Index",
                 "title_bm": "Indeks Volum Keseluruhan",
-                "desc_en": "[Float] Variable",
-                "desc_bm": "[Apung] Pembolehubah"
+                "desc_en": "[Float] Index with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks dengan tahun asas 2010 = 100"
             },
             {
                 "id": 6,
                 "name": "wholesale_index",
                 "title_en": "Volume Index of Wholesale Trade",
                 "title_bm": "Indeks Volum Perdagangan Borong",
-                "desc_en": "[Float] Variable",
-                "desc_bm": "[Apung] Pembolehubah"
+                "desc_en": "[Float] Index with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks dengan tahun asas 2010 = 100"
             },
             {
                 "id": 7,
                 "name": "retail_index",
                 "title_en": "Volume Index of Retail Trade",
                 "title_bm": "Indeks Volum Perdagangan Borong",
-                "desc_en": "[Float] Variable",
-                "desc_bm": "[Apung] Pembolehubah"
+                "desc_en": "[Float] Index with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks dengan tahun asas 2010 = 100"
             },
             {
                 "id": 8,
                 "name": "motor_index",
                 "title_en": "Volume Index of Motor Vehicles",
                 "title_bm": "Indeks Volum Kendaraan Bermotor",
-                "desc_en": "[Float] Variable",
-                "desc_bm": "[Apung] Pembolehubah"
+                "desc_en": "[Float] Index with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks dengan tahun asas 2010 = 100"
             },
             {
                 "id": 9,
                 "name": "overall_index_sa",
                 "title_en": "Volume Index (sa)",
                 "title_bm": "Indeks Volum Keseluruhan (tsm)",
-                "desc_en": "[Float] Variable",
-                "desc_bm": "[Apung] Pembolehubah"
+                "desc_en": "[Float] Index with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks dengan tahun asas 2010 = 100"
             },
             {
                 "id": 10,
                 "name": "wholesale_index_sa",
                 "title_en": "Volume Index of Wholesale Trade (sa)",
                 "title_bm": "Indeks Volum Perdagangan Borong (tsm)",
-                "desc_en": "[Float] Variable",
-                "desc_bm": "[Apung] Pembolehubah"
+                "desc_en": "[Float] Index with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks dengan tahun asas 2010 = 100"
             },
             {
                 "id": 11,
                 "name": "retail_index_sa",
                 "title_en": "Volume Index of Retail Trade (sa)",
                 "title_bm": "Indeks Volum Perdagangan Borong (tsm)",
-                "desc_en": "[Float] Variable",
-                "desc_bm": "[Apung] Pembolehubah"
+                "desc_en": "[Float] Index with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks dengan tahun asas 2010 = 100"
             },
             {
                 "id": 12,
                 "name": "motor_index_sa",
                 "title_en": "Volume Index of Motor Vehicles (sa)",
                 "title_bm": "Indeks Volum Kendaraan Bermotor (tsm)",
-                "desc_en": "[Float] Variable",
-                "desc_bm": "[Apung] Pembolehubah"
+                "desc_en": "[Float] Index with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks dengan tahun asas 2010 = 100"
             }
         ]
     },
@@ -144,12 +144,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including Motor Vehicles, Wholesale Trade & Retail Trade. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
+                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor, Perdagangan Borong & Perdagangan Runcit. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
+                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa."
                 }
             },
             "chart": {
@@ -189,12 +189,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including Motor Vehicles, Wholesale Trade & Retail Trade. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
+                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor, Perdagangan Borong & Perdagangan Runcit. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
+                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa."
                 }
             },
             "chart": {
@@ -234,12 +234,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including Motor Vehicles, Wholesale Trade & Retail Trade. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
+                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor, Perdagangan Borong & Perdagangan Runcit. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
+                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa."
                 }
             },
             "chart": {
@@ -279,12 +279,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including Motor Vehicles, Wholesale Trade & Retail Trade. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
+                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor, Perdagangan Borong & Perdagangan Runcit. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
+                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa."
                 }
             },
             "chart": {
@@ -324,12 +324,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including Motor Vehicles, Wholesale Trade & Retail Trade. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
+                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor, Perdagangan Borong & Perdagangan Runcit. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
+                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa."
                 }
             },
             "chart": {
@@ -369,12 +369,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including Motor Vehicles, Wholesale Trade & Retail Trade. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
+                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor, Perdagangan Borong & Perdagangan Runcit. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
+                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa."
                 }
             },
             "chart": {
@@ -414,12 +414,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including Motor Vehicles, Wholesale Trade & Retail Trade. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
+                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor, Perdagangan Borong & Perdagangan Runcit. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
+                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa."
                 }
             },
             "chart": {
@@ -459,12 +459,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including Motor Vehicles, Wholesale Trade & Retail Trade. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
+                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor, Perdagangan Borong & Perdagangan Runcit. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
+                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa."
                 }
             },
             "chart": {
@@ -504,12 +504,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including Motor Vehicles, Wholesale Trade & Retail Trade. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
+                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor, Perdagangan Borong & Perdagangan Runcit. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
+                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa."
                 }
             },
             "chart": {
@@ -549,12 +549,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including Motor Vehicles, Wholesale Trade & Retail Trade. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
+                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor, Perdagangan Borong & Perdagangan Runcit. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
+                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa."
                 }
             },
             "chart": {
@@ -594,12 +594,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including Motor Vehicles, Wholesale Trade & Retail Trade. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
+                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor, Perdagangan Borong & Perdagangan Runcit. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
+                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa."
                 }
             },
             "chart": {
@@ -639,12 +639,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including Motor Vehicles, Wholesale Trade & Retail Trade. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
+                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor, Perdagangan Borong & Perdagangan Runcit. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
+                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa."
                 }
             },
             "chart": {

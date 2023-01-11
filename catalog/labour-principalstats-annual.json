@@ -29,56 +29,56 @@
                 "name": "lf_size",
                 "title_en": "Labour Force Size (Annual)",
                 "title_bm": "Tenaga Buruh (Tahunan)",
-                "desc_en": "[Integer] Variable",
-                "desc_bm": "[Integer] Pembolehubah"
+                "desc_en": "[Integer] Number of people",
+                "desc_bm": "[Integer] Bilangan orang"
             },
             {
                 "id": 2,
                 "name": "employed",
                 "title_en": "Employed Persons (Annual)",
                 "title_bm": "Bekerja (Tahunan)",
-                "desc_en": "[Integer] Variable",
-                "desc_bm": "[Integer] Pembolehubah"
+                "desc_en": "[Integer] Number of people",
+                "desc_bm": "[Integer] Bilangan orang"
             },
             {
                 "id": 3,
                 "name": "unemployed",
                 "title_en": "Unemployed Persons (Annual)",
                 "title_bm": "Penganggur (Tahunan)",
-                "desc_en": "[Integer] Variable",
-                "desc_bm": "[Integer] Pembolehubah"
+                "desc_en": "[Integer] Number of people",
+                "desc_bm": "[Integer] Bilangan orang"
             },
             {
                 "id": 4,
                 "name": "outside",
                 "title_en": "Persons Outside Labour Force (Annual)",
                 "title_bm": "Luar Tenaga Buruh (Tahunan)",
-                "desc_en": "[Integer] Variable",
-                "desc_bm": "[Integer] Pembolehubah"
+                "desc_en": "[Integer] Number of people",
+                "desc_bm": "[Integer] Bilangan orang"
             },
             {
                 "id": 5,
                 "name": "u_rate",
                 "title_en": "Unemployment Rate (Annual)",
                 "title_bm": "Kadar Pengangguran (Tahunan)",
-                "desc_en": "[Float] Variable",
-                "desc_bm": "[Apung] Pembolehubah"
+                "desc_en": "[Float] Ratio of unemployed to labour force size",
+                "desc_bm": "[Apung] Nisbah jumlah penganggur ke bilangan tenaga buruh"
             },
             {
                 "id": 6,
                 "name": "p_rate",
                 "title_en": "Participation Rate (Annual)",
                 "title_bm": "Kadar Penyertaan (Tahunan)",
-                "desc_en": "[Float] Variable",
-                "desc_bm": "[Apung] Pembolehubah"
+                "desc_en": "[Float] Ratio of the labour force size to the working age population",
+                "desc_bm": "[Apung] Nisbah jumlah tenaga buruh ke jumlah penduduk umur bekerja"
             },
             {
                 "id": 7,
                 "name": "ep_ratio",
                 "title_en": "Employment-Population Ratio (Annual)",
                 "title_bm": "Nisbah Guna Tenaga kepada Penduduk (Tahunan)",
-                "desc_en": "[Float] Variable",
-                "desc_bm": "[Apung] Pembolehubah"
+                "desc_en": "[Float] Ratio of the labour force size to the population",
+                "desc_bm": "[Apung] Nisbah jumlah tenaga buruh ke jumlah penduduk"
             }
         ]
     },
@@ -104,12 +104,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The survey which is carried out every month provides statistics on the labour force, employment and unemployment at the national and state levels as well as in urban and rural areas. Data from this survey is published on monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+                    "caveat": "The time series for 1982\u20132021 presented the principal labour force statistics. There is no data for 1991 and 1994 since LFS was not conducted in those years. Meanwhile, time series for 2016\u20132021 presented statistics on labour force participation rate (LFPR), labour force and employed persons by selected demographic and socioeconomic characteristics. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Survei yang dijalankan setiap bulan ini menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+                    "caveat": "Siri masa 1982\u20132020 memaparkan statistik utama tenaga buruh. Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Manakala, siri masa 2016\u20132020 memaparkan statistik kadar penyertaan tenaga buruh (KPTB), tenaga buruh dan penduduk bekerja mengikut ciri-ciri demografi dan sosioekonomi terpilih. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara."
                 }
             },
             "chart": {
@@ -149,12 +149,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The survey which is carried out every month provides statistics on the labour force, employment and unemployment at the national and state levels as well as in urban and rural areas. Data from this survey is published on monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+                    "caveat": "The time series for 1982\u20132021 presented the principal labour force statistics. There is no data for 1991 and 1994 since LFS was not conducted in those years. Meanwhile, time series for 2016\u20132021 presented statistics on labour force participation rate (LFPR), labour force and employed persons by selected demographic and socioeconomic characteristics. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Survei yang dijalankan setiap bulan ini menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+                    "caveat": "Siri masa 1982\u20132020 memaparkan statistik utama tenaga buruh. Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Manakala, siri masa 2016\u20132020 memaparkan statistik kadar penyertaan tenaga buruh (KPTB), tenaga buruh dan penduduk bekerja mengikut ciri-ciri demografi dan sosioekonomi terpilih. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara."
                 }
             },
             "chart": {
@@ -194,12 +194,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The survey which is carried out every month provides statistics on the labour force, employment and unemployment at the national and state levels as well as in urban and rural areas. Data from this survey is published on monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+                    "caveat": "The time series for 1982\u20132021 presented the principal labour force statistics. There is no data for 1991 and 1994 since LFS was not conducted in those years. Meanwhile, time series for 2016\u20132021 presented statistics on labour force participation rate (LFPR), labour force and employed persons by selected demographic and socioeconomic characteristics. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Survei yang dijalankan setiap bulan ini menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+                    "caveat": "Siri masa 1982\u20132020 memaparkan statistik utama tenaga buruh. Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Manakala, siri masa 2016\u20132020 memaparkan statistik kadar penyertaan tenaga buruh (KPTB), tenaga buruh dan penduduk bekerja mengikut ciri-ciri demografi dan sosioekonomi terpilih. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara."
                 }
             },
             "chart": {
@@ -239,12 +239,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The survey which is carried out every month provides statistics on the labour force, employment and unemployment at the national and state levels as well as in urban and rural areas. Data from this survey is published on monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+                    "caveat": "The time series for 1982\u20132021 presented the principal labour force statistics. There is no data for 1991 and 1994 since LFS was not conducted in those years. Meanwhile, time series for 2016\u20132021 presented statistics on labour force participation rate (LFPR), labour force and employed persons by selected demographic and socioeconomic characteristics. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Survei yang dijalankan setiap bulan ini menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+                    "caveat": "Siri masa 1982\u20132020 memaparkan statistik utama tenaga buruh. Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Manakala, siri masa 2016\u20132020 memaparkan statistik kadar penyertaan tenaga buruh (KPTB), tenaga buruh dan penduduk bekerja mengikut ciri-ciri demografi dan sosioekonomi terpilih. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara."
                 }
             },
             "chart": {
@@ -284,12 +284,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The survey which is carried out every month provides statistics on the labour force, employment and unemployment at the national and state levels as well as in urban and rural areas. Data from this survey is published on monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+                    "caveat": "The time series for 1982\u20132021 presented the principal labour force statistics. There is no data for 1991 and 1994 since LFS was not conducted in those years. Meanwhile, time series for 2016\u20132021 presented statistics on labour force participation rate (LFPR), labour force and employed persons by selected demographic and socioeconomic characteristics. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Survei yang dijalankan setiap bulan ini menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+                    "caveat": "Siri masa 1982\u20132020 memaparkan statistik utama tenaga buruh. Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Manakala, siri masa 2016\u20132020 memaparkan statistik kadar penyertaan tenaga buruh (KPTB), tenaga buruh dan penduduk bekerja mengikut ciri-ciri demografi dan sosioekonomi terpilih. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara."
                 }
             },
             "chart": {
@@ -329,12 +329,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The survey which is carried out every month provides statistics on the labour force, employment and unemployment at the national and state levels as well as in urban and rural areas. Data from this survey is published on monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+                    "caveat": "The time series for 1982\u20132021 presented the principal labour force statistics. There is no data for 1991 and 1994 since LFS was not conducted in those years. Meanwhile, time series for 2016\u20132021 presented statistics on labour force participation rate (LFPR), labour force and employed persons by selected demographic and socioeconomic characteristics. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Survei yang dijalankan setiap bulan ini menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+                    "caveat": "Siri masa 1982\u20132020 memaparkan statistik utama tenaga buruh. Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Manakala, siri masa 2016\u20132020 memaparkan statistik kadar penyertaan tenaga buruh (KPTB), tenaga buruh dan penduduk bekerja mengikut ciri-ciri demografi dan sosioekonomi terpilih. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara."
                 }
             },
             "chart": {
@@ -374,12 +374,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "The survey which is carried out every month provides statistics on the labour force, employment and unemployment at the national and state levels as well as in urban and rural areas. Data from this survey is published on monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+                    "caveat": "The time series for 1982\u20132021 presented the principal labour force statistics. There is no data for 1991 and 1994 since LFS was not conducted in those years. Meanwhile, time series for 2016\u20132021 presented statistics on labour force participation rate (LFPR), labour force and employed persons by selected demographic and socioeconomic characteristics. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "methodology": "Survei yang dijalankan setiap bulan ini menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+                    "caveat": "Siri masa 1982\u20132020 memaparkan statistik utama tenaga buruh. Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Manakala, siri masa 2016\u20132020 memaparkan statistik kadar penyertaan tenaga buruh (KPTB), tenaga buruh dan penduduk bekerja mengikut ciri-ciri demografi dan sosioekonomi terpilih. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara."
                 }
             },
             "chart": {
