@@ -7,7 +7,7 @@
       "highlight": {
         "name": "highlight",
         "chart_type": "custom_chart",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_main_callout.parquet?ignoreCache=1",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_main_callout.parquet",
         "data_as_of" : "2023-01-11 23:59",
         "api_type": "static",
         "api_params": [],
@@ -50,7 +50,7 @@
       "table_summary": {
         "name": "table_summary",
         "chart_type": "metrics_table",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_metrics_table_2023-01-12.parquet",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_metrics_table.parquet",
         "data_as_of" : "2023-01-12 23:59",
         "api_type": "static",
         "api_params": [],
