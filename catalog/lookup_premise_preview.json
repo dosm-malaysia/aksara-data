@@ -107,7 +107,9 @@
             "chart": {
                 "chart_type": "TABLE",
                 "chart_filters": {
-                    "FREEZE": [],
+                    "FREEZE": [
+                        "premise_code"
+                    ],
                     "EXCLUDE": []
                 }
             }
