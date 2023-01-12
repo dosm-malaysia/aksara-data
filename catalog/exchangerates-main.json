@@ -28,7 +28,7 @@
                 "id": 1,
                 "name": "myr_usd",
                 "title_en": "Exchange Rate vs USA",
-                "title_bm": "Kadar Pertukarang Asing ke AS",
+                "title_bm": "Kadar Pertukaran Asing ke AS",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to USD",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke USD"
             },
@@ -36,7 +36,7 @@
                 "id": 2,
                 "name": "myr_rmb",
                 "title_en": "Exchange Rate vs China",
-                "title_bm": "Kadar Pertukarang Asing ke China",
+                "title_bm": "Kadar Pertukaran Asing ke China",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to RMB",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke RMB"
             },
@@ -44,7 +44,7 @@
                 "id": 3,
                 "name": "myr_sgd",
                 "title_en": "Exchange Rate vs Singapore",
-                "title_bm": "Kadar Pertukarang Asing ke Singapura",
+                "title_bm": "Kadar Pertukaran Asing ke Singapura",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to SGD",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke SGD"
             },
@@ -52,7 +52,7 @@
                 "id": 4,
                 "name": "myr_eur",
                 "title_en": "Exchange Rate vs Euro Area",
-                "title_bm": "Kadar Pertukarang Asing ke Kawasan Euro",
+                "title_bm": "Kadar Pertukaran Asing ke Kawasan Euro",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to EUR",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke EUR"
             },
@@ -60,7 +60,7 @@
                 "id": 5,
                 "name": "myr_jpy",
                 "title_en": "Exchange Rate vs Japan",
-                "title_bm": "Kadar Pertukarang Asing ke Japan",
+                "title_bm": "Kadar Pertukaran Asing ke Japan",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to JPY",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke JPY"
             },
@@ -68,7 +68,7 @@
                 "id": 6,
                 "name": "myr_twd",
                 "title_en": "Exchange Rate vs Chinese Taipei",
-                "title_bm": "Kadar Pertukarang Asing ke China Taipei",
+                "title_bm": "Kadar Pertukaran Asing ke China Taipei",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to TWD",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke TWD"
             },
@@ -76,7 +76,7 @@
                 "id": 7,
                 "name": "myr_thb",
                 "title_en": "Exchange Rate vs Thailand",
-                "title_bm": "Kadar Pertukarang Asing ke Thailand",
+                "title_bm": "Kadar Pertukaran Asing ke Thailand",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to THB",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke THB"
             },
@@ -84,7 +84,7 @@
                 "id": 8,
                 "name": "myr_idr",
                 "title_en": "Exchange Rate vs Indonesia",
-                "title_bm": "Kadar Pertukarang Asing ke Indonesia",
+                "title_bm": "Kadar Pertukaran Asing ke Indonesia",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to IDR",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke IDR"
             },
@@ -92,7 +92,7 @@
                 "id": 9,
                 "name": "myr_hkd",
                 "title_en": "Exchange Rate vs Hong Kong SAR",
-                "title_bm": "Kadar Pertukarang Asing ke Hong Kong SAR",
+                "title_bm": "Kadar Pertukaran Asing ke Hong Kong SAR",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to HKD",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke HKD"
             },
@@ -108,7 +108,7 @@
                 "id": 11,
                 "name": "myr_vnd",
                 "title_en": "Exchange Rate vs Vietnam",
-                "title_bm": "Kadar Pertukarang Asing ke Vietnam",
+                "title_bm": "Kadar Pertukaran Asing ke Vietnam",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to VND",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke VND"
             },
@@ -116,7 +116,7 @@
                 "id": 12,
                 "name": "myr_inr",
                 "title_en": "Exchange Rate vs India",
-                "title_bm": "Kadar Pertukarang Asing ke India",
+                "title_bm": "Kadar Pertukaran Asing ke India",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to INR",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke INR"
             },
@@ -124,7 +124,7 @@
                 "id": 13,
                 "name": "myr_aud",
                 "title_en": "Exchange Rate vs Australia",
-                "title_bm": "Kadar Pertukarang Asing ke Australia",
+                "title_bm": "Kadar Pertukaran Asing ke Australia",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to AUD",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke AUD"
             },
@@ -132,7 +132,7 @@
                 "id": 14,
                 "name": "myr_php",
                 "title_en": "Exchange Rate vs Philippines",
-                "title_bm": "Kadar Pertukarang Asing ke Filipina",
+                "title_bm": "Kadar Pertukaran Asing ke Filipina",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to PHP",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke PHP"
             },
@@ -140,7 +140,7 @@
                 "id": 15,
                 "name": "myr_aed",
                 "title_en": "Exchange Rate vs UAE",
-                "title_bm": "Kadar Pertukarang Asing ke Emiriah Arab Bersatu",
+                "title_bm": "Kadar Pertukaran Asing ke Emiriah Arab Bersatu",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to AED",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke AED"
             },
@@ -148,7 +148,7 @@
                 "id": 16,
                 "name": "myr_sar",
                 "title_en": "Exchange Rate vs Saudi Arabia",
-                "title_bm": "Kadar Pertukarang Asing ke Arab Saudi",
+                "title_bm": "Kadar Pertukaran Asing ke Arab Saudi",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to SAR",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke SAR"
             },
@@ -156,7 +156,7 @@
                 "id": 17,
                 "name": "myr_try",
                 "title_en": "Exchange Rate vs Turkey",
-                "title_bm": "Kadar Pertukarang Asing ke Turki",
+                "title_bm": "Kadar Pertukaran Asing ke Turki",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to TRY",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke TRY"
             },
@@ -164,7 +164,7 @@
                 "id": 18,
                 "name": "myr_gbp",
                 "title_en": "Exchange Rate vs UK",
-                "title_bm": "Kadar Pertukarang Asing ke UK",
+                "title_bm": "Kadar Pertukaran Asing ke UK",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to GBP",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke GBP"
             },
@@ -172,7 +172,7 @@
                 "id": 19,
                 "name": "myr_brl",
                 "title_en": "Exchange Rate vs Brazil",
-                "title_bm": "Kadar Pertukarang Asing ke Brazil",
+                "title_bm": "Kadar Pertukaran Asing ke Brazil",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to BRL",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke BRL"
             },
@@ -180,7 +180,7 @@
                 "id": 20,
                 "name": "myr_mxn",
                 "title_en": "Exchange Rate vs Mexico",
-                "title_bm": "Kadar Pertukarang Asing ke Mexico",
+                "title_bm": "Kadar Pertukaran Asing ke Mexico",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to MXN",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke MXN"
             },
@@ -188,7 +188,7 @@
                 "id": 21,
                 "name": "myr_bdt",
                 "title_en": "Exchange Rate vs Bangladesh",
-                "title_bm": "Kadar Pertukarang Asing ke Bangladesh",
+                "title_bm": "Kadar Pertukaran Asing ke Bangladesh",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to BDT",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke BDT"
             },
@@ -196,7 +196,7 @@
                 "id": 22,
                 "name": "myr_chf",
                 "title_en": "Exchange Rate vs Switzerland",
-                "title_bm": "Kadar Pertukarang Asing ke Switzerland",
+                "title_bm": "Kadar Pertukaran Asing ke Switzerland",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to CHF",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke CHF"
             },
@@ -204,7 +204,7 @@
                 "id": 23,
                 "name": "myr_cad",
                 "title_en": "Exchange Rate vs Canada",
-                "title_bm": "Kadar Pertukarang Asing ke Kanada",
+                "title_bm": "Kadar Pertukaran Asing ke Kanada",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to CAD",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke CAD"
             },
@@ -212,7 +212,7 @@
                 "id": 24,
                 "name": "myr_rub",
                 "title_en": "Exchange Rate vs Russia",
-                "title_bm": "Kadar Pertukarang Asing ke Rusia",
+                "title_bm": "Kadar Pertukaran Asing ke Rusia",
                 "desc_en": "[Float] The rate of exchange (adjusted close) of MYR to RUB",
                 "desc_bm": "[Apung] Kadar pertukaran (harga larasan penutup) MYR ke RUB"
             }
