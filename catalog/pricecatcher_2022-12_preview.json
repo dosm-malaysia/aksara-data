@@ -6,8 +6,8 @@
         "category_en": "Economy",
         "category_bm": "Ekonomi",
         "subcategory": "PRICECATCHER",
-        "subcategory_en": "PriceCatcher (KPDNKSH)",
-        "subcategory_bm": "PriceCatcher (KPDNKSH)",
+        "subcategory_en": "PriceCatcher",
+        "subcategory_bm": "PriceCatcher",
         "description": {
             "en": "PriceCatcher is a mobile app developed by the Ministry of Domestic Trade and Cost of Living (KPDNKSH, formerly KPDNHEP) to help users compare the prices of key items in their area. Prices are collected and verified by groundstaff on a daily basis, with over 2 million prices collected every month. This dataset makes that wealth of data available to you for analysis.",
             "bm": "PriceCatcher adalah aplikasi mudah ali yang dibangunkan oleh Kementerian Perdagangan Dalam Negeri dan Kos Sara Hidup (KPDNKSH, dahulunya KPDNHEP) untuk membantu pengguna mendapatkan harga barangan cepumas di sekeliling mereka. Harga dipungut dah disahkan oleh staf di lapangan, dengan lebih 2 juta harga dipungut setiap bulan. Dataset ini membolehkan anda menggunakan data raya tersebut untuk analisa lanjut."
@@ -19,9 +19,9 @@
         "variables": [
             {
                 "id": 0,
-                "name": "PriceCatcher: December 2023 (preview)",
-                "title_en": "PriceCatcher: December 2022 (preview)",
-                "title_bm": "PriceCatcher: Disember 2022 (preview)",
+                "name": "PriceCatcher: 2022/12",
+                "title_en": "PriceCatcher: 2022/12",
+                "title_bm": "PriceCatcher: 2022/12",
                 "desc_en": "The table below provides a preview of the full dataset, which contains over a million prices. We recommend that you download and work with the data in a coding environment.",
                 "desc_bm": "Jadual di bawah memberi pratonton kepada dataset penuh yang mengandungi lebih daripada sejuta harga. Kami sarankan anda memuat turun dan menganalisa data dengan menggunakan kod."
             },
