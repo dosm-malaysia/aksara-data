@@ -38,7 +38,7 @@
                 "name": "premise_code",
                 "title_en": "Premise Code",
                 "title_bm": "Kod Premis",
-                "desc_en": "[Categorical] Integer representing the premise, to be mapped using the Premise Lookup Table (available in the OpenDOSM Data Catalogue). The lookup table will give you the premise name, address, district, and state.",
+                "desc_en": "[Categorical] Integer representing the premise to be mapped using the Premise Lookup Table (available in the OpenDOSM Data Catalogue). The lookup table will give you the premise name, address, district, and state.",
                 "desc_bm": "[Kategori] Integer yang melambangkan premis, yang perlu dipadankan dengan Jadual Carian Premis (boleh didapati di Katalog Data OpenDOSM). Jadual carian membolehkan anda mendapatkan nama, alamat, daerah, dan negeri bagi setiap premis."
             },
             {
