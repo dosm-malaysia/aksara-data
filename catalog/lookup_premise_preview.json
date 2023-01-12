@@ -1,7 +1,7 @@
 {
     "file": {
         "bucket": "dosm-public-pricecatcher",
-        "file_name": "lookup_item_preview",
+        "file_name": "lookup_premise_preview",
         "category": "ECONOMY",
         "category_en": "Economy",
         "category_bm": "Ekonomi",
@@ -9,61 +9,69 @@
         "subcategory_en": "PriceCatcher",
         "subcategory_bm": "PriceCatcher",
         "description": {
-            "en": "Lookup table, to be left-joined against item code in the main PriceCatcher data.",
-            "bm": "Jadual carian, untuk dipadankan (left-join) dengan kod barang (item code) dalam dataset PriceCatcher utama."
+            "en": "Lookup table, to be left-joined against premise code in the main PriceCatcher data.",
+            "bm": "Jadual carian, untuk dipadankan (left-join) dengan kod premis (premise code) dalam dataset PriceCatcher utama."
         },
-        "link_parquet": "https://storage.googleapis.com/dosm-public-pricecatcher/lookup_item.parquet",
-        "link_csv": "https://storage.googleapis.com/dosm-public-pricecatcher/lookup_item.csv",
-        "link_metadata": "https://storage.googleapis.com/dosm-public-pricecatcher/lookup_item.metadata",
-        "link_preview": "https://storage.googleapis.com/dosm-public-pricecatcher/lookup_item_preview.parquet",
+        "link_parquet": "https://storage.googleapis.com/dosm-public-pricecatcher/lookup_premise.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-pricecatcher/lookup_premise.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-pricecatcher/lookup_premise.metadata",
+        "link_preview": "https://storage.googleapis.com/dosm-public-pricecatcher/lookup_premise_preview.parquet",
         "variables": [
             {
                 "id": 0,
-                "name": "Item Lookup",
-                "title_en": "Item Lookup",
-                "title_bm": "Jadual Carian Barangan",
-                "desc_en": "Lookup table, to be left-joined against item code in the main PriceCatcher data.",
-                "desc_bm": "Jadual carian, untuk dipadankan (left-join) dengan kod barang (item code) dalam dataset PriceCatcher utama."
+                "name": "Premise Lookup",
+                "title_en": "Premise Lookup",
+                "title_bm": "Jadual Carian Premis",
+                "desc_en": "Lookup table, to be left-joined against premise code in the main PriceCatcher data.",
+                "desc_bm": "Jadual carian, untuk dipadankan (left-join) dengan kod premis (premise code) dalam dataset PriceCatcher utama."
             },
             {
                 "id": 1,
-                "name": "item_code",
-                "title_en": "Item Code",
-                "title_bm": "Kod Barang",
+                "name": "premise_code",
+                "title_en": "Premise Code",
+                "title_bm": "Kod Premis",
                 "desc_en": "[Integer] Column for left-join",
                 "desc_bm": "[Integer] Kolum untuk padanan"
             },
             {
                 "id": 2,
-                "name": "item",
-                "title_en": "Item Name",
-                "title_bm": "Nama Barang",
-                "desc_en": "[Categorical] Name of item",
-                "desc_bm": "[Kategori] Nama barang"
+                "name": "premise",
+                "title_en": "Premise",
+                "title_bm": "Nama Premis",
+                "desc_en": "[Categorical] Name of premise",
+                "desc_bm": "[Kategori] Nama premis"
             },
             {
                 "id": 3,
-                "name": "unit",
-                "title_en": "Unit of Measurement",
-                "title_bm": "Unit Ukuran",
-                "desc_en": "[Categorical] Unit of measurement",
-                "desc_bm": "[Kategori] Unit ukuran"
+                "name": "address",
+                "title_en": "Address",
+                "title_bm": "Alamat",
+                "desc_en": "[String] Full address",
+                "desc_bm": "[Kategori] Alamat penuh"
             },
             {
                 "id": 4,
-                "name": "item_group",
-                "title_en": "Item Group",
-                "title_bm": "Kumpulan",
-                "desc_en": "[Categorical] Item group",
-                "desc_bm": "[Kategori] Kumpulan barangan"
+                "name": "premise_type",
+                "title_en": "Premise Type",
+                "title_bm": "Jenis Premis",
+                "desc_en": "[Categorical] Type of premise",
+                "desc_bm": "[Kategori] Jenis Premis"
             },
             {
                 "id": 5,
-                "name": "item_category",
-                "title_en": "Item Category",
-                "title_bm": "Kategori",
-                "desc_en": "[Categorical] Broad category",
-                "desc_bm": "[Kategori] Kategori luas"
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] Name of state",
+                "desc_bm": "[Kategori] Nama negeri"
+            },
+            {
+                "id": 6,
+                "name": "district",
+                "title_en": "District",
+                "title_bm": "Daerah",
+                "desc_en": "[Categorical] Name of district",
+                "desc_bm": "[Kategori] Nama daerah"
             }
         ]
     },
