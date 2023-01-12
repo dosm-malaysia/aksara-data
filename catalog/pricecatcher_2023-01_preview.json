@@ -13,6 +13,7 @@
             "bm": "PriceCatcher adalah aplikasi mudah ali yang dibangunkan oleh Kementerian Perdagangan Dalam Negeri dan Kos Sara Hidup (KPDNKSH, dahulunya KPDNHEP) untuk membantu pengguna mendapatkan harga barangan cepumas di sekeliling mereka. Harga dipungut dah disahkan oleh staf di lapangan, dengan lebih 2 juta harga dipungut setiap bulan. Dataset ini membolehkan anda menggunakan data raya tersebut untuk analisa lanjut."
         },
         "link_parquet": "https://storage.googleapis.com/dosm-public-pricecatcher/pricecatcher_2023-01.parquet",
+        "link_preview" : "https://storage.googleapis.com/dosm-public-pricecatcher/pricecatcher_2023-01_preview.parquet",
         "link_csv": "https://storage.googleapis.com/dosm-public-pricecatcher/pricecatcher_2023-01.csv",
         "link_metadata": "https://storage.googleapis.com/dosm-public-pricecatcher/pricecatcher_2023-01.metadata",
         "variables": [
