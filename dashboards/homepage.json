@@ -7,8 +7,8 @@
       "highlight": {
         "name": "highlight",
         "chart_type": "custom_chart",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_main_callout_2023-01-12.parquet",
-        "data_as_of" : "2023-01-11 23:59",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_main_callout_2023-01-13.parquet",
+        "data_as_of" : "2023-01-12 23:59",
         "api_type": "static",
         "api_params": [],
         "variables": {
@@ -20,8 +20,8 @@
       "timeseries": {
         "name": "timeseries",
         "chart_type": "timeseries_chart",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_timeseries_2023-01-12.parquet",
-        "data_as_of" : "2023-01-12 23:59",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_timeseries_2023-01-13.parquet",
+        "data_as_of" : "2023-01-13 23:59",
         "api_type": "static",
         "api_params": [],
         "variables": {
@@ -37,8 +37,8 @@
       "statistics": {
         "name": "statistics",
         "chart_type": "custom_chart",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_timeseries_callout_2023-01-12.parquet",
-        "data_as_of" : "2023-01-12 23:59",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_timeseries_callout_2023-01-13.parquet",
+        "data_as_of" : "2023-01-13 23:59",
         "api_type": "static",
         "api_params": [],
         "variables": {
@@ -50,8 +50,8 @@
       "table_summary": {
         "name": "table_summary",
         "chart_type": "metrics_table",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_metrics_table_2023-01-12.parquet",
-        "data_as_of" : "2023-01-12 23:59",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_metrics_table_2023-01-13.parquet",
+        "data_as_of" : "2023-01-13 23:59",
         "api_type": "static",
         "api_params": [],
         "variables": {
@@ -67,8 +67,8 @@
       "metrics_stats": {
         "name": "metrics_stats",
         "chart_type": "custom_chart",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_metrics_callout_2023-01-12.parquet",
-        "data_as_of" : "2023-01-12 23:59",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_metrics_callout_2023-01-13.parquet",
+        "data_as_of" : "2023-01-13 23:59",
         "api_type": "static",
         "api_params": [],
         "variables": {
