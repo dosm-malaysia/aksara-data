@@ -46,7 +46,7 @@
                 "name": "item_code",
                 "title_en": "Item Code",
                 "title_bm": "Kod Barangan",
-                "desc_en": "[Categorical] Integer representing the item, to be mapped using the Item Lookup Table (available in the Data Catalogue). The lookup table will give you the item name, unit of measurement, and categorisation.",
+                "desc_en": "[Categorical] Integer representing the item, to be mapped using the Item Lookup Table (available via the Data Catalogue). The lookup table will give you the item name, unit of measurement, and categorisation.",
                 "desc_bm": "[Kategori] Integer yang melambangkan barangan, yang perlu dipadankan dengan Jadual Carian Barangan (boleh didapati di Katalog Data OpenDOSM). Jadual carian membolehkan anda mendapatkan nama, unit ukuran, dan kategori bagi setiap barang."
             },
             {
@@ -74,9 +74,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-14 23:59",
-                "last_updated": "2023-01-15 08:00",
-                "next_update": "2023-01-16 09:00"
+                "data_as_of": "2023-01-15 23:59",
+                "last_updated": "2023-01-16 08:00",
+                "next_update": "2023-01-17 09:00"
             },
             "metadata_lang": {
                 "en": {
