@@ -8,7 +8,7 @@
         "name": "timeseries",
         "chart_type": "timeseries_chart",
         "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/er_timeseries.parquet?ignoreCache=1",
-        "data_as_of" : "2023-01-14 23:59",
+        "data_as_of" : "2023-01-15 23:59",
         "api_type": "static",
         "api_params": [],
         "variables": {
@@ -47,7 +47,7 @@
         "name": "statistics",
         "chart_type": "custom_chart",
         "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/er_timeseries_callout.parquet",
-        "data_as_of" : "2023-01-14 23:59",
+        "data_as_of" : "2023-01-15 23:59",
         "api_type": "static",
         "api_params": [],
         "variables": {
@@ -60,7 +60,7 @@
         "name": "bar_chart",
         "chart_type": "bar_chart",
         "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/er_barchart.parquet",
-        "data_as_of" : "2023-01-14 23:59",
+        "data_as_of" : "2023-01-15 23:59",
         "api_type": "static",
         "api_params": [],
         "variables": {
