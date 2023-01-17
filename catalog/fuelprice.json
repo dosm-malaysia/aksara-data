@@ -62,7 +62,7 @@
         {
             "id": 1,
             "catalog_filters": {
-                "frequency": "DAILY",
+                "frequency": "WEEKLY",
                 "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
@@ -111,7 +111,7 @@
         {
             "id": 2,
             "catalog_filters": {
-                "frequency": "DAILY",
+                "frequency": "WEEKLY",
                 "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
@@ -160,7 +160,7 @@
         {
             "id": 3,
             "catalog_filters": {
-                "frequency": "DAILY",
+                "frequency": "WEEKLY",
                 "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
