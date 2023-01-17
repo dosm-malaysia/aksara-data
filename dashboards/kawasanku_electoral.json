@@ -1,6 +1,6 @@
 {
     "dashboard_name": "kawasanku_electoral",
-    "manual_trigger" : "2022-12-26 10:14",
+    "manual_trigger" : "",
     "required_params": [
       "area",
       "area-type"
