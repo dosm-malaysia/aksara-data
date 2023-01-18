@@ -1,0 +1,395 @@
+{
+    "file": {
+        "bucket": "dosm-public-elections",
+        "file_name": "summary-parliament-ge14",
+        "category": "ELECTIONS",
+        "category_en": "Elections",
+        "category_bm": "Pilihanraya",
+        "subcategory": "VOTESTATS",
+        "subcategory_en": "Voting Statistics",
+        "subcategory_bm": "Statistik Undi",
+        "description": {
+            "en": "This dataset provides a headline summary of key voting statistics for GE14 at parliament level, including voter turnout, margin of victory, and rejected votes. GE14 was held on 9th May 2018.",
+            "bm": "Dataset ini merumuskan statistik undi penting bagi PRU14 di peringkat parlimen, termasuk peratus keluar, margin kemenangan, dan undi tolak. PRU14 dilaksanakan pada 9 Mei 2018."
+        },
+        "link_parquet": "https://storage.googleapis.com/dosm-public-elections/summary-parliament-ge14.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-elections/summary-parliament-ge14.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-elections/summary-parliament-ge14.metadata",
+        "variables": [
+            {
+                "id": -1,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] Name of the state (16 in total) or Malaysia",
+                "desc_bm": "[Kategori] Name negeri (16 keseluruhan) atau Malaysia"
+            },
+            {
+                "id": 1,
+                "name": "undi_keluar_peti",
+                "title_en": "GE14: Ballots Released",
+                "title_bm": "PRU14: Undi Keluar Peti",
+                "desc_en": "[Integer] The number of ballots officially released.",
+                "desc_bm": "[Integer] The number of ballots officially released."
+            },
+            {
+                "id": 2,
+                "name": "undi_dalam_peti",
+                "title_en": "GE14: Ballots Received",
+                "title_bm": "PRU14: Undi Dalam Peti",
+                "desc_en": "[Integer] Number of ballots returned for counting.",
+                "desc_bm": "[Integer] Number of ballots returned for counting."
+            },
+            {
+                "id": 3,
+                "name": "undi_tak_kembali",
+                "title_en": "GE14: Ballots Not Returned",
+                "title_bm": "PRU14: Undi Tak Kembali",
+                "desc_en": "[Integer] Number of ballots not returned after being released, including postal ballots that were not returned to the polling station by the time of counting.",
+                "desc_bm": "[Integer] Number of ballots not returned after being released, including postal ballots that were not returned to the polling station by the time of counting."
+            },
+            {
+                "id": 4,
+                "name": "undi_tolak",
+                "title_en": "GE14: Rejected Votes",
+                "title_bm": "PRU14: Undi Tolak",
+                "desc_en": "[Integer] Number of ballots returned but rejected during the counting process.",
+                "desc_bm": "[Integer] Number of ballots returned but rejected during the counting process."
+            },
+            {
+                "id": 5,
+                "name": "majoriti",
+                "title_en": "GE14: Majority",
+                "title_bm": "PRU14: Majoriti",
+                "desc_en": "[Integer] Difference between the number of votes won by the victorious candidate, and their closest competitor.",
+                "desc_bm": "[Integer] Difference between the number of votes won by the victorious candidate, and their closest competitor."
+            },
+            {
+                "id": 6,
+                "name": "peratus_keluar",
+                "title_en": "GE14: Voter Turnout",
+                "title_bm": "PRU14: Peratus Keluar",
+                "desc_en": "[Float] Proportion of registered voters who voted.",
+                "desc_bm": "[Float] Proportion of registered voters who voted."
+            },
+            {
+                "id": 7,
+                "name": "pengundi_jumlah",
+                "title_en": "GE14: Registered Voters",
+                "title_bm": "PRU14: Pengundi Berdaftar",
+                "desc_en": "[Integer] Number of individuals eligible to vote.",
+                "desc_bm": "[Integer] Number of individuals eligible to vote."
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 1,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "PARLIMEN"
+                ],
+                "start": "2018",
+                "end": "2018",
+                "data_source": [
+                    "SPR"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2018-05-09 23:59",
+                "last_updated": "2018-05-09 23:59",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is produced by SPR, and details the official results as gazetted by SPR.",
+                    "caveat": "In the event of a conflict between this data and any other source, the SPR portal and election dashboard should be regarded as the single source of truth."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan oleh Suruhanjaya Pilihanraya, dan memberi perincian keputusan pilihanraya seperti yang diwartakan oleh SPR.",
+                    "caveat": "Sekiranya terdapat perbezaan antara data ini dengan mana-mana sumber lain, perlu diingati bahawa data yang absah adalah data yang dipaparkan di portal ataupun papan pemuka SPR."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "color": "blues",
+                    "file_json": "parlimen",
+                    "format": {
+                        "x": "parlimen",
+                        "y": "undi_keluar_peti"
+                    }
+                }
+            }
+        },
+        {
+            "id": 2,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "PARLIMEN"
+                ],
+                "start": "2018",
+                "end": "2018",
+                "data_source": [
+                    "SPR"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2018-05-09 23:59",
+                "last_updated": "2018-05-09 23:59",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is produced by SPR, and details the official results as gazetted by SPR.",
+                    "caveat": "In the event of a conflict between this data and any other source, the SPR portal and election dashboard should be regarded as the single source of truth."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan oleh Suruhanjaya Pilihanraya, dan memberi perincian keputusan pilihanraya seperti yang diwartakan oleh SPR.",
+                    "caveat": "Sekiranya terdapat perbezaan antara data ini dengan mana-mana sumber lain, perlu diingati bahawa data yang absah adalah data yang dipaparkan di portal ataupun papan pemuka SPR."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "color": "blues",
+                    "file_json": "parlimen",
+                    "format": {
+                        "x": "parlimen",
+                        "y": "undi_dalam_peti"
+                    }
+                }
+            }
+        },
+        {
+            "id": 3,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "PARLIMEN"
+                ],
+                "start": "2018",
+                "end": "2018",
+                "data_source": [
+                    "SPR"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2018-05-09 23:59",
+                "last_updated": "2018-05-09 23:59",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is produced by SPR, and details the official results as gazetted by SPR.",
+                    "caveat": "In the event of a conflict between this data and any other source, the SPR portal and election dashboard should be regarded as the single source of truth."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan oleh Suruhanjaya Pilihanraya, dan memberi perincian keputusan pilihanraya seperti yang diwartakan oleh SPR.",
+                    "caveat": "Sekiranya terdapat perbezaan antara data ini dengan mana-mana sumber lain, perlu diingati bahawa data yang absah adalah data yang dipaparkan di portal ataupun papan pemuka SPR."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "color": "reds",
+                    "file_json": "parlimen",
+                    "format": {
+                        "x": "parlimen",
+                        "y": "undi_tak_kembali"
+                    }
+                }
+            }
+        },
+        {
+            "id": 4,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "PARLIMEN"
+                ],
+                "start": "2018",
+                "end": "2018",
+                "data_source": [
+                    "SPR"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2018-05-09 23:59",
+                "last_updated": "2018-05-09 23:59",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is produced by SPR, and details the official results as gazetted by SPR.",
+                    "caveat": "In the event of a conflict between this data and any other source, the SPR portal and election dashboard should be regarded as the single source of truth."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan oleh Suruhanjaya Pilihanraya, dan memberi perincian keputusan pilihanraya seperti yang diwartakan oleh SPR.",
+                    "caveat": "Sekiranya terdapat perbezaan antara data ini dengan mana-mana sumber lain, perlu diingati bahawa data yang absah adalah data yang dipaparkan di portal ataupun papan pemuka SPR."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "color": "reds",
+                    "file_json": "parlimen",
+                    "format": {
+                        "x": "parlimen",
+                        "y": "undi_tolak"
+                    }
+                }
+            }
+        },
+        {
+            "id": 5,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "PARLIMEN"
+                ],
+                "start": "2018",
+                "end": "2018",
+                "data_source": [
+                    "SPR"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2018-05-09 23:59",
+                "last_updated": "2018-05-09 23:59",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is produced by SPR, and details the official results as gazetted by SPR.",
+                    "caveat": "In the event of a conflict between this data and any other source, the SPR portal and election dashboard should be regarded as the single source of truth."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan oleh Suruhanjaya Pilihanraya, dan memberi perincian keputusan pilihanraya seperti yang diwartakan oleh SPR.",
+                    "caveat": "Sekiranya terdapat perbezaan antara data ini dengan mana-mana sumber lain, perlu diingati bahawa data yang absah adalah data yang dipaparkan di portal ataupun papan pemuka SPR."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "color": "greens",
+                    "file_json": "parlimen",
+                    "format": {
+                        "x": "parlimen",
+                        "y": "majoriti"
+                    }
+                }
+            }
+        },
+        {
+            "id": 6,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "PARLIMEN"
+                ],
+                "start": "2018",
+                "end": "2018",
+                "data_source": [
+                    "SPR"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2018-05-09 23:59",
+                "last_updated": "2018-05-09 23:59",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is produced by SPR, and details the official results as gazetted by SPR.",
+                    "caveat": "In the event of a conflict between this data and any other source, the SPR portal and election dashboard should be regarded as the single source of truth."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan oleh Suruhanjaya Pilihanraya, dan memberi perincian keputusan pilihanraya seperti yang diwartakan oleh SPR.",
+                    "caveat": "Sekiranya terdapat perbezaan antara data ini dengan mana-mana sumber lain, perlu diingati bahawa data yang absah adalah data yang dipaparkan di portal ataupun papan pemuka SPR."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "color": "blues",
+                    "file_json": "parlimen",
+                    "format": {
+                        "x": "parlimen",
+                        "y": "peratus_keluar"
+                    }
+                }
+            }
+        },
+        {
+            "id": 7,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "PARLIMEN"
+                ],
+                "start": "2018",
+                "end": "2018",
+                "data_source": [
+                    "SPR"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2018-05-09 23:59",
+                "last_updated": "2018-05-09 23:59",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is produced by SPR, and details the official results as gazetted by SPR.",
+                    "caveat": "In the event of a conflict between this data and any other source, the SPR portal and election dashboard should be regarded as the single source of truth."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan oleh Suruhanjaya Pilihanraya, dan memberi perincian keputusan pilihanraya seperti yang diwartakan oleh SPR.",
+                    "caveat": "Sekiranya terdapat perbezaan antara data ini dengan mana-mana sumber lain, perlu diingati bahawa data yang absah adalah data yang dipaparkan di portal ataupun papan pemuka SPR."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": []
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "color": "blues",
+                    "file_json": "parlimen",
+                    "format": {
+                        "x": "parlimen",
+                        "y": "pengundi_jumlah"
+                    }
+                }
+            }
+        }
+    ]
+}
