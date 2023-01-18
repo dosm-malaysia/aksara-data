@@ -43,8 +43,6 @@
               "expenditure_mean",
               "gini",
               "poverty",
-              "labour_urate",
-              "labour_prate",
               "agegroup_working"
             ],
             "public_services": [
