@@ -25,6 +25,14 @@
                 "desc_bm": "[Kategori] Name negeri (16 keseluruhan) atau Malaysia"
             },
             {
+                "id": -1,
+                "name": "parlimen",
+                "title_en": "Parliament",
+                "title_bm": "Parlimen",
+                "desc_en": "[Categorical] Name of the parliamentary constituency. There are 222 in total, with the first 5 characters indicating the order, from P.001 to P.222.",
+                "desc_bm": "[Kategori] Name kawasan parlimen. Terdapat 222 keseluruhan, dengan 5 aksara pertama melambangan urutannya dari P.001 hingga P.222"
+            },
+            {
                 "id": 1,
                 "name": "undi_keluar_peti",
                 "title_en": "GE14: Ballots Released",
