@@ -25,5 +25,5 @@ jobs:
         with:
           url: 'https://stagink.aksarapi.dev/update/'
           method: 'POST'
-          customHeaders: '{"Authorization": "${{ secrets.WORKFLOW_TOKEN }}"}'
+          customHeaders: '{"Authorization": "${{ secrets.WORKFLOW_TOKEN_STAGING }}"}'
           timeout: 30000
