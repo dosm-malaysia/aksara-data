@@ -20,13 +20,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: POST call staging
-        uses: fjogeleit/http-request-action@v1
-        with:
-          url: 'https://stagink.aksarapi.dev/update/'
-          method: 'POST'
-          customHeaders: '{"Authorization": "${{ secrets.WORKFLOW_TOKEN }}"}'
-          timeout: 30000
       - name: POST call prod
         uses: fjogeleit/http-request-action@v1
         with:
