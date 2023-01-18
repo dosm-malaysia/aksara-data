@@ -60,14 +60,14 @@
                 "id": 4,
                 "name": "undi_tak_kembali",
                 "title_en": "GE15: Ballots Not Returned",
-                "title_bm": "PRU15: Undi Tak Kembali",
+                "title_bm": "PRU15: Undi Tidak Dikembalikan",
                 "desc_en": "[Integer] Number of ballots not returned after being released, including postal ballots that were not returned to the polling station by the time of counting.",
                 "desc_bm": "[Integer] Jumlah kertas undi yang tidak dipulangkan untuk pengiraan, termasuk undi pos yang tidak sempat dipulangkan ke pusat mengundi pada waktu proses pengiraan berlangsung."
             },
             {
                 "id": 5,
                 "name": "undi_tolak",
-                "title_en": "GE15: Rejected Votes",
+                "title_en": "GE15: Votes Rejected",
                 "title_bm": "PRU15: Undi Ditolak",
                 "desc_en": "[Integer] Number of ballots returned but rejected during the counting process.",
                 "desc_bm": "[Integer] Jumlah kertas undi yang dipulangkan tetapi ditolak semasa proses pengiraan."
@@ -91,7 +91,7 @@
             {
                 "id": 8,
                 "name": "peratus_tolak",
-                "title_en": "GE15: Rejected Votes (%)",
+                "title_en": "GE15: % of Votes Rejected",
                 "title_bm": "PRU15: Peratus Undi Ditolak",
                 "desc_en": "[Float] Proportion of returned vallots rejected during the counting process.",
                 "desc_bm": "[Apung] Nisbah undi ditolak kepada jumlah undi dipulangkan."
