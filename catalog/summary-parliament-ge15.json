@@ -21,8 +21,8 @@
                 "name": "state",
                 "title_en": "State",
                 "title_bm": "Negeri",
-                "desc_en": "[Categorical] Name of the state (16 in total)",
-                "desc_bm": "[Kategori] Nama negeri (16 keseluruhan)"
+                "desc_en": "[Categorical] Name of the state. There are 16 in total.",
+                "desc_bm": "[Kategori] Nama negeri. Terdapat 16 keseluruhan."
             },
             {
                 "id": -1,
@@ -52,7 +52,7 @@
                 "id": 3,
                 "name": "undi_dalam_peti",
                 "title_en": "GE15: Ballots Returned",
-                "title_bm": "PRU15: Undi Dipulangkan",
+                "title_bm": "PRU15: Undi Dikembalikan",
                 "desc_en": "[Integer] Number of ballots returned for counting.",
                 "desc_bm": "[Integer] Jumlah kertas undi yang dipulangkan untuk pengiraan."
             },
@@ -85,7 +85,7 @@
                 "name": "peratus_undi",
                 "title_en": "GE15: Voter Turnout",
                 "title_bm": "PRU15: Peratus Undi",
-                "desc_en": "[Float] Proportion of registered voters who voted.",
+                "desc_en": "[Float] Ratio of ballots issued to registered voters.",
                 "desc_bm": "[Apung] Nisbah undi dikeluarkan kepada jumlah pengundi berdaftar."
             },
             {
@@ -93,8 +93,8 @@
                 "name": "peratus_tolak",
                 "title_en": "GE15: % of Votes Rejected",
                 "title_bm": "PRU15: Peratus Undi Ditolak",
-                "desc_en": "[Float] Proportion of returned vallots rejected during the counting process.",
-                "desc_bm": "[Apung] Nisbah undi ditolak kepada jumlah undi dipulangkan."
+                "desc_en": "[Float] Ratio of votes rejected to ballots returned.",
+                "desc_bm": "[Apung] Nisbah undi ditolak kepada jumlah undi dikembalikan."
             }
         ]
     },

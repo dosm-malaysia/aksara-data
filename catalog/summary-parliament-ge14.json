@@ -52,7 +52,7 @@
                 "id": 3,
                 "name": "undi_dalam_peti",
                 "title_en": "GE14: Ballots Returned",
-                "title_bm": "PRU14: Undi Dipulangkan",
+                "title_bm": "PRU14: Undi Dikembalikan",
                 "desc_en": "[Integer] Number of ballots returned for counting.",
                 "desc_bm": "[Integer] Jumlah kertas undi yang dipulangkan untuk pengiraan."
             },
@@ -85,7 +85,7 @@
                 "name": "peratus_undi",
                 "title_en": "GE14: Voter Turnout",
                 "title_bm": "PRU14: Peratus Undi",
-                "desc_en": "[Float] Proportion of registered voters who voted.",
+                "desc_en": "[Float] Ratio of ballots issued to registered voters.",
                 "desc_bm": "[Apung] Nisbah undi dikeluarkan kepada jumlah pengundi berdaftar."
             },
             {
@@ -93,8 +93,8 @@
                 "name": "peratus_tolak",
                 "title_en": "GE14: % of Votes Rejected",
                 "title_bm": "PRU14: Peratus Undi Ditolak",
-                "desc_en": "[Float] Proportion of returned vallots rejected during the counting process.",
-                "desc_bm": "[Apung] Nisbah undi ditolak kepada jumlah undi dipulangkan."
+                "desc_en": "[Float] Ratio of votes rejected to ballots returned.",
+                "desc_bm": "[Apung] Nisbah undi ditolak kepada jumlah undi dikembalikan."
             }
         ]
     },
