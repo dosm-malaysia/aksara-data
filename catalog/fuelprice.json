@@ -18,7 +18,7 @@
         "variables": [
             {
                 "id": -1,
-                "name": "chart_type",
+                "name": "series_type",
                 "title_en": "Chart Type",
                 "title_bm": "Jenis Carta",
                 "desc_en": "[categorical] Price in RM (level), or weekly change in RM (change_weekly).",
