@@ -35,128 +35,128 @@
             {
                 "id": 1,
                 "name": "johor",
-                "title_en": "CPI by Category: Johor",
-                "title_bm": "IHP mengikut Kategori: Johor",
+                "title_en": "CPI by State: Johor",
+                "title_bm": "IHP mengikut Negeri: Johor",
                 "desc_en": "[Float] Index with base 2010 = 100, showing the CPI value for Johor by category of consumption.",
                 "desc_bm": "[Apung] Indeks dengan asas 2010 = 100, yang menunjukkan nilai IHP untuk Johor mengikut kategori perbelanjaan."
             },
             {
                 "id": 2,
                 "name": "kedah",
-                "title_en": "CPI by Category: Kedah",
-                "title_bm": "IHP mengikut Kategori: Kedah",
+                "title_en": "CPI by State: Kedah",
+                "title_bm": "IHP mengikut Negeri: Kedah",
                 "desc_en": "[Float] Index with base 2010 = 100, showing the CPI value for Kedah by category of consumption.",
                 "desc_bm": "[Apung] Indeks dengan asas 2010 = 100, yang menunjukkan nilai IHP untuk Kedah mengikut kategori perbelanjaan."
             },
             {
                 "id": 3,
                 "name": "kelantan",
-                "title_en": "CPI by Category: Kelantan",
-                "title_bm": "IHP mengikut Kategori: Kelantan",
+                "title_en": "CPI by State: Kelantan",
+                "title_bm": "IHP mengikut Negeri: Kelantan",
                 "desc_en": "[Float] Index with base 2010 = 100, showing the CPI value for Kelantan by category of consumption.",
                 "desc_bm": "[Apung] Indeks dengan asas 2010 = 100, yang menunjukkan nilai IHP untuk Kelantan mengikut kategori perbelanjaan."
             },
             {
                 "id": 4,
                 "name": "melaka",
-                "title_en": "CPI by Category: Melaka",
-                "title_bm": "IHP mengikut Kategori: Melaka",
+                "title_en": "CPI by State: Melaka",
+                "title_bm": "IHP mengikut Negeri: Melaka",
                 "desc_en": "[Float] Index with base 2010 = 100, showing the CPI value for Melaka by category of consumption.",
                 "desc_bm": "[Apung] Indeks dengan asas 2010 = 100, yang menunjukkan nilai IHP untuk Melaka mengikut kategori perbelanjaan."
             },
             {
                 "id": 5,
                 "name": "negeri-sembilan",
-                "title_en": "CPI by Category: Negeri Sembilan",
-                "title_bm": "IHP mengikut Kategori: Negeri Sembilan",
+                "title_en": "CPI by State: Negeri Sembilan",
+                "title_bm": "IHP mengikut Negeri: Negeri Sembilan",
                 "desc_en": "[Float] Index with base 2010 = 100, showing the CPI value for Negeri Sembilan by category of consumption.",
                 "desc_bm": "[Apung] Indeks dengan asas 2010 = 100, yang menunjukkan nilai IHP untuk Negeri Sembilan mengikut kategori perbelanjaan."
             },
             {
                 "id": 6,
                 "name": "pahang",
-                "title_en": "CPI by Category: Pahang",
-                "title_bm": "IHP mengikut Kategori: Pahang",
+                "title_en": "CPI by State: Pahang",
+                "title_bm": "IHP mengikut Negeri: Pahang",
                 "desc_en": "[Float] Index with base 2010 = 100, showing the CPI value for Pahang by category of consumption.",
                 "desc_bm": "[Apung] Indeks dengan asas 2010 = 100, yang menunjukkan nilai IHP untuk Pahang mengikut kategori perbelanjaan."
             },
             {
                 "id": 7,
                 "name": "perak",
-                "title_en": "CPI by Category: Perak",
-                "title_bm": "IHP mengikut Kategori: Perak",
+                "title_en": "CPI by State: Perak",
+                "title_bm": "IHP mengikut Negeri: Perak",
                 "desc_en": "[Float] Index with base 2010 = 100, showing the CPI value for Perak by category of consumption.",
                 "desc_bm": "[Apung] Indeks dengan asas 2010 = 100, yang menunjukkan nilai IHP untuk Perak mengikut kategori perbelanjaan."
             },
             {
                 "id": 8,
                 "name": "perlis",
-                "title_en": "CPI by Category: Perlis",
-                "title_bm": "IHP mengikut Kategori: Perlis",
+                "title_en": "CPI by State: Perlis",
+                "title_bm": "IHP mengikut Negeri: Perlis",
                 "desc_en": "[Float] Index with base 2010 = 100, showing the CPI value for Perlis by category of consumption.",
                 "desc_bm": "[Apung] Indeks dengan asas 2010 = 100, yang menunjukkan nilai IHP untuk Perlis mengikut kategori perbelanjaan."
             },
             {
                 "id": 9,
                 "name": "pulau-pinang",
-                "title_en": "CPI by Category: Pulau Pinang",
-                "title_bm": "IHP mengikut Kategori: Pulau Pinang",
+                "title_en": "CPI by State: Pulau Pinang",
+                "title_bm": "IHP mengikut Negeri: Pulau Pinang",
                 "desc_en": "[Float] Index with base 2010 = 100, showing the CPI value for Pulau Pinang by category of consumption.",
                 "desc_bm": "[Apung] Indeks dengan asas 2010 = 100, yang menunjukkan nilai IHP untuk Pulau Pinang mengikut kategori perbelanjaan."
             },
             {
                 "id": 10,
                 "name": "sabah",
-                "title_en": "CPI by Category: Sabah",
-                "title_bm": "IHP mengikut Kategori: Sabah",
+                "title_en": "CPI by State: Sabah",
+                "title_bm": "IHP mengikut Negeri: Sabah",
                 "desc_en": "[Float] Index with base 2010 = 100, showing the CPI value for Sabah by category of consumption.",
                 "desc_bm": "[Apung] Indeks dengan asas 2010 = 100, yang menunjukkan nilai IHP untuk Sabah mengikut kategori perbelanjaan."
             },
             {
                 "id": 11,
                 "name": "sarawak",
-                "title_en": "CPI by Category: Sarawak",
-                "title_bm": "IHP mengikut Kategori: Sarawak",
+                "title_en": "CPI by State: Sarawak",
+                "title_bm": "IHP mengikut Negeri: Sarawak",
                 "desc_en": "[Float] Index with base 2010 = 100, showing the CPI value for Sarawak by category of consumption.",
                 "desc_bm": "[Apung] Indeks dengan asas 2010 = 100, yang menunjukkan nilai IHP untuk Sarawak mengikut kategori perbelanjaan."
             },
             {
                 "id": 12,
                 "name": "selangor",
-                "title_en": "CPI by Category: Selangor",
-                "title_bm": "IHP mengikut Kategori: Selangor",
+                "title_en": "CPI by State: Selangor",
+                "title_bm": "IHP mengikut Negeri: Selangor",
                 "desc_en": "[Float] Index with base 2010 = 100, showing the CPI value for Selangor by category of consumption.",
                 "desc_bm": "[Apung] Indeks dengan asas 2010 = 100, yang menunjukkan nilai IHP untuk Selangor mengikut kategori perbelanjaan."
             },
             {
                 "id": 13,
                 "name": "terengganu",
-                "title_en": "CPI by Category: Terengganu",
-                "title_bm": "IHP mengikut Kategori: Terengganu",
+                "title_en": "CPI by State: Terengganu",
+                "title_bm": "IHP mengikut Negeri: Terengganu",
                 "desc_en": "[Float] Index with base 2010 = 100, showing the CPI value for Terengganu by category of consumption.",
                 "desc_bm": "[Apung] Indeks dengan asas 2010 = 100, yang menunjukkan nilai IHP untuk Terengganu mengikut kategori perbelanjaan."
             },
             {
                 "id": 14,
                 "name": "wp-kuala-lumpur",
-                "title_en": "CPI by Category: W.P. Kuala Lumpur",
-                "title_bm": "IHP mengikut Kategori: W.P. Kuala Lumpur",
+                "title_en": "CPI by State: W.P. Kuala Lumpur",
+                "title_bm": "IHP mengikut Negeri: W.P. Kuala Lumpur",
                 "desc_en": "[Float] Index with base 2010 = 100, showing the CPI value for W.P. Kuala Lumpur by category of consumption.",
                 "desc_bm": "[Apung] Indeks dengan asas 2010 = 100, yang menunjukkan nilai IHP untuk W.P. Kuala Lumpur mengikut kategori perbelanjaan."
             },
             {
                 "id": 15,
                 "name": "wp-labuan",
-                "title_en": "CPI by Category: W.P. Labuan",
-                "title_bm": "IHP mengikut Kategori: W.P. Labuan",
+                "title_en": "CPI by State: W.P. Labuan",
+                "title_bm": "IHP mengikut Negeri: W.P. Labuan",
                 "desc_en": "[Float] Index with base 2010 = 100, showing the CPI value for W.P. Labuan by category of consumption.",
                 "desc_bm": "[Apung] Indeks dengan asas 2010 = 100, yang menunjukkan nilai IHP untuk W.P. Labuan mengikut kategori perbelanjaan."
             },
             {
                 "id": 16,
                 "name": "wp-putrajaya",
-                "title_en": "CPI by Category: W.P. Putrajaya",
-                "title_bm": "IHP mengikut Kategori: W.P. Putrajaya",
+                "title_en": "CPI by State: W.P. Putrajaya",
+                "title_bm": "IHP mengikut Negeri: W.P. Putrajaya",
                 "desc_en": "[Float] Index with base 2010 = 100, showing the CPI value for W.P. Putrajaya by category of consumption.",
                 "desc_bm": "[Apung] Indeks dengan asas 2010 = 100, yang menunjukkan nilai IHP untuk W.P. Putrajaya mengikut kategori perbelanjaan."
             }
