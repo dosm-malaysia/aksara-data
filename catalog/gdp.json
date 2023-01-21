@@ -84,7 +84,7 @@
                 "id": 7,
                 "name": "supply_import_duties",
                 "title_en": "GDP by Activity: Import Duties",
-                "title_bm": "KDNK mengikut Aktiviti: Duti Impot",
+                "title_bm": "KDNK mengikut Aktiviti: Duti Import",
                 "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
                 "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015."
             },
@@ -116,7 +116,7 @@
                 "id": 11,
                 "name": "demand_x",
                 "title_en": "GDP by Expenditure: Exports",
-                "title_bm": "KDNK mengikut Perbelanjaan: Ekspot",
+                "title_bm": "KDNK mengikut Perbelanjaan: Eksport",
                 "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
                 "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015."
             },
@@ -124,7 +124,7 @@
                 "id": 12,
                 "name": "demand_m",
                 "title_en": "GDP by Expenditure: Imports",
-                "title_bm": "KDNK mengikut Perbelanjaan: Impot",
+                "title_bm": "KDNK mengikut Perbelanjaan: Import",
                 "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
                 "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015."
             },
@@ -132,7 +132,7 @@
                 "id": 13,
                 "name": "demand_nx",
                 "title_en": "GDP by Expenditure: Net Exports",
-                "title_bm": "KDNK mengikut Perbelanjaan: Ekspot Bersih",
+                "title_bm": "KDNK mengikut Perbelanjaan: Eksport Bersih",
                 "desc_en": "[Integer] Amount in RM mil; real GDP is produced with reference to a base of 2015.",
                 "desc_bm": "[Integer] RM juta; harga malar merujuk kepada tahun asas 2015."
             },

@@ -8,7 +8,11 @@
         "name": "bar_chart",
         "chart_type": "bar_chart",
         "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_main_barchart.parquet",
+<<<<<<< HEAD
         "data_as_of" : "2022-11-30 23:59",
+=======
+        "data_as_of" : "2022-12-31 23:59",
+>>>>>>> e5b84b7fd30573961c09f6da20e8dd636d482e90
         "api_type": "static",
         "api_params": [],
         "variables": {
@@ -25,8 +29,13 @@
       "timeseries": {
         "name": "timeseries",
         "chart_type": "timeseries_chart",
+<<<<<<< HEAD
         "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_main_timeseries_new.parquet",
         "data_as_of" : "2022-11-30 23:59",
+=======
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_main_timeseries.parquet",
+        "data_as_of" : "2022-12-31 23:59",
+>>>>>>> e5b84b7fd30573961c09f6da20e8dd636d482e90
         "api_type": "static",
         "api_params": [],
         "variables": {
@@ -54,8 +63,13 @@
       "statistics": {
         "name": "statistics",
         "chart_type": "custom_chart",
+<<<<<<< HEAD
         "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_main_timeseries_new_callout.parquet",
         "data_as_of" : "2022-11-30 23:59",
+=======
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_main_timeseries_callout.parquet",
+        "data_as_of" : "2022-12-31 23:59",
+>>>>>>> e5b84b7fd30573961c09f6da20e8dd636d482e90
         "api_type": "static",
         "api_params": [],
         "variables": {
@@ -68,7 +82,7 @@
         "name": "timeseries_6d",
         "chart_type": "timeseries_shared",
         "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_query_timeseries_4d.parquet",
-        "data_as_of" : "2022-11-30 23:59",
+        "data_as_of" : "2022-12-31 23:59",
         "api_type": "individual_chart",
         "api_params": ["lang", "level"],
         "variables": {
@@ -85,7 +99,7 @@
         "name": "snapshot_4d",
         "chart_type": "timeseries_shared",
         "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_query_snapshot_4d.parquet",
-        "data_as_of" : "2022-11-30 23:59",
+        "data_as_of" : "2022-12-31 23:59",
         "api_type": "individual_chart",
         "api_params": ["lang", "level"],
         "variables": {
