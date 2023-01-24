@@ -10,7 +10,7 @@
         "subcategory_bm": "PriceCatcher",
         "description": {
             "en": "PriceCatcher is a mobile app developed by the Ministry of Domestic Trade and Cost of Living (KPDNKSH, formerly KPDNHEP) to help users compare the prices of key items in their area. Prices are collected and verified by groundstaff on a daily basis, with over 2 million prices collected every month. This dataset makes that wealth of data available to you for analysis.",
-            "bm": "PriceCatcher adalah aplikasi mudah ali yang dibangunkan oleh Kementerian Perdagangan Dalam Negeri dan Kos Sara Hidup (KPDNKSH, dahulunya KPDNHEP) untuk membantu pengguna mendapatkan harga barangan cepumas di sekeliling mereka. Harga dipungut dah disahkan oleh staf di lapangan, dengan lebih 2 juta harga dipungut setiap bulan. Dataset ini membolehkan anda menggunakan data raya tersebut untuk analisa lanjut."
+            "bm": "PriceCatcher adalah aplikasi mudah ali yang dibangunkan oleh Kementerian Perdagangan Dalam Negeri dan Kos Sara Hidup (KPDNKSH, dahulunya KPDNHEP) untuk membantu pengguna mendapatkan harga barangan cepumas di sekeliling mereka. Harga dipungut dan disahkan oleh staf di lapangan, dengan lebih 2 juta harga dipungut setiap bulan. Dataset ini membolehkan anda menggunakan data raya tersebut untuk analisa lanjut."
         },
         "link_parquet": "https://storage.googleapis.com/dosm-public-pricecatcher/pricecatcher_2022-09.parquet",
         "link_csv": "https://storage.googleapis.com/dosm-public-pricecatcher/pricecatcher_2022-09.csv",
@@ -22,8 +22,8 @@
                 "name": "PriceCatcher: 2022/09",
                 "title_en": "PriceCatcher: 2022/09",
                 "title_bm": "PriceCatcher: 2022/09",
-                "desc_en": "The table below provides a preview of the full dataset, which contains over a million prices. We recommend that you download and work with the data in a coding environment.",
-                "desc_bm": "Jadual di bawah memberi pratonton kepada dataset penuh yang mengandungi lebih daripada sejuta harga. Kami sarankan anda memuat turun dan menganalisa data dengan menggunakan kod."
+                "desc_en": "The table below provides a preview of the full dataset, which contains over a million prices. We recommend that you download and work with the data in a coding environment. This data should be used in conjuction with the [Item Lookup](https://open.dosm.gov.my/data-catalogue/dosm-public-pricecatcher_lookup_item_preview_0) and [Premise Lookup](https://open.dosm.gov.my/data-catalogue/dosm-public-pricecatcher_lookup_premise_preview_0) tables.",
+                "desc_bm": "Jadual di bawah memberi pratonton kepada dataset penuh yang mengandungi lebih daripada sejuta harga. Kami sarankan anda memuat turun dan menganalisa data dengan menggunakan kod. Set data ini harus digunakan bersama dengan jadual [Carian Barangan](https://open.dosm.gov.my/data-catalogue/dosm-public-pricecatcher_lookup_item_preview_0) dan [Carian Premis](https://open.dosm.gov.my/data-catalogue/dosm-public-pricecatcher_lookup_premise_preview_0)."
             },
             {
                 "id": 1,
@@ -38,16 +38,16 @@
                 "name": "premise_code",
                 "title_en": "Premise Code",
                 "title_bm": "Kod Premis",
-                "desc_en": "[Categorical] Integer representing the premise, to be mapped using the Premise Lookup Table (available in the OpenDOSM Data Catalogue). The lookup table will give you the premise name, address, district, and state.",
-                "desc_bm": "[Kategori] Integer yang melambangkan premis, yang perlu dipadankan dengan Jadual Carian Premis (boleh didapati di Katalog Data OpenDOSM). Jadual carian membolehkan anda mendapatkan nama, alamat, daerah, dan negeri bagi setiap premis."
+                "desc_en": "[Categorical] Integer representing the premise, to be mapped using the [Premise Lookup Table](https://open.dosm.gov.my/data-catalogue/dosm-public-pricecatcher_lookup_premise_preview_0). The lookup table will give you the premise name, address, district, and state.",
+                "desc_bm": "[Kategori] Integer yang melambangkan premis, yang perlu dipadankan dengan [Jadual Carian Premis](https://open.dosm.gov.my/data-catalogue/dosm-public-pricecatcher_lookup_premise_preview_0). Jadual carian membolehkan anda mendapatkan nama, alamat, daerah, dan negeri bagi setiap premis."
             },
             {
                 "id": 3,
                 "name": "item_code",
                 "title_en": "Item Code",
                 "title_bm": "Kod Barangan",
-                "desc_en": "[Categorical] Integer representing the item, to be mapped using the Item Lookup Table (available in the Data Catalogue). The lookup table will give you the item name, unit of measurement, and categorisation.",
-                "desc_bm": "[Kategori] Integer yang melambangkan barangan, yang perlu dipadankan dengan Jadual Carian Barangan (boleh didapati di Katalog Data OpenDOSM). Jadual carian membolehkan anda mendapatkan nama, unit ukuran, dan kategori bagi setiap barang."
+                "desc_en": "[Categorical] Integer representing the item, to be mapped using the [Item Lookup Table](https://open.dosm.gov.my/data-catalogue/dosm-public-pricecatcher_lookup_item_preview_0). The lookup table will give you the item name, unit of measurement, and categorisation.",
+                "desc_bm": "[Kategori] Integer yang melambangkan barangan, yang perlu dipadankan dengan [Jadual Carian Barangan](https://open.dosm.gov.my/data-catalogue/dosm-public-pricecatcher_lookup_item_preview_0). Jadual carian membolehkan anda mendapatkan nama, unit ukuran, dan kategori bagi setiap barang."
             },
             {
                 "id": 4,
@@ -76,7 +76,7 @@
             "metadata_neutral": {
                 "data_as_of": "2022-09-30 23:59",
                 "last_updated": "2022-10-01 12:00",
-                "next_update": "n/a"
+                "next_update": "-"
             },
             "metadata_lang": {
                 "en": {
