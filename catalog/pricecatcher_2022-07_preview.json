@@ -22,8 +22,8 @@
                 "name": "PriceCatcher: 2022/07",
                 "title_en": "PriceCatcher: 2022/07",
                 "title_bm": "PriceCatcher: 2022/07",
-                "desc_en": "The table below provides a preview of the full dataset, which contains over a million prices. We recommend that you download and work with the data in a coding environment. This data should be used in conjuction with the Item Lookup and [Premise Lookup](https://open.dosm.gov.my/data-catalogue/dosm-public-pricecatcher_lookup_premise_preview_0) tables.",
-                "desc_bm": "Jadual di bawah memberi pratonton kepada dataset penuh yang mengandungi lebih daripada sejuta harga. Kami sarankan anda memuat turun dan menganalisa data dengan menggunakan kod. Set data ini harus digunakan bersama dengan Jadual Carian Barangan dan [Jadual Carian Premis](https://open.dosm.gov.my/data-catalogue/dosm-public-pricecatcher_lookup_premise_preview_0)."
+                "desc_en": "The table below provides a preview of the full dataset, which contains over a million prices. We recommend that you download and work with the data in a coding environment. This data should be used in conjuction with the Item Lookup and Premise Lookup tables.",
+                "desc_bm": "Jadual di bawah memberi pratonton kepada dataset penuh yang mengandungi lebih daripada sejuta harga. Kami sarankan anda memuat turun dan menganalisa data dengan menggunakan kod. Set data ini harus digunakan bersama dengan Jadual Carian Barangan dan Jadual Carian Premis."
             },
             {
                 "id": 1,
