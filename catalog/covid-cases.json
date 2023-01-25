@@ -184,8 +184,7 @@
                 "chart_filters": {
                     "SLICE_BY": [
                         "state"
-                    ],
-                    "precision": 0
+                    ]
                 },
                 "chart_variables": {
                     "parents": [
