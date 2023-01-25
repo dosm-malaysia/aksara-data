@@ -234,24 +234,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -279,24 +282,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -324,24 +330,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -369,24 +378,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -414,24 +426,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -459,24 +474,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -504,24 +522,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -549,24 +570,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -594,24 +618,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -639,24 +666,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -684,24 +714,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -729,24 +762,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -774,24 +810,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -819,24 +858,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -864,24 +906,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -909,24 +954,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -954,24 +1002,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -999,24 +1050,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -1044,24 +1098,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -1089,24 +1146,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -1134,24 +1194,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -1179,24 +1242,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -1224,24 +1290,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
@@ -1269,24 +1338,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-24 23:59",
-                "last_updated": "2023-01-25 08:00",
-                "next_update": "2023-01-26 08:00"
+                "data_as_of": "2024-01-25 23:59",
+                "last_updated": "2023-01-26 08:00",
+                "next_update": "2023-01-27 08:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data is harvested from 4 open-source and globally-used APIs to ensure consistency.",
-                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms."
+                    "caveat": "This data is meant for analytical purposes, and is not intended to be used as a training dataset for trading algorithms.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Bagi tujuan penyemakan, data ini dipungut secara harian daripada 4 API terbuka yang diguna secara global.",
-                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang."
+                    "caveat": "Data ini adalah bertujuan untuk analisa ekonomi, dan bukannya sebagai input kepada algoritma perdagangan mata wang.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 2
                 },
                 "chart_variables": {
                     "parents": [],
