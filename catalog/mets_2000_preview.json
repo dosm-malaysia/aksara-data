@@ -112,14 +112,21 @@
                 },
                 "bm": {
                     "methodology": "Harga dipungut dan disahkan oleh staf di lapangan, dengan lebih 2 juta harga dipungut setiap bulan.",
-                    "caveat": "Data ini dipungut bagi tujuan survelan harga, maka amat bersesuaian untuk analisa barangan khusus di lokasi yang khusus, pada frekuensi yang tinggi. Namun, survelan inflasi memerlukan pendekatan yang berbeza bagi memastikan keterwakilan data. Sebarang analisa inflasi harus menggunakan data IHP yang diterbitkan oleh DOSM.",
+                    "caveat": "Data ini adalah sangat terperinci, maka terdapat beberapa nuansa yang harus diberi perhatian semasa menghasilkan sebarang analisis. Kami mengesyorkan anda membaca [huraian tambahan ini](https://www.dosm.gov.my/v1/uploads/files/4_Portal%20Content/6_OnlineServices/Supplementary_Explanatory_METS.PDF) sebelum mula menggunakan data METS.",
                     "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TABLE",
                 "chart_filters": {
-                    "FREEZE": [],
+                    "FREEZE": [
+                        "date",
+                        "trade_type",
+                        "country",
+                        "mode",
+                        "sitc_5d",
+                        "hs_6d"
+                    ],
                     "EXCLUDE": [],
                     "precision": 1
                 }

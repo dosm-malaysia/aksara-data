@@ -112,7 +112,7 @@
                 },
                 "bm": {
                     "methodology": "Malaysia menggunakan 'sistem umum' dalam penyusunan Perangkaan perdagangan luar negeri. Di bawah sistem ini, sempadan negara digunakan sebagai sempadan perangkaan. Semua barang yang dibawa masuk atau keluar dari negara direkodkan, sama ada barangan itu tertakluk kepada kelulusan tertentu atau pun tidak. Barangan yang dibawa masuk atau keluar dari gudang gudang simpanan kastam, Zon Bebas direkodkan di dalam perangkaan ini. ",
-                    "caveat": "Data ini adalah sangat terperinci, maka terdapat beberapa nuansa yang harus diberi perhatian semasa menghasilkan sebarang analisis. Kami mengesyorkan anda membaca Due to the granular nature of the data, there are many intricacies that should be noted when conducting analysis. We recommend that you read this [huraian tambahan ini](https://www.dosm.gov.my/v1/uploads/files/4_Portal%20Content/6_OnlineServices/Supplementary_Explanatory_METS.PDF) sebelum mula menggunakan data METS.",
+                    "caveat": "Data ini adalah sangat terperinci, maka terdapat beberapa nuansa yang harus diberi perhatian semasa menghasilkan sebarang analisis. Kami mengesyorkan anda membaca [huraian tambahan ini](https://www.dosm.gov.my/v1/uploads/files/4_Portal%20Content/6_OnlineServices/Supplementary_Explanatory_METS.PDF) sebelum mula menggunakan data METS.",
                     "publication": "-"
                 }
             },
