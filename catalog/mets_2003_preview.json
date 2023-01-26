@@ -30,8 +30,8 @@
                 "name": "date",
                 "title_en": "Date",
                 "title_bm": "Tarikh",
-                "desc_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01.",
-                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai DD ditetapkan sebagai 01."
+                "desc_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01.",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan nilai MM-DD ditetapkan sebagai 01-01."
             },
             {
                 "id": 2,
