@@ -37,9 +37,9 @@
                 "id": 2,
                 "name": "sitc_5d_heading",
                 "title_en": "Heading",
-                "title_bm": "Barangan",
+                "title_bm": "Tajuk",
                 "desc_en": "[String] Name of Heading",
-                "desc_bm": "[Rentetan] Nama Barangan"
+                "desc_bm": "[Rentetan] Nama Tajuk"
             },
             {
                 "id": 3,
