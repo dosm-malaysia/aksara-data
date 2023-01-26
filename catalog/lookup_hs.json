@@ -6,8 +6,8 @@
         "category_en": "Economy",
         "category_bm": "Ekonomi",
         "subcategory": "METS",
-        "subcategory_en": "Merchandise Trade (METS)",
-        "subcategory_bm": "Perdagangan Barangan (METS)",
+        "subcategory_en": "Merchandise Exports & Imports (METS)",
+        "subcategory_bm": "Eksport dan Import Barangan (METS)",
         "description": {
             "en": "Lookup table, to be left-joined against HS code in the main METS data.",
             "bm": "Jadual carian, untuk dipadankan (left-join) dengan kod HS dalam dataset METS utama."
