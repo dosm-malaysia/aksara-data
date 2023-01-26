@@ -1,7 +1,7 @@
 {
     "file": {
         "bucket": "dosm-public-economy",
-        "file_name": "gdp_state",
+        "file_name": "gdp_state_overall",
         "category": "ECONOMY",
         "category_en": "Economy",
         "category_bm": "Ekonomi",
@@ -12,9 +12,9 @@
             "en": "This dataset contains annual national accounts estimates by state, in constant 2015 prices.",
             "bm": "Set data ini merangkumi anggaran statistik akaun negara tahunan mengikut negeri, pada harga malar 2015."
         },
-        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/gdp_state.parquet",
-        "link_csv": "https://storage.googleapis.com/dosm-public-economy/gdp_state.csv",
-        "link_metadata": "https://storage.googleapis.com/dosm-public-economy/gdp_state.metadata",
+        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/gdp_state_overall.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-economy/gdp_state_overall.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-economy/gdp_state_overall.metadata",
         "variables": [
             {
                 "id": -1,
