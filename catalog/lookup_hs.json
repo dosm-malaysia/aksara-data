@@ -36,8 +36,8 @@
             {
                 "id": 2,
                 "name": "hs_6d_subheading",
-                "title_en": "Heading",
-                "title_bm": "Barangan",
+                "title_en": "Subheading",
+                "title_bm": "Tajuk Kecil",
                 "desc_en": "[String] Name of Subheading",
                 "desc_bm": "[Rentetan] Nama Tajuk Kecil"
             },
