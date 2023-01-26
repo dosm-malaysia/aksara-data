@@ -19,7 +19,7 @@
         "variables": [
             {
                 "id": 0,
-                "name": "Item Lookup",
+                "name": "Lookup Table: SITC Code",
                 "title_en": "Lookup Table: SITC Code",
                 "title_bm": "Jadual Carian: Kod SITC",
                 "desc_en": "Lookup table, to be left-joined against SITC code in the main METS data.",
