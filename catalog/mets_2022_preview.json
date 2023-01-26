@@ -95,8 +95,8 @@
                 "start": "2022",
                 "end": "2022",
                 "data_source": [
-                    "Customs (RMCD)",
-                    "DOSM"
+                    "DOSM",
+                    "Customs (RMCD)"
                 ]
             },
             "metadata_neutral": {
@@ -119,7 +119,14 @@
             "chart": {
                 "chart_type": "TABLE",
                 "chart_filters": {
-                    "FREEZE": [],
+                    "FREEZE": [
+                        "date",
+                        "trade_type",
+                        "country",
+                        "mode",
+                        "sitc_5d",
+                        "hs_6d"
+                    ],
                     "EXCLUDE": [],
                     "precision": 1
                 }
