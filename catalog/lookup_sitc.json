@@ -10,7 +10,7 @@
         "subcategory_bm": "Perdagangan Barangan (METS)",
         "description": {
             "en": "Lookup table, to be left-joined against SITC code in the main METS data.",
-            "bm": "Jadual carian, untuk dipadankan (left-join) dengan kod SITC  dalam dataset METS utama."
+            "bm": "Jadual carian, untuk dipadankan (left-join) dengan kod SITC dalam dataset METS utama."
         },
         "link_parquet": "https://storage.googleapis.com/dosm-public-mets/lookup_sitc.parquet",
         "link_csv": "https://storage.googleapis.com/dosm-public-mets/lookup_sitc.csv",
@@ -23,7 +23,7 @@
                 "title_en": "Lookup Table: SITC Code",
                 "title_bm": "Jadual Carian: Kod SITC",
                 "desc_en": "Lookup table, to be left-joined against SITC code in the main METS data.",
-                "desc_bm": "Jadual carian, untuk dipadankan (left-join) dengan kod SITC  dalam dataset METS utama."
+                "desc_bm": "Jadual carian, untuk dipadankan (left-join) dengan kod SITC dalam dataset METS utama."
             },
             {
                 "id": 1,
