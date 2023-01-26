@@ -106,12 +106,12 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": " Prices are collected and verified by groundstaff on a daily basis, with over 2 million prices collected every month.",
-                    "caveat": "This data is collected for the purpose of price surveillance, and is excellent for high-frequency analysis of specific items in specific locations. Inflation surveillance requires a different approach, in particular to ensure proper representativeness. Inflation analysis should be conducted using DOSM's CPI data.",
+                    "methodology": "The general system of recording is adopted in compiling Malaysia's external trade statistics. Under this system, the national boundary of the country is used as the statistical frontier. All goods entering or leaving the country (except specific exclusions) are recorded, whether or not such goods are subject to clearance. Accordingly, goods entering or leaving customs bonded warehouses, Free Trade Zones and Free Zones are recorded in the statistics.",
+                    "caveat": "Due to the granular nature of the data, there are many intricacies that should be noted when conducting analysis. We recommend that you read [this explanatory note](https://www.dosm.gov.my/v1/uploads/files/4_Portal%20Content/6_OnlineServices/Supplementary_Explanatory_METS.PDF) before working with METS data.",
                     "publication": "-"
                 },
                 "bm": {
-                    "methodology": "Harga dipungut dan disahkan oleh staf di lapangan, dengan lebih 2 juta harga dipungut setiap bulan.",
+                    "methodology": "Malaysia menggunakan 'sistem umum' dalam penyusunan Perangkaan perdagangan luar negeri. Di bawah sistem ini, sempadan negara digunakan sebagai sempadan perangkaan. Semua barang yang dibawa masuk atau keluar dari negara direkodkan, sama ada barangan itu tertakluk kepada kelulusan tertentu atau pun tidak. Barangan yang dibawa masuk atau keluar dari gudang gudang simpanan kastam, Zon Bebas direkodkan di dalam perangkaan ini. ",
                     "caveat": "Data ini adalah sangat terperinci, maka terdapat beberapa nuansa yang harus diberi perhatian semasa menghasilkan sebarang analisis. Kami mengesyorkan anda membaca [huraian tambahan ini](https://www.dosm.gov.my/v1/uploads/files/4_Portal%20Content/6_OnlineServices/Supplementary_Explanatory_METS.PDF) sebelum mula menggunakan data METS.",
                     "publication": "-"
                 }
