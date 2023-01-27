@@ -17,22 +17,6 @@
         "link_metadata": "https://storage.googleapis.com/dosm-public-healthcare/covid-cases.metadata",
         "variables": [
             {
-                "id": -1,
-                "name": "date",
-                "title_en": "Date",
-                "title_bm": "Tarikh",
-                "desc_en": "[Date] The date in YYYY-MM-DD format",
-                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
-            },
-            {
-                "id": -1,
-                "name": "state",
-                "title_en": "State",
-                "title_bm": "Negeri",
-                "desc_en": "[Categorical] Name of the state (16 in total) or Malaysia",
-                "desc_bm": "[Kategori] Name negeri (16 keseluruhan) atau Malaysia"
-            },
-            {
                 "id": 1,
                 "name": "cases_new",
                 "title_en": "New Cases",
@@ -95,6 +79,22 @@
                 "title_bm": "Kes Lengkap Penggalak",
                 "desc_en": "[Integer] Cases",
                 "desc_bm": "[Integer] Kes"
+            },
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+            },
+            {
+                "id": -1,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] Name of the state (16 in total) or Malaysia",
+                "desc_bm": "[Kategori] Name negeri (16 keseluruhan) atau Malaysia"
             }
         ]
     },
@@ -115,9 +115,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-25 23:59",
-                "last_updated": "2023-01-26 06:00",
-                "next_update": "2023-01-27 06:00"
+                "data_as_of": "2023-01-26 23:59",
+                "last_updated": "2023-01-27 06:00",
+                "next_update": "2023-01-28 06:00"
             },
             "metadata_lang": {
                 "en": {
@@ -168,9 +168,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-25 23:59",
-                "last_updated": "2023-01-26 06:00",
-                "next_update": "2023-01-27 06:00"
+                "data_as_of": "2023-01-26 23:59",
+                "last_updated": "2023-01-27 06:00",
+                "next_update": "2023-01-28 06:00"
             },
             "metadata_lang": {
                 "en": {
@@ -221,9 +221,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-25 23:59",
-                "last_updated": "2023-01-26 06:00",
-                "next_update": "2023-01-27 06:00"
+                "data_as_of": "2023-01-26 23:59",
+                "last_updated": "2023-01-27 06:00",
+                "next_update": "2023-01-28 06:00"
             },
             "metadata_lang": {
                 "en": {
@@ -274,9 +274,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-25 23:59",
-                "last_updated": "2023-01-26 06:00",
-                "next_update": "2023-01-27 06:00"
+                "data_as_of": "2023-01-26 23:59",
+                "last_updated": "2023-01-27 06:00",
+                "next_update": "2023-01-28 06:00"
             },
             "metadata_lang": {
                 "en": {
@@ -327,9 +327,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-25 23:59",
-                "last_updated": "2023-01-26 06:00",
-                "next_update": "2023-01-27 06:00"
+                "data_as_of": "2023-01-26 23:59",
+                "last_updated": "2023-01-27 06:00",
+                "next_update": "2023-01-28 06:00"
             },
             "metadata_lang": {
                 "en": {
@@ -380,9 +380,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-25 23:59",
-                "last_updated": "2023-01-26 06:00",
-                "next_update": "2023-01-27 06:00"
+                "data_as_of": "2023-01-26 23:59",
+                "last_updated": "2023-01-27 06:00",
+                "next_update": "2023-01-28 06:00"
             },
             "metadata_lang": {
                 "en": {
@@ -433,9 +433,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-25 23:59",
-                "last_updated": "2023-01-26 06:00",
-                "next_update": "2023-01-27 06:00"
+                "data_as_of": "2023-01-26 23:59",
+                "last_updated": "2023-01-27 06:00",
+                "next_update": "2023-01-28 06:00"
             },
             "metadata_lang": {
                 "en": {
@@ -486,9 +486,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-25 23:59",
-                "last_updated": "2023-01-26 06:00",
-                "next_update": "2023-01-27 06:00"
+                "data_as_of": "2023-01-26 23:59",
+                "last_updated": "2023-01-27 06:00",
+                "next_update": "2023-01-28 06:00"
             },
             "metadata_lang": {
                 "en": {
