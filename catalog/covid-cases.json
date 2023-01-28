@@ -115,20 +115,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-26 23:59",
-                "last_updated": "2023-01-27 06:00",
-                "next_update": "2023-01-28 06:00"
+                "data_as_of": "2023-01-27 23:59",
+                "last_updated": "2023-01-28 06:00",
+                "next_update": "2023-01-29 06:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in [Annex 1](https://covid-19.moh.gov.my/garis-panduan/garis-panduan-kkm/ANNEX-01-COVID-19-Case-Definition-23052022.pdf) of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
                     "caveat": "The number of confirmed cases may be less than the number of actual cases due to under-testing and under-reporting of test results. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell.",
-                    "publication": "This data is also published on [KKMNOW](https://data.moh.gov.my/covid)."
+                    "publication": "[KKMNOW's COVID-19 dashboard](https://data.moh.gov.my/covid), developed by the Ministry of Health in collaboration with DOSM."
                 },
                 "bm": {
                     "methodology": "Kes COVID-19 adalah kes seperti yang ditakrifkan dalam [Tambahan 1](https://covid-19.moh.gov.my/garis-panduan/garis-panduan-kkm/ANNEX-01-COVID-19-Case-Definition-23052022.pdf) Panduan COVID-19 KKM, yang memerincakan definisi bagi kes PUI, dan kes disahkan.",
                     "caveat": "Jumlah kes yang diumumkan mungkin kurang daripada jumlah kes yang disebenar sama ada kerana saringan tidak dapat mengesan semua kes, ataupun keputusan saringan tidak dilaporkan. Isu ini berkemungkinan semakin menjadi susulan pelonggaran sekatan COVID-19 selepas Mei 2023.",
-                    "publication": "Data ini juga diterbitkan di [KKMNOW](https://data.moh.gov.my/covid)."
+                    "publication": "[Papan pemuka COVID-19 di KKMNOW](https://data.moh.gov.my/covid), yang dibangunkan sebagai usahasama antara KKM dengan DOSM."
                 }
             },
             "chart": {
@@ -168,20 +168,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-26 23:59",
-                "last_updated": "2023-01-27 06:00",
-                "next_update": "2023-01-28 06:00"
+                "data_as_of": "2023-01-27 23:59",
+                "last_updated": "2023-01-28 06:00",
+                "next_update": "2023-01-29 06:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in [Annex 1](https://covid-19.moh.gov.my/garis-panduan/garis-panduan-kkm/ANNEX-01-COVID-19-Case-Definition-23052022.pdf) of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
                     "caveat": "The number of confirmed cases may be less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell.",
-                    "publication": "This data is also published on [KKMNOW](https://data.moh.gov.my/covid)."
+                    "publication": "[KKMNOW's COVID-19 dashboard](https://data.moh.gov.my/covid), developed by the Ministry of Health in collaboration with DOSM."
                 },
                 "bm": {
                     "methodology": "Kes COVID-19 adalah kes seperti yang ditakrifkan dalam [Tambahan 1](https://covid-19.moh.gov.my/garis-panduan/garis-panduan-kkm/ANNEX-01-COVID-19-Case-Definition-23052022.pdf) Panduan COVID-19 KKM, yang memerincakan definisi bagi kes PUI, dan kes disahkan.",
                     "caveat": "Jumlah kes yang diumumkan mungkin kurang daripada jumlah kes yang disebenar sama ada kerana saringan tidak dapat mengesan semua kes, ataupun keputusan saringan tidak dilaporkan. Isu ini berkemungkinan semakin menjadi susulan pelonggaran sekatan COVID-19 selepas Mei 2023.",
-                    "publication": "Data ini juga diterbitkan di [KKMNOW](https://data.moh.gov.my/covid)."
+                    "publication": "[Papan pemuka COVID-19 di KKMNOW](https://data.moh.gov.my/covid), yang dibangunkan sebagai usahasama antara KKM dengan DOSM."
                 }
             },
             "chart": {
@@ -221,20 +221,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-26 23:59",
-                "last_updated": "2023-01-27 06:00",
-                "next_update": "2023-01-28 06:00"
+                "data_as_of": "2023-01-27 23:59",
+                "last_updated": "2023-01-28 06:00",
+                "next_update": "2023-01-29 06:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in [Annex 1](https://covid-19.moh.gov.my/garis-panduan/garis-panduan-kkm/ANNEX-01-COVID-19-Case-Definition-23052022.pdf) of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
                     "caveat": "The number of confirmed cases may be less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell.",
-                    "publication": "This data is also published on [KKMNOW](https://data.moh.gov.my/covid)."
+                    "publication": "[KKMNOW's COVID-19 dashboard](https://data.moh.gov.my/covid), developed by the Ministry of Health in collaboration with DOSM."
                 },
                 "bm": {
                     "methodology": "Kes COVID-19 adalah kes seperti yang ditakrifkan dalam [Tambahan 1](https://covid-19.moh.gov.my/garis-panduan/garis-panduan-kkm/ANNEX-01-COVID-19-Case-Definition-23052022.pdf) Panduan COVID-19 KKM, yang memerincakan definisi bagi kes PUI, dan kes disahkan.",
                     "caveat": "Jumlah kes yang diumumkan mungkin kurang daripada jumlah kes yang disebenar sama ada kerana saringan tidak dapat mengesan semua kes, ataupun keputusan saringan tidak dilaporkan. Isu ini berkemungkinan semakin menjadi susulan pelonggaran sekatan COVID-19 selepas Mei 2023.",
-                    "publication": "Data ini juga diterbitkan di [KKMNOW](https://data.moh.gov.my/covid)."
+                    "publication": "[Papan pemuka COVID-19 di KKMNOW](https://data.moh.gov.my/covid), yang dibangunkan sebagai usahasama antara KKM dengan DOSM."
                 }
             },
             "chart": {
@@ -274,20 +274,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-26 23:59",
-                "last_updated": "2023-01-27 06:00",
-                "next_update": "2023-01-28 06:00"
+                "data_as_of": "2023-01-27 23:59",
+                "last_updated": "2023-01-28 06:00",
+                "next_update": "2023-01-29 06:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in [Annex 1](https://covid-19.moh.gov.my/garis-panduan/garis-panduan-kkm/ANNEX-01-COVID-19-Case-Definition-23052022.pdf) of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
                     "caveat": "The number of confirmed cases may be less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell.",
-                    "publication": "This data is also published on [KKMNOW](https://data.moh.gov.my/covid)."
+                    "publication": "[KKMNOW's COVID-19 dashboard](https://data.moh.gov.my/covid), developed by the Ministry of Health in collaboration with DOSM."
                 },
                 "bm": {
                     "methodology": "Kes COVID-19 adalah kes seperti yang ditakrifkan dalam [Tambahan 1](https://covid-19.moh.gov.my/garis-panduan/garis-panduan-kkm/ANNEX-01-COVID-19-Case-Definition-23052022.pdf) Panduan COVID-19 KKM, yang memerincakan definisi bagi kes PUI, dan kes disahkan.",
                     "caveat": "Jumlah kes yang diumumkan mungkin kurang daripada jumlah kes yang disebenar sama ada kerana saringan tidak dapat mengesan semua kes, ataupun keputusan saringan tidak dilaporkan. Isu ini berkemungkinan semakin menjadi susulan pelonggaran sekatan COVID-19 selepas Mei 2023.",
-                    "publication": "Data ini juga diterbitkan di [KKMNOW](https://data.moh.gov.my/covid)."
+                    "publication": "[Papan pemuka COVID-19 di KKMNOW](https://data.moh.gov.my/covid), yang dibangunkan sebagai usahasama antara KKM dengan DOSM."
                 }
             },
             "chart": {
@@ -327,20 +327,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-26 23:59",
-                "last_updated": "2023-01-27 06:00",
-                "next_update": "2023-01-28 06:00"
+                "data_as_of": "2023-01-27 23:59",
+                "last_updated": "2023-01-28 06:00",
+                "next_update": "2023-01-29 06:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in [Annex 1](https://covid-19.moh.gov.my/garis-panduan/garis-panduan-kkm/ANNEX-01-COVID-19-Case-Definition-23052022.pdf) of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
                     "caveat": "The number of confirmed cases may be less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell.",
-                    "publication": "This data is also published on [KKMNOW](https://data.moh.gov.my/covid)."
+                    "publication": "[KKMNOW's COVID-19 dashboard](https://data.moh.gov.my/covid), developed by the Ministry of Health in collaboration with DOSM."
                 },
                 "bm": {
                     "methodology": "Kes COVID-19 adalah kes seperti yang ditakrifkan dalam [Tambahan 1](https://covid-19.moh.gov.my/garis-panduan/garis-panduan-kkm/ANNEX-01-COVID-19-Case-Definition-23052022.pdf) Panduan COVID-19 KKM, yang memerincakan definisi bagi kes PUI, dan kes disahkan.",
                     "caveat": "Jumlah kes yang diumumkan mungkin kurang daripada jumlah kes yang disebenar sama ada kerana saringan tidak dapat mengesan semua kes, ataupun keputusan saringan tidak dilaporkan. Isu ini berkemungkinan semakin menjadi susulan pelonggaran sekatan COVID-19 selepas Mei 2023.",
-                    "publication": "Data ini juga diterbitkan di [KKMNOW](https://data.moh.gov.my/covid)."
+                    "publication": "[Papan pemuka COVID-19 di KKMNOW](https://data.moh.gov.my/covid), yang dibangunkan sebagai usahasama antara KKM dengan DOSM."
                 }
             },
             "chart": {
@@ -380,20 +380,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-26 23:59",
-                "last_updated": "2023-01-27 06:00",
-                "next_update": "2023-01-28 06:00"
+                "data_as_of": "2023-01-27 23:59",
+                "last_updated": "2023-01-28 06:00",
+                "next_update": "2023-01-29 06:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in [Annex 1](https://covid-19.moh.gov.my/garis-panduan/garis-panduan-kkm/ANNEX-01-COVID-19-Case-Definition-23052022.pdf) of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
                     "caveat": "The number of confirmed cases may be less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell.",
-                    "publication": "This data is also published on [KKMNOW](https://data.moh.gov.my/covid)."
+                    "publication": "[KKMNOW's COVID-19 dashboard](https://data.moh.gov.my/covid), developed by the Ministry of Health in collaboration with DOSM."
                 },
                 "bm": {
                     "methodology": "Kes COVID-19 adalah kes seperti yang ditakrifkan dalam [Tambahan 1](https://covid-19.moh.gov.my/garis-panduan/garis-panduan-kkm/ANNEX-01-COVID-19-Case-Definition-23052022.pdf) Panduan COVID-19 KKM, yang memerincakan definisi bagi kes PUI, dan kes disahkan.",
                     "caveat": "Jumlah kes yang diumumkan mungkin kurang daripada jumlah kes yang disebenar sama ada kerana saringan tidak dapat mengesan semua kes, ataupun keputusan saringan tidak dilaporkan. Isu ini berkemungkinan semakin menjadi susulan pelonggaran sekatan COVID-19 selepas Mei 2023.",
-                    "publication": "Data ini juga diterbitkan di [KKMNOW](https://data.moh.gov.my/covid)."
+                    "publication": "[Papan pemuka COVID-19 di KKMNOW](https://data.moh.gov.my/covid), yang dibangunkan sebagai usahasama antara KKM dengan DOSM."
                 }
             },
             "chart": {
@@ -433,20 +433,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-26 23:59",
-                "last_updated": "2023-01-27 06:00",
-                "next_update": "2023-01-28 06:00"
+                "data_as_of": "2023-01-27 23:59",
+                "last_updated": "2023-01-28 06:00",
+                "next_update": "2023-01-29 06:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in [Annex 1](https://covid-19.moh.gov.my/garis-panduan/garis-panduan-kkm/ANNEX-01-COVID-19-Case-Definition-23052022.pdf) of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
                     "caveat": "The number of confirmed cases may be less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell.",
-                    "publication": "This data is also published on [KKMNOW](https://data.moh.gov.my/covid)."
+                    "publication": "[KKMNOW's COVID-19 dashboard](https://data.moh.gov.my/covid), developed by the Ministry of Health in collaboration with DOSM."
                 },
                 "bm": {
                     "methodology": "Kes COVID-19 adalah kes seperti yang ditakrifkan dalam [Tambahan 1](https://covid-19.moh.gov.my/garis-panduan/garis-panduan-kkm/ANNEX-01-COVID-19-Case-Definition-23052022.pdf) Panduan COVID-19 KKM, yang memerincakan definisi bagi kes PUI, dan kes disahkan.",
                     "caveat": "Jumlah kes yang diumumkan mungkin kurang daripada jumlah kes yang disebenar sama ada kerana saringan tidak dapat mengesan semua kes, ataupun keputusan saringan tidak dilaporkan. Isu ini berkemungkinan semakin menjadi susulan pelonggaran sekatan COVID-19 selepas Mei 2023.",
-                    "publication": "Data ini juga diterbitkan di [KKMNOW](https://data.moh.gov.my/covid)."
+                    "publication": "[Papan pemuka COVID-19 di KKMNOW](https://data.moh.gov.my/covid), yang dibangunkan sebagai usahasama antara KKM dengan DOSM."
                 }
             },
             "chart": {
@@ -486,20 +486,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-26 23:59",
-                "last_updated": "2023-01-27 06:00",
-                "next_update": "2023-01-28 06:00"
+                "data_as_of": "2023-01-27 23:59",
+                "last_updated": "2023-01-28 06:00",
+                "next_update": "2023-01-29 06:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "Confirmed COVID-19 cases are cases as defined in [Annex 1](https://covid-19.moh.gov.my/garis-panduan/garis-panduan-kkm/ANNEX-01-COVID-19-Case-Definition-23052022.pdf) of the KKM COVID-19 Guidelines, which details how Malaysia defines suspected, probably, and confirmed COVID-19 cases.",
                     "caveat": "The number of confirmed cases may be less than the number of actual cases due to under-testing. The problem of under-testing is likely to have gotten more-severe after May 2023, when COVID-19 restrictions were lifted and testing rates fell.",
-                    "publication": "This data is also published on [KKMNOW](https://data.moh.gov.my/covid)."
+                    "publication": "[KKMNOW's COVID-19 dashboard](https://data.moh.gov.my/covid), developed by the Ministry of Health in collaboration with DOSM."
                 },
                 "bm": {
                     "methodology": "Kes COVID-19 adalah kes seperti yang ditakrifkan dalam [Tambahan 1](https://covid-19.moh.gov.my/garis-panduan/garis-panduan-kkm/ANNEX-01-COVID-19-Case-Definition-23052022.pdf) Panduan COVID-19 KKM, yang memerincakan definisi bagi kes PUI, dan kes disahkan.",
                     "caveat": "Jumlah kes yang diumumkan mungkin kurang daripada jumlah kes yang disebenar sama ada kerana saringan tidak dapat mengesan semua kes, ataupun keputusan saringan tidak dilaporkan. Isu ini berkemungkinan semakin menjadi susulan pelonggaran sekatan COVID-19 selepas Mei 2023.",
-                    "publication": "Data ini juga diterbitkan di [KKMNOW](https://data.moh.gov.my/covid)."
+                    "publication": "[Papan pemuka COVID-19 di KKMNOW](https://data.moh.gov.my/covid), yang dibangunkan sebagai usahasama antara KKM dengan DOSM."
                 }
             },
             "chart": {
