@@ -5,8 +5,8 @@
         "category": "ECONOMY",
         "category_en": "Economy",
         "category_bm": "Ekonomi",
-        "subcategory": "LABOUR",
-        "subcategory_en": "Labour",
+        "subcategory": "LABOUR_FORCE",
+        "subcategory_en": "Labour Force",
         "subcategory_bm": "Tenaga Buruh",
         "description": {
             "en": "The annual Labour Force Report presents the statistics of labour force, employment and unemployment obtained from the Labour Force Survey (LFS).",
@@ -104,18 +104,21 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "The survey which is carried out every month provides statistics on the labour force, employment and unemployment at the national and state levels as well as in urban and rural areas. Data from this survey is published on monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
-                    "caveat": "The time series for 1982\u20132021 presented the principal labour force statistics. There is no data for 1991 and 1994 since LFS was not conducted in those years. Meanwhile, time series for 2016\u20132021 presented statistics on labour force participation rate (LFPR), labour force and employed persons by selected demographic and socioeconomic characteristics. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious."
+                    "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+                    "caveat": "There is no data for 1991 and 1994 because the LFS was not conducted in those years. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
+                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
                 },
                 "bm": {
-                    "methodology": "Survei yang dijalankan setiap bulan ini menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
-                    "caveat": "Siri masa 1982\u20132020 memaparkan statistik utama tenaga buruh. Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Manakala, siri masa 2016\u20132020 memaparkan statistik kadar penyertaan tenaga buruh (KPTB), tenaga buruh dan penduduk bekerja mengikut ciri-ciri demografi dan sosioekonomi terpilih. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara."
+                    "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+                    "caveat": "Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
+                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -149,18 +152,21 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "The survey which is carried out every month provides statistics on the labour force, employment and unemployment at the national and state levels as well as in urban and rural areas. Data from this survey is published on monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
-                    "caveat": "The time series for 1982\u20132021 presented the principal labour force statistics. There is no data for 1991 and 1994 since LFS was not conducted in those years. Meanwhile, time series for 2016\u20132021 presented statistics on labour force participation rate (LFPR), labour force and employed persons by selected demographic and socioeconomic characteristics. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious."
+                    "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+                    "caveat": "There is no data for 1991 and 1994 because the LFS was not conducted in those years. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
+                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
                 },
                 "bm": {
-                    "methodology": "Survei yang dijalankan setiap bulan ini menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
-                    "caveat": "Siri masa 1982\u20132020 memaparkan statistik utama tenaga buruh. Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Manakala, siri masa 2016\u20132020 memaparkan statistik kadar penyertaan tenaga buruh (KPTB), tenaga buruh dan penduduk bekerja mengikut ciri-ciri demografi dan sosioekonomi terpilih. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara."
+                    "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+                    "caveat": "Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
+                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -194,18 +200,21 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "The survey which is carried out every month provides statistics on the labour force, employment and unemployment at the national and state levels as well as in urban and rural areas. Data from this survey is published on monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
-                    "caveat": "The time series for 1982\u20132021 presented the principal labour force statistics. There is no data for 1991 and 1994 since LFS was not conducted in those years. Meanwhile, time series for 2016\u20132021 presented statistics on labour force participation rate (LFPR), labour force and employed persons by selected demographic and socioeconomic characteristics. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious."
+                    "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+                    "caveat": "There is no data for 1991 and 1994 because the LFS was not conducted in those years. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
+                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
                 },
                 "bm": {
-                    "methodology": "Survei yang dijalankan setiap bulan ini menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
-                    "caveat": "Siri masa 1982\u20132020 memaparkan statistik utama tenaga buruh. Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Manakala, siri masa 2016\u20132020 memaparkan statistik kadar penyertaan tenaga buruh (KPTB), tenaga buruh dan penduduk bekerja mengikut ciri-ciri demografi dan sosioekonomi terpilih. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara."
+                    "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+                    "caveat": "Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
+                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -239,18 +248,21 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "The survey which is carried out every month provides statistics on the labour force, employment and unemployment at the national and state levels as well as in urban and rural areas. Data from this survey is published on monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
-                    "caveat": "The time series for 1982\u20132021 presented the principal labour force statistics. There is no data for 1991 and 1994 since LFS was not conducted in those years. Meanwhile, time series for 2016\u20132021 presented statistics on labour force participation rate (LFPR), labour force and employed persons by selected demographic and socioeconomic characteristics. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious."
+                    "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+                    "caveat": "There is no data for 1991 and 1994 because the LFS was not conducted in those years. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
+                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
                 },
                 "bm": {
-                    "methodology": "Survei yang dijalankan setiap bulan ini menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
-                    "caveat": "Siri masa 1982\u20132020 memaparkan statistik utama tenaga buruh. Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Manakala, siri masa 2016\u20132020 memaparkan statistik kadar penyertaan tenaga buruh (KPTB), tenaga buruh dan penduduk bekerja mengikut ciri-ciri demografi dan sosioekonomi terpilih. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara."
+                    "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+                    "caveat": "Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
+                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -284,18 +296,21 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "The survey which is carried out every month provides statistics on the labour force, employment and unemployment at the national and state levels as well as in urban and rural areas. Data from this survey is published on monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
-                    "caveat": "The time series for 1982\u20132021 presented the principal labour force statistics. There is no data for 1991 and 1994 since LFS was not conducted in those years. Meanwhile, time series for 2016\u20132021 presented statistics on labour force participation rate (LFPR), labour force and employed persons by selected demographic and socioeconomic characteristics. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious."
+                    "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+                    "caveat": "There is no data for 1991 and 1994 because the LFS was not conducted in those years. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
+                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
                 },
                 "bm": {
-                    "methodology": "Survei yang dijalankan setiap bulan ini menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
-                    "caveat": "Siri masa 1982\u20132020 memaparkan statistik utama tenaga buruh. Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Manakala, siri masa 2016\u20132020 memaparkan statistik kadar penyertaan tenaga buruh (KPTB), tenaga buruh dan penduduk bekerja mengikut ciri-ciri demografi dan sosioekonomi terpilih. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara."
+                    "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+                    "caveat": "Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
+                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -329,18 +344,21 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "The survey which is carried out every month provides statistics on the labour force, employment and unemployment at the national and state levels as well as in urban and rural areas. Data from this survey is published on monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
-                    "caveat": "The time series for 1982\u20132021 presented the principal labour force statistics. There is no data for 1991 and 1994 since LFS was not conducted in those years. Meanwhile, time series for 2016\u20132021 presented statistics on labour force participation rate (LFPR), labour force and employed persons by selected demographic and socioeconomic characteristics. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious."
+                    "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+                    "caveat": "There is no data for 1991 and 1994 because the LFS was not conducted in those years. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
+                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
                 },
                 "bm": {
-                    "methodology": "Survei yang dijalankan setiap bulan ini menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
-                    "caveat": "Siri masa 1982\u20132020 memaparkan statistik utama tenaga buruh. Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Manakala, siri masa 2016\u20132020 memaparkan statistik kadar penyertaan tenaga buruh (KPTB), tenaga buruh dan penduduk bekerja mengikut ciri-ciri demografi dan sosioekonomi terpilih. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara."
+                    "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+                    "caveat": "Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
+                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -374,18 +392,21 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "The survey which is carried out every month provides statistics on the labour force, employment and unemployment at the national and state levels as well as in urban and rural areas. Data from this survey is published on monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
-                    "caveat": "The time series for 1982\u20132021 presented the principal labour force statistics. There is no data for 1991 and 1994 since LFS was not conducted in those years. Meanwhile, time series for 2016\u20132021 presented statistics on labour force participation rate (LFPR), labour force and employed persons by selected demographic and socioeconomic characteristics. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious."
+                    "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+                    "caveat": "There is no data for 1991 and 1994 because the LFS was not conducted in those years. The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
+                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
                 },
                 "bm": {
-                    "methodology": "Survei yang dijalankan setiap bulan ini menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
-                    "caveat": "Siri masa 1982\u20132020 memaparkan statistik utama tenaga buruh. Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Manakala, siri masa 2016\u20132020 memaparkan statistik kadar penyertaan tenaga buruh (KPTB), tenaga buruh dan penduduk bekerja mengikut ciri-ciri demografi dan sosioekonomi terpilih. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara."
+                    "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+                    "caveat": "Tiada data bagi tahun 1991 dan 1994 kerana STB tidak dilaksanakan pada tahun berkenaan. Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
+                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
