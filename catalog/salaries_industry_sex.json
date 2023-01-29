@@ -14,7 +14,7 @@
         },
         "link_parquet": "https://storage.googleapis.com/dosm-public-economy/salaries_industry_sex.parquet",
         "link_csv": "https://storage.googleapis.com/dosm-public-economy/salaries_industry_sex.csv",
-        "link_metadata": "https://storage.googleapis.com/dosm-public-economy/salaries_industry_sex.metadata",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-economy/salaries_industry_sex.metaadata",
         "variables": [
             {
                 "id": -1,
