@@ -117,18 +117,18 @@
                 "chart_type": "BAR",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "variable",
+                        "sex",
                         "year"
                     ],
                     "precision": 0
                 },
                 "chart_variables": {
                     "parents": [
-                        "variable",
+                        "sex",
                         "year"
                     ],
                     "format": {
-                        "x": "sex",
+                        "x": "variable",
                         "y": "mean"
                     }
                 }
@@ -168,18 +168,18 @@
                 "chart_type": "BAR",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "variable",
+                        "sex",
                         "year"
                     ],
                     "precision": 0
                 },
                 "chart_variables": {
                     "parents": [
-                        "variable",
+                        "sex",
                         "year"
                     ],
                     "format": {
-                        "x": "year",
+                        "x": "variable",
                         "y": "median"
                     }
                 }
@@ -219,18 +219,18 @@
                 "chart_type": "BAR",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "variable",
+                        "sex",
                         "year"
                     ],
                     "precision": 0
                 },
                 "chart_variables": {
                     "parents": [
-                        "variable",
+                        "sex",
                         "year"
                     ],
                     "format": {
-                        "x": "year",
+                        "x": "variable",
                         "y": "recipients"
                     }
                 }
