@@ -59,24 +59,24 @@
             {
                 "id": 1,
                 "name": "mean",
-                "title_en": "Mean Wage by Industry & Sex",
-                "title_bm": "Gaji Purata mengikut Industri & Jantina",
+                "title_en": "Mean Wage by Industry & Sex (Time Series)",
+                "title_bm": "Gaji Purata mengikut Industri & Jantina (Siri Masa)",
                 "desc_en": "[Float] Mean wage in RM",
                 "desc_bm": "[Apung] Gaji penengah dalam RM"
             },
             {
                 "id": 2,
                 "name": "median",
-                "title_en": "Median Wage by Industry & Sex",
-                "title_bm": "Gaji Penengah mengikut Industri & Jantina",
+                "title_en": "Median Wage by Industry & Sex (Time Series)",
+                "title_bm": "Gaji Penengah mengikut Industri & Jantina (Siri Masa)",
                 "desc_en": "[Float] Median wage in RM",
                 "desc_bm": "[Apung] Gaji purata dalam RM"
             },
             {
                 "id": 3,
                 "name": "recipients",
-                "title_en": "Monthly Recipients by Industry & Sex",
-                "title_bm": "Penerima Bulanan mengikut Industri & Jantina",
+                "title_en": "Monthly Recipients by Industry & Sex (Time Series)",
+                "title_bm": "Penerima Bulanan mengikut Industri & Jantina (Siri Masa)",
                 "desc_en": "[Float] Number of monthly wage recipients, in thousands ('000) of people",
                 "desc_bm": "[Apung]Jumlah penerima gaji bulanan, dalam ribu ('000) orang"
             }
