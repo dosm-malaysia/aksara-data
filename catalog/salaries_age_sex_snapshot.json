@@ -12,9 +12,9 @@
             "en": "Lorem ipsum.",
             "bm": "Lorem ipsum."
         },
-        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/salaries_age_sex_snapshot.parquet",
-        "link_csv": "https://storage.googleapis.com/dosm-public-economy/salaries_age_sex_snapshot.csv",
-        "link_metadata": "https://storage.googleapis.com/dosm-public-economy/salaries_age_sex_snapshot.metadata",
+        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/salaries_age_sex.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-economy/salaries_age_sex.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-economy/salaries_age_sex.metadata",
         "variables": [
             {
                 "id": -1,
