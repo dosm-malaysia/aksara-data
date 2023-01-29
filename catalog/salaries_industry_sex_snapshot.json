@@ -1,13 +1,13 @@
 {
     "file": {
         "bucket": "dosm-public-economy",
-        "file_name": "salaries_industry_sex",
+        "file_name": "salaries_industry_sex_snapshot",
         "category": "ECONOMY",
         "category_en": "Economy",
         "category_bm": "Ekonomi",
         "subcategory": "SGU",
         "subcategory_en": "Salaries & Wages",
-        "subcategory_bm": "Salari & Gaji",
+        "subcategory_bm": "Salari, Gaji & Upah",
         "description": {
             "en": "Lorem ipsum.",
             "bm": "Lorem ipsum."
@@ -59,24 +59,24 @@
             {
                 "id": 1,
                 "name": "mean",
-                "title_en": "Mean Wage by Industry & Sex (time series)",
-                "title_bm": "Gaji Purata mengikut Industri & Jantina (siri masa)",
+                "title_en": "Mean Wage by Industry & Sex (cross section)",
+                "title_bm": "Gaji Purata mengikut Industri & Jantina (keratan rentas)",
                 "desc_en": "[Float] Mean wage in RM",
                 "desc_bm": "[Apung] Gaji penengah dalam RM"
             },
             {
                 "id": 2,
                 "name": "median",
-                "title_en": "Median Wage by Industry & Sex (time series)",
-                "title_bm": "Gaji Penengah mengikut Industri & Jantina (siri masa)",
+                "title_en": "Median Wage by Industry & Sex (cross section)",
+                "title_bm": "Gaji Penengah mengikut Industri & Jantina (keratan rentas)",
                 "desc_en": "[Float] Median wage in RM",
                 "desc_bm": "[Apung] Gaji purata dalam RM"
             },
             {
                 "id": 3,
                 "name": "recipients",
-                "title_en": "Monthly Recipients by Industry & Sex (time series)",
-                "title_bm": "Penerima Bulanan mengikut Industri & Jantina (siri masa)",
+                "title_en": "Monthly Recipients by Industry & Sex (cross section)",
+                "title_bm": "Penerima Bulanan mengikut Industri & Jantina (keratan rentas)",
                 "desc_en": "[Float] Number of monthly wage recipients, in thousands ('000) of people",
                 "desc_bm": "[Apung]Jumlah penerima gaji bulanan, dalam ribu ('000) orang"
             }
@@ -117,18 +117,18 @@
                 "chart_type": "BAR",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "variable",
+                        "year",
                         "sex"
                     ],
                     "precision": 0
                 },
                 "chart_variables": {
                     "parents": [
-                        "variable",
+                        "year",
                         "sex"
                     ],
                     "format": {
-                        "x": "year",
+                        "x": "variable",
                         "y": "mean"
                     }
                 }
@@ -168,18 +168,18 @@
                 "chart_type": "BAR",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "variable",
+                        "year",
                         "sex"
                     ],
                     "precision": 0
                 },
                 "chart_variables": {
                     "parents": [
-                        "variable",
+                        "year",
                         "sex"
                     ],
                     "format": {
-                        "x": "year",
+                        "x": "variable",
                         "y": "median"
                     }
                 }
@@ -219,18 +219,18 @@
                 "chart_type": "BAR",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "variable",
+                        "year",
                         "sex"
                     ],
                     "precision": 0
                 },
                 "chart_variables": {
                     "parents": [
-                        "variable",
+                        "year",
                         "sex"
                     ],
                     "format": {
-                        "x": "year",
+                        "x": "variable",
                         "y": "recipients"
                     }
                 }
