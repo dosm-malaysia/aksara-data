@@ -91,19 +91,19 @@
             },
             "metadata_neutral": {
                 "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2022-01-30 12:00",
+                "last_updated": "2023-01-30 12:00",
                 "next_update": "2023-02-27 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for commodities charged by domestic producers of an industry.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "-"
+                    "publication": "[Producer Price Index for Malaysia, December 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=107&bul_id=aVY1akJBMXJtU2hEMmRua3dMV1plUT09&menu_id=bThzTHQxN1ZqMVF6a2I4RkZoNDFkQT09), the latest edition of the monthly producer price statistics published by DOSM."
                 },
                 "bm": {
                     "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
-                    "publication": "-"
+                    "publication": "[Indeks Harga Pengeluar bagi Malaysia, Disember 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=107&bul_id=aVY1akJBMXJtU2hEMmRua3dMV1plUT09&menu_id=bThzTHQxN1ZqMVF6a2I4RkZoNDFkQT09),  edisi terkini bagi statistik harga pengeluar bulanan yang diterbitkan oleh DOSM."
                 }
             },
             "chart": {
@@ -139,19 +139,19 @@
             },
             "metadata_neutral": {
                 "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2022-01-30 12:00",
+                "last_updated": "2023-01-30 12:00",
                 "next_update": "2023-02-27 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for commodities in Agriculture, forestry and fishing sector charged by domestic producers of an industry.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "-"
+                    "publication": "[Producer Price Index for Malaysia, December 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=107&bul_id=aVY1akJBMXJtU2hEMmRua3dMV1plUT09&menu_id=bThzTHQxN1ZqMVF6a2I4RkZoNDFkQT09), the latest edition of the monthly producer price statistics published by DOSM."
                 },
                 "bm": {
                     "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Pertanian, Perhutanan dan Perikanan yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
-                    "publication": "-"
+                    "publication": "[Indeks Harga Pengeluar bagi Malaysia, Disember 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=107&bul_id=aVY1akJBMXJtU2hEMmRua3dMV1plUT09&menu_id=bThzTHQxN1ZqMVF6a2I4RkZoNDFkQT09),  edisi terkini bagi statistik harga pengeluar bulanan yang diterbitkan oleh DOSM."
                 }
             },
             "chart": {
@@ -187,19 +187,19 @@
             },
             "metadata_neutral": {
                 "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2022-01-30 12:00",
+                "last_updated": "2023-01-30 12:00",
                 "next_update": "2023-02-27 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for commodities in Mining sector charged by domestic producers of an industry.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "-"
+                    "publication": "[Producer Price Index for Malaysia, December 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=107&bul_id=aVY1akJBMXJtU2hEMmRua3dMV1plUT09&menu_id=bThzTHQxN1ZqMVF6a2I4RkZoNDFkQT09), the latest edition of the monthly producer price statistics published by DOSM."
                 },
                 "bm": {
                     "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Perlombongan yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
-                    "publication": "-"
+                    "publication": "[Indeks Harga Pengeluar bagi Malaysia, Disember 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=107&bul_id=aVY1akJBMXJtU2hEMmRua3dMV1plUT09&menu_id=bThzTHQxN1ZqMVF6a2I4RkZoNDFkQT09),  edisi terkini bagi statistik harga pengeluar bulanan yang diterbitkan oleh DOSM."
                 }
             },
             "chart": {
@@ -235,19 +235,19 @@
             },
             "metadata_neutral": {
                 "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2022-01-30 12:00",
+                "last_updated": "2023-01-30 12:00",
                 "next_update": "2023-02-27 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for commodities in Manufacturing Sector charged by domestic producers of an industry.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "-"
+                    "publication": "[Producer Price Index for Malaysia, December 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=107&bul_id=aVY1akJBMXJtU2hEMmRua3dMV1plUT09&menu_id=bThzTHQxN1ZqMVF6a2I4RkZoNDFkQT09), the latest edition of the monthly producer price statistics published by DOSM."
                 },
                 "bm": {
                     "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Pembuatan yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
-                    "publication": "-"
+                    "publication": "[Indeks Harga Pengeluar bagi Malaysia, Disember 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=107&bul_id=aVY1akJBMXJtU2hEMmRua3dMV1plUT09&menu_id=bThzTHQxN1ZqMVF6a2I4RkZoNDFkQT09),  edisi terkini bagi statistik harga pengeluar bulanan yang diterbitkan oleh DOSM."
                 }
             },
             "chart": {
@@ -283,19 +283,19 @@
             },
             "metadata_neutral": {
                 "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2022-01-30 12:00",
+                "last_updated": "2023-01-30 12:00",
                 "next_update": "2023-02-27 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for commodities in Electricity and Gas Supply sector charged by domestic producers of an industry.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "-"
+                    "publication": "[Producer Price Index for Malaysia, December 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=107&bul_id=aVY1akJBMXJtU2hEMmRua3dMV1plUT09&menu_id=bThzTHQxN1ZqMVF6a2I4RkZoNDFkQT09), the latest edition of the monthly producer price statistics published by DOSM."
                 },
                 "bm": {
                     "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Bekalan Elektrik & gas yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
-                    "publication": "-"
+                    "publication": "[Indeks Harga Pengeluar bagi Malaysia, Disember 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=107&bul_id=aVY1akJBMXJtU2hEMmRua3dMV1plUT09&menu_id=bThzTHQxN1ZqMVF6a2I4RkZoNDFkQT09),  edisi terkini bagi statistik harga pengeluar bulanan yang diterbitkan oleh DOSM."
                 }
             },
             "chart": {
@@ -331,19 +331,19 @@
             },
             "metadata_neutral": {
                 "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2022-01-30 12:00",
+                "last_updated": "2023-01-30 12:00",
                 "next_update": "2023-02-27 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for commodities in Water Supply sector charged by domestic producers of an industry.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "-"
+                    "publication": "[Producer Price Index for Malaysia, December 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=107&bul_id=aVY1akJBMXJtU2hEMmRua3dMV1plUT09&menu_id=bThzTHQxN1ZqMVF6a2I4RkZoNDFkQT09), the latest edition of the monthly producer price statistics published by DOSM."
                 },
                 "bm": {
                     "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Bekalan Air yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
-                    "publication": "-"
+                    "publication": "[Indeks Harga Pengeluar bagi Malaysia, Disember 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=107&bul_id=aVY1akJBMXJtU2hEMmRua3dMV1plUT09&menu_id=bThzTHQxN1ZqMVF6a2I4RkZoNDFkQT09),  edisi terkini bagi statistik harga pengeluar bulanan yang diterbitkan oleh DOSM."
                 }
             },
             "chart": {
