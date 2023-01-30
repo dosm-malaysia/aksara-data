@@ -17,14 +17,6 @@
         "link_metadata": "https://storage.googleapis.com/dosm-public-economy/ppi.metadata",
         "variables": [
             {
-                "id": -1,
-                "name": "date",
-                "title_en": "Date",
-                "title_bm": "Tarikh",
-                "desc_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to -01-01",
-                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai -01-01"
-            },
-            {
                 "id": 1,
                 "name": "overall",
                 "title_en": "PPI (Producer Price Index)",
@@ -71,6 +63,14 @@
                 "title_bm": "IHPR: Bekalan Air",
                 "desc_en": "[Float] Index, with base 2010 = 100",
                 "desc_bm": "[Apung] Indeks, dengan asas 2010 = 100"
+            },
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01"
             }
         ]
     },
@@ -90,24 +90,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-11-30 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2022-01-30 12:00",
+                "next_update": "2023-02-27 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for commodities charged by domestic producers of an industry.",
-                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis."
+                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
-                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa."
+                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -135,24 +138,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-11-30 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2022-01-30 12:00",
+                "next_update": "2023-02-27 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for commodities in Agriculture, forestry and fishing sector charged by domestic producers of an industry.",
-                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis."
+                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Pertanian, Perhutanan dan Perikanan yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
-                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa."
+                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -180,24 +186,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-11-30 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2022-01-30 12:00",
+                "next_update": "2023-02-27 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for commodities in Mining sector charged by domestic producers of an industry.",
-                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis."
+                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Perlombongan yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
-                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa."
+                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -225,24 +234,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-11-30 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2022-01-30 12:00",
+                "next_update": "2023-02-27 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for commodities in Manufacturing Sector charged by domestic producers of an industry.",
-                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis."
+                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Pembuatan yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
-                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa."
+                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -270,24 +282,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-11-30 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2022-01-30 12:00",
+                "next_update": "2023-02-27 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for commodities in Electricity and Gas Supply sector charged by domestic producers of an industry.",
-                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis."
+                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Bekalan Elektrik & gas yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
-                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa."
+                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -315,24 +330,27 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-11-30 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2022-01-30 12:00",
+                "next_update": "2023-02-27 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for commodities in Water Supply sector charged by domestic producers of an industry.",
-                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis."
+                    "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
+                    "publication": "-"
                 },
                 "bm": {
                     "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Bekalan Air yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
-                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa."
+                    "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
+                    "publication": "-"
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
