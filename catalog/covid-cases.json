@@ -9,7 +9,7 @@
         "subcategory_en": "COVID-19",
         "subcategory_bm": "COVID-19",
         "description": {
-            "en": "This data documents COVID-19 cases as announced by the Ministry of Health Malaysia, with various breakdowns.",
+            "en": "This data documents COVID-19 cases as announced by the Ministry of Health, with various breakdowns.",
             "bm": "Data ini mendokumentasikan semua kes COVID-19 seperti mana yang diumumkan oleh Kementerian Kesihatan Malaysia."
         },
         "link_parquet": "https://storage.googleapis.com/dosm-public-healthcare/covid-cases.parquet",
