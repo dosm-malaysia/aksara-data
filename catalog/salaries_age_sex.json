@@ -129,7 +129,9 @@
                     ],
                     "format": {
                         "x": "year",
-                        "y": "['mean']"
+                        "y": [
+                            "mean"
+                        ]
                     }
                 }
             }
@@ -180,7 +182,9 @@
                     ],
                     "format": {
                         "x": "year",
-                        "y": "['median']"
+                        "y": [
+                            "median"
+                        ]
                     }
                 }
             }
@@ -231,7 +235,9 @@
                     ],
                     "format": {
                         "x": "year",
-                        "y": "['recipients']"
+                        "y": [
+                            "recipients"
+                        ]
                     }
                 }
             }
