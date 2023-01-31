@@ -1,6 +1,7 @@
 {
     "file": {
         "bucket": "dosm-public-economy",
+        "manual_trigger": "1",
         "file_name": "salaries_age_sex",
         "category": "ECONOMY",
         "category_en": "Economy",
