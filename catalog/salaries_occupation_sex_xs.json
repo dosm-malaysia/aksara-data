@@ -75,8 +75,8 @@
             {
                 "id": 3,
                 "name": "recipients",
-                "title_en": "Cross section: Monthly Recipients by Occupation & Sex",
-                "title_bm": "Keratan rentas: Penerima Bulanan mengikut Pekerjaan & Jantina",
+                "title_en": "Cross section: Recipients by Occupation & Sex",
+                "title_bm": "Keratan rentas: Penerima mengikut Pekerjaan & Jantina",
                 "desc_en": "[Integer] Number of monthly wage recipients",
                 "desc_bm": "[nteger] Jumlah penerima gaji bulanan"
             }
