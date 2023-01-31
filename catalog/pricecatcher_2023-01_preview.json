@@ -18,7 +18,7 @@
         "link_preview": "https://storage.googleapis.com/dosm-public-pricecatcher/pricecatcher_2023-01_preview.parquet",
         "variables": [
             {
-                "id": 0,
+                "id": 0.0,
                 "name": "PriceCatcher: 2023/01",
                 "title_en": "PriceCatcher: 2023/01",
                 "title_bm": "PriceCatcher: 2023/01",
@@ -26,7 +26,7 @@
                 "desc_bm": "Jadual di bawah memberi pratonton kepada dataset penuh yang mengandungi lebih daripada sejuta harga. Kami sarankan anda memuat turun dan menganalisa data dengan menggunakan kod. Set data ini harus digunakan bersama dengan Jadual Carian Barangan dan Jadual Carian Premis."
             },
             {
-                "id": 1,
+                "id": 1.0,
                 "name": "date",
                 "title_en": "Date",
                 "title_bm": "Tarikh",
@@ -34,7 +34,7 @@
                 "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
             },
             {
-                "id": 2,
+                "id": 2.0,
                 "name": "premise_code",
                 "title_en": "Premise Code",
                 "title_bm": "Kod Premis",
@@ -42,7 +42,7 @@
                 "desc_bm": "[Kategori] Integer yang melambangkan premis, yang perlu dipadankan dengan [Jadual Carian Premis](https://open.dosm.gov.my/data-catalogue/dosm-public-pricecatcher_lookup_premise_preview_0). Jadual carian membolehkan anda mendapatkan nama, alamat, daerah, dan negeri bagi setiap premis."
             },
             {
-                "id": 3,
+                "id": 3.0,
                 "name": "item_code",
                 "title_en": "Item Code",
                 "title_bm": "Kod Barangan",
@@ -50,7 +50,7 @@
                 "desc_bm": "[Kategori] Integer yang melambangkan barangan, yang perlu dipadankan dengan [Jadual Carian Barangan](https://open.dosm.gov.my/data-catalogue/dosm-public-pricecatcher_lookup_item_preview_0). Jadual carian membolehkan anda mendapatkan nama, unit ukuran, dan kategori bagi setiap barang."
             },
             {
-                "id": 4,
+                "id": 4.0,
                 "name": "price",
                 "title_en": "Price",
                 "title_bm": "Harga",
@@ -61,7 +61,7 @@
     },
     "catalog_data": [
         {
-            "id": 0,
+            "id": 0.0,
             "catalog_filters": {
                 "frequency": "DAILY",
                 "geographic": [
@@ -74,9 +74,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-01-29 23:59",
-                "last_updated": "2023-01-30 09:00",
-                "next_update": "2023-01-31 08:00"
+                "data_as_of": "2023-01-30 23:59",
+                "last_updated": "2023-01-31 09:00",
+                "next_update": "2023-02-01 08:00"
             },
             "metadata_lang": {
                 "en": {
