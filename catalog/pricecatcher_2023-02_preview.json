@@ -93,7 +93,7 @@
             "chart": {
                 "chart_type": "TABLE",
                 "chart_filters": {
-                    "FREEZE": [],
+                    "FREEZE": ["date","premise_code","item_code"],
                     "EXCLUDE": [],
                     "precision": 1
                 }
