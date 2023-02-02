@@ -74,9 +74,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-02-01 23:59",
-                "last_updated": "2023-02-02 09:00",
-                "next_update": "2023-02-03 09:00"
+                "data_as_of": "2023-02-02 23:59",
+                "last_updated": "2023-02-03 09:00",
+                "next_update": "2023-02-04 09:00"
             },
             "metadata_lang": {
                 "en": {
@@ -93,7 +93,7 @@
             "chart": {
                 "chart_type": "TABLE",
                 "chart_filters": {
-                    "FREEZE": ["date","premise_code","item_code"],
+                    "FREEZE": [],
                     "EXCLUDE": [],
                     "precision": 1
                 }
