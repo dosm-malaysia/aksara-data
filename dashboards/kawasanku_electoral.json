@@ -114,6 +114,30 @@
           "condition": {},
           "post_operation": ""
         }
-      }
+      },
+      "choropleth_parlimen": {
+        "name": "choropleth_parlimen",
+        "chart_type": "choropleth_chart",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/kawasanku_electoral_choropleth_parlimen.parquet",
+        "data_as_of" : "2020",
+        "api_type": "static",
+        "api_params": [],
+        "variables": {
+            "cols_list" : ["max_elevation", "treecover", "nightlights", "population_density", "income_mean", "expenditure_mean", "gini", "poverty", "electricity", "water"],
+            "area_key" : "parlimen"
+        }
+      },
+      "choropleth_dun": {
+        "name": "choropleth_dun",
+        "chart_type": "choropleth_chart",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/kawasanku_electoral_choropleth_dun.parquet",
+        "data_as_of" : "2020",
+        "api_type": "static",
+        "api_params": [],
+        "variables": {
+            "cols_list" : ["max_elevation", "treecover", "nightlights", "population_density", "income_mean", "expenditure_mean", "gini", "poverty", "electricity", "water"],
+            "area_key" : "dun"
+        }
+      }    
     }
   }
