@@ -118,7 +118,7 @@
       "choropleth_parlimen": {
         "name": "choropleth_parlimen",
         "chart_type": "choropleth_chart",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/kawasanku_electoral_choropleth_parlimen_temp.parquet",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/kawasanku_electoral_choropleth_parlimen.parquet",
         "data_as_of" : "2020",
         "api_type": "static",
         "api_params": [],
@@ -130,7 +130,7 @@
       "choropleth_dun": {
         "name": "choropleth_dun",
         "chart_type": "choropleth_chart",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/kawasanku_electoral_choropleth_dun_temp.parquet",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/kawasanku_electoral_choropleth_dun.parquet",
         "data_as_of" : "2020",
         "api_type": "static",
         "api_params": [],
