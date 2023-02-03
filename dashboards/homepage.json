@@ -8,7 +8,7 @@
             "name": "highlight",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_main_callout.parquet",
-            "data_as_of": "2023-02-02 23:59",
+            "data_as_of": "2023-02-05 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -25,7 +25,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_timeseries.parquet",
-            "data_as_of": "2023-02-02 23:59",
+            "data_as_of": "2023-02-05 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -42,7 +42,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_timeseries_callout.parquet",
-            "data_as_of": "2023-02-02 23:59",
+            "data_as_of": "2023-02-05 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -59,8 +59,8 @@
         "table_summary": {
             "name": "table_summary",
             "chart_type": "metrics_table",
-            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_metrics_table.parquet",
-            "data_as_of": "2023-02-02 23:59",
+            "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_metrics_table_temp.parquet",
+            "data_as_of": "2023-02-05 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -80,7 +80,7 @@
             "name": "metrics_stats",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/homepage_metrics_callout.parquet",
-            "data_as_of": "2023-02-02 23:59",
+            "data_as_of": "2023-02-05 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
