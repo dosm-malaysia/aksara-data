@@ -136,7 +136,7 @@
                         "sex"
                     ],
                     "format": {
-                        "x": "year",
+                        "x": "variable",
                         "y": [
                             "mean",
                             "median",
