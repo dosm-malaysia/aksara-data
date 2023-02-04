@@ -89,7 +89,7 @@
         "api_type": "static",
         "api_params": [],
         "variables": {
-            "cols_list" : ["choropleth0", "choropleth1", "choropleth2", "choropleth3", "choropleth4", "choropleth5", "choropleth6", "choropleth7", "choropleth8", "choropleth9"],
+            "cols_list" : ["poverty", "electricity", "water", "income_mean", "expenditure_mean", "gini", "population_density", "max_elevation", "treecover", "nightlights"],
             "area_key" : "parlimen"
         }
       },
@@ -101,7 +101,7 @@
         "api_type": "static",
         "api_params": [],
         "variables": {
-            "cols_list" : ["choropleth0", "choropleth1", "choropleth2", "choropleth3", "choropleth4", "choropleth5", "choropleth6", "choropleth7", "choropleth8", "choropleth9"],
+            "cols_list" : ["poverty", "electricity", "water", "income_mean", "expenditure_mean", "gini", "population_density", "max_elevation", "treecover", "nightlights"],
             "area_key" : "dun"
         }
       }
