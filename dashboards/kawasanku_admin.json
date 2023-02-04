@@ -1,6 +1,6 @@
 {
     "dashboard_name": "kawasanku_admin",
-    "manual_trigger" : "2022-01-18 17:30",
+    "manual_trigger" : "2022-02-04 09:21",
     "required_params": ["area", "area-type"],
     "optional_params": [],
     "charts": {
@@ -79,6 +79,30 @@
           "id_needed": false,
           "condition": {},
           "post_operation": ""
+        }
+      },
+      "choropleth_parlimen": {
+        "name": "choropleth_parlimen",
+        "chart_type": "choropleth_chart",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/kawasanku_electoral_choropleth_parlimen.parquet",
+        "data_as_of" : "2020",
+        "api_type": "static",
+        "api_params": [],
+        "variables": {
+            "cols_list" : ["poverty", "electricity", "water", "income_mean", "expenditure_mean", "gini", "population_density", "max_elevation", "treecover", "nightlights"],
+            "area_key" : "parlimen"
+        }
+      },
+      "choropleth_dun": {
+        "name": "choropleth_dun",
+        "chart_type": "choropleth_chart",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/kawasanku_electoral_choropleth_dun.parquet",
+        "data_as_of" : "2020",
+        "api_type": "static",
+        "api_params": [],
+        "variables": {
+            "cols_list" : ["poverty", "electricity", "water", "income_mean", "expenditure_mean", "gini", "population_density", "max_elevation", "treecover", "nightlights"],
+            "area_key" : "dun"
         }
       }
     }
