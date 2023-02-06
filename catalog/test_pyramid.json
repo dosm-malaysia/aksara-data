@@ -112,7 +112,7 @@
                         "year",
                         "ethnicity"
                     ],
-                    "precision": 0
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
