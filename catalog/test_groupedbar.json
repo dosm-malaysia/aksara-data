@@ -137,11 +137,13 @@
                     ],
                     "format": {
                         "x": "variable",
-                        "y": [
-                            "mean",
-                            "median",
-                            "mode"
-                        ]
+                        "y": ["mean", "median", "mode"]
+                    },
+                    "format_lang": {
+                        "x_en": "Variable",
+                        "x_bm": "Pembolehubah",
+                        "y_en": ["Mean", "Median", "Mode"],
+                        "y_bm": ["Purata", "Median", "Mod"]
                     }
                 }
             }

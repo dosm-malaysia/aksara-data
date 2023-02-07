@@ -120,10 +120,13 @@
                         "ethnicity"
                     ],
                     "x": "age",
-                    "y": [
-                        "male",
-                        "female"
-                    ]
+                    "y": ["male","female"],
+                    "format_lang": {
+                        "x_en": "Age",
+                        "x_bm": "Umur",
+                        "y_en": ["Male","Female"],
+                        "y_bm": ["Lelaki","Perempuan"]
+                    }  
                 }
             }
         }

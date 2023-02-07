@@ -235,9 +235,13 @@
                     ],
                     "format": {
                         "x": "variable",
-                        "y": [
-                            "recipients"
-                        ]
+                        "y": ["recipients"]
+                    },
+                    "format_lang":{
+                        "x_en": "Variable",
+                        "x_bm": "Pembolehubah",
+                        "y_en": ["Recipients"],
+                        "y_bm": ["Penerima"]
                     }
                 }
             }
