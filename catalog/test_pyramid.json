@@ -2,12 +2,13 @@
     "file": {
         "bucket": "dosm-public-demography",
         "file_name": "test_pyramid",
-        "category": "DEMOGRAPHY",
-        "category_en": "Demography",
-        "category_bm": "Demografi",
-        "subcategory": "POPULATION",
-        "subcategory_en": "Population",
-        "subcategory_bm": "Populasi",
+        "manual_trigger": "1",
+        "category": "TEST",
+        "category_en": "Test",
+        "category_bm": "Test",
+        "subcategory": "TEST",
+        "subcategory_en": "Test",
+        "subcategory_bm": "Test",
         "description": {
             "en": "Lorem ipsum.",
             "bm": "Lorem ipsum."
