@@ -17,6 +17,14 @@
         "link_metadata": "https://storage.googleapis.com/dosm-public-economy/ipi.metadata",
         "variables": [
             {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01"
+            },
+            {
                 "id": 1,
                 "name": "overall",
                 "title_en": "IPI (Industrial Production Index)",
@@ -135,14 +143,6 @@
                 "title_bm": "IPP: Elektrik (tsm)",
                 "desc_en": "[Float] Index, with base 2015 = 100",
                 "desc_bm": "[Apung] Indeks, dengan tahun asas 2015 = 100"
-            },
-            {
-                "id": -1,
-                "name": "date",
-                "title_en": "Date",
-                "title_bm": "Tarikh",
-                "desc_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to -01-01",
-                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai -01-01"
             }
         ]
     },
