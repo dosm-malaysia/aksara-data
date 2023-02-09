@@ -1,7 +1,6 @@
 {
     "file": {
         "bucket": "dosm-public-economy",
-        "manual_trigger": "2022-12",
         "file_name": "labour-principalstats-annual",
         "category": "ECONOMY",
         "category_en": "Economy",
@@ -13,7 +12,7 @@
             "en": "The annual Labour Force Report presents the statistics of labour force, employment and unemployment obtained from the Labour Force Survey (LFS).",
             "bm": "Laporan Tenaga Buruh tahunan membentangkan statistik berkaitan tenaga buruh, guna tenaga dan pengangguran yang diperoleh daripada Survei Tenaga Buruh (STB). "
         },
-        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/labour-principalstats-annual.parquet?ignoreCache=1",
+        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/labour-principalstats-annual.parquet",
         "link_csv": "https://storage.googleapis.com/dosm-public-economy/labour-principalstats-annual.csv",
         "link_metadata": "https://storage.googleapis.com/dosm-public-economy/labour-principalstats-annual.metadata",
         "variables": [
