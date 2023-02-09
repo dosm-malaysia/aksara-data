@@ -13,7 +13,7 @@
             "en": "The monthly Labour Force Report presents the statistics of labour force, employment and unemployment obtained from the Labour Force Survey (LFS).",
             "bm": "Laporan Tenaga Buruh bulanan membentangkan statistik berkaitan tenaga buruh, guna tenaga dan pengangguran yang diperoleh daripada Survei Tenaga Buruh (STB). "
         },
-        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/labour-principalstats-monthly.parquet",
+        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/labour-principalstats-monthly.parquet?ignoreCache=1",
         "link_csv": "https://storage.googleapis.com/dosm-public-economy/labour-principalstats-monthly.csv",
         "link_metadata": "https://storage.googleapis.com/dosm-public-economy/labour-principalstats-monthly.metadata",
         "variables": [
