@@ -1,6 +1,7 @@
 {
     "file": {
         "bucket": "dosm-public-economy",
+        "manual_trigger": "2022-12",
         "file_name": "labour-principalstats-monthly",
         "category": "ECONOMY",
         "category_en": "Economy",
