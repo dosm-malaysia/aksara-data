@@ -9,180 +9,228 @@
         "subcategory_en": "Labour Force",
         "subcategory_bm": "Tenaga Buruh",
         "description": {
-            "en": "The monthly Labour Force Report, Malaysia, presents the statistics of labour force, employment and unemployment obtained from the Labour Force Survey (LFS).",
-            "bm": "Laporan Tenaga Buruh, Malaysia, bulanan membentangkan statistik berkaitan tenaga buruh, guna tenaga dan pengangguran yang diperoleh daripada Survei Tenaga Buruh (STB). "
+            "en": "The monthly Labour Force Report presents the statistics of labour force, employment and unemployment obtained from the Labour Force Survey (LFS).",
+            "bm": "Laporan Tenaga Buruh bulanan membentangkan statistik berkaitan tenaga buruh, guna tenaga dan pengangguran yang diperoleh daripada Survei Tenaga Buruh (STB). "
         },
         "link_parquet": "https://storage.googleapis.com/dosm-public-economy/labour-principalstats-monthly.parquet",
         "link_csv": "https://storage.googleapis.com/dosm-public-economy/labour-principalstats-monthly.csv",
         "link_metadata": "https://storage.googleapis.com/dosm-public-economy/labour-principalstats-monthly.metadata",
         "variables": [
             {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Bulanan: Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+            },
+            {
                 "id": 1,
                 "name": "lf_size",
-                "title_en": "Labour Force Size",
-                "title_bm": "Tenaga Buruh",
-                "desc_en": "[Integer] Number of people",
-                "desc_bm": "[Integer] Bilangan orang"
+                "title_en": "Monthly: Labour Force Size",
+                "title_bm": "Bulanan: Tenaga Buruh",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
             },
             {
                 "id": 2,
                 "name": "employed",
-                "title_en": "Employed Persons",
-                "title_bm": "Bekerja",
-                "desc_en": "[Integer] Number of people",
-                "desc_bm": "[Integer] Bilangan orang"
+                "title_en": "Monthly: Employed Persons",
+                "title_bm": "Bulanan: Bekerja",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
             },
             {
                 "id": 3,
                 "name": "unemployed",
-                "title_en": "Unemployed Persons",
-                "title_bm": "Penganggur",
-                "desc_en": "[Integer] Number of people",
-                "desc_bm": "[Integer] Bilangan orang"
+                "title_en": "Monthly: Unemployed Persons",
+                "title_bm": "Bulanan: Penganggur",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
             },
             {
                 "id": 4,
                 "name": "outside",
-                "title_en": "Persons Outside Labour Force",
-                "title_bm": "Luar Tenaga Buruh",
-                "desc_en": "[Integer] Number of people",
-                "desc_bm": "[Integer] Bilangan orang"
+                "title_en": "Monthly: Persons Outside Labour Force",
+                "title_bm": "Bulanan: Luar Tenaga Buruh",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
             },
             {
                 "id": 5,
                 "name": "u_rate",
-                "title_en": "Unemployment Rate",
-                "title_bm": "Kadar Pengangguran",
+                "title_en": "Monthly: Unemployment Rate",
+                "title_bm": "Bulanan: Kadar Pengangguran",
                 "desc_en": "[Float] Ratio of unemployed to labour force size",
                 "desc_bm": "[Apung] Nisbah jumlah penganggur ke bilangan tenaga buruh"
             },
             {
                 "id": 6,
                 "name": "p_rate",
-                "title_en": "Participation Rate",
-                "title_bm": "Kadar Penyertaan",
+                "title_en": "Monthly: Participation Rate",
+                "title_bm": "Bulanan: Kadar Penyertaan",
                 "desc_en": "[Float] Ratio of the labour force size to the working age population",
                 "desc_bm": "[Apung] Nisbah jumlah tenaga buruh ke jumlah penduduk umur bekerja"
             },
             {
                 "id": 7,
                 "name": "ep_ratio",
-                "title_en": "Employment-Population Ratio",
-                "title_bm": "Nisbah Guna Tenaga kepada Penduduk",
+                "title_en": "Monthly: Employment-Population Ratio",
+                "title_bm": "Bulanan: Nisbah Guna Tenaga kepada Penduduk",
                 "desc_en": "[Float] Ratio of the labour force size to the population",
                 "desc_bm": "[Apung] Nisbah jumlah tenaga buruh ke jumlah penduduk"
             },
             {
                 "id": 8,
                 "name": "lf_size_sa",
-                "title_en": "Labour Force Size (sa)",
-                "title_bm": "Tenaga Buruh (tsm)",
-                "desc_en": "[Integer] Number of people",
-                "desc_bm": "[Integer] Bilangan orang"
+                "title_en": "Monthly: Labour Force Size (sa)",
+                "title_bm": "Bulanan: Tenaga Buruh (tsm)",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
             },
             {
                 "id": 9,
                 "name": "employed_sa",
-                "title_en": "Employed Persons (sa)",
-                "title_bm": "Bekerja (tsm)",
-                "desc_en": "[Integer] Number of people",
-                "desc_bm": "[Integer] Bilangan orang"
+                "title_en": "Monthly: Employed Persons (sa)",
+                "title_bm": "Bulanan: Bekerja (tsm)",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
             },
             {
                 "id": 10,
                 "name": "unemployed_sa",
-                "title_en": "Unemployed Persons (sa)",
-                "title_bm": "Penganggur (tsm)",
-                "desc_en": "[Integer] Number of people",
-                "desc_bm": "[Integer] Bilangan orang"
+                "title_en": "Monthly: Unemployed Persons (sa)",
+                "title_bm": "Bulanan: Penganggur (tsm)",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
             },
             {
                 "id": 11,
                 "name": "u_rate_sa",
-                "title_en": "Unemployment Rate (sa)",
-                "title_bm": "Kadar Pengangguran (tsm)",
+                "title_en": "Monthly: Unemployment Rate (sa)",
+                "title_bm": "Bulanan: Kadar Pengangguran (tsm)",
                 "desc_en": "[Float] Ratio of unemployed to labour force size",
                 "desc_bm": "[Apung] Nisbah jumlah penganggur ke bilangan tenaga buruh"
             },
             {
                 "id": 12,
                 "name": "p_rate_sa",
-                "title_en": "Participation Rate (sa)",
-                "title_bm": "Kadar Penyertaan (tsm)",
+                "title_en": "Monthly: Participation Rate (sa)",
+                "title_bm": "Bulanan: Kadar Penyertaan (tsm)",
                 "desc_en": "[Float] Ratio of the labour force size to the working age population",
                 "desc_bm": "[Apung] Nisbah jumlah tenaga buruh ke jumlah penduduk umur bekerja"
             },
             {
                 "id": 13,
                 "name": "unemployed_15_24",
-                "title_en": "Unemployed Youths (15-24)",
-                "title_bm": "Penganggur Belia (15-24)",
-                "desc_en": "[Integer] Number of people",
-                "desc_bm": "[Integer] Bilangan orang"
+                "title_en": "Monthly: Unemployed > Youths (15-24)",
+                "title_bm": "Bulanan: Penganggur > Belia (15-24)",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
             },
             {
                 "id": 14,
                 "name": "u_rate_15_24",
-                "title_en": "Youth Unemployment Rate (15-24)",
-                "title_bm": "Kadar Pengangguran Belia (15-24)",
+                "title_en": "Monthly: Unemployment Rate > Youth (15-24)",
+                "title_bm": "Bulanan: Kadar Pengangguran > Belia (15-24)",
                 "desc_en": "[Float] Ratio of unemployed to labour force size, both of age 15-24",
                 "desc_bm": "[Apung] Nisbah jumlah penganggur ke bilangan tenaga buruh, dalam kumpulan umur 15-24"
             },
             {
                 "id": 15,
                 "name": "unemployed_15_30",
-                "title_en": "Unemployed Youths (15-30)",
-                "title_bm": "Penganggur Belia (15-30)",
-                "desc_en": "[Integer] Number of people",
-                "desc_bm": "[Integer] Bilangan orang"
+                "title_en": "Monthly: Unemployed > Youths (15-30)",
+                "title_bm": "Bulanan: Penganggur > Belia (15-30)",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
             },
             {
                 "id": 16,
                 "name": "u_rate_15_30",
-                "title_en": "Youth Unemployment Rate (15-30)",
-                "title_bm": "Kadar Pengangguran Belia (15-30)",
+                "title_en": "Monthly: Unemployment Rate > Youth (15-30)",
+                "title_bm": "Bulanan: Kadar Pengangguran > Belia (15-30)",
                 "desc_en": "[Float] Ratio of unemployed to labour force size, both of age 15-30",
                 "desc_bm": "[Apung] Nisbah jumlah penganggur ke bilangan tenaga buruh, dalam kumpulan umur 15-30"
             },
             {
                 "id": 17,
                 "name": "employed_employer",
-                "title_en": "Employed Persons: Employers",
-                "title_bm": "Bekerja: Majikan",
-                "desc_en": "[Integer] Number of people",
-                "desc_bm": "[Integer] Bilangan orang"
+                "title_en": "Monthly: Employed > Employers",
+                "title_bm": "Bulanan: Bekerja > Majikan",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
             },
             {
                 "id": 18,
                 "name": "employed_employee",
-                "title_en": "Employed Persons: Employees",
-                "title_bm": "Bekerja: Pekerja",
-                "desc_en": "[Integer] Number of people",
-                "desc_bm": "[Integer] Bilangan orang"
+                "title_en": "Monthly: Employed > Employees",
+                "title_bm": "Bulanan: Bekerja > Pekerja",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
             },
             {
                 "id": 19,
                 "name": "employed_ownaccount",
-                "title_en": "Employed Persons: Own-Account Workers",
-                "title_bm": "Bekerja: Bekerja Sendiri",
-                "desc_en": "[Integer] Number of people",
-                "desc_bm": "[Integer] Bilangan orang"
+                "title_en": "Monthly: Employed > Own-Account Workers",
+                "title_bm": "Bulanan: Bekerja > Bekerja Sendiri",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
             },
             {
                 "id": 20,
                 "name": "employed_unpaidfamily",
-                "title_en": "Employed Persons: Unpaid Family Workers",
-                "title_bm": "Bekerja: Pekerja Keluarga Tanpa Gaji",
-                "desc_en": "[Integer] Number of people",
-                "desc_bm": "[Integer] Bilangan orang"
+                "title_en": "Monthly: Employed > Unpaid Family Workers",
+                "title_bm": "Bulanan: Bekerja > Pekerja Keluarga Tanpa Gaji",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
             },
             {
-                "id": -1,
-                "name": "date",
-                "title_en": "Date",
-                "title_bm": "Tarikh",
-                "desc_en": "[Date] The date in YYYY-MM-DD format",
-                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+                "id": 21,
+                "name": "unemployed_active",
+                "title_en": "Monthly: Unemployed > Active (Total)",
+                "title_bm": "Bulanan: Penganggur > Aktif (Keseluruhan)",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": 22,
+                "name": "unemployed_active_3mo",
+                "title_en": "Monthly: Unemployed > Active (< 3mo)",
+                "title_bm": "Bulanan: Penganggur > Aktif (< 3 bulan)",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": 23,
+                "name": "unemployed_active_6mo",
+                "title_en": "Monthly: Unemployed > Active (3-6mo)",
+                "title_bm": "Bulanan: Penganggur > Aktif (3-6 bulan)",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": 24,
+                "name": "unemployed_active_12mo",
+                "title_en": "Monthly: Unemployed > Active (6-12mo)",
+                "title_bm": "Bulanan: Penganggur > Aktif (6-12 bulan)",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": 25,
+                "name": "unemployed_active_long",
+                "title_en": "Monthly: Unemployed > Active (> 1y)",
+                "title_bm": "Bulanan: Penganggur > Aktif (> 1 tahun)",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
+            },
+            {
+                "id": 26,
+                "name": "unemployed_inactive",
+                "title_en": "Monthly: Unemployed > Inactive",
+                "title_bm": "Bulanan: Penganggur > Tidak Aktif",
+                "desc_en": "[Float] Thousands of people ('000 people)",
+                "desc_bm": "[Apung] Ribuan orang ('000 orang)"
             }
         ]
     },
@@ -191,7 +239,7 @@
             "id": 1,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -210,12 +258,12 @@
                 "en": {
                     "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
                     "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
                 },
                 "bm": {
                     "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
                     "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
                 }
             },
             "chart": {
@@ -239,7 +287,7 @@
             "id": 2,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -258,19 +306,19 @@
                 "en": {
                     "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
                     "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
                 },
                 "bm": {
                     "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
                     "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
                     "SLICE_BY": [],
-                    "precision": 0
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -287,7 +335,7 @@
             "id": 3,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -306,19 +354,19 @@
                 "en": {
                     "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
                     "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
                 },
                 "bm": {
                     "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
                     "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
                     "SLICE_BY": [],
-                    "precision": 0
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -335,7 +383,7 @@
             "id": 4,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -354,19 +402,19 @@
                 "en": {
                     "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
                     "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
                 },
                 "bm": {
                     "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
                     "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
                     "SLICE_BY": [],
-                    "precision": 0
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -383,7 +431,7 @@
             "id": 5,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -402,12 +450,12 @@
                 "en": {
                     "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
                     "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
                 },
                 "bm": {
                     "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
                     "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
                 }
             },
             "chart": {
@@ -431,7 +479,7 @@
             "id": 6,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -450,12 +498,12 @@
                 "en": {
                     "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
                     "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
                 },
                 "bm": {
                     "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
                     "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
                 }
             },
             "chart": {
@@ -479,7 +527,7 @@
             "id": 7,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -498,12 +546,12 @@
                 "en": {
                     "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
                     "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
                 },
                 "bm": {
                     "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
                     "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
                 }
             },
             "chart": {
@@ -527,7 +575,7 @@
             "id": 8,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -546,19 +594,19 @@
                 "en": {
                     "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
                     "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
                 },
                 "bm": {
                     "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
                     "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
                     "SLICE_BY": [],
-                    "precision": 0
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -575,7 +623,7 @@
             "id": 9,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -594,19 +642,19 @@
                 "en": {
                     "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
                     "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
                 },
                 "bm": {
                     "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
                     "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
                     "SLICE_BY": [],
-                    "precision": 0
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -623,7 +671,7 @@
             "id": 10,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -642,19 +690,19 @@
                 "en": {
                     "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
                     "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
                 },
                 "bm": {
                     "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
                     "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
                     "SLICE_BY": [],
-                    "precision": 0
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -671,7 +719,7 @@
             "id": 11,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -690,12 +738,12 @@
                 "en": {
                     "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
                     "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
                 },
                 "bm": {
                     "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
                     "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
                 }
             },
             "chart": {
@@ -719,7 +767,7 @@
             "id": 12,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -738,12 +786,12 @@
                 "en": {
                     "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
                     "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
                 },
                 "bm": {
                     "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
                     "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
                 }
             },
             "chart": {
@@ -767,7 +815,7 @@
             "id": 13,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -786,19 +834,19 @@
                 "en": {
                     "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
                     "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
                 },
                 "bm": {
                     "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
                     "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
                     "SLICE_BY": [],
-                    "precision": 0
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -815,7 +863,7 @@
             "id": 14,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -834,12 +882,12 @@
                 "en": {
                     "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
                     "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
                 },
                 "bm": {
                     "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
                     "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
                 }
             },
             "chart": {
@@ -863,7 +911,7 @@
             "id": 15,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -882,19 +930,19 @@
                 "en": {
                     "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
                     "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
                 },
                 "bm": {
                     "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
                     "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
                     "SLICE_BY": [],
-                    "precision": 0
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -911,7 +959,7 @@
             "id": 16,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -930,12 +978,12 @@
                 "en": {
                     "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
                     "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
                 },
                 "bm": {
                     "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
                     "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
                 }
             },
             "chart": {
@@ -959,7 +1007,7 @@
             "id": 17,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -978,19 +1026,19 @@
                 "en": {
                     "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
                     "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
                 },
                 "bm": {
                     "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
                     "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
                     "SLICE_BY": [],
-                    "precision": 0
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -1007,7 +1055,7 @@
             "id": 18,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -1026,19 +1074,19 @@
                 "en": {
                     "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
                     "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
                 },
                 "bm": {
                     "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
                     "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
                     "SLICE_BY": [],
-                    "precision": 0
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -1055,7 +1103,7 @@
             "id": 19,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -1074,19 +1122,19 @@
                 "en": {
                     "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
                     "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
                 },
                 "bm": {
                     "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
                     "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
                     "SLICE_BY": [],
-                    "precision": 0
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -1103,7 +1151,7 @@
             "id": 20,
             "catalog_filters": {
                 "frequency": "MONTHLY",
-                "limit_frequency": false,
+                "limit_frequency": true,
                 "geographic": [
                     "NATIONAL"
                 ],
@@ -1122,19 +1170,19 @@
                 "en": {
                     "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
                     "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
-                    "publication": "[Key Statistics of the Labour Force in Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the monthly labour statistics published by DOSM."
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
                 },
                 "bm": {
                     "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
                     "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
-                    "publication": "[Statistik Utama Tenaga Buruh di Malaysia, November 2022](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=124&bul_id=dVNkcjZsRkF4amVjSCtxYmhiV2JxUT09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM."
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
                     "SLICE_BY": [],
-                    "precision": 0
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -1142,6 +1190,294 @@
                     "format": {
                         "x": "date",
                         "y": "employed_unpaidfamily",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 21,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "limit_frequency": true,
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2016",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-11-30 23:59",
+                "last_updated": "2022-01-10 12:00",
+                "next_update": "2023-02-11 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+                    "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
+                },
+                "bm": {
+                    "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+                    "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "unemployed_active",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 22,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "limit_frequency": true,
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2016",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-11-30 23:59",
+                "last_updated": "2022-01-10 12:00",
+                "next_update": "2023-02-11 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+                    "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
+                },
+                "bm": {
+                    "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+                    "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "unemployed_active_3mo",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 23,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "limit_frequency": true,
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2016",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-11-30 23:59",
+                "last_updated": "2022-01-10 12:00",
+                "next_update": "2023-02-11 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+                    "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
+                },
+                "bm": {
+                    "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+                    "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "unemployed_active_6mo",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 24,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "limit_frequency": true,
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2016",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-11-30 23:59",
+                "last_updated": "2022-01-10 12:00",
+                "next_update": "2023-02-11 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+                    "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
+                },
+                "bm": {
+                    "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+                    "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "unemployed_active_12mo",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 25,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "limit_frequency": true,
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2016",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-11-30 23:59",
+                "last_updated": "2022-01-10 12:00",
+                "next_update": "2023-02-11 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+                    "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
+                },
+                "bm": {
+                    "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+                    "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "unemployed_active_long",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 26,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "limit_frequency": true,
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2016",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-11-30 23:59",
+                "last_updated": "2022-01-10 12:00",
+                "next_update": "2023-02-11 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "The Labour Force Survey (LFS) provides statistics on the labour force, employment and unemployment at national and state level, as well as across urban and rural areas. Data from this survey is published on a monthly, quarterly and annual basis. A comprehensive and systematic approach in data collection and processing has been maintained over a period of time in order to obtain comparable time series statistics.",
+                    "caveat": "The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place. However, the differences are not obvious.",
+                    "publication": "[Labour Force Report, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_en.pdf), the latest edition of the monthly labour force statistics published by DOSM. OpenDOSM also features a [dashboard on the labour force](https://open.dosm.gov.my/labour-market)."
+                },
+                "bm": {
+                    "methodology": "Survei Tenaga Buruh (STB) menyediakan statistik tenaga buruh, guna tenaga dan pengangguran di peringkat nasional dan negeri serta di kawasan bandar dan luar bandar. Data daripada survei ini diterbitkan secara bulanan, suku tahunan dan tahunan. Pendekatan yang lengkap dan sistematik dalam pengumpulan dan prosesan data dikekalkan dari semasa ke semasa untuk mendapatkan perbandingan statistik siri masa.",
+                    "caveat": "Hasil tambah bagi sesuatu kategori mungkin tidak sentiasa sama dengan jumlah yang ditunjukkan dalam jadual yang berkaitan kerana pembundaran secara bebas kepada satu titik perpuluhan. Walau bagaimanapun, perbezaan ini tidak ketara.",
+                    "publication": "[Laporan Tenaga Buruh, November 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-11_labour_force_bm.pdf), edisi terkini bagi statistik tenaga buruh bulanan yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang tenaga buruh](https://open.dosm.gov.my/labour-market)."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "unemployed_inactive",
                         "line": ""
                     }
                 }
