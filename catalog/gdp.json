@@ -9,8 +9,8 @@
         "subcategory_en": "National Accounts",
         "subcategory_bm": "Akaun Negara",
         "description": {
-            "en": "Laporan ini merangkumi anggaran statistik akaun negara suku tahunan mengikut aktiviti ekonomi dan jenis perbelanjaan pada harga semasa dan harga malar tahun asas 2015.",
-            "bm": "This publication contains statistics of quarterly national accounts estimates by economic activity and type of expenditure in both current and constant prices at base year 2015."
+            "en": "This publication contains statistics of quarterly national accounts estimates by economic activity and type of expenditure in both current and constant prices at base year 2015.",
+            "bm": "Laporan ini merangkumi anggaran statistik akaun negara suku tahunan mengikut aktiviti ekonomi dan jenis perbelanjaan pada harga semasa dan harga malar tahun asas 2015."
         },
         "link_parquet": "https://storage.googleapis.com/dosm-public-economy/gdp.parquet",
         "link_csv": "https://storage.googleapis.com/dosm-public-economy/gdp.csv",
@@ -29,8 +29,8 @@
                 "name": "date",
                 "title_en": "Date",
                 "title_bm": "Tarikh",
-                "desc_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to -01-01",
-                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai -01-01"
+                "desc_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01"
             },
             {
                 "id": 1,
@@ -162,18 +162,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-09-30 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-02-10 12:00",
+                "next_update": "2023-05-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
-                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                    "publication": "[Gross Domestic Product, Q4 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 4Q 2022](https://www.bnm.gov.my/-/quarterly-bulletin-4q-2022) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
                 },
                 "bm": {
                     "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
-                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                    "publication": "[Keluaran Dalam Negeri Kasar, Suku Keempat 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan Suku Keempat 2022](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-keempat-2022) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
                 }
             },
             "chart": {
@@ -181,7 +183,8 @@
                 "chart_filters": {
                     "SLICE_BY": [
                         "series_type"
-                    ]
+                    ],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
@@ -211,18 +214,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-09-30 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-02-10 12:00",
+                "next_update": "2023-05-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
-                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                    "publication": "[Gross Domestic Product, Q4 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 4Q 2022](https://www.bnm.gov.my/-/quarterly-bulletin-4q-2022) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
                 },
                 "bm": {
                     "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
-                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                    "publication": "[Keluaran Dalam Negeri Kasar, Suku Keempat 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan Suku Keempat 2022](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-keempat-2022) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
                 }
             },
             "chart": {
@@ -230,7 +235,8 @@
                 "chart_filters": {
                     "SLICE_BY": [
                         "series_type"
-                    ]
+                    ],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
@@ -260,18 +266,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-09-30 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-02-10 12:00",
+                "next_update": "2023-05-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
-                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                    "publication": "[Gross Domestic Product, Q4 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 4Q 2022](https://www.bnm.gov.my/-/quarterly-bulletin-4q-2022) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
                 },
                 "bm": {
                     "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
-                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                    "publication": "[Keluaran Dalam Negeri Kasar, Suku Keempat 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan Suku Keempat 2022](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-keempat-2022) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
                 }
             },
             "chart": {
@@ -279,7 +287,8 @@
                 "chart_filters": {
                     "SLICE_BY": [
                         "series_type"
-                    ]
+                    ],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
@@ -309,18 +318,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-09-30 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-02-10 12:00",
+                "next_update": "2023-05-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
-                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                    "publication": "[Gross Domestic Product, Q4 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 4Q 2022](https://www.bnm.gov.my/-/quarterly-bulletin-4q-2022) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
                 },
                 "bm": {
                     "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
-                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                    "publication": "[Keluaran Dalam Negeri Kasar, Suku Keempat 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan Suku Keempat 2022](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-keempat-2022) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
                 }
             },
             "chart": {
@@ -328,7 +339,8 @@
                 "chart_filters": {
                     "SLICE_BY": [
                         "series_type"
-                    ]
+                    ],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
@@ -358,18 +370,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-09-30 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-02-10 12:00",
+                "next_update": "2023-05-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
-                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                    "publication": "[Gross Domestic Product, Q4 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 4Q 2022](https://www.bnm.gov.my/-/quarterly-bulletin-4q-2022) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
                 },
                 "bm": {
                     "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
-                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                    "publication": "[Keluaran Dalam Negeri Kasar, Suku Keempat 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan Suku Keempat 2022](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-keempat-2022) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
                 }
             },
             "chart": {
@@ -377,7 +391,8 @@
                 "chart_filters": {
                     "SLICE_BY": [
                         "series_type"
-                    ]
+                    ],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
@@ -407,18 +422,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-09-30 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-02-10 12:00",
+                "next_update": "2023-05-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
-                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                    "publication": "[Gross Domestic Product, Q4 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 4Q 2022](https://www.bnm.gov.my/-/quarterly-bulletin-4q-2022) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
                 },
                 "bm": {
                     "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
-                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                    "publication": "[Keluaran Dalam Negeri Kasar, Suku Keempat 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan Suku Keempat 2022](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-keempat-2022) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
                 }
             },
             "chart": {
@@ -426,7 +443,8 @@
                 "chart_filters": {
                     "SLICE_BY": [
                         "series_type"
-                    ]
+                    ],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
@@ -456,18 +474,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-09-30 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-02-10 12:00",
+                "next_update": "2023-05-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
-                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                    "publication": "[Gross Domestic Product, Q4 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 4Q 2022](https://www.bnm.gov.my/-/quarterly-bulletin-4q-2022) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
                 },
                 "bm": {
                     "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
-                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                    "publication": "[Keluaran Dalam Negeri Kasar, Suku Keempat 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan Suku Keempat 2022](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-keempat-2022) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
                 }
             },
             "chart": {
@@ -475,7 +495,8 @@
                 "chart_filters": {
                     "SLICE_BY": [
                         "series_type"
-                    ]
+                    ],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
@@ -505,18 +526,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-09-30 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-02-10 12:00",
+                "next_update": "2023-05-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
-                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                    "publication": "[Gross Domestic Product, Q4 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 4Q 2022](https://www.bnm.gov.my/-/quarterly-bulletin-4q-2022) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
                 },
                 "bm": {
                     "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
-                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                    "publication": "[Keluaran Dalam Negeri Kasar, Suku Keempat 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan Suku Keempat 2022](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-keempat-2022) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
                 }
             },
             "chart": {
@@ -524,7 +547,8 @@
                 "chart_filters": {
                     "SLICE_BY": [
                         "series_type"
-                    ]
+                    ],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
@@ -554,18 +578,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-09-30 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-02-10 12:00",
+                "next_update": "2023-05-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
-                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                    "publication": "[Gross Domestic Product, Q4 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 4Q 2022](https://www.bnm.gov.my/-/quarterly-bulletin-4q-2022) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
                 },
                 "bm": {
                     "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
-                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                    "publication": "[Keluaran Dalam Negeri Kasar, Suku Keempat 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan Suku Keempat 2022](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-keempat-2022) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
                 }
             },
             "chart": {
@@ -573,7 +599,8 @@
                 "chart_filters": {
                     "SLICE_BY": [
                         "series_type"
-                    ]
+                    ],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
@@ -603,18 +630,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-09-30 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-02-10 12:00",
+                "next_update": "2023-05-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
-                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                    "publication": "[Gross Domestic Product, Q4 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 4Q 2022](https://www.bnm.gov.my/-/quarterly-bulletin-4q-2022) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
                 },
                 "bm": {
                     "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
-                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                    "publication": "[Keluaran Dalam Negeri Kasar, Suku Keempat 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan Suku Keempat 2022](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-keempat-2022) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
                 }
             },
             "chart": {
@@ -622,7 +651,8 @@
                 "chart_filters": {
                     "SLICE_BY": [
                         "series_type"
-                    ]
+                    ],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
@@ -652,18 +682,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-09-30 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-02-10 12:00",
+                "next_update": "2023-05-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
-                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                    "publication": "[Gross Domestic Product, Q4 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 4Q 2022](https://www.bnm.gov.my/-/quarterly-bulletin-4q-2022) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
                 },
                 "bm": {
                     "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
-                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                    "publication": "[Keluaran Dalam Negeri Kasar, Suku Keempat 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan Suku Keempat 2022](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-keempat-2022) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
                 }
             },
             "chart": {
@@ -671,7 +703,8 @@
                 "chart_filters": {
                     "SLICE_BY": [
                         "series_type"
-                    ]
+                    ],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
@@ -701,18 +734,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-09-30 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-02-10 12:00",
+                "next_update": "2023-05-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
-                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                    "publication": "[Gross Domestic Product, Q4 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 4Q 2022](https://www.bnm.gov.my/-/quarterly-bulletin-4q-2022) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
                 },
                 "bm": {
                     "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
-                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                    "publication": "[Keluaran Dalam Negeri Kasar, Suku Keempat 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan Suku Keempat 2022](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-keempat-2022) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
                 }
             },
             "chart": {
@@ -720,7 +755,8 @@
                 "chart_filters": {
                     "SLICE_BY": [
                         "series_type"
-                    ]
+                    ],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
@@ -750,18 +786,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-09-30 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-02-10 12:00",
+                "next_update": "2023-05-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
-                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                    "publication": "[Gross Domestic Product, Q4 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 4Q 2022](https://www.bnm.gov.my/-/quarterly-bulletin-4q-2022) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
                 },
                 "bm": {
                     "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
-                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                    "publication": "[Keluaran Dalam Negeri Kasar, Suku Keempat 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan Suku Keempat 2022](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-keempat-2022) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
                 }
             },
             "chart": {
@@ -769,7 +807,8 @@
                 "chart_filters": {
                     "SLICE_BY": [
                         "series_type"
-                    ]
+                    ],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
@@ -799,18 +838,20 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-09-30 23:59",
-                "last_updated": "2022-12-23 12:00",
-                "next_update": "2023-01-31 12:00"
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-02-10 12:00",
+                "next_update": "2023-05-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "GDP is the total value of all goods and services produced in a certain period after deducting the cost of goods and services used up in the process of production. This value is before deducting the allowances for consumption of fixed capital i.e. the sum of value added of resident producer in producer's price plus import duties. GDP is equivalent to expenditure on the GDP (in purchaser's price) i.e. the sum of all components of final expenditure on goods and services less imports of goods and services.",
-                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts."
+                    "caveat": "Quarterly and annual estimates are reconciled where necessary. In situation, whereby the annual and quarterly accounts uses the same data sources, no reconciliation of the quarterly need to be made to fit the annual accounts.",
+                    "publication": "[Gross Domestic Product, Q4 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), the latest edition of the quarterly GDP statistics published by DOSM. Bank Negara Malaysia's [Quarterly Bulletin, 4Q 2022](https://www.bnm.gov.my/-/quarterly-bulletin-4q-2022) also provides a summary of the latest release. For an interactive look, check out OpenDOSM's [GDP dashboard](https://open.dosm.gov.my/gdp)."
                 },
                 "bm": {
                     "methodology": "KDNK adalah jumlah nilai barangan dan perkhidmatan yang dikeluarkan dalam tempoh tertentu selepas ditolak kos barang dan perkhidmatan yang digunakan dalam proses pengeluaran. Nilai ini merupakan nilai sebelum ditolak nilai peruntukan bagi modal tetap; iaitu jumlah nilai ditambah pada harga pengeluar bagi pengeluar residen ditambah dengan duti import. KDNK ini juga bersamaan dengan perbelanjaan ke atas KDNK (pada harga pembeli) iaitu jumlah bagi semua komponen perbelanjaan akhir ke atas barangan dan perkhidmatan tolak dengan import barangan dan perkhidmatan.",
-                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan."
+                    "caveat": "Anggaran suku tahunan dan tahunan akan diselaraskan di mana yang perlu. Dalam situasi di mana akaun tahunan dan suku tahunan menggunakan sumber data yang sama, pelarasan suku tahunan tidak perlu dipadankan dengan akaun tahunan.",
+                    "publication": "[Keluaran Dalam Negeri Kasar, Suku Keempat 2022](https://storage.googleapis.com/dosm-public-publications/quarterly_2022-q4_gdp.pdf), edisi terkini statistik suku tahunan KDNK yang diterbitkan oleh DOSM. [Buletin Suku Tahunan Suku Keempat 2022](https://www.bnm.gov.my/-/buletin-suku-tahunan-suku-keempat-2022) terbitan Bank Negara Malaysia juga merumuskan statistik terkini. Bagi paparan interaktif, anda boleh melayari [papan pemuka GDP](https://open.dosm.gov.my/gdp) di OpenDOSM."
                 }
             },
             "chart": {
@@ -818,7 +859,8 @@
                 "chart_filters": {
                     "SLICE_BY": [
                         "series_type"
-                    ]
+                    ],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
