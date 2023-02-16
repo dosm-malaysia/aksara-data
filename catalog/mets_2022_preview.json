@@ -1,6 +1,7 @@
 {
     "file": {
         "bucket": "dosm-public-mets",
+        "manual_trigger": "1",
         "file_name": "mets_2022_preview",
         "category": "ECONOMY",
         "category_en": "Economy",
