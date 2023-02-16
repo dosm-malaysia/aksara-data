@@ -23,7 +23,7 @@
                 "title_en": "Lookup Table: Country Code",
                 "title_bm": "Jadual Carian: Kod Negara",
                 "desc_en": "Lookup table, to be left-joined against country code in the main METS data.",
-                "desc_bm": "Jadual carian, untuk dipadankan (left-join) dengan kod negara  dalam dataset METS utama."
+                "desc_bm": "Jadual carian, untuk dipadankan (left-join) dengan kod negara dalam dataset METS utama."
             },
             {
                 "id": 1,
@@ -31,7 +31,7 @@
                 "title_en": "Country Code",
                 "title_bm": "Kod Negara",
                 "desc_en": "[String] ISO 3166-1 alpha-2 code, to be used as the base for the left join with the [main table](https://open.dosm.gov.my/data-catalogue/dosm-public-mets_mets_2022_preview_0).",
-                "desc_bm": "[String] Kod ISO 3166-1 alpha-2, yang menjadi asas untuk gabungan (left-join) dengan [jadual utama](https://open.dosm.gov.my/data-catalogue/dosm-public-mets_mets_2022_preview_0)."
+                "desc_bm": "[String] Kod ISO 3166-1 alpha-2, yang menjadi asas untuk dipadankan (left-join) dengan [jadual utama](https://open.dosm.gov.my/data-catalogue/dosm-public-mets_mets_2022_preview_0)."
             },
             {
                 "id": 2,

@@ -1,0 +1,109 @@
+{
+    "file": {
+        "bucket": "dosm-public-mets",
+        "file_name": "lookup_mode",
+        "category": "ECONOMY",
+        "category_en": "Economy",
+        "category_bm": "Ekonomi",
+        "subcategory": "METS",
+        "subcategory_en": "Merchandise Exports & Imports (METS)",
+        "subcategory_bm": "Eksport dan Import Barangan (METS)",
+        "description": {
+            "en": "Lookup table, to be left-joined against mode in the main METS data.",
+            "bm": "Jadual carian, untuk dipadankan (left-join) dengan mode dalam dataset METS utama."
+        },
+        "link_parquet": "https://storage.googleapis.com/dosm-public-mets/lookup_mode.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-mets/lookup_mode.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-mets/lookup_mode.metadata",
+        "link_preview": "https://storage.googleapis.com/dosm-public-mets/lookup_mode.parquet",
+        "variables": [
+            {
+                "id": 0,
+                "name": "Lookup Table: Mode Code",
+                "title_en": "Lookup Table: Mode Code",
+                "title_bm": "Jadual Carian: Kod Mod",
+                "desc_en": "Lookup table, to be left-joined against mode code in the main METS data.",
+                "desc_bm": "Jadual carian, untuk dipadankan (left-join) dengan kod mod dalam dataset METS utama."
+            },
+            {
+                "id": 1,
+                "name": "mode",
+                "title_en": "Mode Code",
+                "title_bm": "Kod Mod",
+                "desc_en": "[String] 3-digit code, to be used as the base for the left join with the [main table](https://open.dosm.gov.my/data-catalogue/dosm-public-mets_mets_2022_preview_0). Please ensure you read this column as a string to avoid dropping leading zeroes.",
+                "desc_bm": "[Rentetan] Kod 3 digit yang menjadi asas untuk dipadankan (left-join) dengan [jadual utama](https://open.dosm.gov.my/data-catalogue/dosm-public-mets_mets_2022_preview_0). Sila pastikan lajur ini dibaca sebagai data rentetan supaya angka sifar pendahuluan tidak digugurkan."
+            },
+            {
+                "id": 2,
+                "name": "mode_transport",
+                "title_en": "Mode of Transport",
+                "title_bm": "Mod Pengangkutan",
+                "desc_en": "[String] Mode of transport",
+                "desc_bm": "[Rentetan] Mod pengangkutan"
+            },
+            {
+                "id": 3,
+                "name": "channel",
+                "title_en": "Channel (Exact)",
+                "title_bm": "Saluran (Terperinci)",
+                "desc_en": "[String] Channel of entry into Malaysia",
+                "desc_bm": "[Rentetan] Saluran kemasukan ke Malaysia"
+            },
+            {
+                "id": 4,
+                "name": "channel_state",
+                "title_en": "Channel (State)",
+                "title_bm": "Saluran (Negeri)",
+                "desc_en": "[String] State of the channel of entry",
+                "desc_bm": "[Rentetan] Negeri bagi saluran kemasukan terperinci"
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 0,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2023",
+                "end": "2023",
+                "data_source": [
+                    "DOSM",
+                    "Customs (RMCD)"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-26 12:00",
+                "last_updated": "2023-01-26 12:00",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "-",
+                    "caveat": "The mode lookup table is only made available in English.",
+                    "publication": "-"
+                },
+                "bm": {
+                    "methodology": "-",
+                    "caveat": "Jadual carian mod hanya disediakan dalam Bahasa Inggeris.",
+                    "publication": "-"
+                }
+            },
+            "chart": {
+                "chart_type": "TABLE",
+                "chart_filters": {
+                    "FREEZE": [
+                        "mode",
+                        "mode_transport",
+                        "channel",
+                        "channel_state"
+                    ],
+                    "EXCLUDE": [],
+                    "precision": 0
+                }
+            }
+        }
+    ]
+}
