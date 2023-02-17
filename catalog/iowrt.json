@@ -52,7 +52,7 @@
                 "id": 4,
                 "name": "motor_sales",
                 "title_en": "Sales Value of Motor Vehicles",
-                "title_bm": "Nilai Jualan Kendaraan Bermotor",
+                "title_bm": "Nilai Jualan Kenderaan Bermotor",
                 "desc_en": "[Integer] Amount in RM",
                 "desc_bm": "[Integer] Jumlah dalam RM"
             },
@@ -84,7 +84,7 @@
                 "id": 8,
                 "name": "motor_index",
                 "title_en": "Volume Index of Motor Vehicles",
-                "title_bm": "Indeks Volum Kendaraan Bermotor",
+                "title_bm": "Indeks Volum Kenderaan Bermotor",
                 "desc_en": "[Float] Index with base 2010 = 100",
                 "desc_bm": "[Apung] Indeks dengan tahun asas 2010 = 100"
             },
@@ -116,7 +116,7 @@
                 "id": 12,
                 "name": "motor_index_sa",
                 "title_en": "Volume Index of Motor Vehicles (sa)",
-                "title_bm": "Indeks Volum Kendaraan Bermotor (tsm)",
+                "title_bm": "Indeks Volum Kenderaan Bermotor (tsm)",
                 "desc_en": "[Float] Index with base 2010 = 100",
                 "desc_bm": "[Apung] Indeks dengan tahun asas 2010 = 100"
             }
