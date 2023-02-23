@@ -84,7 +84,7 @@
       "snapshot_4d" : {
         "name": "snapshot_4d",
         "chart_type": "timeseries_shared",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_query_snapshot_4d.parquet",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_query_snapshot_4d.parquet?ignoreCache=0",
         "data_as_of" : "2022-12-31 23:59",
         "api_type": "individual_chart",
         "api_params": ["lang", "level"],
