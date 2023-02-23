@@ -1,0 +1,275 @@
+{
+    "file": {
+        "bucket": "dosm-public-economy",
+        "file_name": "hiesba_2019_percentiles",
+        "category": "ECONOMY",
+        "category_en": "Economy",
+        "category_bm": "Ekonomi",
+        "subcategory": "HIES",
+        "subcategory_en": "Household Income & Expenditure",
+        "subcategory_bm": "Pendapatan & Perbelanjaan Isi Rumah",
+        "description": {
+            "en": "Lorem ipsum.",
+            "bm": "Lorem ipsum."
+        },
+        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/hiesba_2019_percentiles.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-economy/hiesba_2019_percentiles.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-economy/hiesba_2019_percentiles.metadata",
+        "variables": [
+            {
+                "id": -1,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "State",
+                "desc_en": "State",
+                "desc_bm": "State"
+            },
+            {
+                "id": -1,
+                "name": "percentile",
+                "title_en": "Income Percentile",
+                "title_bm": "Income Percentile",
+                "desc_en": "Income Percentile",
+                "desc_bm": "Income Percentile"
+            },
+            {
+                "id": 1,
+                "name": "mean",
+                "title_en": "Mean",
+                "title_bm": "Mean",
+                "desc_en": "Mean",
+                "desc_bm": "Mean"
+            },
+            {
+                "id": 2,
+                "name": "median",
+                "title_en": "Median",
+                "title_bm": "Median",
+                "desc_en": "Median",
+                "desc_bm": "Median"
+            },
+            {
+                "id": 3,
+                "name": "minimum",
+                "title_en": "Minimum",
+                "title_bm": "Minimum",
+                "desc_en": "Minimum",
+                "desc_bm": "Minimum"
+            },
+            {
+                "id": 4,
+                "name": "maximum",
+                "title_en": "Maximum",
+                "title_bm": "Maximum",
+                "desc_en": "Maximum",
+                "desc_bm": "Maximum"
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 1,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2019",
+                "end": "2019",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2019-12-31 00:00",
+                "last_updated": "2023-02-23 12:00",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum",
+                    "caveat": "Lorem ipsum",
+                    "publication": "Lorem ipsum"
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum",
+                    "caveat": "Lorem ipsum",
+                    "publication": "Lorem ipsum"
+                }
+            },
+            "chart": {
+                "chart_type": "BAR",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ],
+                    "precision": 0
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "format": {
+                        "x": "percentile",
+                        "y": [
+                            "mean"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "id": 2,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2019",
+                "end": "2019",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2019-12-31 00:00",
+                "last_updated": "2023-02-23 12:00",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum",
+                    "caveat": "Lorem ipsum",
+                    "publication": "Lorem ipsum"
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum",
+                    "caveat": "Lorem ipsum",
+                    "publication": "Lorem ipsum"
+                }
+            },
+            "chart": {
+                "chart_type": "BAR",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ],
+                    "precision": 0
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "format": {
+                        "x": "percentile",
+                        "y": [
+                            "median"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "id": 3,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2019",
+                "end": "2019",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2019-12-31 00:00",
+                "last_updated": "2023-02-23 12:00",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum",
+                    "caveat": "Lorem ipsum",
+                    "publication": "Lorem ipsum"
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum",
+                    "caveat": "Lorem ipsum",
+                    "publication": "Lorem ipsum"
+                }
+            },
+            "chart": {
+                "chart_type": "BAR",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ],
+                    "precision": 0
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "format": {
+                        "x": "percentile",
+                        "y": [
+                            "minimum"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "id": 4,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2019",
+                "end": "2019",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2019-12-31 00:00",
+                "last_updated": "2023-02-23 12:00",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum",
+                    "caveat": "Lorem ipsum",
+                    "publication": "Lorem ipsum"
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum",
+                    "caveat": "Lorem ipsum",
+                    "publication": "Lorem ipsum"
+                }
+            },
+            "chart": {
+                "chart_type": "BAR",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "state"
+                    ],
+                    "precision": 0
+                },
+                "chart_variables": {
+                    "parents": [
+                        "state"
+                    ],
+                    "format": {
+                        "x": "percentile",
+                        "y": [
+                            "maximum"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
