@@ -1,7 +1,6 @@
 {
     "file": {
         "bucket": "dosm-public-economy",
-        "manual_trigger": "",
         "file_name": "hiesba_percentiles",
         "category": "ECONOMY",
         "category_en": "Economy",
@@ -10,8 +9,8 @@
         "subcategory_en": "Household Income & Expenditure",
         "subcategory_bm": "Pendapatan & Perbelanjaan Isi Rumah",
         "description": {
-            "en": "Lorem ipsum.",
-            "bm": "Lorem ipsum."
+            "en": "This data is is based on the Household Income and Basic Amenities Survey (HIS & BA) 2019. The survey is carried out twice in five years to produce representative data regarding income, poverty and access to basic amenities for Malaysian households. In the original HIS & BA 2019 Report, this data was reported as deciles, specifically B1-B4 (also known as the B40), M1-M4 (M40) and T1-T2 (T20). This has now been deepened from deciles to percentiles, such that there are 100 datapoints available for each series.",
+            "bm": "Data ini dihasilkan berdasarkan Survei Pendapatan Isi Rumah dan Kemudahan Asas (HIS & BA) 2019. Survei itu dilaksanakan dua kali dalam tempoh lima tahun bagi tujuan menghasilkan data pendapatan, kemiskinan dan akses kepada kemudahan asas bagi isi rumah warganegara. Dalam Laporan HIS & BA 2019 yang asal, data ini dilaporkan sebagai desil, khususnya B1-B4 (umumnya dirujuk sebagai B40), M1-M4 (M40) dan T1-T2 (T20). Ia kini telah diperdalam daripada desil ke persentil, maka terdapat 100 data bagi setiap siri data."
         },
         "link_parquet": "https://storage.googleapis.com/dosm-public-economy/hiesba_percentiles.parquet",
         "link_csv": "https://storage.googleapis.com/dosm-public-economy/hiesba_percentiles.csv",
@@ -21,49 +20,49 @@
                 "id": -1,
                 "name": "state",
                 "title_en": "State",
-                "title_bm": "State",
-                "desc_en": "State",
-                "desc_bm": "State"
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] Name of the state (16 in total)",
+                "desc_bm": "[Kategori] Name negeri (16 keseluruhan) atau Malaysia"
             },
             {
                 "id": -1,
                 "name": "percentile",
                 "title_en": "Income Percentile",
-                "title_bm": "Income Percentile",
-                "desc_en": "Income Percentile",
-                "desc_bm": "Income Percentile"
+                "title_bm": "Persentil Pendapatan",
+                "desc_en": "[Integer] Percentile ranging from 1 to 100",
+                "desc_bm": "[Integer] Persentil dari 1 hingga 100"
             },
             {
                 "id": 1,
                 "name": "mean",
-                "title_en": "Mean",
-                "title_bm": "Mean",
-                "desc_en": "Mean",
-                "desc_bm": "Mean"
+                "title_en": "Mean Income within Percentile and State",
+                "title_bm": "Pendapatan Purata dalam Persentil mengikut Negeri",
+                "desc_en": "[Integer] Mean monthly household income for percentile K, such that K% of households have income less than or equal to this figure.",
+                "desc_bm": "[Integer] Pendapatan isi rumah purata bagi persentil K, sebagaimana K% daripada isi rumah mempunyai pendapatan yang kurang daripada ataupun sama dengan angka ini."
             },
             {
                 "id": 2,
                 "name": "median",
-                "title_en": "Median",
-                "title_bm": "Median",
-                "desc_en": "Median",
-                "desc_bm": "Median"
+                "title_en": "Median Income within Percentile and State",
+                "title_bm": "Pendapatan Median dalam Persentil mengikut Negeri",
+                "desc_en": "[Integer] Median monthly household income for percentile K, such that K% of households have income less than or equal to this figure.",
+                "desc_bm": "[Integer] Pendapatan isi rumah penengah bagi persentil K, sebagaimana K% daripada isi rumah mempunyai pendapatan yang kurang daripada ataupun sama dengan angka ini."
             },
             {
                 "id": 3,
                 "name": "minimum",
-                "title_en": "Minimum",
-                "title_bm": "Minimum",
-                "desc_en": "Minimum",
-                "desc_bm": "Minimum"
+                "title_en": "Minimum Income within Percentile by State",
+                "title_bm": "Pendapatan Minimum dalam Persentil mengikut Negeri",
+                "desc_en": "[Integer] Minimum monthly household income within percentile K, such that no household within percentile K has income below this figure. Note that there is no minimum provided for the 1st percentile.",
+                "desc_bm": "[Integer] Pendapatan isi rumah minimum dalam persentil K, sebagimana tiada isi rumah dalam persentil K yang mempunyai pendapatan kurang daripada angka ini. Tiada angka minimum bagi persentil 1."
             },
             {
                 "id": 4,
                 "name": "maximum",
-                "title_en": "Maximum",
-                "title_bm": "Maximum",
-                "desc_en": "Maximum",
-                "desc_bm": "Maximum"
+                "title_en": "Maximum Income within Percentile by State",
+                "title_bm": "Pendapatan Maksimum dalam Persentil mengikut Negeri",
+                "desc_en": "[Integer] Maximum monthly household income within percentile K, such that no household within percentile K has income exceeding this figure. Note that there is no maximum provided for the 100th percentile.",
+                "desc_bm": "[Integer] Pendapatan isi rumah maksimum dalam persentil K, sebagimana tiada isi rumah dalam persentil K yang mempunyai pendapatan melebihi angka ini. Tiada angka maksimum bagi persentil 100."
             }
         ]
     },
@@ -73,6 +72,7 @@
             "catalog_filters": {
                 "frequency": "INFREQUENT",
                 "geographic": [
+                    "STATE",
                     "NATIONAL"
                 ],
                 "start": "2019",
@@ -88,14 +88,14 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum",
-                    "caveat": "Lorem ipsum",
-                    "publication": "Lorem ipsum"
+                    "methodology": "This data is is based on the Household Income and Basic Amenities Survey (HIS & BA) 2019. The survey is carried out twice in five years to produce representative data regarding income, poverty and access to basic amenities for Malaysian households. In the original HIS & BA 2019 Report, this data was reported as deciles, specifically B1-B4 (also known as the B40), M1-M4 (M40) and T1-T2 (T20). This has now been deepened from deciles to percentiles, such that there are 100 datapoints available for each series.",
+                    "caveat": " This data is more detailed than the originally-published statistics, and should therefore be interpreted with the appropriate level of caution.",
+                    "publication": "The [Household Income & Basic Amenities Survey Report, 2019](https://www.dosm.gov.my/v1/index.php?r=column/pdfPrev&id=TU00TmRhQ1N5TUxHVWN0T2VjbXJYZz09)."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum",
-                    "caveat": "Lorem ipsum",
-                    "publication": "Lorem ipsum"
+                    "methodology": "Data ini dihasilkan berdasarkan Survei Pendapatan Isi Rumah dan Kemudahan Asas (HIS & BA) 2019. Survei itu dilaksanakan dua kali dalam tempoh lima tahun bagi tujuan menghasilkan data pendapatan, kemiskinan dan akses kepada kemudahan asas bagi isi rumah warganegara. Dalam Laporan HIS & BA 2019 yang asal, data ini dilaporkan sebagai desil, khususnya B1-B4 (umumnya dirujuk sebagai B40), M1-M4 (M40) dan T1-T2 (T20). Ia kini telah diperdalam daripada desil ke persentil, maka terdapat 100 data bagi setiap siri data.",
+                    "caveat": "Data ini adalah lebih terperinci berbanding dengan statistik yang asalnya diterbitkan, maka perlu ditafsir dengan berhati-hati.",
+                    "publication": "[Laporan Survei Pendapatan Isi Rumah dan Kemudahan Asas, 2019](https://www.dosm.gov.my/v1/index.php?r=column/pdfPrev&id=TU00TmRhQ1N5TUxHVWN0T2VjbXJYZz09)."
                 }
             },
             "chart": {
@@ -124,6 +124,7 @@
             "catalog_filters": {
                 "frequency": "INFREQUENT",
                 "geographic": [
+                    "STATE",
                     "NATIONAL"
                 ],
                 "start": "2019",
@@ -139,14 +140,14 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum",
-                    "caveat": "Lorem ipsum",
-                    "publication": "Lorem ipsum"
+                    "methodology": "This data is is based on the Household Income and Basic Amenities Survey (HIS & BA) 2019. The survey is carried out twice in five years to produce representative data regarding income, poverty and access to basic amenities for Malaysian households. In the original HIS & BA 2019 Report, this data was reported as deciles, specifically B1-B4 (also known as the B40), M1-M4 (M40) and T1-T2 (T20). This has now been deepened from deciles to percentiles, such that there are 100 datapoints available for each series.",
+                    "caveat": " This data is more detailed than the originally-published statistics, and should therefore be interpreted with the appropriate level of caution.",
+                    "publication": "The [Household Income & Basic Amenities Survey Report, 2019](https://www.dosm.gov.my/v1/index.php?r=column/pdfPrev&id=TU00TmRhQ1N5TUxHVWN0T2VjbXJYZz09)."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum",
-                    "caveat": "Lorem ipsum",
-                    "publication": "Lorem ipsum"
+                    "methodology": "Data ini dihasilkan berdasarkan Survei Pendapatan Isi Rumah dan Kemudahan Asas (HIS & BA) 2019. Survei itu dilaksanakan dua kali dalam tempoh lima tahun bagi tujuan menghasilkan data pendapatan, kemiskinan dan akses kepada kemudahan asas bagi isi rumah warganegara. Dalam Laporan HIS & BA 2019 yang asal, data ini dilaporkan sebagai desil, khususnya B1-B4 (umumnya dirujuk sebagai B40), M1-M4 (M40) dan T1-T2 (T20). Ia kini telah diperdalam daripada desil ke persentil, maka terdapat 100 data bagi setiap siri data.",
+                    "caveat": "Data ini adalah lebih terperinci berbanding dengan statistik yang asalnya diterbitkan, maka perlu ditafsir dengan berhati-hati.",
+                    "publication": "[Laporan Survei Pendapatan Isi Rumah dan Kemudahan Asas, 2019](https://www.dosm.gov.my/v1/index.php?r=column/pdfPrev&id=TU00TmRhQ1N5TUxHVWN0T2VjbXJYZz09)."
                 }
             },
             "chart": {
@@ -175,6 +176,7 @@
             "catalog_filters": {
                 "frequency": "INFREQUENT",
                 "geographic": [
+                    "STATE",
                     "NATIONAL"
                 ],
                 "start": "2019",
@@ -190,14 +192,14 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum",
-                    "caveat": "Lorem ipsum",
-                    "publication": "Lorem ipsum"
+                    "methodology": "This data is is based on the Household Income and Basic Amenities Survey (HIS & BA) 2019. The survey is carried out twice in five years to produce representative data regarding income, poverty and access to basic amenities for Malaysian households. In the original HIS & BA 2019 Report, this data was reported as deciles, specifically B1-B4 (also known as the B40), M1-M4 (M40) and T1-T2 (T20). This has now been deepened from deciles to percentiles, such that there are 100 datapoints available for each series.",
+                    "caveat": " This data is more detailed than the originally-published statistics, and should therefore be interpreted with the appropriate level of caution.",
+                    "publication": "The [Household Income & Basic Amenities Survey Report, 2019](https://www.dosm.gov.my/v1/index.php?r=column/pdfPrev&id=TU00TmRhQ1N5TUxHVWN0T2VjbXJYZz09)."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum",
-                    "caveat": "Lorem ipsum",
-                    "publication": "Lorem ipsum"
+                    "methodology": "Data ini dihasilkan berdasarkan Survei Pendapatan Isi Rumah dan Kemudahan Asas (HIS & BA) 2019. Survei itu dilaksanakan dua kali dalam tempoh lima tahun bagi tujuan menghasilkan data pendapatan, kemiskinan dan akses kepada kemudahan asas bagi isi rumah warganegara. Dalam Laporan HIS & BA 2019 yang asal, data ini dilaporkan sebagai desil, khususnya B1-B4 (umumnya dirujuk sebagai B40), M1-M4 (M40) dan T1-T2 (T20). Ia kini telah diperdalam daripada desil ke persentil, maka terdapat 100 data bagi setiap siri data.",
+                    "caveat": "Data ini adalah lebih terperinci berbanding dengan statistik yang asalnya diterbitkan, maka perlu ditafsir dengan berhati-hati.",
+                    "publication": "[Laporan Survei Pendapatan Isi Rumah dan Kemudahan Asas, 2019](https://www.dosm.gov.my/v1/index.php?r=column/pdfPrev&id=TU00TmRhQ1N5TUxHVWN0T2VjbXJYZz09)."
                 }
             },
             "chart": {
@@ -226,6 +228,7 @@
             "catalog_filters": {
                 "frequency": "INFREQUENT",
                 "geographic": [
+                    "STATE",
                     "NATIONAL"
                 ],
                 "start": "2019",
@@ -241,14 +244,14 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "Lorem ipsum",
-                    "caveat": "Lorem ipsum",
-                    "publication": "Lorem ipsum"
+                    "methodology": "This data is is based on the Household Income and Basic Amenities Survey (HIS & BA) 2019. The survey is carried out twice in five years to produce representative data regarding income, poverty and access to basic amenities for Malaysian households. In the original HIS & BA 2019 Report, this data was reported as deciles, specifically B1-B4 (also known as the B40), M1-M4 (M40) and T1-T2 (T20). This has now been deepened from deciles to percentiles, such that there are 100 datapoints available for each series.",
+                    "caveat": " This data is more detailed than the originally-published statistics, and should therefore be interpreted with the appropriate level of caution.",
+                    "publication": "The [Household Income & Basic Amenities Survey Report, 2019](https://www.dosm.gov.my/v1/index.php?r=column/pdfPrev&id=TU00TmRhQ1N5TUxHVWN0T2VjbXJYZz09)."
                 },
                 "bm": {
-                    "methodology": "Lorem ipsum",
-                    "caveat": "Lorem ipsum",
-                    "publication": "Lorem ipsum"
+                    "methodology": "Data ini dihasilkan berdasarkan Survei Pendapatan Isi Rumah dan Kemudahan Asas (HIS & BA) 2019. Survei itu dilaksanakan dua kali dalam tempoh lima tahun bagi tujuan menghasilkan data pendapatan, kemiskinan dan akses kepada kemudahan asas bagi isi rumah warganegara. Dalam Laporan HIS & BA 2019 yang asal, data ini dilaporkan sebagai desil, khususnya B1-B4 (umumnya dirujuk sebagai B40), M1-M4 (M40) dan T1-T2 (T20). Ia kini telah diperdalam daripada desil ke persentil, maka terdapat 100 data bagi setiap siri data.",
+                    "caveat": "Data ini adalah lebih terperinci berbanding dengan statistik yang asalnya diterbitkan, maka perlu ditafsir dengan berhati-hati.",
+                    "publication": "[Laporan Survei Pendapatan Isi Rumah dan Kemudahan Asas, 2019](https://www.dosm.gov.my/v1/index.php?r=column/pdfPrev&id=TU00TmRhQ1N5TUxHVWN0T2VjbXJYZz09)."
                 }
             },
             "chart": {
