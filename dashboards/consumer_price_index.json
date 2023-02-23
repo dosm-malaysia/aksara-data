@@ -1,6 +1,6 @@
 {
     "dashboard_name": "consumer_price_index",
-    "manual_trigger" : "",
+    "manual_trigger" : "try",
     "required_params": [],
     "optional_params": [],
     "charts": {
