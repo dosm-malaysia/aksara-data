@@ -12,8 +12,8 @@
             "en": "This data is is based on the Household Income and Basic Amenities Survey (HIS & BA) 2019. The survey is carried out twice in five years to produce representative data regarding income, poverty and access to basic amenities for Malaysian households. In the original HIS & BA 2019 Report, this data was reported as deciles, specifically B1-B4 (also known as the B40), M1-M4 (M40) and T1-T2 (T20). This has now been deepened from deciles to percentiles, such that there are 100 datapoints available for each series.",
             "bm": "Data ini dihasilkan berdasarkan Survei Pendapatan Isi Rumah dan Kemudahan Asas (HIS & BA) 2019. Survei itu dilaksanakan dua kali dalam tempoh lima tahun bagi tujuan menghasilkan data pendapatan, kemiskinan dan akses kepada kemudahan asas bagi isi rumah warganegara. Dalam Laporan HIS & BA 2019 yang asal, data ini dilaporkan sebagai desil, khususnya B1-B4 (umumnya dirujuk sebagai B40), M1-M4 (M40) dan T1-T2 (T20). Ia kini telah diperdalam daripada desil ke persentil, maka terdapat 100 data bagi setiap siri data."
         },
-        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/hiesba_percentiles.parquet",
-        "link_csv": "https://storage.googleapis.com/dosm-public-economy/hiesba_percentiles.csv",
+        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/hiesba_percentiles.parquet?ignoreCache=1",
+        "link_csv": "https://storage.googleapis.com/dosm-public-economy/hiesba_percentiles.csv?ignoreCache=1",
         "link_metadata": "https://storage.googleapis.com/dosm-public-economy/hiesba_percentiles.metadata",
         "variables": [
             {
@@ -35,34 +35,34 @@
             {
                 "id": 1,
                 "name": "mean",
-                "title_en": "Mean Income within Percentile and State",
-                "title_bm": "Pendapatan Purata dalam Persentil mengikut Negeri",
+                "title_en": "Mean Income by Percentile and State",
+                "title_bm": "Pendapatan Purata mengikut Persentil dan Negeri",
                 "desc_en": "[Integer] Mean monthly household income for percentile K, such that K% of households have income less than or equal to this figure.",
-                "desc_bm": "[Integer] Pendapatan isi rumah purata bagi persentil K, sebagaimana K% daripada isi rumah mempunyai pendapatan yang kurang daripada ataupun sama dengan angka ini."
+                "desc_bm": "[Integer] Purata pendapatan bulanan isi rumah bagi persentil K, sebagaimana K% daripada isi rumah mempunyai pendapatan yang kurang daripada ataupun sama dengan angka ini."
             },
             {
                 "id": 2,
                 "name": "median",
-                "title_en": "Median Income within Percentile and State",
-                "title_bm": "Pendapatan Median dalam Persentil mengikut Negeri",
+                "title_en": "Median Income by Percentile and State",
+                "title_bm": "Pendapatan Median mengikut Persentil dan Negeri",
                 "desc_en": "[Integer] Median monthly household income for percentile K, such that K% of households have income less than or equal to this figure.",
-                "desc_bm": "[Integer] Pendapatan isi rumah penengah bagi persentil K, sebagaimana K% daripada isi rumah mempunyai pendapatan yang kurang daripada ataupun sama dengan angka ini."
+                "desc_bm": "[Integer] Penengah pendapatan bulanan isi rumah bagi persentil K, sebagaimana K% daripada isi rumah mempunyai pendapatan yang kurang daripada ataupun sama dengan angka ini."
             },
             {
                 "id": 3,
                 "name": "minimum",
-                "title_en": "Minimum Income within Percentile by State",
-                "title_bm": "Pendapatan Minimum dalam Persentil mengikut Negeri",
+                "title_en": "Minimum Income by Percentile and State",
+                "title_bm": "Pendapatan Minimum mengikut Persentil dan Negeri",
                 "desc_en": "[Integer] Minimum monthly household income within percentile K, such that no household within percentile K has income below this figure. Note that there is no minimum provided for the 1st percentile.",
-                "desc_bm": "[Integer] Pendapatan isi rumah minimum dalam persentil K, sebagimana tiada isi rumah dalam persentil K yang mempunyai pendapatan kurang daripada angka ini. Tiada angka minimum bagi persentil 1."
+                "desc_bm": "[Integer] Pendapatan bulanan isi rumah minimum dalam persentil K, sebagimana tiada isi rumah dalam persentil K yang mempunyai pendapatan kurang daripada angka ini. Tiada angka minimum bagi persentil 1."
             },
             {
                 "id": 4,
                 "name": "maximum",
-                "title_en": "Maximum Income within Percentile by State",
-                "title_bm": "Pendapatan Maksimum dalam Persentil mengikut Negeri",
+                "title_en": "Maximum Income by Percentile and State",
+                "title_bm": "Pendapatan Maksimum mengikut Persentil dan Negeri",
                 "desc_en": "[Integer] Maximum monthly household income within percentile K, such that no household within percentile K has income exceeding this figure. Note that there is no maximum provided for the 100th percentile.",
-                "desc_bm": "[Integer] Pendapatan isi rumah maksimum dalam persentil K, sebagimana tiada isi rumah dalam persentil K yang mempunyai pendapatan melebihi angka ini. Tiada angka maksimum bagi persentil 100."
+                "desc_bm": "[Integer] Pendapatan bulanan isi rumah maksimum dalam persentil K, sebagimana tiada isi rumah dalam persentil K yang mempunyai pendapatan melebihi angka ini. Tiada angka maksimum bagi persentil 100."
             }
         ]
     },
