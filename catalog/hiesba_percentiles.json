@@ -1,6 +1,7 @@
 {
     "file": {
         "bucket": "dosm-public-economy",
+        "manual_trigger": "e",
         "file_name": "hiesba_percentiles",
         "category": "ECONOMY",
         "category_en": "Economy",
