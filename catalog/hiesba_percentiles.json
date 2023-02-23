@@ -2,6 +2,7 @@
     "file": {
         "bucket": "dosm-public-economy",
         "file_name": "hiesba_percentiles",
+        "manual_trigger": "yes",
         "category": "ECONOMY",
         "category_en": "Economy",
         "category_bm": "Ekonomi",
