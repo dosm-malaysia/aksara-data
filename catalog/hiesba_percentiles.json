@@ -2,7 +2,6 @@
     "file": {
         "bucket": "dosm-public-economy",
         "file_name": "hiesba_percentiles",
-        "manual_trigger": "yes",
         "category": "ECONOMY",
         "category_en": "Economy",
         "category_bm": "Ekonomi",
@@ -13,8 +12,8 @@
             "en": "This data is is based on the Household Income and Basic Amenities Survey (HIS & BA) 2019. The survey is carried out twice in five years to produce representative data regarding income, poverty and access to basic amenities for Malaysian households. In the original HIS & BA 2019 Report, this data was reported as deciles, specifically B1-B4 (also known as the B40), M1-M4 (M40) and T1-T2 (T20). This has now been deepened from deciles to percentiles, such that there are 100 datapoints available for each series.",
             "bm": "Data ini dihasilkan berdasarkan Survei Pendapatan Isi Rumah dan Kemudahan Asas (HIS & BA) 2019. Survei itu dilaksanakan dua kali dalam tempoh lima tahun bagi tujuan menghasilkan data pendapatan, kemiskinan dan akses kepada kemudahan asas bagi isi rumah warganegara. Dalam Laporan HIS & BA 2019 yang asal, data ini dilaporkan sebagai desil, khususnya B1-B4 (umumnya dirujuk sebagai B40), M1-M4 (M40) dan T1-T2 (T20). Ia kini telah diperdalam daripada desil ke persentil, maka terdapat 100 data bagi setiap siri data."
         },
-        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/hiesba_percentiles.parquet?ignoreCache=1",
-        "link_csv": "https://storage.googleapis.com/dosm-public-economy/hiesba_percentiles.csv?ignoreCache=1",
+        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/hiesba_percentiles_new.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-economy/hiesba_percentiles.csv",
         "link_metadata": "https://storage.googleapis.com/dosm-public-economy/hiesba_percentiles.metadata",
         "variables": [
             {
