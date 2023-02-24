@@ -37,16 +37,16 @@
                 "name": "mean",
                 "title_en": "Mean Income by Percentile and State",
                 "title_bm": "Pendapatan Purata mengikut Persentil dan Negeri",
-                "desc_en": "[Integer] Mean monthly household income for percentile K, such that K% of households have income less than or equal to this figure.",
-                "desc_bm": "[Integer] Purata pendapatan bulanan isi rumah bagi persentil K, sebagaimana K% daripada isi rumah mempunyai pendapatan yang kurang daripada ataupun sama dengan angka ini."
+                "desc_en": "[Integer] Mean monthly household income among households in percentile K, where K is an integer between 1 and 100.",
+                "desc_bm": "[Integer] Purata pendapatan bulanan isi rumah bagi isi rumah dalam persentil K, sebagaimana K adalah integer antara 1 dan 100."
             },
             {
                 "id": 2,
                 "name": "median",
                 "title_en": "Median Income by Percentile and State",
                 "title_bm": "Pendapatan Median mengikut Persentil dan Negeri",
-                "desc_en": "[Integer] Median monthly household income for percentile K, such that K% of households have income less than or equal to this figure.",
-                "desc_bm": "[Integer] Penengah pendapatan bulanan isi rumah bagi persentil K, sebagaimana K% daripada isi rumah mempunyai pendapatan yang kurang daripada ataupun sama dengan angka ini."
+                "desc_en": "[Integer] Median monthly household income among households in percentile K, where K is an integer between 1 and 100.",
+                "desc_bm": "[Integer] Penengah pendapatan bulanan isi rumah bagi isi rumah dalam persentil K, sebagaimana K adalah integer antara 1 dan 100."
             },
             {
                 "id": 3,
