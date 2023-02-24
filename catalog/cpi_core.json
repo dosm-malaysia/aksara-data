@@ -132,30 +132,33 @@
                     "NATIONAL"
                 ],
                 "start": "2010",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-01-20 12:00",
-                "next_update": "2023-02-24 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-24 12:00",
+                "next_update": "2023-03-24 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for Housing, Water, Electricity, Gas & Other Fuels items collected according to price collection centers in each state in Malaysia.",
-                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government."
+                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government.",
+                    "publication": "[Consumer Price Index, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
                 },
                 "bm": {
                     "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Perumahan, Air, Elektrik, Gas & Bahan Api Lain yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
-                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan."
+                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan.",
+                    "publication": "[Indeks Harga Pengguna, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -177,30 +180,33 @@
                     "NATIONAL"
                 ],
                 "start": "2010",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-01-20 12:00",
-                "next_update": "2023-02-24 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-24 12:00",
+                "next_update": "2023-03-24 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for Food & Non-Alcoholic Beverages items collected according to price collection centers in each state in Malaysia.",
-                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government."
+                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government.",
+                    "publication": "[Consumer Price Index, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
                 },
                 "bm": {
                     "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Makanan & Minuman Bukan Alkohol yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
-                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan."
+                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan.",
+                    "publication": "[Indeks Harga Pengguna, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -222,30 +228,33 @@
                     "NATIONAL"
                 ],
                 "start": "2010",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-01-20 12:00",
-                "next_update": "2023-02-24 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-24 12:00",
+                "next_update": "2023-03-24 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for Clothing & Footwear items collected according to price collection centers in each state in Malaysia.",
-                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government."
+                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government.",
+                    "publication": "[Consumer Price Index, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
                 },
                 "bm": {
                     "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Pakaian & Kasut yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
-                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan."
+                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan.",
+                    "publication": "[Indeks Harga Pengguna, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -267,30 +276,33 @@
                     "NATIONAL"
                 ],
                 "start": "2010",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-01-20 12:00",
-                "next_update": "2023-02-24 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-24 12:00",
+                "next_update": "2023-03-24 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for Housing, Water, Electricity, Gas & Other Fuels items collected according to price collection centers in each state in Malaysia.",
-                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government."
+                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government.",
+                    "publication": "[Consumer Price Index, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
                 },
                 "bm": {
                     "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Perumahan, Air, Elektrik, Gas & Bahan Api Lain yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
-                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan."
+                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan.",
+                    "publication": "[Indeks Harga Pengguna, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -312,30 +324,33 @@
                     "NATIONAL"
                 ],
                 "start": "2010",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-01-20 12:00",
-                "next_update": "2023-02-24 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-24 12:00",
+                "next_update": "2023-03-24 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for Furnishings, Household Equipment & Routine Household Maintenance items collected according to price collection centers in each state in Malaysia.",
-                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government."
+                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government.",
+                    "publication": "[Consumer Price Index, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
                 },
                 "bm": {
                     "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Hiasan, Perkakasan & Penyelenggaraan Isi Rumah yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
-                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan."
+                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan.",
+                    "publication": "[Indeks Harga Pengguna, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -357,30 +372,33 @@
                     "NATIONAL"
                 ],
                 "start": "2010",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-01-20 12:00",
-                "next_update": "2023-02-24 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-24 12:00",
+                "next_update": "2023-03-24 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for Health items collected according to price collection centers in each state in Malaysia.",
-                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government."
+                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government.",
+                    "publication": "[Consumer Price Index, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
                 },
                 "bm": {
                     "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Kesihatan yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
-                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan."
+                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan.",
+                    "publication": "[Indeks Harga Pengguna, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -402,30 +420,33 @@
                     "NATIONAL"
                 ],
                 "start": "2010",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-01-20 12:00",
-                "next_update": "2023-02-24 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-24 12:00",
+                "next_update": "2023-03-24 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for Transport items collected according to price collection centers in each state in Malaysia.",
-                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government."
+                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government.",
+                    "publication": "[Consumer Price Index, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
                 },
                 "bm": {
                     "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Pengangkutan yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
-                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan."
+                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan.",
+                    "publication": "[Indeks Harga Pengguna, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -447,30 +468,33 @@
                     "NATIONAL"
                 ],
                 "start": "2010",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-01-20 12:00",
-                "next_update": "2023-02-24 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-24 12:00",
+                "next_update": "2023-03-24 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for Communication items collected according to price collection centers in each state in Malaysia.",
-                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government."
+                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government.",
+                    "publication": "[Consumer Price Index, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
                 },
                 "bm": {
                     "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Komunikasi yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
-                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan."
+                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan.",
+                    "publication": "[Indeks Harga Pengguna, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -492,30 +516,33 @@
                     "NATIONAL"
                 ],
                 "start": "2010",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-01-20 12:00",
-                "next_update": "2023-02-24 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-24 12:00",
+                "next_update": "2023-03-24 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for Recreation Services & Culture items collected according to price collection centers in each state in Malaysia.",
-                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government."
+                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government.",
+                    "publication": "[Consumer Price Index, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
                 },
                 "bm": {
                     "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Perkhidmatan Rekreasi & Kebudayaan yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
-                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan."
+                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan.",
+                    "publication": "[Indeks Harga Pengguna, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -537,30 +564,33 @@
                     "NATIONAL"
                 ],
                 "start": "2010",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-01-20 12:00",
-                "next_update": "2023-02-24 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-24 12:00",
+                "next_update": "2023-03-24 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for Education items collected according to price collection centers in each state in Malaysia.",
-                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government."
+                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government.",
+                    "publication": "[Consumer Price Index, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
                 },
                 "bm": {
                     "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Pendidikan yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
-                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan."
+                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan.",
+                    "publication": "[Indeks Harga Pengguna, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -582,30 +612,33 @@
                     "NATIONAL"
                 ],
                 "start": "2010",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-01-20 12:00",
-                "next_update": "2023-02-24 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-24 12:00",
+                "next_update": "2023-03-24 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for Restaurants & Hotels items collected according to price collection centers in each state in Malaysia.",
-                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government."
+                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government.",
+                    "publication": "[Consumer Price Index, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
                 },
                 "bm": {
                     "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Restoran & Hotel yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
-                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan."
+                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan.",
+                    "publication": "[Indeks Harga Pengguna, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
@@ -627,30 +660,33 @@
                     "NATIONAL"
                 ],
                 "start": "2010",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-01-20 12:00",
-                "next_update": "2023-02-24 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-24 12:00",
+                "next_update": "2023-03-24 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for Miscellaneous Goods & Services items collected according to price collection centers in each state in Malaysia.",
-                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government."
+                    "caveat": "Core inflation measures changes in the prices of all goods and services, excluding volatile items of fresh food as well as administered prices of goods by the government.",
+                    "publication": "[Consumer Price Index, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), the latest edition of the monthly consumer price statistics published by DOSM. OpenDOSM also features a [dashboard on consumer prices](https://open.dosm.gov.my/consumer-prices)."
                 },
                 "bm": {
                     "methodology": "Indeks ini disusun berdasarkan perubahan purata harga bagi item Pelbagai Barangan & Perkhidmatan yang dikutip mengikut pusat pungutan harga di setiap negeri di Malaysia.",
-                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan."
+                    "caveat": "Inflasi teras mengukur perubahan dalam harga barang dan perkhidmatan, tidak termasuk makanan segar yang harganya tidak menentu serta harga barangan kawalan oleh kerajaan.",
+                    "publication": "[Indeks Harga Pengguna, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_cpi.pdf), edisi terkini bagi statistik harga pengguna yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengguna](https://open.dosm.gov.my/consumer-prices)."
                 }
             },
             "chart": {
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
-                    "SLICE_BY": []
+                    "SLICE_BY": [],
+                    "precision": 1
                 },
                 "chart_variables": {
                     "parents": [],
