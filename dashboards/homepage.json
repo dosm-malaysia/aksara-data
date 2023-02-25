@@ -1,6 +1,6 @@
 {
     "dashboard_name": "homepage",
-    "manual_trigger": "gdp",
+    "manual_trigger": "",
     "required_params": [],
     "optional_params": [],
     "charts": {
