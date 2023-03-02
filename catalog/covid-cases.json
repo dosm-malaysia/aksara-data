@@ -1,6 +1,7 @@
 {
     "file": {
         "bucket": "dosm-public-healthcare",
+        "manual_trigger": "rt",
         "file_name": "covid-cases",
         "category": "HEALTHCARE",
         "category_en": "Healthcare",

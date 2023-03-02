@@ -1,6 +1,7 @@
 {
     "file": {
         "bucket": "dosm-public-economy",
+        "manual_trigger": "rt",
         "file_name": "fuelprice",
         "category": "ECONOMY",
         "category_en": "Economy",
