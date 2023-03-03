@@ -85,14 +85,14 @@
                 "chart_type": "BAR",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "variable",
+                        "industry",
                         "sex"
                     ],
                     "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
-                        "variable",
+                        "industry",
                         "sex"
                     ],
                     "format": {
@@ -138,14 +138,14 @@
                 "chart_type": "BAR",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "variable",
+                        "industry",
                         "sex"
                     ],
                     "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
-                        "variable",
+                        "industry",
                         "sex"
                     ],
                     "format": {
