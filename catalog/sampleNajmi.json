@@ -1,0 +1,87 @@
+{
+    "file": {
+        "bucket": "dosm-public-staging",
+        "file_name": "sampleNajmi",
+        "category": "category",
+        "category_en": "category_en",
+        "category_bm": "category_bm",
+        "subcategory": "subcategory",
+        "subcategory_en": "subcategory_en",
+        "subcategory_bm": "subcategory_bm",
+        "description": {
+            "en": "description.en",
+            "bm": "description.bm"
+        },
+        "link_parquet": "https://storage.googleapis.com/dosm-public-staging/sampleNajmi.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-staging/sampleNajmi.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-staging/sampleNajmi.metadata",
+        "variables": [
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+                "desc_bm": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+            },
+            {
+                "id": 1,
+                "name": "donors",
+                "title_en": "Donors",
+                "title_bm": "Penderma",
+                "desc_en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+                "desc_bm": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 1,
+            "catalog_filters": {
+                "frequency": "DAILY",
+                "limit_frequency": false,
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2020",
+                "end": "2023",
+                "data_source": [
+                    "AKSARA"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-03-01 23:59",
+                "last_updated": "2023-02-22 23:59",
+                "next_update": "2023-03-01 23:59"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+                    "publication": "https://www.lipsum.com/"
+                },
+                "bm": {
+                    "methodology": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+                    "caveat": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+                    "publication": "https://www.lipsum.com/"
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [],
+                    "precision": 0
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "donors",
+                        "line": ""
+                    }
+                }
+            }
+        }
+    ]
+}
