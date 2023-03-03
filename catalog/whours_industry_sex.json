@@ -1,7 +1,7 @@
 {
     "file": {
         "bucket": "dosm-public-staging",
-        "file_name": "whours-sex",
+        "file_name": "whours_industry_sex",
         "category": "SOCIAL",
         "category_en": "Social",
         "category_bm": "Sosial",
@@ -12,17 +12,17 @@
             "en": "The Labour Force Report presents the statistics of Malaysian hours worked obtained from the Labour Force Survey (LFS).",
             "bm": "Laporan Tenaga Buruh membentangkan statistik berkaitan jam bekerja Malaysia yang diperoleh daripada Survei Tenaga Buruh (STB). "
         },
-        "link_parquet": "https://storage.googleapis.com/dosm-public-staging/whours-sex.parquet",
-        "link_csv": "https://storage.googleapis.com/dosm-public-staging/whours-sex.csv",
-        "link_metadata": "https://storage.googleapis.com/dosm-public-staging/whours-sex.metadata",
+        "link_parquet": "https://storage.googleapis.com/dosm-public-staging/whours_industry_sex.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-staging/whours_industry_sex.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-staging/whours_industry_sex.metadata",
         "variables": [
             {
                 "id": -1,
                 "name": "variable",
                 "title_en": "Variable",
                 "title_bm": "Pembolehubah",
-                "desc_en": "[Categorical] Name of variable in snake case, representing strata (urban or rural)",
-                "desc_bm": "[Kategori] Nama pembolehubah dengan kes ular, mewakili strata (bandar ataupun luar bandar)"
+                "desc_en": "[Categorical] Name of variable in snake case, representing industry as classified according to [MSIC 2008 - Malaysia Standard Industrial Classification 2008 Version 1.0](https://www.dosm.gov.my/v1/uploads/files/4_Portal%20Content/3_Methods%20%26%20Classifications/2_List%20of%20References/MSIC_2008.pdf)",
+                "desc_bm": "[Kategori] Nama pembolehubah dengan kes ular, mewakili industri seperti yang dikelaskan mengikut [MSIC 2008 - Piawaian Klasifikasi Industri Malaysia 2008 versi 1.0](https://www.dosm.gov.my/v1/uploads/files/4_Portal%20Content/3_Methods%20%26%20Classifications/2_List%20of%20References/MSIC_2008.pdf)"
             },
             {
                 "id": -1,
@@ -59,16 +59,16 @@
             {
                 "id": 1,
                 "name": "mean",
-                "title_en": "Time series: Mean hours worked by Sex",
-                "title_bm": "Siri masa: Jam berkerja Purata mengikut Jantina",
+                "title_en": "Time series: Mean hours worked by Industry",
+                "title_bm": "Siri masa: Jam berkerja Purata mengikut Industri",
                 "desc_en": "[Integer] Mean hours worked in hours",
                 "desc_bm": "[Integer] Jam berkerja purata dalam jam"
             },
             {
                 "id": 2,
                 "name": "median",
-                "title_en": "Time series: Median hours worked by Sex",
-                "title_bm": "Siri masa: Jam berkerja Penengah mengikut Jantina",
+                "title_en": "Time series: Median hours worked by Industry",
+                "title_bm": "Siri masa: Jam berkerja Penengah mengikut Industri",
                 "desc_en": "[Integer] Median hours worked in hours",
                 "desc_bm": "[Integer] Jam berkerja penengah dalam jam"
             }
