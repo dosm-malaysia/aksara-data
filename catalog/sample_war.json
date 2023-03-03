@@ -1,0 +1,87 @@
+{
+    "file": {
+        "bucket": "dosm-public-healthcare",
+        "file_name": "sample_war",
+        "category": "HEALTHCARE",
+        "category_en": "Healthcare",
+        "category_bm": "Kesihatan",
+        "subcategory": "DONOR",
+        "subcategory_en": "Blood Donors",
+        "subcategory_bm": "Pendeema Darah",
+        "description": {
+            "en": "This data shows number of blodd donors in Malaysia",
+            "bm": "Data ini mengandungi bilangan penderma darah di Malaysia"
+        },
+        "link_parquet": "https://storage.googleapis.com/dosm-public-healthcare/sample_war.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-healthcare/sample_war.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-healthcare/sample_war.metadata",
+        "variables": [
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD"
+            },
+            {
+                "id": 1,
+                "name": "donors",
+                "title_en": "Donors",
+                "title_bm": "Derma",
+                "desc_en": "[Integer] Number of donors",
+                "desc_bm": "[Integer] Bilangan penderma"
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 1,
+            "catalog_filters": {
+                "frequency": "DAILY",
+                "limit_frequency": false,
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2020",
+                "end": "2023",
+                "data_source": [
+                    "KKM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-03-03 00:00",
+                "last_updated": "2023-03-03 00:00",
+                "next_update": "2023-03-04 00:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Data number of blood donors in Malaysia on a daily basis",
+                    "caveat": "lorem ipsum",
+                    "publication": "-"
+                },
+                "bm": {
+                    "methodology": "Data penderma darah di Malaysia secara harian",
+                    "caveat": "lorem ipsum",
+                    "publication": "-"
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [],
+                    "precision": 0
+                },
+                "chart_variables": {
+                    "parents": [],
+                    "operation": "SUM",
+                    "format": {
+                        "x": "date",
+                        "y": "donors",
+                        "line": ""
+                    }
+                }
+            }
+        }
+    ]
+}
