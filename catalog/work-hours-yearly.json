@@ -1,7 +1,7 @@
 {
     "file": {
         "bucket": "dosm-public-staging",
-        "file_name": "work-hours-yearly",
+        "file_name": "wkhrs_sex_industry",
         "category": "ECONOMY",
         "category_en": "Economy",
         "category_bm": "Ekonomi",
@@ -138,14 +138,14 @@
                 "chart_type": "BAR",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "variable",
+                        "industry",
                         "sex"
                     ],
                     "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
-                        "variable",
+                        "industry",
                         "sex"
                     ],
                     "format": {
