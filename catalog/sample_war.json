@@ -1,7 +1,7 @@
 {
     "file": {
         "bucket": "dosm-public-healthcare",
-        "file_name": "sample-war",
+        "file_name": "sample_war",
         "category": "HEALTHCARE",
         "category_en": "Healthcare",
         "category_bm": "Kesihatan",
@@ -12,9 +12,9 @@
             "en": "This data shows number of blodd donors in Malaysia",
             "bm": "Data ini mengandungi bilangan penderma darah di Malaysia"
         },
-        "link_parquet": "https://storage.googleapis.com/dosm-public-healthcare/sample-war.parquet",
-        "link_csv": "https://storage.googleapis.com/dosm-public-healthcare/sample-war.csv",
-        "link_metadata": "https://storage.googleapis.com/dosm-public-healthcare/sample-war.metadata",
+        "link_parquet": "https://storage.googleapis.com/dosm-public-healthcare/sample_war.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-healthcare/sample_war.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-healthcare/sample_war.metadata",
         "variables": [
             {
                 "id": -1,
