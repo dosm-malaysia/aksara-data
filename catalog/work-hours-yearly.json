@@ -47,6 +47,30 @@
                 "title_bm": "Siri masa: Jam berkerja Penengah mengikut Kategori Mahir",
                 "desc_en": "[Integer] Median hours worked in hours",
                 "desc_bm": "[Integer] Jam berkerja purata dalam jam"
+            },
+            {
+                "id": 3,
+                "name": "industry",
+                "title_en": "Time series: Median hours worked by Industry",
+                "title_bm": "Siri masa: Jam berkerja Penengah mengikut Kategori Mahir",
+                "desc_en": "[Integer] Median hours worked in hours",
+                "desc_bm": "[Integer] Jam berkerja purata dalam jam"
+            },
+            {
+                "id": -1,
+                "name": "variable_en",
+                "title_en": "Variable (English)",
+                "title_bm": "Pembolehubah (BI)",
+                "desc_en": "[Categorical] Full specification of the variable (English translation)",
+                "desc_bm": "[Kategori] Huraian penuh pembolehubah (versi Bahasa Inggeris)"
+            },
+            {
+                "id": -1,
+                "name": "variable_bm",
+                "title_en": "Variable (Malay)",
+                "title_bm": "Pembolehubah (BM)",
+                "desc_en": "[Categorical] Full specification of the variable (Malay translation)",
+                "desc_bm": "[Kategori] Huraian penuh pembolehubah (versi Bahasa Melayu)"
             }
         ]
     },
@@ -73,26 +97,26 @@
                 "en": {
                     "methodology": "The survey which is carried out every month are based on the guidelines and recommendations of the International Labour Organization (ILO) with reference to the Surveys of Economically Active Population, Employment, Unemployment and Underemployment: An ILO Manual on Concepts and Methods.",
                     "caveat": "The time series for 2010\u20132021 presented the statistics hours worked by demography and socioeconomic levels. These data refer to the total number of hours worked during the reference period.",
-                    "publication": "na"
+                    "publication": "The [Household Income & Basic Amenities Survey Report, 2019](https://www.dosm.gov.my/v1/index.php?r=column/pdfPrev&id=TU00TmRhQ1N5TUxHVWN0T2VjbXJYZz09)."
                 },
                 "bm": {
                     "methodology": "Survei yang dijalankan setiap bulan adalah berdasarkan garis panduan dan syor International Labour Organization (ILO) dengan merujuk kepada Surveys of Economically Active Population, Employment, Unemployment and Underemployment: An ILO Manual on Concepts and Methods.",
                     "caveat": "Siri masa 2010\u20132021 memaparkan statistik jam bekerja mengikut tahap demografi dan sosioekonomi. Data tersebut merujuk kepada jumlah bilangan jam bekerja pada minggu rujukan\nPublication: Labour Force Survey",
-                    "publication": "na"
+                    "publication": "The [Household Income & Basic Amenities Survey Report, 2019](https://www.dosm.gov.my/v1/index.php?r=column/pdfPrev&id=TU00TmRhQ1N5TUxHVWN0T2VjbXJYZz09)."
                 }
             },
             "chart": {
                 "chart_type": "BAR",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "industry",
+                        "variable",
                         "sex"
                     ],
-                    "precision": 1
+                    "precision": 0
                 },
                 "chart_variables": {
                     "parents": [
-                        "industry",
+                        "variable",
                         "sex"
                     ],
                     "format": {
@@ -126,32 +150,85 @@
                 "en": {
                     "methodology": "The survey which is carried out every month are based on the guidelines and recommendations of the International Labour Organization (ILO) with reference to the Surveys of Economically Active Population, Employment, Unemployment and Underemployment: An ILO Manual on Concepts and Methods.",
                     "caveat": "The time series for 2010\u20132021 presented the statistics hours worked by demography and socioeconomic levels. These data refer to the total number of hours worked during the reference period.",
-                    "publication": "na"
+                    "publication": "The [Household Income & Basic Amenities Survey Report, 2019](https://www.dosm.gov.my/v1/index.php?r=column/pdfPrev&id=TU00TmRhQ1N5TUxHVWN0T2VjbXJYZz09)."
                 },
                 "bm": {
                     "methodology": "Survei yang dijalankan setiap bulan adalah berdasarkan garis panduan dan syor International Labour Organization (ILO) dengan merujuk kepada Surveys of Economically Active Population, Employment, Unemployment and Underemployment: An ILO Manual on Concepts and Methods.",
                     "caveat": "Siri masa 2010\u20132021 memaparkan statistik jam bekerja mengikut tahap demografi dan sosioekonomi. Data tersebut merujuk kepada jumlah bilangan jam bekerja pada minggu rujukan\nPublication: Labour Force Survey",
-                    "publication": "na"
+                    "publication": "The [Household Income & Basic Amenities Survey Report, 2019](https://www.dosm.gov.my/v1/index.php?r=column/pdfPrev&id=TU00TmRhQ1N5TUxHVWN0T2VjbXJYZz09)."
                 }
             },
             "chart": {
                 "chart_type": "BAR",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "industry",
+                        "variable",
                         "sex"
                     ],
-                    "precision": 1
+                    "precision": 0
                 },
                 "chart_variables": {
                     "parents": [
-                        "industry",
+                        "variable",
                         "sex"
                     ],
                     "format": {
                         "x": "year",
                         "y": [
                             "median"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "id": 3,
+            "catalog_filters": {
+                "frequency": "YEARLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2010",
+                "end": "2021",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2021-12-31 23:59",
+                "last_updated": "2022-10-04 12:00",
+                "next_update": "2023-08-30 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "The survey which is carried out every month are based on the guidelines and recommendations of the International Labour Organization (ILO) with reference to the Surveys of Economically Active Population, Employment, Unemployment and Underemployment: An ILO Manual on Concepts and Methods.",
+                    "caveat": "The time series for 2010\u20132021 presented the statistics hours worked by demography and socioeconomic levels. These data refer to the total number of hours worked during the reference period.",
+                    "publication": "The [Household Income & Basic Amenities Survey Report, 2019](https://www.dosm.gov.my/v1/index.php?r=column/pdfPrev&id=TU00TmRhQ1N5TUxHVWN0T2VjbXJYZz09)."
+                },
+                "bm": {
+                    "methodology": "Survei yang dijalankan setiap bulan adalah berdasarkan garis panduan dan syor International Labour Organization (ILO) dengan merujuk kepada Surveys of Economically Active Population, Employment, Unemployment and Underemployment: An ILO Manual on Concepts and Methods.",
+                    "caveat": "Siri masa 2010\u20132021 memaparkan statistik jam bekerja mengikut tahap demografi dan sosioekonomi. Data tersebut merujuk kepada jumlah bilangan jam bekerja pada minggu rujukan\nPublication: Labour Force Survey",
+                    "publication": "The [Household Income & Basic Amenities Survey Report, 2019](https://www.dosm.gov.my/v1/index.php?r=column/pdfPrev&id=TU00TmRhQ1N5TUxHVWN0T2VjbXJYZz09)."
+                }
+            },
+            "chart": {
+                "chart_type": "BAR",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "variable",
+                        "sex"
+                    ],
+                    "precision": 0
+                },
+                "chart_variables": {
+                    "parents": [
+                        "variable",
+                        "sex"
+                    ],
+                    "format": {
+                        "x": "year",
+                        "y": [
+                            "industry"
                         ]
                     }
                 }
