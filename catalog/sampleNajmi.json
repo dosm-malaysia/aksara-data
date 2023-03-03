@@ -29,8 +29,8 @@
                 "name": "donors",
                 "title_en": "Donors",
                 "title_bm": "Penderma",
-                "desc_en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
-                "desc_bm": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+                "desc_en": "[Integer] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+                "desc_bm": "[Intiger] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
             }
         ]
     },
