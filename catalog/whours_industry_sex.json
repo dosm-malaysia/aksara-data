@@ -109,18 +109,18 @@
                 "chart_type": "BAR",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "year",
+                        "variable",
                         "sex"
                     ],
                     "precision": 0
                 },
                 "chart_variables": {
                     "parents": [
-                        "year",
+                        "variable",
                         "sex"
                     ],
                     "format": {
-                        "x": "variable",
+                        "x": "year",
                         "y": [
                             "mean"
                         ]
@@ -162,18 +162,18 @@
                 "chart_type": "BAR",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "year",
+                        "variable",
                         "sex"
                     ],
                     "precision": 0
                 },
                 "chart_variables": {
                     "parents": [
-                        "year",
+                        "variable",
                         "sex"
                     ],
                     "format": {
-                        "x": "variable",
+                        "x": "year",
                         "y": [
                             "median"
                         ]
