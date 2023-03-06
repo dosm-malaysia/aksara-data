@@ -17,23 +17,15 @@
         "link_metadata": "https://storage.googleapis.com/dosm-public-staging/workhrs_age_sex.metadata",
         "variables": [
             {
-                "id": 0,
-                "name": "Worked hours by sex",
-                "title_en": "Grouped Bar (2 bars)",
-                "title_bm": "Grouped Bar (2 bars)",
-                "desc_en": "[Categorical] Name of variable in snake case, representing ethnic group; all groups are citizens except for the explicit non-citizen variable",
-                "desc_bm": "[Kategori] Nama pembolehubah dengan kes ular, mewakili kumpulan etnik; semua kumpulan adalah warganegara kecuali kumpulan yang dinyatakan sebagai bukan warganegara"
-            },
-            {
-                "id": 1,
+                "id": -1,
                 "name": "variable",
                 "title_en": "Variable",
                 "title_bm": "Pembolehubah",
-                "desc_en": "[Categorical] Name of variable in snake case, representing ethnic group; all groups are citizens except for the explicit non-citizen variable",
-                "desc_bm": "[Kategori] Nama pembolehubah dengan kes ular, mewakili kumpulan etnik; semua kumpulan adalah warganegara kecuali kumpulan yang dinyatakan sebagai bukan warganegara"
+                "desc_en": "[Categorical] Name of variable in indicator (mean or median)",
+                "desc_bm": "[Kategori] Nama pembolehubah mewakili indicator (min ataupun median)"
             },
             {
-                "id": 2,
+                "id": -1,
                 "name": "variable_en",
                 "title_en": "Variable (English)",
                 "title_bm": "Pembolehubah (BI)",
@@ -41,7 +33,7 @@
                 "desc_bm": "[Kategori] Huraian penuh pembolehubah (versi Bahasa Inggeris)"
             },
             {
-                "id": 3,
+                "id": -1,
                 "name": "variable_bm",
                 "title_en": "Variable (Malay)",
                 "title_bm": "Pembolehubah (BM)",
@@ -49,7 +41,7 @@
                 "desc_bm": "[Kategori] Huraian penuh pembolehubah (versi Bahasa Melayu)"
             },
             {
-                "id": 4,
+                "id": -1,
                 "name": "sex",
                 "title_en": "Sex",
                 "title_bm": "Jantina",
@@ -57,7 +49,7 @@
                 "desc_bm": "[Categorical] Lelaki (male) atau Perempuan (female)"
             },
             {
-                "id": 5,
+                "id": -1,
                 "name": "year",
                 "title_en": "Year",
                 "title_bm": "Tahun",
@@ -65,27 +57,140 @@
                 "desc_bm": "[Integer] Tahun dari 2010 hingga 2021"
             },
             {
-                "id": 6,
+                "id": 1,
                 "name": "mean",
-                "title_en": "Mean Wage by Ethnicity & Sex",
-                "title_bm": "Gaji Purata mengikut Etnik & Jantina",
-                "desc_en": "[Float] Mean wage in RM",
-                "desc_bm": "[Apung] Gaji penengah dalam RM"
+                "title_en": "Time series: Mean hours worked  by Age",
+                "title_bm": "Siri masa: Purata Jam berkerja mengikut Umur",
+                "desc_en": "[Float] Mean hours worked  in hours",
+                "desc_bm": "[Apung] Purata Jam berkerja dalam jam"
             },
             {
-                "id": 7,
+                "id": 2,
                 "name": "median",
-                "title_en": "Median Wage by Ethnicity & Sex",
-                "title_bm": "Gaji Penengah mengikut Etnik & Jantina",
-                "desc_en": "[Float] Median wage in RM",
-                "desc_bm": "[Apung] Gaji purata dalam RM"
+                "title_en": "Time series: Median hours worked  by Age",
+                "title_bm": "Siri masa: Penengah Jam berkerja mengikut Umur",
+                "desc_en": "[Float] Median hours worked  in hours",
+                "desc_bm": "[Apung] Penengah Jam berkerja dalam jam"
+            },
+            {
+                "id": 3,
+                "name": "mean",
+                "title_en": "Crosstab: Mean/Median hours worked  by Age",
+                "title_bm": "Crosstab: Purata/Penengah Jam berkerja mengikut Umur",
+                "desc_en": "[Float] Mean/Median hours worked  in hours",
+                "desc_bm": "[Apung] Purata/Penengah Jam berkerja dalam jam"
             }
-            
         ]
     },
     "catalog_data": [
         {
-            "id": 0,
+            "id": 1,
+            "catalog_filters": {
+                "frequency": "YEARLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2010",
+                "end": "2021",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2021-12-31 23:59",
+                "last_updated": "2022-10-04 12:00",
+                "next_update": "2023-08-30 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "The Salaries & Wages Survey collects data via a stratified two-stage sample design, thus obtaining representative data at the national and state level. The implementation of this survey is based on guidelines and recommendations of the International Labour Organization (ILO) with reference to An Integrated System of Wages Statistics. For more details on the survey design and scope, please refer to the Technical Notes in the [latest Salaries & Wages Survey Report](https://storage.googleapis.com/dosm-public-publications/annual_2021_salaries_wages.pdf).",
+                    "caveat": "The primary aim of the survey is to produce statistics on monthly wage and salary recipients. Accordingly, the data does not cover all individuals classified as 'employed' in the Labour Force Survey - the primary categories excluded are employers, own-account workers, and unpaid family workers. Furthermore, except for the data broken down by ethnicity, all data is for Malaysian citizens only.",
+                    "publication": "[Salaries & Wages Survey Report, 2021](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=157&bul_id=SzNvU0ZhaGpCMUROVlpCdTU1WWJSdz09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the annual salaries and wages data published by DOSM."
+                },
+                "bm": {
+                    "methodology": "Survei Gaji dan Upah menggunakan reka bentuk pensampelan berstrata dua peringkat, maka dapat menghasilkan statistik gaji & upah yang tepat di peringkat nasional dan negeri serta kawasan bandar dan luar bandar. Survei ini dilaksanakan berdasarkan garis panduan dan syor International Labour Organization (ILO) dengan merujuk kepada An Integrated System of Wages Statistics. Untuk huraian lanjut tentang reka bentuk dan skop survei, sila rujuk pada Nota Teknikal dalam [Laporan Survei Gaji dan Upah terkini](https://storage.googleapis.com/dosm-public-publications/annual_2021_salaries_wages.pdf).",
+                    "caveat": "Tujuan utama survei ini adalah untuk menghasilkan statistikan tentang penerima gaji dan upah bulanan. Oleh itu, data tidak merangkumi kesemua individu yang dikelaskan sebagai 'bekerja' dalam Survei Tenaga Buruh - kategori utama yang dikecualikan adalah majikan, golongan yang bekerja sendiri, serta pekerja keluarga tanpa gaji. Tambahan lagi, kecuali dalam data mengikut etnik, semua data yang dipaparkan adalah untuk warganegara sahaja.",
+                    "publication": "[Laporan Survei Gaji dan Upah, 2021](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=157&bul_id=SzNvU0ZhaGpCMUROVlpCdTU1WWJSdz09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09),edisi terkini bagi statistik gaji dan upah tahunan yang diterbitkan oleh DOSM."
+                }
+            },
+            "chart": {
+                "chart_type": "BAR",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "variable",
+                        "sex"
+                    ],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [
+                        "variable",
+                        "sex"
+                    ],
+                    "format": {
+                        "x": "year",
+                        "y": [
+                            "mean"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "id": 2,
+            "catalog_filters": {
+                "frequency": "YEARLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2010",
+                "end": "2021",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2021-12-31 23:59",
+                "last_updated": "2022-10-04 12:00",
+                "next_update": "2023-08-30 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "The Salaries & Wages Survey collects data via a stratified two-stage sample design, thus obtaining representative data at the national and state level. The implementation of this survey is based on guidelines and recommendations of the International Labour Organization (ILO) with reference to An Integrated System of Wages Statistics. For more details on the survey design and scope, please refer to the Technical Notes in the [latest Salaries & Wages Survey Report](https://storage.googleapis.com/dosm-public-publications/annual_2021_salaries_wages.pdf).",
+                    "caveat": "The primary aim of the survey is to produce statistics on monthly wage and salary recipients. Accordingly, the data does not cover all individuals classified as 'employed' in the Labour Force Survey - the primary categories excluded are employers, own-account workers, and unpaid family workers. Furthermore, except for the data broken down by ethnicity, all data is for Malaysian citizens only.",
+                    "publication": "[Salaries & Wages Survey Report, 2021](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=157&bul_id=SzNvU0ZhaGpCMUROVlpCdTU1WWJSdz09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09), the latest edition of the annual salaries and wages data published by DOSM."
+                },
+                "bm": {
+                    "methodology": "Survei Gaji dan Upah menggunakan reka bentuk pensampelan berstrata dua peringkat, maka dapat menghasilkan statistik gaji & upah yang tepat di peringkat nasional dan negeri serta kawasan bandar dan luar bandar. Survei ini dilaksanakan berdasarkan garis panduan dan syor International Labour Organization (ILO) dengan merujuk kepada An Integrated System of Wages Statistics. Untuk huraian lanjut tentang reka bentuk dan skop survei, sila rujuk pada Nota Teknikal dalam [Laporan Survei Gaji dan Upah terkini](https://storage.googleapis.com/dosm-public-publications/annual_2021_salaries_wages.pdf).",
+                    "caveat": "Tujuan utama survei ini adalah untuk menghasilkan statistikan tentang penerima gaji dan upah bulanan. Oleh itu, data tidak merangkumi kesemua individu yang dikelaskan sebagai 'bekerja' dalam Survei Tenaga Buruh - kategori utama yang dikecualikan adalah majikan, golongan yang bekerja sendiri, serta pekerja keluarga tanpa gaji. Tambahan lagi, kecuali dalam data mengikut etnik, semua data yang dipaparkan adalah untuk warganegara sahaja.",
+                    "publication": "[Laporan Survei Gaji dan Upah, 2021](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=157&bul_id=SzNvU0ZhaGpCMUROVlpCdTU1WWJSdz09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09),edisi terkini bagi statistik gaji dan upah tahunan yang diterbitkan oleh DOSM."
+                }
+            },
+            "chart": {
+                "chart_type": "BAR",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "variable",
+                        "sex"
+                    ],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [
+                        "variable",
+                        "sex"
+                    ],
+                    "format": {
+                        "x": "year",
+                        "y": [
+                            "median"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "id": 3,
             "catalog_filters": {
                 "frequency": "YEARLY",
                 "geographic": [
@@ -130,13 +235,10 @@
                     ],
                     "format": {
                         "x": "variable",
-                        "y": ["mean","median"]
-                    },
-                    "format_lang": {
-                        "x_en": "Variable",
-                        "x_bm": "Pembolehubah",
-                        "y_en": ["Mean", "Median"],
-                        "y_bm": ["Purata", "Median"]
+                        "y": [
+                            "mean",
+                            "median"
+                        ]
                     }
                 }
             }
