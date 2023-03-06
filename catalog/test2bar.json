@@ -19,9 +19,9 @@
         "variables": [
             {
                 "id": 0,
-                "name": "Grouped Bar (2 bars)",
-                "title_en": "Grouped Bar (2 bars)",
-                "title_bm": "Grouped Bar (2 bars)",
+                "name": "NajTestGrouped Bar (2 bars)",
+                "title_en": "NajTestGrouped Bar (2 bars)",
+                "title_bm": "NajTestGrouped Bar (2 bars)",
                 "desc_en": "[Categorical] Name of variable in snake case, representing ethnic group; all groups are citizens except for the explicit non-citizen variable",
                 "desc_bm": "[Kategori] Nama pembolehubah dengan kes ular, mewakili kumpulan etnik; semua kumpulan adalah warganegara kecuali kumpulan yang dinyatakan sebagai bukan warganegara"
             },
