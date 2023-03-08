@@ -15,7 +15,7 @@
         "link_parquet": "https://storage.googleapis.com/dosm-public-staging/mets_2018_annual.parquet",
         "link_csv": "https://storage.googleapis.com/dosm-public-staging/mets_2018_annual.csv",
         "link_metadata": "https://storage.googleapis.com/dosm-public-staging/mets_2018_annual.metadata",
-        "link_preview": "https://storage.googleapis.com/dosm-public-staging/mets_2018_annual.parquet",
+        "link_preview": "https://storage.googleapis.com/dosm-public-staging/mets_2018_annual_preview.parquet",
         "variables": [
             {
                 "id": 0,
