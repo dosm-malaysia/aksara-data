@@ -1,0 +1,104 @@
+{
+    "file": {
+        "bucket": "dosm-public-staging",
+        "file_name": "harga-ladang",
+        "category": "ECONOMY",
+        "category_en": "Economy",
+        "category_bm": "Ekonomi",
+        "subcategory": "PRICES_PRODUCER",
+        "subcategory_en": "Producer Prices",
+        "subcategory_bm": "Harga Pengeluar",
+        "description": {
+            "en": "This data show the average farm price of selected items  on a monthly basis. Source of the price were from FAMA, LKIM",
+            "bm": "Data ini mengandungi purata harga ladang bagi item terpilih secara bulanan. Sumber data adalah daripada FAMA dan LKIM"
+        },
+        "link_parquet": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.metadata",
+        "link_preview": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.parquet",
+        "variables": [
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01"
+            },
+            {
+                "id": 0,
+                "name": "Harga Ladang",
+                "title_en": "Farm Price",
+                "title_bm": "Harga Ladang",
+                "desc_en": "The table below provides a preview of the full dataset, which contains average price at farm for 30 selected items.",
+                "desc_bm": "Jadual di bawah memberi pratonton kepada dataset penuh yang mengandungi data harga ladang bagi 30 item terpilih."
+            },
+            {
+                "id": 1,
+                "name": "item_bm",
+                "title_en": "Item Name",
+                "title_bm": "Nama Item",
+                "desc_en": "[Categorical] Item name(30 in total).",
+                "desc_bm": "[Kategori] Nama item (30 keseluruhan)"
+            },
+            {
+                "id": 2,
+                "name": "item_en",
+                "title_en": "Item Name",
+                "title_bm": "Nama Item",
+                "desc_en": "[Categorical] Item name(30 in total).",
+                "desc_bm": "[Kategori] Nama item (30 keseluruhan)"
+            },
+            {
+                "id": 3,
+                "name": "price",
+                "title_en": "Price",
+                "title_bm": "Harga",
+                "desc_en": "[Float] Price per kg, in RM",
+                "desc_bm": "[Apung] Harga per kg, dalam RM"
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 0,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2021",
+                "end": "2023",
+                "data_source": [
+                    "FAMA",
+                    "LKIM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-01-31 23:59",
+                "last_updated": "2022-02-27 12:00",
+                "next_update": "2022-03-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "TBA",
+                    "caveat": "TBA",
+                    "publication": "TBA"
+                },
+                "bm": {
+                    "methodology": "TBA",
+                    "caveat": "TBA",
+                    "publication": "-"
+                }
+            },
+            "chart": {
+                "chart_type": "TABLE",
+                "chart_filters": {
+                    "FREEZE": [],
+                    "EXCLUDE": [],
+                    "precision": 1
+                }
+            }
+        }
+    ]
+}
