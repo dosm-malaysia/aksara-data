@@ -13,15 +13,15 @@
             "bm": "Set data ini membekalkan pengguna dengan data yang amat terperinci (SITC 5-digit dan HS 6-digit) tentang perdagangan luar negeri Malaysia, dengan lebih 1 juta baris data bagi setiap tahun. Data ini meliputi import dan eksport (termasuk eksport semula) mengikut negara asal, mod pengangkutan, dan produk, tetapi tidak meliputi perdagangan antara wilayah merangkumi Semenanjung Malaysia, Sabah dan Sarawak."
         },
         "link_parquet": "https://storage.googleapis.com/dosm-public-staging/mets_2018.parquet",
-        "link_csv": "https://storage.googleapis.com/dosm-public-staging/mets_2018.csv",
+        "link_csv": "https://storage.googleapis.com/dosm-public-staging/mets_2018_preview.csv",
         "link_metadata": "https://storage.googleapis.com/dosm-public-staging/mets_2018.metadata",
         "link_preview": "https://storage.googleapis.com/dosm-public-staging/mets_2018_preview.parquet",
         "variables": [
             {
                 "id": 0,
-                "name": "METS: 2018",
-                "title_en": "METS: 2018",
-                "title_bm": "METS: 2018",
+                "name": "METS: 2018 test",
+                "title_en": "METS: 2018 test",
+                "title_bm": "METS: 2018 test",
                 "desc_en": "This dataset provides highly granular data (SITC 5-digit and HS 6-digit) on Malaysia's external merchandise trade with over 1 million datapoints per year, covering imports and exports (including re-exports) by country of origin, mode of transport, and product. This data does not include inter-regional trade between Peninsular Malaysia, Sabah and Sarawak.",
                 "desc_bm": "Set data ini membekalkan pengguna dengan data yang amat terperinci (SITC 5-digit dan HS 6-digit) tentang perdagangan luar negeri Malaysia, dengan lebih 1 juta baris data bagi setiap tahun. Data ini meliputi import dan eksport (termasuk eksport semula) mengikut negara asal, mod pengangkutan, dan produk, tetapi tidak meliputi perdagangan antara wilayah merangkumi Semenanjung Malaysia, Sabah dan Sarawak."
             },
