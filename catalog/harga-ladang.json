@@ -19,8 +19,8 @@
         "variables": [
             {
                 "id": 0,
-                "name": "Harga Ladang",
-                "title_en": "Farm Price",
+                "name": "Harga Ladang/Pendaratan",
+                "title_en": "ex Farm/Landing Price",
                 "title_bm": "Harga Ladang",
                 "desc_en": "The table below provides a preview of the full dataset, which contains the monthly ex farm/landing average prices of selected vegetables and fisheries products in Malaysia. ",
                 "desc_bm": "Jadual di bawah memberi pratonton kepada dataset penuh yang memaparkan purata harga ladang/pendaratan bulanan sayur-sayuran dan perikanan terpilih di Malaysia."
