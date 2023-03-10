@@ -9,8 +9,8 @@
         "subcategory_en": "Producer Prices",
         "subcategory_bm": "Harga Pengeluar",
         "description": {
-            "en": "This data show the average farm price of selected items  on a monthly basis. Source of the price were from FAMA, LKIM",
-            "bm": "Data ini mengandungi purata harga ladang bagi item terpilih secara bulanan. Sumber data adalah daripada FAMA dan LKIM"
+            "en": "The table below provides a preview of the full dataset, which contains the monthly ex farm/landing average prices of selected vegetables and fisheries products in Malaysia. ",
+            "bm": "Jadual di bawah memberi pratonton kepada dataset penuh yang memaparkan purata harga ladang/pendaratan bulanan sayur-sayuran dan perikanan terpilih di Malaysia."
         },
         "link_parquet": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.parquet",
         "link_csv": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.csv",
@@ -19,9 +19,9 @@
         "variables": [
             {
                 "id": 0,
-                "name": "Harga Ladang/Pendaratan",
-                "title_en": "ex Farm/Landing Price",
-                "title_bm": "Harga Ladang",
+                "name": "Harga Ladang",
+                "title_en": "ex Farm/Landing Prices",
+                "title_bm": "Harga Ladang/Pendaratan",
                 "desc_en": "The table below provides a preview of the full dataset, which contains the monthly ex farm/landing average prices of selected vegetables and fisheries products in Malaysia. ",
                 "desc_bm": "Jadual di bawah memberi pratonton kepada dataset penuh yang memaparkan purata harga ladang/pendaratan bulanan sayur-sayuran dan perikanan terpilih di Malaysia."
             },
@@ -42,7 +42,7 @@
                 "desc_bm": "[Kategori] Nama item (30 keseluruhan)"
             },
             {
-                "id": 3,
+                "id": -1,
                 "name": "item_en",
                 "title_en": "Item Name",
                 "title_bm": "Nama Item",
