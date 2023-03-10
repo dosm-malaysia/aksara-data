@@ -63,6 +63,7 @@
                 "end": "2023",
                 "data_source": [
                     "FAMA",
+                    "DOF",
                     "LKIM"
                 ]
             },
