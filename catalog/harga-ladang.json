@@ -12,11 +12,19 @@
             "en": "The table below provides a preview of the full dataset, which contains the monthly ex farm/landing average prices of selected vegetables and fisheries products in Malaysia. ",
             "bm": "Jadual di bawah memberi pratonton kepada dataset penuh yang memaparkan purata harga ladang/pendaratan bulanan sayur-sayuran dan perikanan terpilih di Malaysia."
         },
-        "link_parquet": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.parquet",
-        "link_csv": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.csv",
-        "link_metadata": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.metadata",
-        "link_preview": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.parquet",
+        "link_parquet": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.parquet?ignoreCache=1",
+        "link_csv": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.csv?ignoreCache=1",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.metadata?ignoreCache=1",
+        "link_preview": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.parquet?ignoreCache=1",
         "variables": [
+            {
+                "id": -1,
+                "name": "item_en",
+                "title_en": "Item Name",
+                "title_bm": "Nama Item",
+                "desc_en": "[Categorical] Item name(30 in total).",
+                "desc_bm": "[Kategori] Nama item (30 keseluruhan)"
+            },
             {
                 "id": 0,
                 "name": "Harga Ladang",
@@ -42,15 +50,7 @@
                 "desc_bm": "[Kategori] Nama item (30 keseluruhan)"
             },
             {
-                "id": -1,
-                "name": "item_en",
-                "title_en": "Item Name",
-                "title_bm": "Nama Item",
-                "desc_en": "[Categorical] Item name(30 in total).",
-                "desc_bm": "[Kategori] Nama item (30 keseluruhan)"
-            },
-            {
-                "id": 4,
+                "id": 3,
                 "name": "price",
                 "title_en": "Price",
                 "title_bm": "Harga",
