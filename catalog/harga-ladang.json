@@ -18,7 +18,15 @@
         "link_preview": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.parquet",
         "variables": [
             {
-                "id": -1,
+                "id": 0,
+                "name": "Harga Ladang",
+                "title_en": "Farm Price",
+                "title_bm": "Harga Ladang",
+                "desc_en": "The table below provides a preview of the full dataset, which contains the monthly ex farm/landing average prices of selected vegetables and fisheries products in Malaysia. ",
+                "desc_bm": "Jadual di bawah memberi pratonton kepada dataset penuh yang memaparkan purata harga ladang/pendaratan bulanan sayur-sayuran dan perikanan terpilih di Malaysia."
+            },
+            {
+                "id": 1,
                 "name": "date",
                 "title_en": "Date",
                 "title_bm": "Tarikh",
@@ -26,15 +34,7 @@
                 "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01"
             },
             {
-                "id": 0,
-                "name": "Harga Ladang",
-                "title_en": "Farm Price",
-                "title_bm": "Harga Ladang",
-                "desc_en": "The table below provides a preview of the full dataset, which contains average price at farm for 30 selected items.",
-                "desc_bm": "Jadual di bawah memberi pratonton kepada dataset penuh yang mengandungi data harga ladang bagi 30 item terpilih."
-            },
-            {
-                "id": 1,
+                "id": 2,
                 "name": "item_bm",
                 "title_en": "Item Name",
                 "title_bm": "Nama Item",
@@ -42,7 +42,7 @@
                 "desc_bm": "[Kategori] Nama item (30 keseluruhan)"
             },
             {
-                "id": 2,
+                "id": 3,
                 "name": "item_en",
                 "title_en": "Item Name",
                 "title_bm": "Nama Item",
@@ -50,7 +50,7 @@
                 "desc_bm": "[Kategori] Nama item (30 keseluruhan)"
             },
             {
-                "id": 3,
+                "id": 4,
                 "name": "price",
                 "title_en": "Price",
                 "title_bm": "Harga",
@@ -81,13 +81,13 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "TBA",
-                    "caveat": "TBA",
-                    "publication": "TBA"
+                    "methodology": "This data presents the monthly ex farm/landing prices of selected vegetables and fisheries products in Malaysia. This secondary data was obtained from various sources and medium from agencies such as Lembaga Pemasaran Persekutuan (FAMA), Jabatan Perikanan Malaysia (DOF) and Lembaga Kemajuan Ikan Malaysia (LKIM).",
+                    "caveat": "The time series data presented starting January 2021 until current month. The data was selected in the duration due to stability and availability data given by agencies based on their data collection. However, any discrepancies, inaccurate or blunder data are not under DOSM\u2019s responsibility.",
+                    "publication": "-"
                 },
                 "bm": {
-                    "methodology": "TBA",
-                    "caveat": "TBA",
+                    "methodology": "Data ini memaparkan harga ladang/pendaratan bulanan sayur-sayuran dan perikanan terpilih di Malaysia. Data sekunder ini diperoleh daripada pelbagai sumber dan medium daripada agensi seperti Lembaga Pemasaran Persekutuan (FAMA), Jabatan Perikanan Malaysia (DOF) dan Lembaga Kemajuan Ikan Malaysia (LKIM).",
+                    "caveat": "Data siri masa yang dipaparkan adalah bermula Januari 2021 hingga bulan semasa. Data dipilih dalam tempoh tersebut disebabkan oleh kestabilan dan ketersediaan data yang diberikan oleh agensi berdasarkan pengumpulan data mereka. Walau bagaimanapun, sebarang percanggahan, data tidak tepat atau kesilapan bukan di bawah tanggungjawab DOSM.",
                     "publication": "-"
                 }
             },
