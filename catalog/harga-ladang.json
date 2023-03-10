@@ -18,14 +18,6 @@
         "link_preview": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.parquet?ignoreCache=1",
         "variables": [
             {
-                "id": -1,
-                "name": "item_en",
-                "title_en": "Item Name",
-                "title_bm": "Nama Item",
-                "desc_en": "[Categorical] Item name(30 in total).",
-                "desc_bm": "[Kategori] Nama item (30 keseluruhan)"
-            },
-            {
                 "id": 0,
                 "name": "Harga Ladang",
                 "title_en": "ex Farm/Landing Prices",
