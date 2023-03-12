@@ -12,10 +12,10 @@
             "en": "The table below provides a preview of the full dataset, which contains the monthly ex farm/landing average prices of selected vegetables and fisheries products in Malaysia. ",
             "bm": "Jadual di bawah memberi pratonton kepada dataset penuh yang memaparkan purata harga ladang/pendaratan bulanan sayur-sayuran dan perikanan terpilih di Malaysia."
         },
-        "link_parquet": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.parquet?ignoreCache=1",
-        "link_csv": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.csv?ignoreCache=1",
-        "link_metadata": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.metadata?ignoreCache=1",
-        "link_preview": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.parquet?ignoreCache=1",
+        "link_parquet": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.metadata",
+        "link_preview": "https://storage.googleapis.com/dosm-public-staging/harga-ladang.parquet",
         "variables": [
             {
                 "id": 0,
@@ -63,7 +63,6 @@
                 "end": "2023",
                 "data_source": [
                     "FAMA",
-                    "DOF",
                     "LKIM"
                 ]
             },
@@ -76,12 +75,12 @@
                 "en": {
                     "methodology": "This data presents the monthly ex farm/landing prices of selected vegetables and fisheries products in Malaysia. This secondary data was obtained from various sources and medium from agencies such as Lembaga Pemasaran Persekutuan (FAMA), Jabatan Perikanan Malaysia (DOF) and Lembaga Kemajuan Ikan Malaysia (LKIM).",
                     "caveat": "The time series data presented starting January 2021 until current month. The data was selected in the duration due to stability and availability data given by agencies based on their data collection. However, any discrepancies, inaccurate or blunder data are not under DOSM\u2019s responsibility.",
-                    "publication": "-"
+                    "publication": "Producer Price Index (PPI)"
                 },
                 "bm": {
                     "methodology": "Data ini memaparkan harga ladang/pendaratan bulanan sayur-sayuran dan perikanan terpilih di Malaysia. Data sekunder ini diperoleh daripada pelbagai sumber dan medium daripada agensi seperti Lembaga Pemasaran Persekutuan (FAMA), Jabatan Perikanan Malaysia (DOF) dan Lembaga Kemajuan Ikan Malaysia (LKIM).",
                     "caveat": "Data siri masa yang dipaparkan adalah bermula Januari 2021 hingga bulan semasa. Data dipilih dalam tempoh tersebut disebabkan oleh kestabilan dan ketersediaan data yang diberikan oleh agensi berdasarkan pengumpulan data mereka. Walau bagaimanapun, sebarang percanggahan, data tidak tepat atau kesilapan bukan di bawah tanggungjawab DOSM.",
-                    "publication": "-"
+                    "publication": "Producer Price Index (PPI)"
                 }
             },
             "chart": {
