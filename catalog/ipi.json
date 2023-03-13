@@ -156,26 +156,26 @@
                     "NATIONAL"
                 ],
                 "start": "2015",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-02-07 12:00",
-                "next_update": "2023-03-13 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-03-13 12:00",
+                "next_update": "2023-04-11 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
                     "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia. Data for December 2022 is provisional; it will be updated and subsequently published in the January 2023 publication.",
-                    "publication": "[Index of Industrial Production, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Index of Industrial Production, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
                 },
                 "bm": {
                     "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
                     "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia. Data bagi bulan Disember 2022 merupakan data awalan, maka akan dikemaskini dan diterbitkan dalam penerbitan bulan Januari 2023.",
-                    "publication": "[Indeks Pengeluaran Perindustrian, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Indeks Pengeluaran Perindustrian, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
                 }
             },
             "chart": {
@@ -204,26 +204,26 @@
                     "NATIONAL"
                 ],
                 "start": "2015",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-02-07 12:00",
-                "next_update": "2023-03-13 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-03-13 12:00",
+                "next_update": "2023-04-11 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
                     "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia. Data for December 2022 is provisional; it will be updated and subsequently published in the January 2023 publication.",
-                    "publication": "[Index of Industrial Production, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Index of Industrial Production, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
                 },
                 "bm": {
                     "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
                     "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia. Data bagi bulan Disember 2022 merupakan data awalan, maka akan dikemaskini dan diterbitkan dalam penerbitan bulan Januari 2023.",
-                    "publication": "[Indeks Pengeluaran Perindustrian, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Indeks Pengeluaran Perindustrian, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
                 }
             },
             "chart": {
@@ -252,26 +252,26 @@
                     "NATIONAL"
                 ],
                 "start": "2015",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-02-07 12:00",
-                "next_update": "2023-03-13 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-03-13 12:00",
+                "next_update": "2023-04-11 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
                     "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia. Data for December 2022 is provisional; it will be updated and subsequently published in the January 2023 publication.",
-                    "publication": "[Index of Industrial Production, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Index of Industrial Production, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
                 },
                 "bm": {
                     "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
                     "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia. Data bagi bulan Disember 2022 merupakan data awalan, maka akan dikemaskini dan diterbitkan dalam penerbitan bulan Januari 2023.",
-                    "publication": "[Indeks Pengeluaran Perindustrian, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Indeks Pengeluaran Perindustrian, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
                 }
             },
             "chart": {
@@ -300,26 +300,26 @@
                     "NATIONAL"
                 ],
                 "start": "2015",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-02-07 12:00",
-                "next_update": "2023-03-13 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-03-13 12:00",
+                "next_update": "2023-04-11 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
                     "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia. Data for December 2022 is provisional; it will be updated and subsequently published in the January 2023 publication.",
-                    "publication": "[Index of Industrial Production, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Index of Industrial Production, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
                 },
                 "bm": {
                     "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
                     "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia. Data bagi bulan Disember 2022 merupakan data awalan, maka akan dikemaskini dan diterbitkan dalam penerbitan bulan Januari 2023.",
-                    "publication": "[Indeks Pengeluaran Perindustrian, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Indeks Pengeluaran Perindustrian, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
                 }
             },
             "chart": {
@@ -348,26 +348,26 @@
                     "NATIONAL"
                 ],
                 "start": "2015",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-02-07 12:00",
-                "next_update": "2023-03-13 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-03-13 12:00",
+                "next_update": "2023-04-11 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
                     "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia. Data for December 2022 is provisional; it will be updated and subsequently published in the January 2023 publication.",
-                    "publication": "[Index of Industrial Production, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Index of Industrial Production, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
                 },
                 "bm": {
                     "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
                     "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia. Data bagi bulan Disember 2022 merupakan data awalan, maka akan dikemaskini dan diterbitkan dalam penerbitan bulan Januari 2023.",
-                    "publication": "[Indeks Pengeluaran Perindustrian, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Indeks Pengeluaran Perindustrian, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
                 }
             },
             "chart": {
@@ -396,26 +396,26 @@
                     "NATIONAL"
                 ],
                 "start": "2015",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-02-07 12:00",
-                "next_update": "2023-03-13 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-03-13 12:00",
+                "next_update": "2023-04-11 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
                     "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia. Data for December 2022 is provisional; it will be updated and subsequently published in the January 2023 publication.",
-                    "publication": "[Index of Industrial Production, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Index of Industrial Production, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
                 },
                 "bm": {
                     "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
                     "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia. Data bagi bulan Disember 2022 merupakan data awalan, maka akan dikemaskini dan diterbitkan dalam penerbitan bulan Januari 2023.",
-                    "publication": "[Indeks Pengeluaran Perindustrian, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Indeks Pengeluaran Perindustrian, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
                 }
             },
             "chart": {
@@ -444,26 +444,26 @@
                     "NATIONAL"
                 ],
                 "start": "2015",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-02-07 12:00",
-                "next_update": "2023-03-13 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-03-13 12:00",
+                "next_update": "2023-04-11 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
                     "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia. Data for December 2022 is provisional; it will be updated and subsequently published in the January 2023 publication.",
-                    "publication": "[Index of Industrial Production, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Index of Industrial Production, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
                 },
                 "bm": {
                     "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
                     "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia. Data bagi bulan Disember 2022 merupakan data awalan, maka akan dikemaskini dan diterbitkan dalam penerbitan bulan Januari 2023.",
-                    "publication": "[Indeks Pengeluaran Perindustrian, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Indeks Pengeluaran Perindustrian, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
                 }
             },
             "chart": {
@@ -492,26 +492,26 @@
                     "NATIONAL"
                 ],
                 "start": "2015",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-02-07 12:00",
-                "next_update": "2023-03-13 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-03-13 12:00",
+                "next_update": "2023-04-11 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
                     "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia. Data for December 2022 is provisional; it will be updated and subsequently published in the January 2023 publication.",
-                    "publication": "[Index of Industrial Production, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Index of Industrial Production, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
                 },
                 "bm": {
                     "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
                     "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia. Data bagi bulan Disember 2022 merupakan data awalan, maka akan dikemaskini dan diterbitkan dalam penerbitan bulan Januari 2023.",
-                    "publication": "[Indeks Pengeluaran Perindustrian, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Indeks Pengeluaran Perindustrian, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
                 }
             },
             "chart": {
@@ -540,26 +540,26 @@
                     "NATIONAL"
                 ],
                 "start": "2015",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-02-07 12:00",
-                "next_update": "2023-03-13 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-03-13 12:00",
+                "next_update": "2023-04-11 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
                     "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia. Data for December 2022 is provisional; it will be updated and subsequently published in the January 2023 publication.",
-                    "publication": "[Index of Industrial Production, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Index of Industrial Production, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
                 },
                 "bm": {
                     "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
                     "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia. Data bagi bulan Disember 2022 merupakan data awalan, maka akan dikemaskini dan diterbitkan dalam penerbitan bulan Januari 2023.",
-                    "publication": "[Indeks Pengeluaran Perindustrian, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Indeks Pengeluaran Perindustrian, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
                 }
             },
             "chart": {
@@ -588,26 +588,26 @@
                     "NATIONAL"
                 ],
                 "start": "2015",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-02-07 12:00",
-                "next_update": "2023-03-13 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-03-13 12:00",
+                "next_update": "2023-04-11 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
                     "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia. Data for December 2022 is provisional; it will be updated and subsequently published in the January 2023 publication.",
-                    "publication": "[Index of Industrial Production, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Index of Industrial Production, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
                 },
                 "bm": {
                     "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
                     "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia. Data bagi bulan Disember 2022 merupakan data awalan, maka akan dikemaskini dan diterbitkan dalam penerbitan bulan Januari 2023.",
-                    "publication": "[Indeks Pengeluaran Perindustrian, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Indeks Pengeluaran Perindustrian, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
                 }
             },
             "chart": {
@@ -636,26 +636,26 @@
                     "NATIONAL"
                 ],
                 "start": "2015",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-02-07 12:00",
-                "next_update": "2023-03-13 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-03-13 12:00",
+                "next_update": "2023-04-11 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
                     "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia. Data for December 2022 is provisional; it will be updated and subsequently published in the January 2023 publication.",
-                    "publication": "[Index of Industrial Production, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Index of Industrial Production, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
                 },
                 "bm": {
                     "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
                     "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia. Data bagi bulan Disember 2022 merupakan data awalan, maka akan dikemaskini dan diterbitkan dalam penerbitan bulan Januari 2023.",
-                    "publication": "[Indeks Pengeluaran Perindustrian, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Indeks Pengeluaran Perindustrian, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
                 }
             },
             "chart": {
@@ -684,26 +684,26 @@
                     "NATIONAL"
                 ],
                 "start": "2015",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-02-07 12:00",
-                "next_update": "2023-03-13 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-03-13 12:00",
+                "next_update": "2023-04-11 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
                     "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia. Data for December 2022 is provisional; it will be updated and subsequently published in the January 2023 publication.",
-                    "publication": "[Index of Industrial Production, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Index of Industrial Production, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
                 },
                 "bm": {
                     "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
                     "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia. Data bagi bulan Disember 2022 merupakan data awalan, maka akan dikemaskini dan diterbitkan dalam penerbitan bulan Januari 2023.",
-                    "publication": "[Indeks Pengeluaran Perindustrian, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Indeks Pengeluaran Perindustrian, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
                 }
             },
             "chart": {
@@ -732,26 +732,26 @@
                     "NATIONAL"
                 ],
                 "start": "2015",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-02-07 12:00",
-                "next_update": "2023-03-13 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-03-13 12:00",
+                "next_update": "2023-04-11 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
                     "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia. Data for December 2022 is provisional; it will be updated and subsequently published in the January 2023 publication.",
-                    "publication": "[Index of Industrial Production, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Index of Industrial Production, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
                 },
                 "bm": {
                     "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
                     "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia. Data bagi bulan Disember 2022 merupakan data awalan, maka akan dikemaskini dan diterbitkan dalam penerbitan bulan Januari 2023.",
-                    "publication": "[Indeks Pengeluaran Perindustrian, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Indeks Pengeluaran Perindustrian, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
                 }
             },
             "chart": {
@@ -780,26 +780,26 @@
                     "NATIONAL"
                 ],
                 "start": "2015",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-02-07 12:00",
-                "next_update": "2023-03-13 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-03-13 12:00",
+                "next_update": "2023-04-11 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
                     "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia. Data for December 2022 is provisional; it will be updated and subsequently published in the January 2023 publication.",
-                    "publication": "[Index of Industrial Production, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Index of Industrial Production, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
                 },
                 "bm": {
                     "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
                     "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia. Data bagi bulan Disember 2022 merupakan data awalan, maka akan dikemaskini dan diterbitkan dalam penerbitan bulan Januari 2023.",
-                    "publication": "[Indeks Pengeluaran Perindustrian, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Indeks Pengeluaran Perindustrian, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
                 }
             },
             "chart": {
@@ -828,26 +828,26 @@
                     "NATIONAL"
                 ],
                 "start": "2015",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2023-02-07 12:00",
-                "next_update": "2023-03-13 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-03-13 12:00",
+                "next_update": "2023-04-11 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The Industrial Production Index (IPI) in Malaysia measures the rate of change in production of industrial commodities in the Mining, Manufacturing, and Electricity sectors in real terms over time.",
                     "caveat": "The IPI is a base year-weighted arithmetic average of quantity relatives calculated using the Laspeyres formula, with the base year of 1968 (1968=100) being the first year of its construction. The IPI pertains to Malaysia, with the exception of the base years 1968 and 1981, which pertain to Peninsular Malaysia. Data for December 2022 is provisional; it will be updated and subsequently published in the January 2023 publication.",
-                    "publication": "[Index of Industrial Production, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Index of Industrial Production, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), the latest edition of the monthly industrial production statistics published by DOSM. OpenDOSM also features a [dashboard on industrial production](https://open.dosm.gov.my/industrial-production)."
                 },
                 "bm": {
                     "methodology": "Indeks Pengeluaran Perindustrian (IPP) di Malaysia mengukur kadar perubahan sebenar dalam pengeluaran komoditi perindustrian bagi satu tempoh masa di sektor Perlombongan, Pembuatan dan Elektrik Eeletronik dalam istilah sebenar dari masa ke masa.",
                     "caveat": "IPI ini merupakan satu wajaran purata aritmetik berdasarkan tahun asas bagi kuantiti relatif yang dikira mengikut formula Laspeyres, dengan tahun asas 1968 (1968 = 100) menjadi tahun pertama pembinaannya. IPP merujuk kepada peringkat Malaysia kecuali bagi tahun asas 1968 dan 1981 yang mana merujuk kepada Semenanjung Malaysia. Data bagi bulan Disember 2022 merupakan data awalan, maka akan dikemaskini dan diterbitkan dalam penerbitan bulan Januari 2023.",
-                    "publication": "[Indeks Pengeluaran Perindustrian, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
+                    "publication": "[Indeks Pengeluaran Perindustrian, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_ipi.pdf), edisi terkini bagi statistik harga pengeluaran perindustrian yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang pengeluaran perindustrian](https://open.dosm.gov.my/industrial-production)."
                 }
             },
             "chart": {
