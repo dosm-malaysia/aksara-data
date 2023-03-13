@@ -29,8 +29,8 @@
                 "name": "year",
                 "title_en": "Year",
                 "title_bm": "Tahun",
-                "desc_en": "[Categorical] Years from 2017-2022",
-                "desc_bm": "[Kategori] Tahun dari 2017 hingga 2022"
+                "desc_en": "[Integer] Years from 2017-2022",
+                "desc_bm": "[Integer] Tahun dari 2017 hingga 2022"
             },
             {
                 "id": 1,
