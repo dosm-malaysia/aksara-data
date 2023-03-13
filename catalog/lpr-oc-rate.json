@@ -83,7 +83,7 @@
                 },
                 "chart_variables": {
                     "parents": [
-                        "state"
+                        "country"
                     ],
                     "format": {
                         "x": "year",
