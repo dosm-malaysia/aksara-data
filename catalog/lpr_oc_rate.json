@@ -77,16 +77,16 @@
                 "chart_type": "BAR",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "year"
+                        "country"
                     ],
                     "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
-                        "year"
+                        "country"
                     ],
                     "format": {
-                        "x": "country",
+                        "x": "year",
                         "y": [
                             "rate"
                         ]
