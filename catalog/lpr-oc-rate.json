@@ -37,8 +37,8 @@
                 "name": "rate",
                 "title_en": "Labour Force Participation Rate by Year and Country",
                 "title_bm": "Kadar Penyertaan Tenaga Buruh mengikut Tahun dan Negara",
-                "desc_en": "[Integer] Annual Labor Force Participation Rate by Countries.",
-                "desc_bm": "[Integer] Kadar Penyertaan Tenaga Buruh Tahunan mengikut Negara."
+                "desc_en": "[Float] Annual Labor Force Participation Rate by Countries.",
+                "desc_bm": "[Apung] Kadar Penyertaan Tenaga Buruh Tahunan mengikut Negara."
             }
         ]
     },
@@ -59,7 +59,7 @@
             "metadata_neutral": {
                 "data_as_of": "2019-12-31 23:59",
                 "last_updated": "2023-02-23 12:00",
-                "next_update": "-"
+                "next_update": "na"
             },
             "metadata_lang": {
                 "en": {
