@@ -1,0 +1,98 @@
+{
+    "file": {
+        "bucket": "dosm-public-staging",
+        "file_name": "lpr_oc_rate",
+        "category": "GLOBAL",
+        "category_en": "Global",
+        "category_bm": "Global",
+        "subcategory": "GLOBAL",
+        "subcategory_en": "Labour Force",
+        "subcategory_bm": "Tenaga Buruh",
+        "description": {
+            "en": "This data is is based on ..",
+            "bm": "Data ini dihasilkan berdasarkan .."
+        },
+        "link_parquet": "https://storage.googleapis.com/dosm-public-staging/lpr_oc_rate.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-staging/lpr_oc_rate.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-staging/lpr_oc_rate.metadata",
+        "variables": [
+            {
+                "id": -1,
+                "name": "country",
+                "title_en": "Country",
+                "title_bm": "Negara",
+                "desc_en": "[Categorical] Name of the countries (16 in total)",
+                "desc_bm": "[Kategori] Name Negera (16 keseluruhan)"
+            },
+            {
+                "id": -1,
+                "name": "year",
+                "title_en": "Year",
+                "title_bm": "Tahun",
+                "desc_en": "[Categorical] Years from 2017-2022",
+                "desc_bm": "[Kategori] Tahun dari 2017 hingga 2022"
+            },
+            {
+                "id": 1,
+                "name": "rate",
+                "title_en": "Labour Force Participation Rate by Year and Country",
+                "title_bm": "Kadar Penyertaan Tenaga Buruh mengikut Tahun dan Negara",
+                "desc_en": "[Float] Annual Labor Force Participation Rate by Countries.",
+                "desc_bm": "[Apung] Kadar Penyertaan Tenaga Buruh Tahunan mengikut Negara."
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 1,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2017",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2019-12-31 23:59",
+                "last_updated": "2023-02-23 12:00",
+                "next_update": "na"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is is based ..",
+                    "caveat": " This data is more detailed than the originally-published statistics, and should therefore be interpreted with the appropriate level of caution.",
+                    "publication": "The [Household Income & Basic Amenities Survey Report, 2019](https://www.dosm.gov.my/v1/index.php?r=column/pdfPrev&id=TU00TmRhQ1N5TUxHVWN0T2VjbXJYZz09)."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan berdasarkan..",
+                    "caveat": "Data ini adalah lebih terperinci berbanding dengan statistik yang asalnya diterbitkan, maka perlu ditafsir dengan berhati-hati.",
+                    "publication": "[Laporan Survei Pendapatan Isi Rumah dan Kemudahan Asas, 2019](https://www.dosm.gov.my/v1/index.php?r=column/pdfPrev&id=TU00TmRhQ1N5TUxHVWN0T2VjbXJYZz09)."
+                }
+            },
+            "chart": {
+                "chart_type": "BAR",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "country"
+                    ],
+                    "precision": 0
+                },
+                "chart_variables": {
+                    "parents": [
+                        "country"
+                    ],
+                    "format": {
+                        "x": "year",
+                        "y": [
+                            "rate"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
