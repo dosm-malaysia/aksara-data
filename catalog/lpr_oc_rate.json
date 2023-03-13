@@ -39,6 +39,14 @@
                 "title_bm": "Kadar Penyertaan Tenaga Buruh mengikut Tahun dan Negara",
                 "desc_en": "[Float] Annual Labor Force Participation Rate by Countries.",
                 "desc_bm": "[Apung] Kadar Penyertaan Tenaga Buruh Tahunan mengikut Negara."
+            },
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+                "desc_bm": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
             }
         ]
     },
@@ -83,6 +91,8 @@
                 },
                 "chart_variables": {
                     "parents": [
+                        "date",
+                        "year",
                         "country"
                     ],
                     "format": {
