@@ -74,9 +74,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-03-19 23:59",
-                "last_updated": "2023-03-20 09:00",
-                "next_update": "Uncertain. The data pipelines for the PriceCatcher data updates are currently experiencing frequent downtime. This field will be re-updated when the crons are running smoothly again."
+                "data_as_of": "2023-03-20 23:59",
+                "last_updated": "2023-03-21 18:00",
+                "next_update": "2023-03-22 18:00"
             },
             "metadata_lang": {
                 "en": {
