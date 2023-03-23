@@ -12,8 +12,8 @@
             "en": "External Trade Indices (ETI) measure changes in the levels of unit values and volumes of Malaysia\u2019s imports and exports. The index numbers, which reflect the percentage rise or fall of unit value and volume levels Commencing in reference month of January 2019, ETI was updated using the \"basket\" of goods for year 2015 by maintaining the same base year, 2010 = 100. ",
             "bm": "Indeks Perdagangan Luar Negeri (IPLN) mengukur perubahan paras nilai seunit serta volum eksport dan import barangan Malaysia. Nombor indeks ini mencerminkan peratusan kenaikan atau penurunan dalam paras nilai seunit dan volum. Mulai penerbitan keluaran bulan rujukan Januari 2019, IPLN telah dikemaskini menggunakan \u201cbakul\u201d barangan tahun 2015 dengan mengekalkan tahun asas yang sama, 2010=100."
         },
-        "link_parquet": "https://storage.googleapis.com/dosm-public-staging/external-trade-indices.parquet",
-        "link_csv": "https://storage.googleapis.com/dosm-public-staging/external-trade-indices.csv",
+        "link_parquet": "https://storage.googleapis.com/dosm-public-staging/external-trade-indices.parquet?ignoreCache=1",
+        "link_csv": "https://storage.googleapis.com/dosm-public-staging/external-trade-indices.csv?ignoreCache=1",
         "link_metadata": "https://storage.googleapis.com/dosm-public-staging/external-trade-indices.metadata",
         "variables": [
             {
