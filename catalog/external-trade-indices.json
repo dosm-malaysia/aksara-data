@@ -1,0 +1,699 @@
+{
+    "file": {
+        "bucket": "dosm-public-staging",
+        "file_name": "external-trade-indices",
+        "category": "ECONOMY",
+        "category_en": "Economy",
+        "category_bm": "Ekonomi",
+        "subcategory": "ETI",
+        "subcategory_en": "External Trade",
+        "subcategory_bm": "Perdagangan Antarabangsa",
+        "description": {
+            "en": "External Trade Indices (ETI) measure changes in the levels of unit values and volumes of Malaysia\u2019s imports and exports. The index numbers, which reflect the percentage rise or fall of unit value and volume levels Commencing in reference month of January 2019, ETI was updated using the \"basket\" of goods for year 2015 by maintaining the same base year, 2010 = 100. ",
+            "bm": "Indeks Perdagangan Luar Negeri (IPLN) mengukur perubahan paras nilai seunit serta volum eksport dan import barangan Malaysia. Nombor indeks ini mencerminkan peratusan kenaikan atau penurunan dalam paras nilai seunit dan volum. Mulai penerbitan keluaran bulan rujukan Januari 2019, IPLN telah dikemaskini menggunakan \u201cbakul\u201d barangan tahun 2015 dengan mengekalkan tahun asas yang sama, 2010=100."
+        },
+        "link_parquet": "https://storage.googleapis.com/dosm-public-staging/external-trade-indices.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-staging/external-trade-indices.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-staging/external-trade-indices.metadata",
+        "variables": [
+            {
+                "id": -1,
+                "name": "index_type",
+                "title_en": "Index Type",
+                "title_bm": "Jenis Indeks",
+                "desc_en": "[Categorical]export_unit_value_indices, export_volume_indices, import_unit_value_indices, import_volume_indices or terms_of_trade",
+                "desc_bm": "[Kategori]export_unit_value_indices, export_volume_indices, import_unit_value_indices, import_volume_indices atau terms_of_trade"
+            },
+            {
+                "id": -1,
+                "name": "date",
+                "title_en": "Date",
+                "title_bm": "Tarikh",
+                "desc_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01",
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD diberi nilai 01"
+            },
+            {
+                "id": 1,
+                "name": "total",
+                "title_en": "External Trade Indices (ETI)",
+                "title_bm": "Indeks Perdagangan Luar Negeri (IPLN)",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2010 = 100"
+            },
+            {
+                "id": 2,
+                "name": "food",
+                "title_en": "ETI: Food",
+                "title_bm": "IPLN: Makanan",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2010 = 100"
+            },
+            {
+                "id": 3,
+                "name": "beverages_and_tobacco",
+                "title_en": "ETI: Beverages and Tobacco",
+                "title_bm": "IPLN: Minuman dan Tembakau",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2010 = 100"
+            },
+            {
+                "id": 4,
+                "name": "crude_materials_inedible",
+                "title_en": "ETI: Crude Materials, Inedible",
+                "title_bm": "IPLN: Bahan Mentah Tidak Boleh Dimakan",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2010 = 100"
+            },
+            {
+                "id": 5,
+                "name": "mineral_fuels_lubricants_etc",
+                "title_en": "ETI: Mineral Fuels, Lubricants, etc",
+                "title_bm": "IPLN: Bahan Api Galian, Pelincir dll",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2010 = 100"
+            },
+            {
+                "id": 6,
+                "name": "animal_and_vegetable_oils_and_fats",
+                "title_en": "ETI: Animal and Vegetable Oils and Fats",
+                "title_bm": "IPLN: Minyak dan Lemak Binatang dan Sayuran ",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2010 = 100"
+            },
+            {
+                "id": 7,
+                "name": "chemicals",
+                "title_en": "ETI: Chemicals",
+                "title_bm": "IPLN: Bahan Kimia",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2010 = 100"
+            },
+            {
+                "id": 8,
+                "name": "manufactured_goods",
+                "title_en": "ETI: Manufactured Goods",
+                "title_bm": "IPLN: Barangan Keluaran Kilang",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2010 = 100"
+            },
+            {
+                "id": 9,
+                "name": "machinery_&_transport_equipment",
+                "title_en": "ETI: Machinery & Transport Equipment",
+                "title_bm": "IPLN: Jentera & Kelengkapan Pengangkutan",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2010 = 100"
+            },
+            {
+                "id": 10,
+                "name": "miscellaneous_manufactured_articles",
+                "title_en": "ETI: Miscellaneous Manufactured Articles",
+                "title_bm": "IPLN: Pelbagai Barang Keluaran Kilang",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2010 = 100"
+            },
+            {
+                "id": 11,
+                "name": "miscellaneous_transactions_and_commodities",
+                "title_en": "ETI: Miscellaneuos Transactions and Commodities",
+                "title_bm": "IPLN: Pelbagai Urusniaga dan Komoditi",
+                "desc_en": "[Float] Index, with base 2010 = 100",
+                "desc_bm": "[Apung] Indeks, dengan tahun asas 2010 = 100"
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 1,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "limit_frequency": true,
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2010",
+                "end": "2023",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-27 12:00",
+                "next_update": "2023-03-27 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "External Trade Indices (ETI) measure changes in the levels of unit values and volumes of Malaysia\u2019s imports and exports. The index numbers, which reflect the percentage rise or fall of unit value and volume levels Commencing in reference month of January 2019, ETI was updated using the \"basket\" of goods for year 2015 by maintaining the same base year, 2010 = 100. Data used in calculating the export and import unit value and volume indices is obtained from Malaysia external trade data of import and export custom declaration forms.",
+                    "caveat": "ETI are calculated as a chain of fixed-basket indices, the sequence of fixed-basket indices have been chained together to create a continuous time series. This is to avoid having breaks in an index when a basket update is performed. Data for the current month is provisional (p) and subject to revision until it is finalized. Revisions are made if there are additional information.",
+                    "publication": "Malaysia External Trade Indices, January 2023, the latest edition of the monthly external trade indices published by DOSM."
+                },
+                "bm": {
+                    "methodology": "Indeks Perdagangan Luar Negeri (IPLN) mengukur perubahan paras nilai seunit serta volum eksport dan import barangan Malaysia. Nombor indeks ini mencerminkan peratusan kenaikan atau penurunan dalam paras nilai seunit dan volum. Mulai penerbitan keluaran bulan rujukan Januari 2019, IPLN telah dikemaskini menggunakan \u201cbakul\u201d barangan tahun 2015 dengan mengekalkan tahun asas yang sama, 2010=100. Data yang digunakan dalam pengiraan indeks nilai seunit dan volum diperoleh daripada data perdagangan luar negeri Malaysia bersumberkan borang pengikraran kastam.",
+                    "caveat": "IPLN dihitung sebagai indeks rantaian bakul tetap, iaitu urutan indeks bakul tetap dirantai bersama untuk mewujudkan satu siri masa yang berterusan. Perkara ini perlu untuk mengelakkan perubahan yang tidak dijangka dalam indeks apabila pengemaskinian bakul dilakukan. Data bulan semasa adalah provisional (p) dan tertakluk kepada pindaan sehingga ia dimuktamadkan. Pindaan dibuat sekiranya wujud maklumat tambahan.",
+                    "publication": "Indeks Perdagangan Luar Negeri Malaysia, Januari 2023, edisi terkini bagi indeks perdagangan luar negeri yang diterbitkan oleh DOSM."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "index_type"
+                    ],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [
+                        "index_type"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "total",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 2,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "limit_frequency": true,
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2010",
+                "end": "2023",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-27 12:00",
+                "next_update": "2023-03-27 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "External Trade Indices (ETI) measure changes in the levels of unit values and volumes of Malaysia\u2019s imports and exports. The index numbers, which reflect the percentage rise or fall of unit value and volume levels Commencing in reference month of January 2019, ETI was updated using the \"basket\" of goods for year 2015 by maintaining the same base year, 2010 = 100. Data used in calculating the export and import unit value and volume indices is obtained from Malaysia external trade data of import and export custom declaration forms.",
+                    "caveat": "ETI are calculated as a chain of fixed-basket indices, the sequence of fixed-basket indices have been chained together to create a continuous time series. This is to avoid having breaks in an index when a basket update is performed. Data for the current month is provisional (p) and subject to revision until it is finalized. Revisions are made if there are additional information.",
+                    "publication": "Malaysia External Trade Indices, January 2023, the latest edition of the monthly external trade indices published by DOSM."
+                },
+                "bm": {
+                    "methodology": "Indeks Perdagangan Luar Negeri (IPLN) mengukur perubahan paras nilai seunit serta volum eksport dan import barangan Malaysia. Nombor indeks ini mencerminkan peratusan kenaikan atau penurunan dalam paras nilai seunit dan volum. Mulai penerbitan keluaran bulan rujukan Januari 2019, IPLN telah dikemaskini menggunakan \u201cbakul\u201d barangan tahun 2015 dengan mengekalkan tahun asas yang sama, 2010=100. Data yang digunakan dalam pengiraan indeks nilai seunit dan volum diperoleh daripada data perdagangan luar negeri Malaysia bersumberkan borang pengikraran kastam.",
+                    "caveat": "IPLN dihitung sebagai indeks rantaian bakul tetap, iaitu urutan indeks bakul tetap dirantai bersama untuk mewujudkan satu siri masa yang berterusan. Perkara ini perlu untuk mengelakkan perubahan yang tidak dijangka dalam indeks apabila pengemaskinian bakul dilakukan. Data bulan semasa adalah provisional (p) dan tertakluk kepada pindaan sehingga ia dimuktamadkan. Pindaan dibuat sekiranya wujud maklumat tambahan.",
+                    "publication": "Indeks Perdagangan Luar Negeri Malaysia, Januari 2023, edisi terkini bagi indeks perdagangan luar negeri yang diterbitkan oleh DOSM."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "index_type"
+                    ],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [
+                        "index_type"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "food",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 3,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "limit_frequency": true,
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2010",
+                "end": "2023",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-27 12:00",
+                "next_update": "2023-03-27 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "External Trade Indices (ETI) measure changes in the levels of unit values and volumes of Malaysia\u2019s imports and exports. The index numbers, which reflect the percentage rise or fall of unit value and volume levels Commencing in reference month of January 2019, ETI was updated using the \"basket\" of goods for year 2015 by maintaining the same base year, 2010 = 100. Data used in calculating the export and import unit value and volume indices is obtained from Malaysia external trade data of import and export custom declaration forms.",
+                    "caveat": "ETI are calculated as a chain of fixed-basket indices, the sequence of fixed-basket indices have been chained together to create a continuous time series. This is to avoid having breaks in an index when a basket update is performed. Data for the current month is provisional (p) and subject to revision until it is finalized. Revisions are made if there are additional information.",
+                    "publication": "Malaysia External Trade Indices, January 2023, the latest edition of the monthly external trade indices published by DOSM."
+                },
+                "bm": {
+                    "methodology": "Indeks Perdagangan Luar Negeri (IPLN) mengukur perubahan paras nilai seunit serta volum eksport dan import barangan Malaysia. Nombor indeks ini mencerminkan peratusan kenaikan atau penurunan dalam paras nilai seunit dan volum. Mulai penerbitan keluaran bulan rujukan Januari 2019, IPLN telah dikemaskini menggunakan \u201cbakul\u201d barangan tahun 2015 dengan mengekalkan tahun asas yang sama, 2010=100. Data yang digunakan dalam pengiraan indeks nilai seunit dan volum diperoleh daripada data perdagangan luar negeri Malaysia bersumberkan borang pengikraran kastam.",
+                    "caveat": "IPLN dihitung sebagai indeks rantaian bakul tetap, iaitu urutan indeks bakul tetap dirantai bersama untuk mewujudkan satu siri masa yang berterusan. Perkara ini perlu untuk mengelakkan perubahan yang tidak dijangka dalam indeks apabila pengemaskinian bakul dilakukan. Data bulan semasa adalah provisional (p) dan tertakluk kepada pindaan sehingga ia dimuktamadkan. Pindaan dibuat sekiranya wujud maklumat tambahan.",
+                    "publication": "Indeks Perdagangan Luar Negeri Malaysia, Januari 2023, edisi terkini bagi indeks perdagangan luar negeri yang diterbitkan oleh DOSM."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "index_type"
+                    ],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [
+                        "index_type"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "beverages_and_tobacco",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 4,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "limit_frequency": true,
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2010",
+                "end": "2023",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-27 12:00",
+                "next_update": "2023-03-27 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "External Trade Indices (ETI) measure changes in the levels of unit values and volumes of Malaysia\u2019s imports and exports. The index numbers, which reflect the percentage rise or fall of unit value and volume levels Commencing in reference month of January 2019, ETI was updated using the \"basket\" of goods for year 2015 by maintaining the same base year, 2010 = 100. Data used in calculating the export and import unit value and volume indices is obtained from Malaysia external trade data of import and export custom declaration forms.",
+                    "caveat": "ETI are calculated as a chain of fixed-basket indices, the sequence of fixed-basket indices have been chained together to create a continuous time series. This is to avoid having breaks in an index when a basket update is performed. Data for the current month is provisional (p) and subject to revision until it is finalized. Revisions are made if there are additional information.",
+                    "publication": "Malaysia External Trade Indices, January 2023, the latest edition of the monthly external trade indices published by DOSM."
+                },
+                "bm": {
+                    "methodology": "Indeks Perdagangan Luar Negeri (IPLN) mengukur perubahan paras nilai seunit serta volum eksport dan import barangan Malaysia. Nombor indeks ini mencerminkan peratusan kenaikan atau penurunan dalam paras nilai seunit dan volum. Mulai penerbitan keluaran bulan rujukan Januari 2019, IPLN telah dikemaskini menggunakan \u201cbakul\u201d barangan tahun 2015 dengan mengekalkan tahun asas yang sama, 2010=100. Data yang digunakan dalam pengiraan indeks nilai seunit dan volum diperoleh daripada data perdagangan luar negeri Malaysia bersumberkan borang pengikraran kastam.",
+                    "caveat": "IPLN dihitung sebagai indeks rantaian bakul tetap, iaitu urutan indeks bakul tetap dirantai bersama untuk mewujudkan satu siri masa yang berterusan. Perkara ini perlu untuk mengelakkan perubahan yang tidak dijangka dalam indeks apabila pengemaskinian bakul dilakukan. Data bulan semasa adalah provisional (p) dan tertakluk kepada pindaan sehingga ia dimuktamadkan. Pindaan dibuat sekiranya wujud maklumat tambahan.",
+                    "publication": "Indeks Perdagangan Luar Negeri Malaysia, Januari 2023, edisi terkini bagi indeks perdagangan luar negeri yang diterbitkan oleh DOSM."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "index_type"
+                    ],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [
+                        "index_type"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "crude_materials_inedible",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 5,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "limit_frequency": true,
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2010",
+                "end": "2023",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-27 12:00",
+                "next_update": "2023-03-27 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "External Trade Indices (ETI) measure changes in the levels of unit values and volumes of Malaysia\u2019s imports and exports. The index numbers, which reflect the percentage rise or fall of unit value and volume levels Commencing in reference month of January 2019, ETI was updated using the \"basket\" of goods for year 2015 by maintaining the same base year, 2010 = 100. Data used in calculating the export and import unit value and volume indices is obtained from Malaysia external trade data of import and export custom declaration forms.",
+                    "caveat": "ETI are calculated as a chain of fixed-basket indices, the sequence of fixed-basket indices have been chained together to create a continuous time series. This is to avoid having breaks in an index when a basket update is performed. Data for the current month is provisional (p) and subject to revision until it is finalized. Revisions are made if there are additional information.",
+                    "publication": "Malaysia External Trade Indices, January 2023, the latest edition of the monthly external trade indices published by DOSM."
+                },
+                "bm": {
+                    "methodology": "Indeks Perdagangan Luar Negeri (IPLN) mengukur perubahan paras nilai seunit serta volum eksport dan import barangan Malaysia. Nombor indeks ini mencerminkan peratusan kenaikan atau penurunan dalam paras nilai seunit dan volum. Mulai penerbitan keluaran bulan rujukan Januari 2019, IPLN telah dikemaskini menggunakan \u201cbakul\u201d barangan tahun 2015 dengan mengekalkan tahun asas yang sama, 2010=100. Data yang digunakan dalam pengiraan indeks nilai seunit dan volum diperoleh daripada data perdagangan luar negeri Malaysia bersumberkan borang pengikraran kastam.",
+                    "caveat": "IPLN dihitung sebagai indeks rantaian bakul tetap, iaitu urutan indeks bakul tetap dirantai bersama untuk mewujudkan satu siri masa yang berterusan. Perkara ini perlu untuk mengelakkan perubahan yang tidak dijangka dalam indeks apabila pengemaskinian bakul dilakukan. Data bulan semasa adalah provisional (p) dan tertakluk kepada pindaan sehingga ia dimuktamadkan. Pindaan dibuat sekiranya wujud maklumat tambahan.",
+                    "publication": "Indeks Perdagangan Luar Negeri Malaysia, Januari 2023, edisi terkini bagi indeks perdagangan luar negeri yang diterbitkan oleh DOSM."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "index_type"
+                    ],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [
+                        "index_type"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "mineral_fuels_lubricants_etc",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 6,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "limit_frequency": true,
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2010",
+                "end": "2023",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-27 12:00",
+                "next_update": "2023-03-27 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "External Trade Indices (ETI) measure changes in the levels of unit values and volumes of Malaysia\u2019s imports and exports. The index numbers, which reflect the percentage rise or fall of unit value and volume levels Commencing in reference month of January 2019, ETI was updated using the \"basket\" of goods for year 2015 by maintaining the same base year, 2010 = 100. Data used in calculating the export and import unit value and volume indices is obtained from Malaysia external trade data of import and export custom declaration forms.",
+                    "caveat": "ETI are calculated as a chain of fixed-basket indices, the sequence of fixed-basket indices have been chained together to create a continuous time series. This is to avoid having breaks in an index when a basket update is performed. Data for the current month is provisional (p) and subject to revision until it is finalized. Revisions are made if there are additional information.",
+                    "publication": "Malaysia External Trade Indices, January 2023, the latest edition of the monthly external trade indices published by DOSM."
+                },
+                "bm": {
+                    "methodology": "Indeks Perdagangan Luar Negeri (IPLN) mengukur perubahan paras nilai seunit serta volum eksport dan import barangan Malaysia. Nombor indeks ini mencerminkan peratusan kenaikan atau penurunan dalam paras nilai seunit dan volum. Mulai penerbitan keluaran bulan rujukan Januari 2019, IPLN telah dikemaskini menggunakan \u201cbakul\u201d barangan tahun 2015 dengan mengekalkan tahun asas yang sama, 2010=100. Data yang digunakan dalam pengiraan indeks nilai seunit dan volum diperoleh daripada data perdagangan luar negeri Malaysia bersumberkan borang pengikraran kastam.",
+                    "caveat": "IPLN dihitung sebagai indeks rantaian bakul tetap, iaitu urutan indeks bakul tetap dirantai bersama untuk mewujudkan satu siri masa yang berterusan. Perkara ini perlu untuk mengelakkan perubahan yang tidak dijangka dalam indeks apabila pengemaskinian bakul dilakukan. Data bulan semasa adalah provisional (p) dan tertakluk kepada pindaan sehingga ia dimuktamadkan. Pindaan dibuat sekiranya wujud maklumat tambahan.",
+                    "publication": "Indeks Perdagangan Luar Negeri Malaysia, Januari 2023, edisi terkini bagi indeks perdagangan luar negeri yang diterbitkan oleh DOSM."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "index_type"
+                    ],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [
+                        "index_type"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "animal_and_vegetable_oils_and_fats",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 7,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "limit_frequency": true,
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2010",
+                "end": "2023",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-27 12:00",
+                "next_update": "2023-03-27 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "External Trade Indices (ETI) measure changes in the levels of unit values and volumes of Malaysia\u2019s imports and exports. The index numbers, which reflect the percentage rise or fall of unit value and volume levels Commencing in reference month of January 2019, ETI was updated using the \"basket\" of goods for year 2015 by maintaining the same base year, 2010 = 100. Data used in calculating the export and import unit value and volume indices is obtained from Malaysia external trade data of import and export custom declaration forms.",
+                    "caveat": "ETI are calculated as a chain of fixed-basket indices, the sequence of fixed-basket indices have been chained together to create a continuous time series. This is to avoid having breaks in an index when a basket update is performed. Data for the current month is provisional (p) and subject to revision until it is finalized. Revisions are made if there are additional information.",
+                    "publication": "Malaysia External Trade Indices, January 2023, the latest edition of the monthly external trade indices published by DOSM."
+                },
+                "bm": {
+                    "methodology": "Indeks Perdagangan Luar Negeri (IPLN) mengukur perubahan paras nilai seunit serta volum eksport dan import barangan Malaysia. Nombor indeks ini mencerminkan peratusan kenaikan atau penurunan dalam paras nilai seunit dan volum. Mulai penerbitan keluaran bulan rujukan Januari 2019, IPLN telah dikemaskini menggunakan \u201cbakul\u201d barangan tahun 2015 dengan mengekalkan tahun asas yang sama, 2010=100. Data yang digunakan dalam pengiraan indeks nilai seunit dan volum diperoleh daripada data perdagangan luar negeri Malaysia bersumberkan borang pengikraran kastam.",
+                    "caveat": "IPLN dihitung sebagai indeks rantaian bakul tetap, iaitu urutan indeks bakul tetap dirantai bersama untuk mewujudkan satu siri masa yang berterusan. Perkara ini perlu untuk mengelakkan perubahan yang tidak dijangka dalam indeks apabila pengemaskinian bakul dilakukan. Data bulan semasa adalah provisional (p) dan tertakluk kepada pindaan sehingga ia dimuktamadkan. Pindaan dibuat sekiranya wujud maklumat tambahan.",
+                    "publication": "Indeks Perdagangan Luar Negeri Malaysia, Januari 2023, edisi terkini bagi indeks perdagangan luar negeri yang diterbitkan oleh DOSM."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "index_type"
+                    ],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [
+                        "index_type"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "chemicals",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 8,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "limit_frequency": true,
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2010",
+                "end": "2023",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-27 12:00",
+                "next_update": "2023-03-27 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "External Trade Indices (ETI) measure changes in the levels of unit values and volumes of Malaysia\u2019s imports and exports. The index numbers, which reflect the percentage rise or fall of unit value and volume levels Commencing in reference month of January 2019, ETI was updated using the \"basket\" of goods for year 2015 by maintaining the same base year, 2010 = 100. Data used in calculating the export and import unit value and volume indices is obtained from Malaysia external trade data of import and export custom declaration forms.",
+                    "caveat": "ETI are calculated as a chain of fixed-basket indices, the sequence of fixed-basket indices have been chained together to create a continuous time series. This is to avoid having breaks in an index when a basket update is performed. Data for the current month is provisional (p) and subject to revision until it is finalized. Revisions are made if there are additional information.",
+                    "publication": "Malaysia External Trade Indices, January 2023, the latest edition of the monthly external trade indices published by DOSM."
+                },
+                "bm": {
+                    "methodology": "Indeks Perdagangan Luar Negeri (IPLN) mengukur perubahan paras nilai seunit serta volum eksport dan import barangan Malaysia. Nombor indeks ini mencerminkan peratusan kenaikan atau penurunan dalam paras nilai seunit dan volum. Mulai penerbitan keluaran bulan rujukan Januari 2019, IPLN telah dikemaskini menggunakan \u201cbakul\u201d barangan tahun 2015 dengan mengekalkan tahun asas yang sama, 2010=100. Data yang digunakan dalam pengiraan indeks nilai seunit dan volum diperoleh daripada data perdagangan luar negeri Malaysia bersumberkan borang pengikraran kastam.",
+                    "caveat": "IPLN dihitung sebagai indeks rantaian bakul tetap, iaitu urutan indeks bakul tetap dirantai bersama untuk mewujudkan satu siri masa yang berterusan. Perkara ini perlu untuk mengelakkan perubahan yang tidak dijangka dalam indeks apabila pengemaskinian bakul dilakukan. Data bulan semasa adalah provisional (p) dan tertakluk kepada pindaan sehingga ia dimuktamadkan. Pindaan dibuat sekiranya wujud maklumat tambahan.",
+                    "publication": "Indeks Perdagangan Luar Negeri Malaysia, Januari 2023, edisi terkini bagi indeks perdagangan luar negeri yang diterbitkan oleh DOSM."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "index_type"
+                    ],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [
+                        "index_type"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "manufactured_goods",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 9,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "limit_frequency": true,
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2010",
+                "end": "2023",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-27 12:00",
+                "next_update": "2023-03-27 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "External Trade Indices (ETI) measure changes in the levels of unit values and volumes of Malaysia\u2019s imports and exports. The index numbers, which reflect the percentage rise or fall of unit value and volume levels Commencing in reference month of January 2019, ETI was updated using the \"basket\" of goods for year 2015 by maintaining the same base year, 2010 = 100. Data used in calculating the export and import unit value and volume indices is obtained from Malaysia external trade data of import and export custom declaration forms.",
+                    "caveat": "ETI are calculated as a chain of fixed-basket indices, the sequence of fixed-basket indices have been chained together to create a continuous time series. This is to avoid having breaks in an index when a basket update is performed. Data for the current month is provisional (p) and subject to revision until it is finalized. Revisions are made if there are additional information.",
+                    "publication": "Malaysia External Trade Indices, January 2023, the latest edition of the monthly external trade indices published by DOSM."
+                },
+                "bm": {
+                    "methodology": "Indeks Perdagangan Luar Negeri (IPLN) mengukur perubahan paras nilai seunit serta volum eksport dan import barangan Malaysia. Nombor indeks ini mencerminkan peratusan kenaikan atau penurunan dalam paras nilai seunit dan volum. Mulai penerbitan keluaran bulan rujukan Januari 2019, IPLN telah dikemaskini menggunakan \u201cbakul\u201d barangan tahun 2015 dengan mengekalkan tahun asas yang sama, 2010=100. Data yang digunakan dalam pengiraan indeks nilai seunit dan volum diperoleh daripada data perdagangan luar negeri Malaysia bersumberkan borang pengikraran kastam.",
+                    "caveat": "IPLN dihitung sebagai indeks rantaian bakul tetap, iaitu urutan indeks bakul tetap dirantai bersama untuk mewujudkan satu siri masa yang berterusan. Perkara ini perlu untuk mengelakkan perubahan yang tidak dijangka dalam indeks apabila pengemaskinian bakul dilakukan. Data bulan semasa adalah provisional (p) dan tertakluk kepada pindaan sehingga ia dimuktamadkan. Pindaan dibuat sekiranya wujud maklumat tambahan.",
+                    "publication": "Indeks Perdagangan Luar Negeri Malaysia, Januari 2023, edisi terkini bagi indeks perdagangan luar negeri yang diterbitkan oleh DOSM."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "index_type"
+                    ],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [
+                        "index_type"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "machinery_&_transport_equipment",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 10,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "limit_frequency": true,
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2010",
+                "end": "2023",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-27 12:00",
+                "next_update": "2023-03-27 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "External Trade Indices (ETI) measure changes in the levels of unit values and volumes of Malaysia\u2019s imports and exports. The index numbers, which reflect the percentage rise or fall of unit value and volume levels Commencing in reference month of January 2019, ETI was updated using the \"basket\" of goods for year 2015 by maintaining the same base year, 2010 = 100. Data used in calculating the export and import unit value and volume indices is obtained from Malaysia external trade data of import and export custom declaration forms.",
+                    "caveat": "ETI are calculated as a chain of fixed-basket indices, the sequence of fixed-basket indices have been chained together to create a continuous time series. This is to avoid having breaks in an index when a basket update is performed. Data for the current month is provisional (p) and subject to revision until it is finalized. Revisions are made if there are additional information.",
+                    "publication": "Malaysia External Trade Indices, January 2023, the latest edition of the monthly external trade indices published by DOSM."
+                },
+                "bm": {
+                    "methodology": "Indeks Perdagangan Luar Negeri (IPLN) mengukur perubahan paras nilai seunit serta volum eksport dan import barangan Malaysia. Nombor indeks ini mencerminkan peratusan kenaikan atau penurunan dalam paras nilai seunit dan volum. Mulai penerbitan keluaran bulan rujukan Januari 2019, IPLN telah dikemaskini menggunakan \u201cbakul\u201d barangan tahun 2015 dengan mengekalkan tahun asas yang sama, 2010=100. Data yang digunakan dalam pengiraan indeks nilai seunit dan volum diperoleh daripada data perdagangan luar negeri Malaysia bersumberkan borang pengikraran kastam.",
+                    "caveat": "IPLN dihitung sebagai indeks rantaian bakul tetap, iaitu urutan indeks bakul tetap dirantai bersama untuk mewujudkan satu siri masa yang berterusan. Perkara ini perlu untuk mengelakkan perubahan yang tidak dijangka dalam indeks apabila pengemaskinian bakul dilakukan. Data bulan semasa adalah provisional (p) dan tertakluk kepada pindaan sehingga ia dimuktamadkan. Pindaan dibuat sekiranya wujud maklumat tambahan.",
+                    "publication": "Indeks Perdagangan Luar Negeri Malaysia, Januari 2023, edisi terkini bagi indeks perdagangan luar negeri yang diterbitkan oleh DOSM."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "index_type"
+                    ],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [
+                        "index_type"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "miscellaneous_manufactured_articles",
+                        "line": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 11,
+            "catalog_filters": {
+                "frequency": "MONTHLY",
+                "limit_frequency": true,
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2010",
+                "end": "2023",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-02-27 12:00",
+                "next_update": "2023-03-27 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "External Trade Indices (ETI) measure changes in the levels of unit values and volumes of Malaysia\u2019s imports and exports. The index numbers, which reflect the percentage rise or fall of unit value and volume levels Commencing in reference month of January 2019, ETI was updated using the \"basket\" of goods for year 2015 by maintaining the same base year, 2010 = 100. Data used in calculating the export and import unit value and volume indices is obtained from Malaysia external trade data of import and export custom declaration forms.",
+                    "caveat": "ETI are calculated as a chain of fixed-basket indices, the sequence of fixed-basket indices have been chained together to create a continuous time series. This is to avoid having breaks in an index when a basket update is performed. Data for the current month is provisional (p) and subject to revision until it is finalized. Revisions are made if there are additional information.",
+                    "publication": "Malaysia External Trade Indices, January 2023, the latest edition of the monthly external trade indices published by DOSM."
+                },
+                "bm": {
+                    "methodology": "Indeks Perdagangan Luar Negeri (IPLN) mengukur perubahan paras nilai seunit serta volum eksport dan import barangan Malaysia. Nombor indeks ini mencerminkan peratusan kenaikan atau penurunan dalam paras nilai seunit dan volum. Mulai penerbitan keluaran bulan rujukan Januari 2019, IPLN telah dikemaskini menggunakan \u201cbakul\u201d barangan tahun 2015 dengan mengekalkan tahun asas yang sama, 2010=100. Data yang digunakan dalam pengiraan indeks nilai seunit dan volum diperoleh daripada data perdagangan luar negeri Malaysia bersumberkan borang pengikraran kastam.",
+                    "caveat": "IPLN dihitung sebagai indeks rantaian bakul tetap, iaitu urutan indeks bakul tetap dirantai bersama untuk mewujudkan satu siri masa yang berterusan. Perkara ini perlu untuk mengelakkan perubahan yang tidak dijangka dalam indeks apabila pengemaskinian bakul dilakukan. Data bulan semasa adalah provisional (p) dan tertakluk kepada pindaan sehingga ia dimuktamadkan. Pindaan dibuat sekiranya wujud maklumat tambahan.",
+                    "publication": "Indeks Perdagangan Luar Negeri Malaysia, Januari 2023, edisi terkini bagi indeks perdagangan luar negeri yang diterbitkan oleh DOSM."
+                }
+            },
+            "chart": {
+                "chart_type": "TIMESERIES",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "index_type"
+                    ],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [
+                        "index_type"
+                    ],
+                    "operation": "MEAN",
+                    "format": {
+                        "x": "date",
+                        "y": "miscellaneous_transactions_and_commodities",
+                        "line": ""
+                    }
+                }
+            }
+        }
+    ]
+}
