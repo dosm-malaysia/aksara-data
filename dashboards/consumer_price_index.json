@@ -1,13 +1,13 @@
 {
     "dashboard_name": "consumer_price_index",
-    "manual_trigger" : "",
+    "manual_trigger" : "retrigger",
     "required_params": [],
     "optional_params": [],
     "charts": {
       "bar_chart": {
         "name": "bar_chart",
         "chart_type": "bar_chart",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_main_barchart.parquet",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_main_barchart.parquet?ignoreCache=1",
         "data_as_of" : "2023-02-28 23:59",
         "api_type": "static",
         "api_params": [],
@@ -25,7 +25,7 @@
       "timeseries": {
         "name": "timeseries",
         "chart_type": "timeseries_chart",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_main_timeseries.parquet",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_main_timeseries.parquet?ignoreCache=1",
         "data_as_of" : "2023-02-28 23:59",
         "api_type": "static",
         "api_params": [],
@@ -54,7 +54,7 @@
       "statistics": {
         "name": "statistics",
         "chart_type": "custom_chart",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_main_timeseries_callout.parquet",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_main_timeseries_callout.parquet?ignoreCache=1",
         "data_as_of" : "2023-02-28 23:59",
         "api_type": "static",
         "api_params": [],
@@ -84,7 +84,7 @@
       "snapshot_4d" : {
         "name": "snapshot_4d",
         "chart_type": "timeseries_shared",
-        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_query_snapshot_4d.parquet?ignoreCache=0",
+        "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/cpi_query_snapshot_4d.parquet?ignoreCache=1",
         "data_as_of" : "2023-02-28 23:59",
         "api_type": "individual_chart",
         "api_params": ["lang", "level"],
