@@ -76,26 +76,26 @@
                     "NATIONAL"
                 ],
                 "start": "1991",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2022-02-24 12:00",
-                "next_update": "2023-03-24 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-03-24 12:00",
+                "next_update": "2023-04-25 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "Data for the compilation of Composite and Diffusion Indexes is obtained from the Department of Statistics Malaysia and the following agencies: (i) Ministry of Housing and Local Government (MHLG); (ii) Bank Negara Malaysia (BNM); (iii) Road Transport Department (RTD); (iv) Malaysian Investment Development Authority (MIDA); and (v) Employees Provident Fund (EPF).",
                     "caveat": "The Leading Index is unable to measure or predict the magnitude of any changes of economic activity. The index shows the direction of the economy in advance. The economic indicators are unable to take into account the internal or/and external shock to the economy.",
-                    "publication": "[Malaysian Economic Indicators, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_mei.pdf), the latest edition of the leading, coincident, and lagging composite indices published monthly by DOSM. OpenDOSM also features a [dashboard on these composite indices](https://open.dosm.gov.my/composite-indices)."
+                    "publication": "[Malaysian Economic Indicators, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_mei.pdf), the latest edition of the leading, coincident, and lagging composite indices published monthly by DOSM. OpenDOSM also features a [dashboard on these composite indices](https://open.dosm.gov.my/composite-indices)."
                 },
                 "bm": {
                     "methodology": "Data bagi penyediaan Indeks Komposit dan Indeks Difusi diperoleh daripada Jabatan Perangkaan Malaysia serta agensi berikut: (i) Kementerian Perumahan dan Kerajaan Tempatan (KPKT); (ii) Bank Negara Malaysia (BNM); (iii) Jabatan Pengangkutan Jalan (JPJ); (iv) Lembaga Pembangunan Pelaburan Malaysia (MIDA); dan (v) Kumpulan Wang Simpanan Pekerja (KWSP).",
                     "caveat": "Indeks Pelopor tidak dapat mengukur atau meramal perubahan magnitud dalam aktiviti ekonomi. Indeks ini hanya menunjukkan arah tuju ekonomi di masa hadapan. Sistem penunjuk ekonomi tidak berupaya untuk mengambil kira kejutan pengaruh dalaman atau/dan luaran kepada ekonomi.",
-                    "publication": "[Penunjuk Ekonomi Malaysia, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_mei.pdf), edisi terkini bagi indeks komposit pelopor, serentak, dan susulan yang diterbitkan secara bulanan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang indeks komposit](https://open.dosm.gov.my/composite-indices)."
+                    "publication": "[Penunjuk Ekonomi Malaysia, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_mei.pdf), edisi terkini bagi indeks komposit pelopor, serentak, dan susulan yang diterbitkan secara bulanan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang indeks komposit](https://open.dosm.gov.my/composite-indices)."
                 }
             },
             "chart": {
@@ -124,26 +124,26 @@
                     "NATIONAL"
                 ],
                 "start": "1991",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2022-02-24 12:00",
-                "next_update": "2023-03-24 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-03-24 12:00",
+                "next_update": "2023-04-25 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "Data for the compilation of Composite and Diffusion Indexes is obtained from the Department of Statistics Malaysia and the following agencies: (i) Ministry of Housing and Local Government (MHLG); (ii) Bank Negara Malaysia (BNM); (iii) Road Transport Department (RTD); (iv) Malaysian Investment Development Authority (MIDA); and (v) Employees Provident Fund (EPF).",
                     "caveat": "The Coincident Index does not represent the level of the current economic situation. Thus it should not be interpreted as the level of current monthly Gross Domestic Product (GDP). The economic indicators are unable to take into account internal or/and external shocks to the economy.",
-                    "publication": "[Malaysian Economic Indicators, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_mei.pdf), the latest edition of the leading, coincident, and lagging composite indices published monthly by DOSM. OpenDOSM also features a [dashboard on these composite indices](https://open.dosm.gov.my/composite-indices)."
+                    "publication": "[Malaysian Economic Indicators, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_mei.pdf), the latest edition of the leading, coincident, and lagging composite indices published monthly by DOSM. OpenDOSM also features a [dashboard on these composite indices](https://open.dosm.gov.my/composite-indices)."
                 },
                 "bm": {
                     "methodology": "Data bagi penyediaan Indeks Komposit dan Indeks Difusi diperoleh daripada Jabatan Perangkaan Malaysia serta agensi berikut: (i) Kementerian Perumahan dan Kerajaan Tempatan (KPKT); (ii) Bank Negara Malaysia (BNM); (iii) Jabatan Pengangkutan Jalan (JPJ); (iv) Lembaga Pembangunan Pelaburan Malaysia (MIDA); dan (v) Kumpulan Wang Simpanan Pekerja (KWSP).",
                     "caveat": "Indeks Serentak tidak menggambarkan tahap situasi ekonomi semasa. Justeru itu, ia tidak boleh ditafsirkan sebagai aras Keluaran Dalam Negeri Kasar (KDNK) semasa bulanan. Sistem penunjuk ekonomi tidak berupaya untuk mengambil kira kejutan pengaruh dalaman atau/dan luaran kepada ekonomi.",
-                    "publication": "[Penunjuk Ekonomi Malaysia, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_mei.pdf), edisi terkini bagi indeks komposit pelopor, serentak, dan susulan yang diterbitkan secara bulanan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang indeks komposit](https://open.dosm.gov.my/composite-indices)."
+                    "publication": "[Penunjuk Ekonomi Malaysia, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_mei.pdf), edisi terkini bagi indeks komposit pelopor, serentak, dan susulan yang diterbitkan secara bulanan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang indeks komposit](https://open.dosm.gov.my/composite-indices)."
                 }
             },
             "chart": {
@@ -172,26 +172,26 @@
                     "NATIONAL"
                 ],
                 "start": "1991",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2022-02-24 12:00",
-                "next_update": "2023-03-24 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-03-24 12:00",
+                "next_update": "2023-04-25 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "Data for the compilation of Composite and Diffusion Indexes is obtained from the Department of Statistics Malaysia and the following agencies: (i) Ministry of Housing and Local Government (MHLG); (ii) Bank Negara Malaysia (BNM); (iii) Road Transport Department (RTD); (iv) Malaysian Investment Development Authority (MIDA); and (v) Employees Provident Fund (EPF).",
                     "caveat": "The economic indicators are unable to take into account internal or/and external shocks to the economy.",
-                    "publication": "[Malaysian Economic Indicators, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_mei.pdf), the latest edition of the leading, coincident, and lagging composite indices published monthly by DOSM. OpenDOSM also features a [dashboard on these composite indices](https://open.dosm.gov.my/composite-indices)."
+                    "publication": "[Malaysian Economic Indicators, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_mei.pdf), the latest edition of the leading, coincident, and lagging composite indices published monthly by DOSM. OpenDOSM also features a [dashboard on these composite indices](https://open.dosm.gov.my/composite-indices)."
                 },
                 "bm": {
                     "methodology": "Data bagi penyediaan Indeks Komposit dan Indeks Difusi diperoleh daripada Jabatan Perangkaan Malaysia serta agensi berikut: (i) Kementerian Perumahan dan Kerajaan Tempatan (KPKT); (ii) Bank Negara Malaysia (BNM); (iii) Jabatan Pengangkutan Jalan (JPJ); (iv) Lembaga Pembangunan Pelaburan Malaysia (MIDA); dan (v) Kumpulan Wang Simpanan Pekerja (KWSP).",
                     "caveat": "Sistem penunjuk ekonomi tidak berupaya untuk mengambil kira kejutan pengaruh dalaman atau/dan luaran kepada ekonomi.",
-                    "publication": "[Penunjuk Ekonomi Malaysia, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_mei.pdf), edisi terkini bagi indeks komposit pelopor, serentak, dan susulan yang diterbitkan secara bulanan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang indeks komposit](https://open.dosm.gov.my/composite-indices)."
+                    "publication": "[Penunjuk Ekonomi Malaysia, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_mei.pdf), edisi terkini bagi indeks komposit pelopor, serentak, dan susulan yang diterbitkan secara bulanan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang indeks komposit](https://open.dosm.gov.my/composite-indices)."
                 }
             },
             "chart": {
@@ -220,26 +220,26 @@
                     "NATIONAL"
                 ],
                 "start": "1991",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2022-02-24 12:00",
-                "next_update": "2023-03-24 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-03-24 12:00",
+                "next_update": "2023-04-25 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "Data for the compilation of Composite and Diffusion Indexes is obtained from the Department of Statistics Malaysia and the following agencies: (i) Ministry of Housing and Local Government (MHLG); (ii) Bank Negara Malaysia (BNM); (iii) Road Transport Department (RTD); (iv) Malaysian Investment Development Authority (MIDA); and (v) Employees Provident Fund (EPF).",
                     "caveat": "The economic indicators are unable to take into account internal or/and external shocks to the economy.",
-                    "publication": "[Malaysian Economic Indicators, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_mei.pdf), the latest edition of the leading, coincident, and lagging composite indices published monthly by DOSM. OpenDOSM also features a [dashboard on these composite indices](https://open.dosm.gov.my/composite-indices)."
+                    "publication": "[Malaysian Economic Indicators, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_mei.pdf), the latest edition of the leading, coincident, and lagging composite indices published monthly by DOSM. OpenDOSM also features a [dashboard on these composite indices](https://open.dosm.gov.my/composite-indices)."
                 },
                 "bm": {
                     "methodology": "Data bagi penyediaan Indeks Komposit dan Indeks Difusi diperoleh daripada Jabatan Perangkaan Malaysia serta agensi berikut: (i) Kementerian Perumahan dan Kerajaan Tempatan (KPKT); (ii) Bank Negara Malaysia (BNM); (iii) Jabatan Pengangkutan Jalan (JPJ); (iv) Lembaga Pembangunan Pelaburan Malaysia (MIDA); dan (v) Kumpulan Wang Simpanan Pekerja (KWSP).",
                     "caveat": "Sistem penunjuk ekonomi tidak berupaya untuk mengambil kira kejutan pengaruh dalaman atau/dan luaran kepada ekonomi.",
-                    "publication": "[Penunjuk Ekonomi Malaysia, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_mei.pdf), edisi terkini bagi indeks komposit pelopor, serentak, dan susulan yang diterbitkan secara bulanan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang indeks komposit](https://open.dosm.gov.my/composite-indices)."
+                    "publication": "[Penunjuk Ekonomi Malaysia, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_mei.pdf), edisi terkini bagi indeks komposit pelopor, serentak, dan susulan yang diterbitkan secara bulanan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang indeks komposit](https://open.dosm.gov.my/composite-indices)."
                 }
             },
             "chart": {
@@ -268,26 +268,26 @@
                     "NATIONAL"
                 ],
                 "start": "1991",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-12-31 23:59",
-                "last_updated": "2022-02-24 12:00",
-                "next_update": "2023-03-24 12:00"
+                "data_as_of": "2023-01-31 23:59",
+                "last_updated": "2023-03-24 12:00",
+                "next_update": "2023-04-25 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "Data for the compilation of Composite and Diffusion Indexes is obtained from the Department of Statistics Malaysia and the following agencies: (i) Ministry of Housing and Local Government (MHLG); (ii) Bank Negara Malaysia (BNM); (iii) Road Transport Department (RTD); (iv) Malaysian Investment Development Authority (MIDA); and (v) Employees Provident Fund (EPF).",
                     "caveat": "The economic indicators are unable to take into account internal or/and external shocks to the economy.",
-                    "publication": "[Malaysian Economic Indicators, December 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_mei.pdf), the latest edition of the leading, coincident, and lagging composite indices published monthly by DOSM. OpenDOSM also features a [dashboard on these composite indices](https://open.dosm.gov.my/composite-indices)."
+                    "publication": "[Malaysian Economic Indicators, January 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_mei.pdf), the latest edition of the leading, coincident, and lagging composite indices published monthly by DOSM. OpenDOSM also features a [dashboard on these composite indices](https://open.dosm.gov.my/composite-indices)."
                 },
                 "bm": {
                     "methodology": "Data bagi penyediaan Indeks Komposit dan Indeks Difusi diperoleh daripada Jabatan Perangkaan Malaysia serta agensi berikut: (i) Kementerian Perumahan dan Kerajaan Tempatan (KPKT); (ii) Bank Negara Malaysia (BNM); (iii) Jabatan Pengangkutan Jalan (JPJ); (iv) Lembaga Pembangunan Pelaburan Malaysia (MIDA); dan (v) Kumpulan Wang Simpanan Pekerja (KWSP).",
                     "caveat": "Sistem penunjuk ekonomi tidak berupaya untuk mengambil kira kejutan pengaruh dalaman atau/dan luaran kepada ekonomi.",
-                    "publication": "[Penunjuk Ekonomi Malaysia, Disember 2022](https://storage.googleapis.com/dosm-public-publications/monthly_2022-12_mei.pdf), edisi terkini bagi indeks komposit pelopor, serentak, dan susulan yang diterbitkan secara bulanan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang indeks komposit](https://open.dosm.gov.my/composite-indices)."
+                    "publication": "[Penunjuk Ekonomi Malaysia, Januari 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-01_mei.pdf), edisi terkini bagi indeks komposit pelopor, serentak, dan susulan yang diterbitkan secara bulanan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang indeks komposit](https://open.dosm.gov.my/composite-indices)."
                 }
             },
             "chart": {
