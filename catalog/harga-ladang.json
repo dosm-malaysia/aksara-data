@@ -35,7 +35,7 @@
             },
             {
                 "id": 2,
-                "name": "item_bm",
+                "name": "item",
                 "title_en": "Item Name",
                 "title_bm": "Nama Item",
                 "desc_en": "[Categorical] Item name(30 in total).",
@@ -68,9 +68,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2022-01-31 23:59",
-                "last_updated": "2022-02-27 12:00",
-                "next_update": "2022-03-31 12:00"
+                "data_as_of": "2022-02-31 23:59",
+                "last_updated": "2022-03-27 12:00",
+                "next_update": "2022-04-30 12:00"
             },
             "metadata_lang": {
                 "en": {
