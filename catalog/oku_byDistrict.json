@@ -87,8 +87,8 @@
             },
             "metadata_lang": {
                 "en": {
-                    "methodology": "",
-                    "caveat": "",
+                    "methodology": "The Salaries & Wages Survey collects data via a stratified two-stage sample design, thus obtaining representative data at the national and state level. The implementation of this survey is based on guidelines and recommendations of the International Labour Organization (ILO) with reference to An Integrated System of Wages Statistics. For more details on the survey design and scope, please refer to the Technical Notes in the [latest Salaries & Wages Survey Report](https://storage.googleapis.com/dosm-public-publications/annual_2021_salaries_wages.pdf).",
+                    "caveat": "The Salaries & Wages Survey collects data via a stratified two-stage sample design, thus obtaining representative data at the national and state level. The implementation of this survey is based on guidelines and recommendations of the International Labour Organization (ILO) with reference to An Integrated System of Wages Statistics. For more details on the survey design and scope, please refer to the Technical Notes in the [latest Salaries & Wages Survey Report](https://storage.googleapis.com/dosm-public-publications/annual_2021_salaries_wages.pdf).",
                     "publication": "[MyLocal Stats, 2021](https://#)."
                 },
                 "bm": {
