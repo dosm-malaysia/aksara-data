@@ -1,0 +1,118 @@
+{
+    "file": {
+        "bucket": "dosm-public-staging",
+        "file_name": "oku_byDistrict",
+        "category": NaN,
+        "category_en": NaN,
+        "category_bm": NaN,
+        "subcategory": "POPULATION",
+        "subcategory_en": "MyLocalStats",
+        "subcategory_bm": "MyLocalStats",
+        "description": {
+            "en": "In Malaysia, Persons with Disabilities (PWDs/OKU) are individuals who have long-term physical, mental, intellectual, or sensory impairments that may hinder their full participation in society. Our Kad OKU categorizes disabilities into seven types to ensure that individuals with different types of disabilities receive the necessary recognition and support in Malaysia. The disability types are Learning Disabilities, Mental Disabilities, Physical Disabilities, Multiple Disabilities, Visual Impairments, Hearing Impairments, and Speech Impairments.",
+            "bm": "Di Malaysia, Orang Kelainan Upaya (OKU) adalah individu yang mempunyai kecacatan fizikal, mental, intelek atau deria yang boleh menghalang mereka bergaul bersama masyarakat. Kad OKU mengelaskan tujuh jenis kecacatan untuk memastikan individu dengan jenis kecacatan yang berbeza menerima pengiktirafan dan sokongan yang diperlukan. Jenis kecacatan termasuk Kecacatan Pembelajaran, Kecacatan Mental, Kecacatan Fizikal, Kecacatan Pelbagai, Kecacatan Penglihatan, Kecacatan Pendengaran, dan Kecacatan Pertuturan."
+        },
+        "link_parquet": "https://storage.googleapis.com/dosm-public-staging/oku_byDistrict.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-staging/oku_byDistrict.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-staging/oku_byDistrict.metadata",
+        "variables": [
+            {
+                "id": -1,
+                "name": "variable",
+                "title_en": "Variable",
+                "title_bm": "Pembolehubah",
+                "desc_en": "[Categorical] Our Kad OKU categorizes disabilities into seven types to ensure that individuals with different types of disabilities receive the necessary recognition and support in Malaysia (https://www.dosm.gov.my/v1/uploads/files/4_Portal%20Content/3_Methods%20%26%20Classifications/2_List%20of%20References/updated%202019/MASCO_2013_EBOOK_BI.pdf)",
+                "desc_bm": "[Kategori] Kad OKU mengelaskan tujuh jenis kecacatan untuk memastikan individu dengan jenis kecacatan yang berbeza menerima pengiktirafan dan sokongan yang diperlukan.(https://www.dosm.gov.my/v1/uploads/files/4_Portal%20Content/3_Methods%20%26%20Classifications/2_List%20of%20References/updated%202019/MASCO_2013_EBOOK_BI.pdf)"
+            },
+            {
+                "id": -1,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] Name of the state (16 in total)",
+                "desc_bm": "[Kategori] Name negeri (16 keseluruhan) atau Malaysia"
+            },
+            {
+                "id": -1,
+                "name": "district",
+                "title_en": "District",
+                "title_bm": "Daerah",
+                "desc_en": "[Categorical] Name of the district by state",
+                "desc_bm": "[Kategori] Name daerah mengikut negeri seluruh Malaysia"
+            },
+            {
+                "id": -1,
+                "name": "year",
+                "title_en": "Year",
+                "title_bm": "Tahun",
+                "desc_en": "[Integer] Years from 2018-2021",
+                "desc_bm": "[Integer] Tahun dari 2018 hingga 2021"
+            },
+            {
+                "id": 1,
+                "name": "total",
+                "title_en": "Cross section: Persons with Disabilities (OKU) by Category",
+                "title_bm": "Keratan rentas: Bilangan Orang Kelainan Upaya (OKU) mengikut Kategori",
+                "desc_en": "[Integer] Number of Persons with Disabilities (OKU)",
+                "desc_bm": "[Apung] Bilangan Orang Kelainan Upaya (OKU)"
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 1,
+            "catalog_filters": {
+                "frequency": "YEARLY",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2018",
+                "end": "2021",
+                "data_source": [
+                    "JKM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2021-12-31 23:59",
+                "last_updated": "2022-10-04 12:00",
+                "next_update": "2023-08-30 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "",
+                    "caveat": "",
+                    "publication": "[MyLocal Stats, 2021](https://#."
+                },
+                "bm": {
+                    "methodology": "MyLocalStats(https://storage.googleapis.com/dosm-public-#).",
+                    "caveat": "Tujuan utama survei ini adalah untuk menghasilkan statistikan tentang penerima gaji dan upah bulanan. Oleh itu, data tidak merangkumi kesemua individu yang dikelaskan sebagai 'bekerja' dalam Survei Tenaga Buruh - kategori utama yang dikecualikan adalah majikan, golongan yang bekerja sendiri, serta pekerja keluarga tanpa gaji. Tambahan lagi, kecuali dalam data mengikut etnik, semua data yang dipaparkan adalah untuk warganegara sahaja.",
+                    "publication": "[Laporan Survei Gaji dan Upah, 2021](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=157&bul_id=SzNvU0ZhaGpCMUROVlpCdTU1WWJSdz09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09),edisi terkini bagi statistik gaji dan upah tahunan yang diterbitkan oleh DOSM."
+                }
+            },
+            "chart": {
+                "chart_type": "BAR",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "variable",
+                        "state",
+                        "district"
+                    ],
+                    "precision": 0
+                },
+                "chart_variables": {
+                    "parents": [
+                        "variable",
+                        "state",
+                        "district"
+                    ],
+                    "format": {
+                        "x": "year",
+                        "y": [
+                            "mean"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
