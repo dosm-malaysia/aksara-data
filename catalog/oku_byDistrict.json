@@ -50,7 +50,7 @@
             },
             {
                 "id": 1,
-                "name": "total",
+                "name": "value",
                 "title_en": "Cross section: Persons with Disabilities (OKU) by Category",
                 "title_bm": "Keratan rentas: Bilangan Orang Kelainan Upaya (OKU) mengikut Kategori",
                 "desc_en": "[Integer] Number of Persons with Disabilities (OKU)",
