@@ -26,19 +26,27 @@
             },
             {
                 "id": -1,
-                "name": "state",
+                "name": "variable_en",
+                "title_en": "Variable (English)",
+                "title_bm": "Pembolehubah (BI)",
+                "desc_en": "[Categorical] Full specification of the variable (English translation)",
+                "desc_bm": "[Kategori] Huraian penuh pembolehubah (versi Bahasa Inggeris)"
+            },
+            {
+                "id": -1,
+                "name": "variable_bm",
+                "title_en": "Variable (Malay)",
+                "title_bm": "Pembolehubah (BM)",
+                "desc_en": "[Categorical] Full specification of the variable (Malay translation)",
+                "desc_bm": "[Kategori] Huraian penuh pembolehubah (versi Bahasa Melayu)"
+            },
+            {
+                "id": -1,
+                "name": "state_district",
                 "title_en": "State",
                 "title_bm": "Negeri",
                 "desc_en": "[Categorical] Name of the state (16 in total)",
                 "desc_bm": "[Kategori] Name negeri (16 keseluruhan) atau Malaysia"
-            },
-            {
-                "id": -1,
-                "name": "district",
-                "title_en": "District",
-                "title_bm": "Daerah",
-                "desc_en": "[Categorical] Name of the district by state",
-                "desc_bm": "[Kategori] Name daerah mengikut negeri seluruh Malaysia"
             },
             {
                 "id": -1,
@@ -50,7 +58,7 @@
             },
             {
                 "id": 1,
-                "name": "value",
+                "name": "recipients",
                 "title_en": "Cross section: Persons with Disabilities (OKU) by Category",
                 "title_bm": "Keratan rentas: Bilangan Orang Kelainan Upaya (OKU) mengikut Kategori",
                 "desc_en": "[Integer] Number of Persons with Disabilities (OKU)",
@@ -94,19 +102,19 @@
                 "chart_filters": {
                     "SLICE_BY": [
                         "variable",
-                        "state"
+                        "state_district"
                     ],
                     "precision": 0
                 },
                 "chart_variables": {
                     "parents": [
                         "variable",
-                        "state"
+                        "state_district"
                     ],
                     "format": {
                         "x": "year",
                         "y": [
-                            "value"
+                            "recipients"
                         ]
                     }
                 }
