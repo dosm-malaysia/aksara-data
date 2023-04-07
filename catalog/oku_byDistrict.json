@@ -108,7 +108,7 @@
                     "format": {
                         "x": "year",
                         "y": [
-                            "variable"
+                            "value"
                         ]
                     }
                 }
