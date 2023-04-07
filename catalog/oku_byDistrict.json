@@ -94,16 +94,14 @@
                 "chart_filters": {
                     "SLICE_BY": [
                         "variable",
-                        "state",
-                        "district"
+                        "state"
                     ],
                     "precision": 0
                 },
                 "chart_variables": {
                     "parents": [
                         "variable",
-                        "state",
-                        "district"
+                        "state"
                     ],
                     "format": {
                         "x": "year",
