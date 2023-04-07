@@ -54,7 +54,7 @@
                 "title_en": "Cross section: Persons with Disabilities (OKU) by Category",
                 "title_bm": "Keratan rentas: Bilangan Orang Kelainan Upaya (OKU) mengikut Kategori",
                 "desc_en": "[Integer] Number of Persons with Disabilities (OKU)",
-                "desc_bm": "[Apung] Bilangan Orang Kelainan Upaya (OKU)"
+                "desc_bm": "[Integer] Bilangan Orang Kelainan Upaya (OKU)"
             }
         ]
     },
@@ -81,7 +81,7 @@
                 "en": {
                     "methodology": "",
                     "caveat": "",
-                    "publication": "[MyLocal Stats, 2021](https://#."
+                    "publication": "[MyLocal Stats, 2021](https://#)."
                 },
                 "bm": {
                     "methodology": "MyLocalStats(https://storage.googleapis.com/dosm-public-#).",
@@ -108,7 +108,7 @@
                     "format": {
                         "x": "year",
                         "y": [
-                            "mean"
+                            "variable"
                         ]
                     }
                 }
