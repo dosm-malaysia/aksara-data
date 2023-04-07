@@ -101,18 +101,18 @@
                 "chart_type": "BAR",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "variable",
+                        "year",
                         "state_district"
                     ],
                     "precision": 0
                 },
                 "chart_variables": {
                     "parents": [
-                        "variable",
+                        "year",
                         "state_district"
                     ],
                     "format": {
-                        "x": "year",
+                        "x": "variable",
                         "y": [
                             "value"
                         ]
