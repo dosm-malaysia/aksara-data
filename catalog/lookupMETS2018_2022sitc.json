@@ -79,8 +79,8 @@
                 "chart_type": "TABLE",
                 "chart_filters": {
                     "FREEZE": [
-                        "sitc_5d",
-                        "sitc_5d_heading"
+                        "sitc_9d",
+                        "description"
                     ],
                     "EXCLUDE": [],
                     "precision": 1
