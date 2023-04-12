@@ -80,7 +80,7 @@
                 "chart_filters": {
                     "FREEZE": [
                         "hs_10d",
-                        "hs_10d_subheading"
+                        "description"
                     ],
                     "EXCLUDE": [],
                     "precision": 1
