@@ -1,0 +1,91 @@
+{
+    "file": {
+        "bucket": "dosm-public-staging",
+        "file_name": "lookupMETS2018_2022hs",
+        "category": "ECONOMY",
+        "category_en": "Economy",
+        "category_bm": "Ekonomi",
+        "subcategory": "METS",
+        "subcategory_en": "Merchandise Exports & Imports (METS)",
+        "subcategory_bm": "Eksport dan Import Barangan (METS)",
+        "description": {
+            "en": "Lookup table, to be left-joined against HS code in the main METS data.",
+            "bm": "Jadual carian, untuk dipadankan (left-join) dengan kod HS dalam dataset METS utama."
+        },
+        "link_parquet": "https://storage.googleapis.com/dosm-public-staging/lookupMETS2018_2022hs.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-staging/lookupMETS2018_2022hs.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-staging/lookupMETS2018_2022hs.metadata",
+        "link_preview": "https://storage.googleapis.com/dosm-public-staging/lookupMETS2018_2022hs.parquet",
+        "variables": [
+            {
+                "id": 0,
+                "name": "Lookup Table: HS Code",
+                "title_en": "Lookup Table: HS Code",
+                "title_bm": "Jadual Carian: Kod HS",
+                "desc_en": "Lookup table, to be left-joined against SITC code in the main METS data.",
+                "desc_bm": "Jadual carian, untuk dipadankan (left-join) dengan kod SITC dalam dataset METS utama."
+            },
+            {
+                "id": 1,
+                "name": "hs_10d",
+                "title_en": "HS Code (10-digit)",
+                "title_bm": "Kod HS (10 digit)",
+                "desc_en": "[String] 10-digit code. Please ensure you read this column as a string to avoid dropping leading zeroes.",
+                "desc_bm": "[Rentetan] Kod 10 digit. Sila pastikan lajur ini dibaca sebagai data rentetan supaya angka sifar pendahuluan tidak digugurkan."
+            },
+            {
+                "id": 2,
+                "name": "description",
+                "title_en": "Subheading",
+                "title_bm": "Tajuk Kecil",
+                "desc_en": "[String] Name of Subheading",
+                "desc_bm": "[Rentetan] Nama Tajuk Kecil"
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 0,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2018",
+                "end": "2022",
+                "data_source": [
+                    "DOSM",
+                    "Customs (RMCD)"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "1/210/2023 12:00 tt",
+                "last_updated": "1/210/2023 12:00 tt",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Classification of merchandise according to the Harmonised Commodity Description and Coding System 2012 (HS2012) of the World Customs Organisations (WCO).",
+                    "caveat": "The HS table is only made available in English, to avoid discrepancies with the internationally used HS due to meaning lost in translation.",
+                    "publication": "-"
+                },
+                "bm": {
+                    "methodology": "Klasifikasi barangan berdasarkan Harmonised Commodity Description and Coding System 2012 (HS2012) yang diterbitkan oleh Pertubuhan Kastam Sedunia (WCO).",
+                    "caveat": "Jadual HS hanya disediakan dalam Bahasa Inggeris supaya tiada perbezaan dengan HS yang digunapakai di peringkat antarabangsa.",
+                    "publication": "-"
+                }
+            },
+            "chart": {
+                "chart_type": "TABLE",
+                "chart_filters": {
+                    "FREEZE": [
+                        "hs_10d",
+                        "hs_10d_subheading"
+                    ],
+                    "EXCLUDE": [],
+                    "precision": 1
+                }
+            }
+        }
+    ]
+}

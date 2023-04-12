@@ -1,0 +1,91 @@
+{
+    "file": {
+        "bucket": "dosm-public-staging",
+        "file_name": "lookupMETS2018_2022sitc",
+        "category": "ECONOMY",
+        "category_en": "Economy",
+        "category_bm": "Ekonomi",
+        "subcategory": "METS",
+        "subcategory_en": "Merchandise Exports & Imports (METS)",
+        "subcategory_bm": "Eksport dan Import Barangan (METS)",
+        "description": {
+            "en": "Lookup table, to be left-joined against SITC code in the main METS data.",
+            "bm": "Jadual carian, untuk dipadankan (left-join) dengan kod SITC  dalam dataset METS utama."
+        },
+        "link_parquet": "https://storage.googleapis.com/dosm-public-staging/lookupMETS2018_2022sitc.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-staging/lookupMETS2018_2022sitc.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-staging/lookupMETS2018_2022sitc.metadata",
+        "link_preview": "https://storage.googleapis.com/dosm-public-staging/lookupMETS2018_2022sitc.parquet",
+        "variables": [
+            {
+                "id": 0,
+                "name": "Lookup Table: SITC Code",
+                "title_en": "Lookup Table: SITC Code",
+                "title_bm": "Jadual Carian: Kod SITC",
+                "desc_en": "Lookup table, to be left-joined against SITC code in the main METS data.",
+                "desc_bm": "Jadual carian, untuk dipadankan (left-join) dengan kod SITC dalam dataset METS utama."
+            },
+            {
+                "id": 1,
+                "name": "sitc_9d",
+                "title_en": "SITC Code (9-digit)",
+                "title_bm": "Kod SITC (9 digit)",
+                "desc_en": "[String] 9-digit code. Please ensure you read this column as a string to avoid dropping leading zeroes.",
+                "desc_bm": "[Rentetan] Kod 9 digit. Sila pastikan lajur ini dibaca sebagai data rentetan supaya angka sifar pendahuluan tidak digugurkan."
+            },
+            {
+                "id": 2,
+                "name": "description",
+                "title_en": "Heading",
+                "title_bm": "Tajuk",
+                "desc_en": "[String] Name of Heading",
+                "desc_bm": "[Rentetan] Nama Tajuk"
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 0,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "NATIONAL"
+                ],
+                "start": "2018",
+                "end": "2022",
+                "data_source": [
+                    "DOSM",
+                    "Customs (RMCD)"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-26 12:00",
+                "last_updated": "2023-01-26 12:00",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "Classification of merchandise according to the Standard International Trade Classification, Revision 4 (S.I.T.C. Rev. 4) of the United Nations.",
+                    "caveat": "The SITC table is only made available in English, to avoid discrepancies with the internationally used SITC due to meaning lost in translation.",
+                    "publication": "-"
+                },
+                "bm": {
+                    "methodology": "Klasifikasi barangan berdasarkan Standard International Trade Classification, Revision 4 (S.I.T.C. Rev. 4) yang diterbitkan oleh Persatuan Bangsa-bangsa Bersatu (UN).",
+                    "caveat": "Jadual SITC hanya disediakan dalam Bahasa Inggeris supaya tiada perbezaan dengan SITC yang digunapakai di peringkat antarabangsa.",
+                    "publication": "-"
+                }
+            },
+            "chart": {
+                "chart_type": "TABLE",
+                "chart_filters": {
+                    "FREEZE": [
+                        "sitc_5d",
+                        "sitc_5d_heading"
+                    ],
+                    "EXCLUDE": [],
+                    "precision": 1
+                }
+            }
+        }
+    ]
+}
