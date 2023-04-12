@@ -15,7 +15,7 @@
         "link_parquet": "https://storage.googleapis.com/dosm-public-staging/lookupMETS2018_2022sitc.parquet",
         "link_csv": "https://storage.googleapis.com/dosm-public-staging/lookupMETS2018_2022sitc.csv",
         "link_metadata": "https://storage.googleapis.com/dosm-public-staging/lookupMETS2018_2022sitc.metadata",
-        "link_preview": "https://storage.googleapis.com/dosm-public-staging/lookupMETS2018_2022sitc.parquet",
+        "link_preview": "https://storage.googleapis.com/dosm-public-staging/lookupMETS2018_2022sitcUI.parquet",
         "variables": [
             {
                 "id": 0,
