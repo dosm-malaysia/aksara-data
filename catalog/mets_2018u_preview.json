@@ -48,7 +48,7 @@
                 "title_bm": "Kod Negara",
                 "desc_en": "[String] ISO 3166-1 alpha-2 code, to be used as the base for left-joining the [Country Lookup Table](https://aksara-front.vercel.app/data-catalogue/dosm-public-staging_lu_countryMETS_0) onto this table. The join will give you the country's name and grouping.",
                 "desc_bm": "[String] Kod ISO 3166-1 alpha-2, yang menjadi asas untuk menggabungkan (left-join) [Jadual Carian Negara](https://aksara-front.vercel.app/data-catalogue/dosm-public-staging_lu_countryMETS_0) dengan jadual ini. Gabungan itu akan menghasilkan nama dan kumpulan negara."
-            {
+            {,
                 "id": 5,
                 "name": "sitc_9d",
                 "title_en": "SITC Code (9-digit)",
