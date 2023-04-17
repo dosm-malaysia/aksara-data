@@ -50,7 +50,7 @@
                 "desc_bm": "[String] Kod ISO 3166-1 alpha-2, yang menjadi asas untuk menggabungkan (left-join) [Jadual Carian Negara](https://aksara-front.vercel.app/data-catalogue/dosm-public-staging_lu_countryMETS_0) dengan jadual ini. Gabungan itu akan menghasilkan nama dan kumpulan negara."
             },
             {
-                "id": 4,
+                "id": 5,
                 "name": "sitc_9d",
                 "title_en": "SITC Code (9-digit)",
                 "title_bm": "SITC Code (9-digit)",
@@ -58,7 +58,7 @@
                 "desc_bm": "[Rentetan] Kod 9 digit, yang menjadi asas untuk menggabungkan (left-join) [Jadual Carian SITC](https://aksara-front.vercel.app/data-catalogue/dosm-public-staging_lookupMETS2018_2022sitc_0) dengan jadual ini. Gabungan itu akan menghasilkan semua denominasi SITC sehingga tahap 9 digit. Sila pastikan lajur ini dibaca sebagai data rentetan supaya angka sifar pendahuluan tidak digugurkan."
             },
             {
-                "id": 5,
+                "id": 6,
                 "name": "hs_10d",
                 "title_en": "HS Code (10-digit)",
                 "title_bm": "HS Code (10-digit)",
