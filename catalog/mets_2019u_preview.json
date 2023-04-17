@@ -66,6 +66,14 @@
                 "desc_bm": "[String] Kod 10 digit, yang menjadi asas untuk menggabungkan (left-join) [HS Lookup Table](https://aksara-front.vercel.app/data-catalogue/dosm-public-staging_lookupMETS2018_2022hs_0) dengan jadual ini. Gabungan itu akan menghasilkan menghasilkan semua denominasi HS sehingga tahap 10 digit."
             },
             {
+                "id": 6,
+                "name": "hs_10d",
+                "title_en": "HS Code (10-digit)",
+                "title_bm": "HS Code (10-digit)",
+                "desc_en": "[String] 10-digit code, to be used as the base for left-joining the [HS Lookup Table](https://aksara-front.vercel.app/data-catalogue/dosm-public-staging_lookupMETS2018_2022hs_0) onto this table. The join will give you all HS denominations up  to 10-digit level.",
+                "desc_bm": "[String] Kod 10 digit, yang menjadi asas untuk menggabungkan (left-join) [HS Lookup Table](https://aksara-front.vercel.app/data-catalogue/dosm-public-staging_lookupMETS2018_2022hs_0) dengan jadual ini. Gabungan itu akan menghasilkan menghasilkan semua denominasi HS sehingga tahap 10 digit."
+            },
+            {
                 "id": 7,
                 "name": "value",
                 "title_en": "Value",
