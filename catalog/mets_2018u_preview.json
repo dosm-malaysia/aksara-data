@@ -22,7 +22,7 @@
                 "name": "METS: 2018",
                 "title_en": "METS: 2018",
                 "title_bm": "METS: 2018",
-                "desc_en": "This dataset provides highly granular data (SITC 5-digit and HS 6-digit) on Malaysia's external merchandise trade with over 1 million datapoints per year, covering imports and exports (including re-exports) by country of origin, mode of transport, and product. This data does not include inter-regional trade between Peninsular Malaysia, Sabah and Sarawak.",
+                "desc_en": "This dataset provides highly granular data (SITC 9-digit and HS 10-digit) on Malaysia's external merchandise trade with over 1 million datapoints per year, covering imports and exports (including re-exports) by country of origin, mode of transport, and product. This data does not include inter-regional trade between Peninsular Malaysia, Sabah and Sarawak.",
                 "desc_bm": "Set data ini membekalkan pengguna dengan data yang amat terperinci (SITC 5-digit dan HS 6-digit) tentang perdagangan luar negeri Malaysia, dengan lebih 1 juta baris data bagi setiap tahun. Data ini meliputi import dan eksport (termasuk eksport semula) mengikut negara asal, mod pengangkutan, dan produk, tetapi tidak meliputi perdagangan antara wilayah merangkumi Semenanjung Malaysia, Sabah dan Sarawak."
             },
             {
@@ -70,8 +70,8 @@
                 "name": "hs_10d",
                 "title_en": "HS Code (10-digit)",
                 "title_bm": "HS Code (10-digit)",
-                "desc_en": "[String] 6-digit code, to be used as the base for left-joining the [HS Lookup Table](https://open.dosm.gov.my/data-catalogue/dosm-public-mets_lookup_hs_0) onto this table. The join will give you all HS denominations up  to 6-digit level.",
-                "desc_bm": "[String] Kod 6 digit, yang menjadi asas untuk menggabungkan (left-join) [HS Lookup Table](https://open.dosm.gov.my/data-catalogue/dosm-public-mets_lookup_hs_0) dengan jadual ini. Gabungan itu akan menghasilkan menghasilkan semua denominasi HS sehingga tahap 6 digit."
+                "desc_en": "[String] 10-digit code, to be used as the base for left-joining the [HS Lookup Table](https://open.dosm.gov.my/data-catalogue/dosm-public-mets_lookup_hs_0) onto this table. The join will give you all HS denominations up  to 6-digit level.",
+                "desc_bm": "[String] Kod 10 digit, yang menjadi asas untuk menggabungkan (left-join) [HS Lookup Table](https://open.dosm.gov.my/data-catalogue/dosm-public-mets_lookup_hs_0) dengan jadual ini. Gabungan itu akan menghasilkan menghasilkan semua denominasi HS sehingga tahap 6 digit."
             },
             {
                 "id": 7,
