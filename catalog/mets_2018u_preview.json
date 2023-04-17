@@ -62,8 +62,8 @@
                 "name": "sitc_9d",
                 "title_en": "SITC Code (9-digit)",
                 "title_bm": "SITC Code (9-digit)",
-                "desc_en": "[String] 5-digit code, to be used as the base for left-joining the [SITC Lookup Table](https://open.dosm.gov.my/data-catalogue/dosm-public-mets_lookup_sitc_0) onto this table. The join will give you all SITC denominations up  to 5-digit level. Please ensure you read this column as a string to avoid dropping leading zeroes.",
-                "desc_bm": "[Rentetan] Kod 5 digit, yang menjadi asas untuk menggabungkan (left-join) [Jadual Carian SITC](https://open.dosm.gov.my/data-catalogue/dosm-public-mets_lookup_sitc_0) dengan jadual ini. Gabungan itu akan menghasilkan semua denominasi SITC sehingga tahap 5 digit. Sila pastikan lajur ini dibaca sebagai data rentetan supaya angka sifar pendahuluan tidak digugurkan."
+                "desc_en": "[String] 9-digit code, to be used as the base for left-joining the [SITC Lookup Table](https://open.dosm.gov.my/data-catalogue/dosm-public-mets_lookup_sitc_0) onto this table. The join will give you all SITC denominations up  to 5-digit level. Please ensure you read this column as a string to avoid dropping leading zeroes.",
+                "desc_bm": "[Rentetan] Kod 9 digit, yang menjadi asas untuk menggabungkan (left-join) [Jadual Carian SITC](https://open.dosm.gov.my/data-catalogue/dosm-public-mets_lookup_sitc_0) dengan jadual ini. Gabungan itu akan menghasilkan semua denominasi SITC sehingga tahap 5 digit. Sila pastikan lajur ini dibaca sebagai data rentetan supaya angka sifar pendahuluan tidak digugurkan."
             },
             {
                 "id": 6,
