@@ -46,24 +46,24 @@
                 "name": "country",
                 "title_en": "Country Code",
                 "title_bm": "Kod Negara",
-                "desc_en": "[String] ISO 3166-1 alpha-2 code, to be used as the base for left-joining the [Country Lookup Table](https://open.dosm.gov.my/data-catalogue/dosm-public-mets_lookup_country_0) onto this table. The join will give you the country's name and grouping.",
-                "desc_bm": "[String] Kod ISO 3166-1 alpha-2, yang menjadi asas untuk menggabungkan (left-join) [Jadual Carian Negara](https://open.dosm.gov.my/data-catalogue/dosm-public-mets_lookup_country_0) dengan jadual ini. Gabungan itu akan menghasilkan nama dan kumpulan negara."
+                "desc_en": "[String] ISO 3166-1 alpha-2 code, to be used as the base for left-joining the [Country Lookup Table](https://aksara-front.vercel.app/data-catalogue/dosm-public-staging_lu_countryMETS_0) onto this table. The join will give you the country's name and grouping.",
+                "desc_bm": "[String] Kod ISO 3166-1 alpha-2, yang menjadi asas untuk menggabungkan (left-join) [Jadual Carian Negara](https://aksara-front.vercel.app/data-catalogue/dosm-public-staging_lu_countryMETS_0) dengan jadual ini. Gabungan itu akan menghasilkan nama dan kumpulan negara."
             },
             {
                 "id": 5,
                 "name": "sitc_9d",
                 "title_en": "SITC Code (9-digit)",
                 "title_bm": "SITC Code (9-digit)",
-                "desc_en": "[String] 9-digit code, to be used as the base for left-joining the [SITC Lookup Table](https://open.dosm.gov.my/data-catalogue/dosm-public-mets_lookup_sitc_0) onto this table. The join will give you all SITC denominations up  to 5-digit level. Please ensure you read this column as a string to avoid dropping leading zeroes.",
-                "desc_bm": "[Rentetan] Kod 9 digit, yang menjadi asas untuk menggabungkan (left-join) [Jadual Carian SITC](https://open.dosm.gov.my/data-catalogue/dosm-public-mets_lookup_sitc_0) dengan jadual ini. Gabungan itu akan menghasilkan semua denominasi SITC sehingga tahap 5 digit. Sila pastikan lajur ini dibaca sebagai data rentetan supaya angka sifar pendahuluan tidak digugurkan."
+                "desc_en": "[String] 9-digit code, to be used as the base for left-joining the [SITC Lookup Table](https://aksara-front.vercel.app/data-catalogue/dosm-public-staging_lookupMETS2018_2022sitc_0) onto this table. The join will give you all SITC denominations up  to 9-digit level. Please ensure you read this column as a string to avoid dropping leading zeroes.",
+                "desc_bm": "[Rentetan] Kod 9 digit, yang menjadi asas untuk menggabungkan (left-join) [Jadual Carian SITC](https://aksara-front.vercel.app/data-catalogue/dosm-public-staging_lookupMETS2018_2022sitc_0) dengan jadual ini. Gabungan itu akan menghasilkan semua denominasi SITC sehingga tahap 9 digit. Sila pastikan lajur ini dibaca sebagai data rentetan supaya angka sifar pendahuluan tidak digugurkan."
             },
             {
                 "id": 6,
                 "name": "hs_10d",
                 "title_en": "HS Code (10-digit)",
                 "title_bm": "HS Code (10-digit)",
-                "desc_en": "[String] 10-digit code, to be used as the base for left-joining the [HS Lookup Table](https://open.dosm.gov.my/data-catalogue/dosm-public-mets_lookup_hs_0) onto this table. The join will give you all HS denominations up  to 6-digit level.",
-                "desc_bm": "[String] Kod 10 digit, yang menjadi asas untuk menggabungkan (left-join) [HS Lookup Table](https://open.dosm.gov.my/data-catalogue/dosm-public-mets_lookup_hs_0) dengan jadual ini. Gabungan itu akan menghasilkan menghasilkan semua denominasi HS sehingga tahap 6 digit."
+                "desc_en": "[String] 10-digit code, to be used as the base for left-joining the [HS Lookup Table](https://aksara-front.vercel.app/data-catalogue/dosm-public-staging_lookupMETS2018_2022hs_0) onto this table. The join will give you all HS denominations up  to 10-digit level.",
+                "desc_bm": "[String] Kod 10 digit, yang menjadi asas untuk menggabungkan (left-join) [HS Lookup Table](https://aksara-front.vercel.app/data-catalogue/dosm-public-staging_lookupMETS2018_2022hs_0) dengan jadual ini. Gabungan itu akan menghasilkan menghasilkan semua denominasi HS sehingga tahap 10 digit."
             },
             {
                 "id": 7,
