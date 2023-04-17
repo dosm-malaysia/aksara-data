@@ -50,14 +50,6 @@
                 "desc_bm": "[String] Kod ISO 3166-1 alpha-2, yang menjadi asas untuk menggabungkan (left-join) [Jadual Carian Negara](https://open.dosm.gov.my/data-catalogue/dosm-public-mets_lookup_country_0) dengan jadual ini. Gabungan itu akan menghasilkan nama dan kumpulan negara."
             },
             {
-                "id": 4,
-                "name": "refyear",
-                "title_en": "Reference",
-                "title_bm": "Tahun Rujukan",
-                "desc_en": "[String] Reference year (2017 or 2022).",
-                "desc_bm": "[String] Tahun rujukan (2017 atau 2022)."
-            },
-            {
                 "id": 5,
                 "name": "sitc_9d",
                 "title_en": "SITC Code (9-digit)",
