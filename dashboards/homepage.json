@@ -1,6 +1,6 @@
 {
     "dashboard_name": "homepage",
-    "manual_trigger": "iowrt",
+    "manual_trigger": "gdp",
     "required_params": [],
     "optional_params": [],
     "charts": {
