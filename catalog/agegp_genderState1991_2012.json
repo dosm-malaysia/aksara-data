@@ -80,12 +80,12 @@
             "catalog_filters": {
                 "frequency": "YEARLY",
                 "geographic": [
-                    "NATIONAL"
+                    "STATE"
                 ],
-                "start": "2019",
-                "end": "2022",
+                "start": "1991",
+                "end": "2012",
                 "data_source": [
-                    "JKM"
+                    "DOSM"
                 ]
             },
             "metadata_neutral": {
@@ -100,9 +100,9 @@
                     "publication": "[MyLocalStats, 2021](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=157&bul_id=SzNvU0ZhaGpCMUROVlpCdTU1WWJSdz09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT10), the latest edition of the annual salaries and wages data published by DOSM."
                 },
                 "bm": {
-                    "methodology": "#",
-                    "caveat": "#",
-                    "publication": "#"
+                    "methodology": "Survei Gaji dan Upah menggunakan reka bentuk pensampelan berstrata dua peringkat, maka dapat menghasilkan statistik gaji & upah yang tepat di peringkat nasional dan negeri serta kawasan bandar dan luar bandar. Survei ini dilaksanakan berdasarkan garis panduan dan syor International Labour Organization (ILO) dengan merujuk kepada An Integrated System of Wages Statistics. Untuk huraian lanjut tentang reka bentuk dan skop survei, sila rujuk pada Nota Teknikal dalam [Laporan Survei Gaji dan Upah terkini](https://storage.googleapis.com/dosm-public-publications/annual_2022_salaries_wages.pdf).",
+                    "caveat": "Tujuan utama survei ini adalah untuk menghasilkan statistikan tentang penerima gaji dan upah bulanan. Oleh itu, data tidak merangkumi kesemua individu yang dikelaskan sebagai 'bekerja' dalam Survei Tenaga Buruh - kategori utama yang dikecualikan adalah majikan, golongan yang bekerja sendiri, serta pekerja keluarga tanpa gaji. Tambahan lagi, kecuali dalam data mengikut etnik, semua data yang dipaparkan adalah untuk warganegara sahaja.",
+                    "publication": "[Laporan Survei Gaji dan Upah, 2021](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=157&bul_id=SzNvU0ZhaGpCMUROVlpCdTU1WWJSdz09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09),edisi terkini bagi statistik gaji dan upah tahunan yang diterbitkan oleh DOSM."
                 }
             },
             "chart": {
@@ -110,7 +110,6 @@
                 "chart_filters": {
                     "SLICE_BY": [
                         "year",
-                        "state",
                         "gender"
                     ],
                     "precision": 1
@@ -118,7 +117,6 @@
                 "chart_variables": {
                     "parents": [
                         "year",
-                        "state",
                         "gender"
                     ],
                     "format": {
