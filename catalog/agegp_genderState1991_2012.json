@@ -109,18 +109,18 @@
                 "chart_type": "BAR",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "state",
+                        "agegp",
                         "gender"
                     ],
                     "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
-                        "state",
+                        "agegp",
                         "gender"
                     ],
                     "format": {
-                        "x": "agegp",
+                        "x": "year",
                         "y": [
                             "population"
                         ]
