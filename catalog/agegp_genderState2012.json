@@ -1,0 +1,132 @@
+{
+    "file": {
+        "bucket": "dosm-public-staging",
+        "file_name": "agegp_genderState2012",
+        "category": "DEMOGRAPHY",
+        "category_en": "Demography",
+        "category_bm": "Demografi",
+        "subcategory": "POPULATION",
+        "subcategory_en": "Population",
+        "subcategory_bm": "Populasi",
+        "description": {
+            "en": "Lorem ipsum.",
+            "bm": "Lorem ipsum."
+        },
+        "link_parquet": "https://storage.googleapis.com/dosm-public-staging/agegp_genderState2012.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-staging/agegp_genderState2012.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-staging/agegp_genderState2012.metadata",
+        "variables": [
+            {
+                "id": 1,
+                "name": "population",
+                "title_en": "Cross section: Population by Age Group & Sex",
+                "title_bm": "Keratan rentas: Populasi mengikut Kumpulan Umur dan Jantina",
+                "desc_en": "[Integer] Number of Persons with Disabilities (OKU)",
+                "desc_bm": "[Integer] Bilangan Orang Kelainan Upaya (OKU)"
+            },
+            {
+                "id": -1,
+                "name": "agegp",
+                "title_en": "Age Group",
+                "title_bm": "Kumpulan Umur",
+                "desc_en": "[Categorical] 5-year groups from 0-4 until 85+",
+                "desc_bm": "[Kategori] Kumpulan umur dengan julat 5 tahun, dari 0-4 hingga 85+"
+            },
+            {
+                "id": -1,
+                "name": "agegp_en",
+                "title_en": "Age Group",
+                "title_bm": "Kumpulan Umur",
+                "desc_en": "[Categorical] 5-year groups from 0-4 until 85+",
+                "desc_bm": "[Kategori] Kumpulan umur dengan julat 5 tahun, dari 0-4 hingga 85+"
+            },
+            {
+                "id": -1,
+                "name": "agegp_bm",
+                "title_en": "Age Group",
+                "title_bm": "Kumpulan Umur",
+                "desc_en": "[Categorical] 5-year groups from 0-4 until 85+",
+                "desc_bm": "[Kategori] Kumpulan umur dengan julat 5 tahun, dari 0-4 hingga 85+"
+            },
+            {
+                "id": -1,
+                "name": "gender",
+                "title_en": "Sex",
+                "title_bm": "Jantina",
+                "desc_en": "[Categorical] Male or Female",
+                "desc_bm": "[Categorical] Lelaki (male) atau Perempuan (female)"
+            },
+            {
+                "id": -1,
+                "name": "year",
+                "title_en": "Year",
+                "title_bm": "Tahun",
+                "desc_en": "[Integer] Years from 2010-2021",
+                "desc_bm": "[Integer] Tahun dari 2010 hingga 2021"
+            },
+            {
+                "id": -1,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] Name of the state (16 in total)",
+                "desc_bm": "[Kategori] Name negeri (16 keseluruhan) atau Malaysia"
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 1,
+            "catalog_filters": {
+                "frequency": "YEARLY",
+                "geographic": [
+                    "STATE"
+                ],
+                "start": "1991",
+                "end": "2012",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-01-01 23:59",
+                "last_updated": "2022-10-05 12:00",
+                "next_update": "2023-08-31 12:00"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "The Salaries & Wages Survey collects data via a stratified two-stage sample design, thus obtaining representative data at the national and state level. The implementation of this survey is based on guidelines and recommendations of the International Labour Organization (ILO) with reference to An Integrated System of Wages Statistics. For more details on the survey design and scope, please refer to the Technical Notes in the [latest MyLocalStats (https://storage.googleapis.com/dosm-public-publications/annual_2022_salaries_wages.pdf).",
+                    "caveat": "The Salaries & Wages Survey collects data via a stratified two-stage sample design, thus obtaining representative data at the national and state level. The implementation of this survey is based on guidelines and recommendations of the International Labour Organization (ILO) with reference to An Integrated System of Wages Statistics. For more details on the survey design and scope, please refer to the Technical Notes in the [latest MyLocalStats (https://storage.googleapis.com/dosm-public-publications/annual_2022_salaries_wages.pdf).",
+                    "publication": "[MyLocalStats, 2021](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=157&bul_id=SzNvU0ZhaGpCMUROVlpCdTU1WWJSdz09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT10), the latest edition of the annual salaries and wages data published by DOSM."
+                },
+                "bm": {
+                    "methodology": "Survei Gaji dan Upah menggunakan reka bentuk pensampelan berstrata dua peringkat, maka dapat menghasilkan statistik gaji & upah yang tepat di peringkat nasional dan negeri serta kawasan bandar dan luar bandar. Survei ini dilaksanakan berdasarkan garis panduan dan syor International Labour Organization (ILO) dengan merujuk kepada An Integrated System of Wages Statistics. Untuk huraian lanjut tentang reka bentuk dan skop survei, sila rujuk pada Nota Teknikal dalam [Laporan Survei Gaji dan Upah terkini](https://storage.googleapis.com/dosm-public-publications/annual_2022_salaries_wages.pdf).",
+                    "caveat": "Tujuan utama survei ini adalah untuk menghasilkan statistikan tentang penerima gaji dan upah bulanan. Oleh itu, data tidak merangkumi kesemua individu yang dikelaskan sebagai 'bekerja' dalam Survei Tenaga Buruh - kategori utama yang dikecualikan adalah majikan, golongan yang bekerja sendiri, serta pekerja keluarga tanpa gaji. Tambahan lagi, kecuali dalam data mengikut etnik, semua data yang dipaparkan adalah untuk warganegara sahaja.",
+                    "publication": "[Laporan Survei Gaji dan Upah, 2021](https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=157&bul_id=SzNvU0ZhaGpCMUROVlpCdTU1WWJSdz09&menu_id=Tm8zcnRjdVRNWWlpWjRlbmtlaDk1UT09),edisi terkini bagi statistik gaji dan upah tahunan yang diterbitkan oleh DOSM."
+                }
+            },
+            "chart": {
+                "chart_type": "BAR",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "agegp",
+                        "state"
+                    ],
+                    "precision": 0
+                },
+                "chart_variables": {
+                    "parents": [
+                        "agegp",
+                        "state"
+                    ],
+                    "format": {
+                        "x": "year",
+                        "y": [
+                            "population"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
