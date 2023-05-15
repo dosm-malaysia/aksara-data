@@ -64,6 +64,14 @@
                 "title_bm": "Etnik",
                 "desc_en": "[Categorical] Total, Malay, Other Bumiputera, Chinese, Indian, Other Citizen, Non-citizen",
                 "desc_bm": "[Kategori] Keseluruhan, Melayu, Bumiptutera lain, Cina, India, Lain-lain Warganegara, Bukan Warganegara"
+            },
+            {
+                "id": 6,
+                "name": "value",
+                "title_en": "Value",
+                "title_bm": "Bilangan",
+                "desc_en": "[Integer] Number of people.",
+                "desc_bm": "[Integer] Bilangan orang."
             }
         ]
     },
