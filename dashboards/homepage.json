@@ -1,6 +1,6 @@
 {
     "dashboard_name": "homepage",
-    "manual_trigger": "",
+    "manual_trigger": "retrigger",
     "required_params": [],
     "optional_params": [],
     "charts": {
