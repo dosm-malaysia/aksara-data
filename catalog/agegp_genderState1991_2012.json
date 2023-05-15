@@ -109,14 +109,14 @@
                 "chart_type": "BAR",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "year",
+                        "state",
                         "gender"
                     ],
                     "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
-                        "year",
+                        "state",
                         "gender"
                     ],
                     "format": {
