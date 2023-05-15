@@ -17,7 +17,7 @@
         "link_metadata": "https://storage.googleapis.com/dosm-public-staging/agegp_genderState1991_2012.metadata",
         "variables": [
             {
-                "id": 3,
+                "id": 1,
                 "name": "population",
                 "title_en": "Cross section: Population by Age Group & Sex",
                 "title_bm": "Keratan rentas: Populasi mengikut Kumpulan Umur dan Jantina",
@@ -76,7 +76,7 @@
     },
     "catalog_data": [
         {
-            "id": 3,
+            "id": 1,
             "catalog_filters": {
                 "frequency": "YEARLY",
                 "geographic": [
@@ -112,7 +112,7 @@
                         "year",
                         "gender"
                     ],
-                    "precision": 1
+                    "precision": 0
                 },
                 "chart_variables": {
                     "parents": [
