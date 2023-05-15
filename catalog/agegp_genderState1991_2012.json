@@ -110,14 +110,14 @@
                 "chart_filters": {
                     "SLICE_BY": [
                         "agegp",
-                        "gender"
+                        "state"
                     ],
                     "precision": 0
                 },
                 "chart_variables": {
                     "parents": [
                         "agegp",
-                        "gender"
+                        "state"
                     ],
                     "format": {
                         "x": "year",
