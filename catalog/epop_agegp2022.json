@@ -1,0 +1,113 @@
+{
+    "file": {
+        "bucket": "dosm-public-staging",
+        "file_name": "epop_agegp2022",
+        "category": "DEMOGRAPHY",
+        "category_en": "Demography",
+        "category_bm": "Demografi",
+        "subcategory": "POPULATION",
+        "subcategory_en": "Population",
+        "subcategory_bm": "Populasi",
+        "description": {
+            "en": "Lorem ipsum.",
+            "bm": "Lorem ipsum."
+        },
+        "link_parquet": "https://storage.googleapis.com/dosm-public-staging/epop_agegp2022.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-staging/epop_agegp2022.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-staging/epop_agegp2022.metadata",
+        "link_preview": "https://storage.googleapis.com/dosm-public-staging/epop_agegp2022.parquet",
+        "variables": [
+            {
+                "id": 0,
+                "name": "Population Estimation: 2022",
+                "title_en": "Population Estimation: 2022",
+                "title_bm": "Jangkaan Populasi: 2022",
+                "desc_en": "Lookup table, to be left-joined against SITC code in the main METS data.",
+                "desc_bm": "Jadual carian, untuk dipadankan (left-join) dengan kod SITC dalam dataset METS utama."
+            },
+            {
+                "id": 1,
+                "name": "district",
+                "title_en": "District",
+                "title_bm": "Daerah",
+                "desc_en": "[Categorical] Name of district",
+                "desc_bm": "[Kategori] Nama daerah"
+            },
+            {
+                "id": 2,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] Name of state",
+                "desc_bm": "[Kategori] Nama negeri"
+            },
+            {
+                "id": 3,
+                "name": "gender",
+                "title_en": "Sex",
+                "title_bm": "Jantina",
+                "desc_en": "[Categorical] Total, Male, Female",
+                "desc_bm": "[Kategori] Keseluruhan (total), Lelaki (male), Perempuan (Female)"
+            },
+            {
+                "id": 4,
+                "name": "agegp",
+                "title_en": "Age Group",
+                "title_bm": "Kumpulan Umur",
+                "desc_en": "[Categorical] 5-year groups from 0-4 until 85+",
+                "desc_bm": "[Kategori] Kumpulan umur dengan julat 5 tahun, dari 0-4 hingga 85+"
+            },
+            {
+                "id": 5,
+                "name": "ethnic",
+                "title_en": "Ethnicity",
+                "title_bm": "Etnik",
+                "desc_en": "[Categorical] Total, Malay, Other Bumiputera, Chinese, Indian, Other Citizen, Non-citizen",
+                "desc_bm": "[Kategori] Keseluruhan, Melayu, Bumiptutera lain, Cina, India, Lain-lain Warganegara, Bukan Warganegara"
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 0,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "DISTRICT"
+                ],
+                "start": "2022",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2023-01-26 12:00",
+                "last_updated": "2023-01-26 12:00",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "###",
+                    "caveat": "##",
+                    "publication": "-"
+                },
+                "bm": {
+                    "methodology": "##",
+                    "caveat": "##",
+                    "publication": "-"
+                }
+            },
+            "chart": {
+                "chart_type": "TABLE",
+                "chart_filters": {
+                    "FREEZE": [
+                        "agegp"
+                    ],
+                    "EXCLUDE": [],
+                    "precision": 1
+                }
+            }
+        }
+    ]
+}
