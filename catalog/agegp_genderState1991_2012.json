@@ -109,18 +109,16 @@
                 "chart_type": "BAR",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "agegp",
                         "gender"
                     ],
                     "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
-                        "agegp",
                         "gender"
                     ],
                     "format": {
-                        "x": "year",
+                        "x": "agegp",
                         "y": [
                             "population"
                         ]
