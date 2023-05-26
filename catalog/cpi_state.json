@@ -1,6 +1,7 @@
 {
     "file": {
         "bucket": "dosm-public-economy",
+        "manual_trigger": "sabah/labuan",
         "file_name": "cpi_state",
         "category": "ECONOMY",
         "category_en": "Economy",
