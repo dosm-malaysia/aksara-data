@@ -15,7 +15,7 @@
         "link_parquet": "https://storage.googleapis.com/dosm-public-pricecatcher/lookup_premise.parquet",
         "link_csv": "https://storage.googleapis.com/dosm-public-pricecatcher/lookup_premise.csv",
         "link_metadata": "https://storage.googleapis.com/dosm-public-pricecatcher/lookup_premise.metadata",
-        "link_preview": "https://storage.googleapis.com/dosm-public-pricecatcher/lookup_premise_preview.parquet",
+        "link_preview": "https://storage.googleapis.com/dosm-public-pricecatcher/lookup_premise.parquet?ignoreCache=1",
         "variables": [
             {
                 "id": 0,
