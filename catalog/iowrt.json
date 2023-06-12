@@ -132,26 +132,26 @@
                     "NATIONAL"
                 ],
                 "start": "2018",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-03-31 23:59",
-                "last_updated": "2023-05-10 12:00",
-                "next_update": "2023-06-12 12:00"
+                "data_as_of": "2023-04-30 23:59",
+                "last_updated": "2023-06-12 12:00",
+                "next_update": "2023-07-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including the trade of Motor Vehicles. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "[Wholesale & Retail Trade, March 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Wholesale & Retail Trade, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
                 },
                 "bm": {
                     "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisis.",
-                    "publication": "[Perdagangan Borong dan Runcit, Mac 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Perdagangan Borong dan Runcit, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
                 }
             },
             "chart": {
@@ -180,26 +180,26 @@
                     "NATIONAL"
                 ],
                 "start": "2018",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-03-31 23:59",
-                "last_updated": "2023-05-10 12:00",
-                "next_update": "2023-06-12 12:00"
+                "data_as_of": "2023-04-30 23:59",
+                "last_updated": "2023-06-12 12:00",
+                "next_update": "2023-07-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including the trade of Motor Vehicles. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "[Wholesale & Retail Trade, March 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Wholesale & Retail Trade, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
                 },
                 "bm": {
                     "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisis.",
-                    "publication": "[Perdagangan Borong dan Runcit, Mac 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Perdagangan Borong dan Runcit, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
                 }
             },
             "chart": {
@@ -228,26 +228,26 @@
                     "NATIONAL"
                 ],
                 "start": "2018",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-03-31 23:59",
-                "last_updated": "2023-05-10 12:00",
-                "next_update": "2023-06-12 12:00"
+                "data_as_of": "2023-04-30 23:59",
+                "last_updated": "2023-06-12 12:00",
+                "next_update": "2023-07-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including the trade of Motor Vehicles. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "[Wholesale & Retail Trade, March 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Wholesale & Retail Trade, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
                 },
                 "bm": {
                     "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisis.",
-                    "publication": "[Perdagangan Borong dan Runcit, Mac 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Perdagangan Borong dan Runcit, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
                 }
             },
             "chart": {
@@ -276,26 +276,26 @@
                     "NATIONAL"
                 ],
                 "start": "2018",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-03-31 23:59",
-                "last_updated": "2023-05-10 12:00",
-                "next_update": "2023-06-12 12:00"
+                "data_as_of": "2023-04-30 23:59",
+                "last_updated": "2023-06-12 12:00",
+                "next_update": "2023-07-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including the trade of Motor Vehicles. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "[Wholesale & Retail Trade, March 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Wholesale & Retail Trade, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
                 },
                 "bm": {
                     "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisis.",
-                    "publication": "[Perdagangan Borong dan Runcit, Mac 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Perdagangan Borong dan Runcit, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
                 }
             },
             "chart": {
@@ -324,26 +324,26 @@
                     "NATIONAL"
                 ],
                 "start": "2018",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-03-31 23:59",
-                "last_updated": "2023-05-10 12:00",
-                "next_update": "2023-06-12 12:00"
+                "data_as_of": "2023-04-30 23:59",
+                "last_updated": "2023-06-12 12:00",
+                "next_update": "2023-07-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including the trade of Motor Vehicles. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "[Wholesale & Retail Trade, March 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Wholesale & Retail Trade, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
                 },
                 "bm": {
                     "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisis.",
-                    "publication": "[Perdagangan Borong dan Runcit, Mac 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Perdagangan Borong dan Runcit, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
                 }
             },
             "chart": {
@@ -372,26 +372,26 @@
                     "NATIONAL"
                 ],
                 "start": "2018",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-03-31 23:59",
-                "last_updated": "2023-05-10 12:00",
-                "next_update": "2023-06-12 12:00"
+                "data_as_of": "2023-04-30 23:59",
+                "last_updated": "2023-06-12 12:00",
+                "next_update": "2023-07-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including the trade of Motor Vehicles. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "[Wholesale & Retail Trade, March 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Wholesale & Retail Trade, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
                 },
                 "bm": {
                     "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisis.",
-                    "publication": "[Perdagangan Borong dan Runcit, Mac 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Perdagangan Borong dan Runcit, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
                 }
             },
             "chart": {
@@ -420,26 +420,26 @@
                     "NATIONAL"
                 ],
                 "start": "2018",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-03-31 23:59",
-                "last_updated": "2023-05-10 12:00",
-                "next_update": "2023-06-12 12:00"
+                "data_as_of": "2023-04-30 23:59",
+                "last_updated": "2023-06-12 12:00",
+                "next_update": "2023-07-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including the trade of Motor Vehicles. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "[Wholesale & Retail Trade, March 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Wholesale & Retail Trade, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
                 },
                 "bm": {
                     "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisis.",
-                    "publication": "[Perdagangan Borong dan Runcit, Mac 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Perdagangan Borong dan Runcit, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
                 }
             },
             "chart": {
@@ -468,26 +468,26 @@
                     "NATIONAL"
                 ],
                 "start": "2018",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-03-31 23:59",
-                "last_updated": "2023-05-10 12:00",
-                "next_update": "2023-06-12 12:00"
+                "data_as_of": "2023-04-30 23:59",
+                "last_updated": "2023-06-12 12:00",
+                "next_update": "2023-07-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including the trade of Motor Vehicles. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "[Wholesale & Retail Trade, March 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Wholesale & Retail Trade, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
                 },
                 "bm": {
                     "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisis.",
-                    "publication": "[Perdagangan Borong dan Runcit, Mac 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Perdagangan Borong dan Runcit, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
                 }
             },
             "chart": {
@@ -516,26 +516,26 @@
                     "NATIONAL"
                 ],
                 "start": "2018",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-03-31 23:59",
-                "last_updated": "2023-05-10 12:00",
-                "next_update": "2023-06-12 12:00"
+                "data_as_of": "2023-04-30 23:59",
+                "last_updated": "2023-06-12 12:00",
+                "next_update": "2023-07-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including the trade of Motor Vehicles. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "[Wholesale & Retail Trade, March 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Wholesale & Retail Trade, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
                 },
                 "bm": {
                     "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisis.",
-                    "publication": "[Perdagangan Borong dan Runcit, Mac 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Perdagangan Borong dan Runcit, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
                 }
             },
             "chart": {
@@ -564,26 +564,26 @@
                     "NATIONAL"
                 ],
                 "start": "2018",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-03-31 23:59",
-                "last_updated": "2023-05-10 12:00",
-                "next_update": "2023-06-12 12:00"
+                "data_as_of": "2023-04-30 23:59",
+                "last_updated": "2023-06-12 12:00",
+                "next_update": "2023-07-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including the trade of Motor Vehicles. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "[Wholesale & Retail Trade, March 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Wholesale & Retail Trade, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
                 },
                 "bm": {
                     "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisis.",
-                    "publication": "[Perdagangan Borong dan Runcit, Mac 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Perdagangan Borong dan Runcit, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
                 }
             },
             "chart": {
@@ -612,26 +612,26 @@
                     "NATIONAL"
                 ],
                 "start": "2018",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-03-31 23:59",
-                "last_updated": "2023-05-10 12:00",
-                "next_update": "2023-06-12 12:00"
+                "data_as_of": "2023-04-30 23:59",
+                "last_updated": "2023-06-12 12:00",
+                "next_update": "2023-07-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including the trade of Motor Vehicles. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "[Wholesale & Retail Trade, March 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Wholesale & Retail Trade, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
                 },
                 "bm": {
                     "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisis.",
-                    "publication": "[Perdagangan Borong dan Runcit, Mac 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Perdagangan Borong dan Runcit, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
                 }
             },
             "chart": {
@@ -660,26 +660,26 @@
                     "NATIONAL"
                 ],
                 "start": "2018",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-03-31 23:59",
-                "last_updated": "2023-05-10 12:00",
-                "next_update": "2023-06-12 12:00"
+                "data_as_of": "2023-04-30 23:59",
+                "last_updated": "2023-06-12 12:00",
+                "next_update": "2023-07-12 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The data covers all establishments engaged in Wholesale & Retail Trade activities in Malaysia, including the trade of Motor Vehicles. The data reported is based on the Profit and Loss Account / Financial Statement and other supporting documents for the reference year. In cases where the account is not finalized or not available, the data is based on the best estimates.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "[Wholesale & Retail Trade, March 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Wholesale & Retail Trade, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), the latest edition of the monthly wholesale and retail trade statistics published by DOSM. OpenDOSM also features a [dashboard on wholesale and retail trade](https://open.dosm.gov.my/wholesale-retail-trade)."
                 },
                 "bm": {
                     "methodology": "Data ini meliputi semua pertubuhan yang terlibat dalam aktiviti Perdagangan Borong & Runcit Malaysia, termasuk Kenderaan Bermotor. Data yang dilaporkan berdasarkan penyata Untung Rugi/ Kewangan dan dokumen sokongan lain untuk tahun rujukan. Dalam keadaan di mana akaun itu tidak selesai atau tidak tersedia, data adalah berdasarkan anggaran terbaik.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisis.",
-                    "publication": "[Perdagangan Borong dan Runcit, Mac 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-03_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
+                    "publication": "[Perdagangan Borong dan Runcit, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_iowrt.pdf), edisi terkini bagi statistik perdagangan borong dan runcit yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang perdagangan borong dan runcit](https://open.dosm.gov.my/wholesale-retail-trade)."
                 }
             },
             "chart": {
