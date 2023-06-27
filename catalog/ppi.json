@@ -84,26 +84,26 @@
                     "NATIONAL"
                 ],
                 "start": "2010",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-03-31 23:59",
-                "last_updated": "2023-04-27 12:00",
-                "next_update": "2023-05-27 12:00"
+                "data_as_of": "2023-05-31 23:59",
+                "last_updated": "2023-06-27 12:00",
+                "next_update": "2023-07-27 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for commodities charged by domestic producers of an industry.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "[Producer Price Index, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_ppi.pdf), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/producer-prices)."
+                    "publication": "[Producer Price Index, May 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-05_ppi.pdf), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/producer-prices)."
                 },
                 "bm": {
                     "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
-                    "publication": "[Indeks Harga Pengeluar, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_ppi.pdf), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/producer-prices)."
+                    "publication": "[Indeks Harga Pengeluar, Mei 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-05_ppi.pdf), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/producer-prices)."
                 }
             },
             "chart": {
@@ -132,26 +132,26 @@
                     "NATIONAL"
                 ],
                 "start": "2010",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-03-31 23:59",
-                "last_updated": "2023-04-27 12:00",
-                "next_update": "2023-05-27 12:00"
+                "data_as_of": "2023-05-31 23:59",
+                "last_updated": "2023-06-27 12:00",
+                "next_update": "2023-07-27 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for commodities in Agriculture, forestry and fishing sector charged by domestic producers of an industry.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "[Producer Price Index, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_ppi.pdf), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/producer-prices)."
+                    "publication": "[Producer Price Index, May 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-05_ppi.pdf), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/producer-prices)."
                 },
                 "bm": {
                     "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Pertanian, Perhutanan dan Perikanan yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
-                    "publication": "[Indeks Harga Pengeluar, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_ppi.pdf), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/producer-prices)."
+                    "publication": "[Indeks Harga Pengeluar, Mei 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-05_ppi.pdf), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/producer-prices)."
                 }
             },
             "chart": {
@@ -180,26 +180,26 @@
                     "NATIONAL"
                 ],
                 "start": "2010",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-03-31 23:59",
-                "last_updated": "2023-04-27 12:00",
-                "next_update": "2023-05-27 12:00"
+                "data_as_of": "2023-05-31 23:59",
+                "last_updated": "2023-06-27 12:00",
+                "next_update": "2023-07-27 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for commodities in Mining sector charged by domestic producers of an industry.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "[Producer Price Index, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_ppi.pdf), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/producer-prices)."
+                    "publication": "[Producer Price Index, May 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-05_ppi.pdf), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/producer-prices)."
                 },
                 "bm": {
                     "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Perlombongan yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
-                    "publication": "[Indeks Harga Pengeluar, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_ppi.pdf), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/producer-prices)."
+                    "publication": "[Indeks Harga Pengeluar, Mei 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-05_ppi.pdf), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/producer-prices)."
                 }
             },
             "chart": {
@@ -228,26 +228,26 @@
                     "NATIONAL"
                 ],
                 "start": "2010",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-03-31 23:59",
-                "last_updated": "2023-04-27 12:00",
-                "next_update": "2023-05-27 12:00"
+                "data_as_of": "2023-05-31 23:59",
+                "last_updated": "2023-06-27 12:00",
+                "next_update": "2023-07-27 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for commodities in Manufacturing Sector charged by domestic producers of an industry.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "[Producer Price Index, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_ppi.pdf), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/producer-prices)."
+                    "publication": "[Producer Price Index, May 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-05_ppi.pdf), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/producer-prices)."
                 },
                 "bm": {
                     "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Pembuatan yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
-                    "publication": "[Indeks Harga Pengeluar, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_ppi.pdf), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/producer-prices)."
+                    "publication": "[Indeks Harga Pengeluar, Mei 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-05_ppi.pdf), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/producer-prices)."
                 }
             },
             "chart": {
@@ -276,26 +276,26 @@
                     "NATIONAL"
                 ],
                 "start": "2010",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-03-31 23:59",
-                "last_updated": "2023-04-27 12:00",
-                "next_update": "2023-05-27 12:00"
+                "data_as_of": "2023-05-31 23:59",
+                "last_updated": "2023-06-27 12:00",
+                "next_update": "2023-07-27 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for commodities in Electricity and Gas Supply sector charged by domestic producers of an industry.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "[Producer Price Index, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_ppi.pdf), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/producer-prices)."
+                    "publication": "[Producer Price Index, May 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-05_ppi.pdf), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/producer-prices)."
                 },
                 "bm": {
                     "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Bekalan Elektrik & gas yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
-                    "publication": "[Indeks Harga Pengeluar, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_ppi.pdf), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/producer-prices)."
+                    "publication": "[Indeks Harga Pengeluar, Mei 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-05_ppi.pdf), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/producer-prices)."
                 }
             },
             "chart": {
@@ -324,26 +324,26 @@
                     "NATIONAL"
                 ],
                 "start": "2010",
-                "end": "2022",
+                "end": "2023",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-03-31 23:59",
-                "last_updated": "2023-04-27 12:00",
-                "next_update": "2023-05-27 12:00"
+                "data_as_of": "2023-05-31 23:59",
+                "last_updated": "2023-06-27 12:00",
+                "next_update": "2023-07-27 12:00"
             },
             "metadata_lang": {
                 "en": {
                     "methodology": "The index is compiled based on the average price change for commodities in Water Supply sector charged by domestic producers of an industry.",
                     "caveat": "This data is produced by DOSM as part of Malaysia's official statistics. It should be interpreted carefully if used in further analysis.",
-                    "publication": "[Producer Price Index, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_ppi.pdf), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/producer-prices)."
+                    "publication": "[Producer Price Index, May 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-05_ppi.pdf), the latest edition of the monthly producer price statistics published by DOSM. OpenDOSM also features a [dashboard on producer prices](https://open.dosm.gov.my/producer-prices)."
                 },
                 "bm": {
                     "methodology": "Indeks disusun berdasarkan perubahan purata harga bagi komoditi dalam sektor Bekalan Air yang dikenakan oleh pengeluar tempatan dalam sesuatu industri.",
                     "caveat": "Data ini dikeluarkan oleh DOSM sebagai statistik rasmi Malaysia. Data ini harus ditafsir secara berhati-hati sekiranya digunakan dalam sesebuah analisa.",
-                    "publication": "[Indeks Harga Pengeluar, April 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-04_ppi.pdf), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/producer-prices)."
+                    "publication": "[Indeks Harga Pengeluar, Mei 2023](https://storage.googleapis.com/dosm-public-publications/monthly_2023-05_ppi.pdf), edisi terkini bagi statistik harga pengeluar yang diterbitkan oleh DOSM. OpenDOSM sendiri juga memaparkan [papan pemuka khas tentang harga pengeluar](https://open.dosm.gov.my/producer-prices)."
                 }
             },
             "chart": {
