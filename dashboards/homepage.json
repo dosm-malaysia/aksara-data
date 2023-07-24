@@ -1,6 +1,6 @@
 {
     "dashboard_name": "homepage",
-    "manual_trigger": "",
+    "manual_trigger": "cpi",
     "required_params": [],
     "optional_params": [],
     "charts": {
