@@ -1,6 +1,6 @@
 {
     "dashboard_name": "homepage",
-    "manual_trigger": "cpi",
+    "manual_trigger": "2023-07-27 11:59:26",
     "required_params": [],
     "optional_params": [],
     "charts": {
