@@ -70,7 +70,7 @@
         {
             "id": 1,
             "catalog_filters": {
-                "frequency": "INFREQUENT",
+                "frequency": "YEARLY",
                 "limit_frequency": true,
                 "geographic": [
                     "NATIONAL",
@@ -123,7 +123,7 @@
         {
             "id": 2,
             "catalog_filters": {
-                "frequency": "INFREQUENT",
+                "frequency": "YEARLY",
                 "limit_frequency": true,
                 "geographic": [
                     "NATIONAL",
@@ -176,7 +176,7 @@
         {
             "id": 3,
             "catalog_filters": {
-                "frequency": "INFREQUENT",
+                "frequency": "YEARLY",
                 "limit_frequency": true,
                 "geographic": [
                     "NATIONAL",
@@ -229,7 +229,7 @@
         {
             "id": 4,
             "catalog_filters": {
-                "frequency": "INFREQUENT",
+                "frequency": "YEARLY",
                 "limit_frequency": true,
                 "geographic": [
                     "NATIONAL",
