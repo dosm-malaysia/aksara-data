@@ -2,6 +2,7 @@
     "file": {
         "bucket": "dosm-public-economy",
         "file_name": "hiesba_timeseries_state",
+        "manual_trigger":"yes",
         "category": "ECONOMY",
         "category_en": "Economy",
         "category_bm": "Ekonomi",
@@ -35,32 +36,32 @@
             {
                 "id": 1,
                 "name": "n_households",
-                "title_en": "Timeseries > Number of Households",
-                "title_bm": "Bilangan Isi Rumah",
+                "title_en": "Timeseries by State > Number of Households",
+                "title_bm": "Siri Masa mengikut Negeri > Bilangan Isi Rumah",
                 "desc_en": "[Integer] Number of households for the period of the survey",
                 "desc_bm": "[Integer] Bilangan isi rumah semasa tempoh survei dilaksanakan"
             },
             {
                 "id": 2,
                 "name": "median",
-                "title_en": "Timeseries > Median Income",
-                "title_bm": "Pendapatan Penengah",
+                "title_en": "Timeseries by State > Median Income",
+                "title_bm": "Siri Masa mengikut Negeri > Pendapatan Penengah",
                 "desc_en": "[Integer] Median monthly household income",
                 "desc_bm": "[Integer] Purata pendapatan isi rumah bulanan"
             },
             {
                 "id": 3,
                 "name": "mean",
-                "title_en": "Timeseries > Mean Income",
-                "title_bm": "Pendapatan Purata",
+                "title_en": "Timeseries by State > Mean Income",
+                "title_bm": "Siri Masa mengikut Negeri > Pendapatan Purata",
                 "desc_en": "[Integer] Mean monthly household income",
                 "desc_bm": "[Integer] Penengah pendapatan isi rumah bulanan"
             },
             {
                 "id": 4,
                 "name": "gini",
-                "title_en": "Timeseries > Gini Coefficient",
-                "title_bm": "Pekali Gini",
+                "title_en": "Timeseries by State > Gini Coefficient",
+                "title_bm": "Siri Masa mengikut Negeri > Pekali Gini",
                 "desc_en": "[Float] Gini coefficient (between 0 and 1), where 0 represents perfect equality",
                 "desc_bm": "[Apung] Pekali Gini (antara 0 dan 1), di mana 0 ditafsirkan sebagai paling saksama"
             }
