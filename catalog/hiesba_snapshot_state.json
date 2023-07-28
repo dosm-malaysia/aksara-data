@@ -19,138 +19,138 @@
             {
                 "id": -1,
                 "name": "state",
-                "title_en": "Snapshot by State > state",
-                "title_bm": "Rumusan mengikut Negeri > state",
-                "desc_en": "[Sample] Sample",
-                "desc_bm": "[Sample] Sample"
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] Name of the state (16 in total).",
+                "desc_bm": "[Kategori] Name negeri (16 keseluruhan)."
             },
             {
                 "id": 1,
                 "name": "mean_2016",
-                "title_en": "Snapshot by State > mean_2016",
-                "title_bm": "Rumusan mengikut Negeri > mean_2016",
-                "desc_en": "[Sample] Sample",
-                "desc_bm": "[Sample] Sample"
+                "title_en": "Snapshot by State > Mean Income (2016)",
+                "title_bm": "Rumusan mengikut Negeri > Purata Pendapatan (2016)",
+                "desc_en": "[Integer] Mean monthly household income as of 2016",
+                "desc_bm": "[Integer] Purata pendapatan isi rumah bulanan setakat tahun 2016"
             },
             {
                 "id": 2,
                 "name": "mean_2019",
-                "title_en": "Snapshot by State > mean_2019",
-                "title_bm": "Rumusan mengikut Negeri > mean_2019",
-                "desc_en": "[Sample] Sample",
-                "desc_bm": "[Sample] Sample"
+                "title_en": "Snapshot by State > Mean Income (2019)",
+                "title_bm": "Rumusan mengikut Negeri > Purata Pendapatan (2019)",
+                "desc_en": "[Integer] Mean monthly household income as of 2019",
+                "desc_bm": "[Integer] Purata pendapatan isi rumah bulanan setakat tahun 2019"
             },
             {
                 "id": 3,
                 "name": "mean_2022",
-                "title_en": "Snapshot by State > mean_2022",
-                "title_bm": "Rumusan mengikut Negeri > mean_2022",
-                "desc_en": "[Sample] Sample",
-                "desc_bm": "[Sample] Sample"
+                "title_en": "Snapshot by State > Mean Income (2022)",
+                "title_bm": "Rumusan mengikut Negeri > Purata Pendapatan (2022)",
+                "desc_en": "[Integer] Mean monthly household income as of 2022",
+                "desc_bm": "[Integer] Purata pendapatan isi rumah bulanan setakat tahun 2022"
             },
             {
                 "id": 4,
                 "name": "cagr_mean_2019",
-                "title_en": "Snapshot by State > cagr_mean_2019",
-                "title_bm": "Rumusan mengikut Negeri > cagr_mean_2019",
-                "desc_en": "[Sample] Sample",
-                "desc_bm": "[Sample] Sample"
+                "title_en": "Snapshot by State > Mean CAGR (2019)",
+                "title_bm": "Rumusan mengikut Negeri > CAGR Purata (2019)",
+                "desc_en": "[Float] Compound annual growth rate of mean household income from 2016 to 2019",
+                "desc_bm": "[Apung] Kadar pertumbuhan tahunan kompaun bagi purata pendapatan isi rumah dari tahun 2016 hingga 2019"
             },
             {
                 "id": 5,
                 "name": "cagr__mean_2022",
-                "title_en": "Snapshot by State > cagr__mean_2022",
-                "title_bm": "Rumusan mengikut Negeri > cagr__mean_2022",
-                "desc_en": "[Sample] Sample",
-                "desc_bm": "[Sample] Sample"
+                "title_en": "Snapshot by State > Mean CAGR (2022)",
+                "title_bm": "Rumusan mengikut Negeri > CAGR Purata (2022)",
+                "desc_en": "[Float] Compound annual growth rate of mean household income from 2019 to 2022",
+                "desc_bm": "[Apung] Kadar pertumbuhan tahunan kompaun bagi purata pendapatan isi rumah dari tahun 2019 hingga 2022"
             },
             {
                 "id": 6,
                 "name": "median_2016",
-                "title_en": "Snapshot by State > median_2016",
-                "title_bm": "Rumusan mengikut Negeri > median_2016",
-                "desc_en": "[Sample] Sample",
-                "desc_bm": "[Sample] Sample"
+                "title_en": "Snapshot by State > Median Income (2016)",
+                "title_bm": "Rumusan mengikut Negeri > Pendapatan Penengah (2016)",
+                "desc_en": "[Integer] Median monthly household income as of 2016",
+                "desc_bm": "[Integer] Pendapatan isi rumah median bulanan setakat tahun 2016"
             },
             {
                 "id": 7,
                 "name": "median_2019",
-                "title_en": "Snapshot by State > median_2019",
-                "title_bm": "Rumusan mengikut Negeri > median_2019",
-                "desc_en": "[Sample] Sample",
-                "desc_bm": "[Sample] Sample"
+                "title_en": "Snapshot by State > Median Income (2019)",
+                "title_bm": "Rumusan mengikut Negeri > Pendapatan Penengah (2019)",
+                "desc_en": "[Integer] Median monthly household income as of 2019",
+                "desc_bm": "[Integer] Pendapatan isi rumah median bulanan setakat tahun 2019"
             },
             {
                 "id": 8,
                 "name": "median_2022",
-                "title_en": "Snapshot by State > median_2022",
-                "title_bm": "Rumusan mengikut Negeri > median_2022",
-                "desc_en": "[Sample] Sample",
-                "desc_bm": "[Sample] Sample"
+                "title_en": "Snapshot by State > Median Income (2022)",
+                "title_bm": "Rumusan mengikut Negeri > Pendapatan Penengah (2022)",
+                "desc_en": "[Integer] Median monthly household income as of 2022",
+                "desc_bm": "[Integer] Pendapatan isi rumah median bulanan setakat tahun 2022"
             },
             {
                 "id": 9,
                 "name": "cagr_median_2019",
-                "title_en": "Snapshot by State > cagr_median_2019",
-                "title_bm": "Rumusan mengikut Negeri > cagr_median_2019",
-                "desc_en": "[Sample] Sample",
-                "desc_bm": "[Sample] Sample"
+                "title_en": "Snapshot by State > Median CAGR (2019)",
+                "title_bm": "Rumusan mengikut Negeri > CAGR Penengah (2019)",
+                "desc_en": "[Float] Compound annual growth rate of median household income from 2016 to 2019",
+                "desc_bm": "[Apung] Kadar pertumbuhan tahunan kompaun bagi penengah pendapatan isi rumah dari tahun 2016 hingga 2019"
             },
             {
                 "id": 10,
                 "name": "cagr_median_2022",
-                "title_en": "Snapshot by State > cagr_median_2022",
-                "title_bm": "Rumusan mengikut Negeri > cagr_median_2022",
-                "desc_en": "[Sample] Sample",
-                "desc_bm": "[Sample] Sample"
+                "title_en": "Snapshot by State > Median CAGR (2022)",
+                "title_bm": "Rumusan mengikut Negeri > CAGR Penengah (2022)",
+                "desc_en": "[Float] Compound annual growth rate of median household income from 2019 to 2022",
+                "desc_bm": "[Apung] Kadar pertumbuhan tahunan kompaun bagi penengah pendapatan isi rumah dari tahun 2019 hingga 2022"
             },
             {
                 "id": 11,
                 "name": "gini_2016",
-                "title_en": "Snapshot by State > gini_2016",
-                "title_bm": "Rumusan mengikut Negeri > gini_2016",
-                "desc_en": "[Sample] Sample",
-                "desc_bm": "[Sample] Sample"
+                "title_en": "Snapshot by State > Gini Coefficient (2016)",
+                "title_bm": "Rumusan mengikut Negeri > Pekali Gini (2016)",
+                "desc_en": "[Float] Gini coefficient (between 0 and 1) as of 2016, where 0 represents perfect equality",
+                "desc_bm": "[Apung] Pekali Gini (antara 0 dan 1) setakat tahun 2016, di mana 0 mewakili kesaksamaan yang sempurna"
             },
             {
                 "id": 12,
                 "name": "gini_2019",
-                "title_en": "Snapshot by State > gini_2019",
-                "title_bm": "Rumusan mengikut Negeri > gini_2019",
-                "desc_en": "[Sample] Sample",
-                "desc_bm": "[Sample] Sample"
+                "title_en": "Snapshot by State > Gini Coefficient (2016)",
+                "title_bm": "Rumusan mengikut Negeri > Pekali Gini (2016)",
+                "desc_en": "[Float] Gini coefficient (between 0 and 1) as of 2019, where 0 represents perfect equality",
+                "desc_bm": "[Apung] Pekali Gini (antara 0 dan 1) setakat tahun 2019, di mana 0 mewakili kesaksamaan yang sempurna"
             },
             {
                 "id": 13,
                 "name": "gini_2022",
-                "title_en": "Snapshot by State > gini_2022",
-                "title_bm": "Rumusan mengikut Negeri > gini_2022",
-                "desc_en": "[Sample] Sample",
-                "desc_bm": "[Sample] Sample"
+                "title_en": "Snapshot by State > Gini Coefficient (2019)",
+                "title_bm": "Rumusan mengikut Negeri > Pekali Gini (2019)",
+                "desc_en": "[Float] Gini coefficient (between 0 and 1) as of 2022, where 0 represents perfect equality",
+                "desc_bm": "[Apung] Pekali Gini (antara 0 dan 1) setakat tahun 2022, di mana 0 mewakili kesaksamaan yang sempurna"
             },
             {
                 "id": 14,
                 "name": "poverty_2016",
-                "title_en": "Snapshot by State > poverty_2016",
-                "title_bm": "Rumusan mengikut Negeri > poverty_2016",
-                "desc_en": "[Sample] Sample",
-                "desc_bm": "[Sample] Sample"
+                "title_en": "Snapshot by State > Poverty Incidence (2016)",
+                "title_bm": "Rumusan mengikut Negeri > Insiden Kemiskinan (2016)",
+                "desc_en": "[Float] Incidence of absolute poverty as of 2016",
+                "desc_bm": "[Apung] Insiden kemiskinan mutlak setakat tahun 2016"
             },
             {
                 "id": 15,
                 "name": "poverty_2019",
-                "title_en": "Snapshot by State > poverty_2019",
-                "title_bm": "Rumusan mengikut Negeri > poverty_2019",
-                "desc_en": "[Sample] Sample",
-                "desc_bm": "[Sample] Sample"
+                "title_en": "Snapshot by State > Poverty Incidence (2019)",
+                "title_bm": "Rumusan mengikut Negeri > Insiden Kemiskinan (2019)",
+                "desc_en": "[Float] Incidence of absolute poverty as of 2019",
+                "desc_bm": "[Apung] Insiden kemiskinan mutlak setakat tahun 2019"
             },
             {
                 "id": 16,
                 "name": "poverty_2022",
-                "title_en": "Snapshot by State > poverty_2022",
-                "title_bm": "Rumusan mengikut Negeri > poverty_2022",
-                "desc_en": "[Sample] Sample",
-                "desc_bm": "[Sample] Sample"
+                "title_en": "Snapshot by State > Poverty Incidence (2022)",
+                "title_bm": "Rumusan mengikut Negeri > Insiden Kemiskinan (2022)",
+                "desc_en": "[Float] Incidence of absolute poverty as of 2022",
+                "desc_bm": "[Apung] Insiden kemiskinan mutlak setakat tahun 2022"
             }
         ]
     },
