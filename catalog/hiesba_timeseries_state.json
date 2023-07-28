@@ -12,7 +12,7 @@
             "en": "This data is is based on Household Income Surveys (HIS) and Household Income & Expenditure Surveys (HIES) carried out from 1970 to 2022, the latest of which is HIES 2022. The survey is carried out at least twice in a rolling five-year period to produce representative data regarding income, poverty and access to basic amenities for Malaysian households.",
             "bm": "Data ini dihasilkan berdasarkan Survei Pendapatan Isi Rumah (HIS) serta Survei Pendapatan dan Perbelanjaan Isi Rumah (HIES) yang dilaksanakan dari tahun 1970 ke 2022, dengan survei yang terkini dilaksanakan pada tahun 2022. Survei itu dilaksanakan dua kali dalam tempoh lima tahun bagi tujuan menghasilkan data pendapatan, kemiskinan dan akses kepada kemudahan asas bagi isi rumah warganegara."
         },
-        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/hiesba_timeseries_state.parquet",
+        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/hiesba_timeseries_state.parquet?ignoreCache=1",
         "link_csv": "https://storage.googleapis.com/dosm-public-economy/hiesba_timeseries_state.csv",
         "link_metadata": "https://storage.googleapis.com/dosm-public-economy/hiesba_timeseries_state.metadata",
         "variables": [
@@ -31,6 +31,14 @@
                 "title_bm": "Negeri",
                 "desc_en": "[Categorical] Name of the state (16 in total) or Malaysia",
                 "desc_bm": "[Kategori] Name negeri (16 keseluruhan) atau Malaysia"
+            },
+            {
+                "id": -1,
+                "name": "breakdown",
+                "title_en": "Breakdown",
+                "title_bm": "Pecahan",
+                "desc_en": "[String] Specific ethnic or geographic subgroup, only available at national level",
+                "desc_bm": "[Rentetan] Pecahan mengikut kumpulan etnik atau geografi, tetapi hanya di peringkat nasional"
             },
             {
                 "id": 1,
@@ -103,13 +111,15 @@
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "state"
+                        "state",
+                        "breakdown"
                     ],
                     "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
-                        "state"
+                        "state",
+                        "breakdown"
                     ],
                     "operation": "MEAN",
                     "format": {
@@ -156,13 +166,15 @@
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "state"
+                        "state",
+                        "breakdown"
                     ],
                     "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
-                        "state"
+                        "state",
+                        "breakdown"
                     ],
                     "operation": "MEAN",
                     "format": {
@@ -209,13 +221,15 @@
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "state"
+                        "state",
+                        "breakdown"
                     ],
                     "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
-                        "state"
+                        "state",
+                        "breakdown"
                     ],
                     "operation": "MEAN",
                     "format": {
@@ -262,13 +276,15 @@
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "state"
+                        "state",
+                        "breakdown"
                     ],
                     "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
-                        "state"
+                        "state",
+                        "breakdown"
                     ],
                     "operation": "MEAN",
                     "format": {
