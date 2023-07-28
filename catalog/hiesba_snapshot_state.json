@@ -12,7 +12,7 @@
             "en": "This data is is based on Household Income Surveys (HIS) and Household Income & Expenditure Surveys (HIES) carried out from 1970 to 2022, the latest of which is HIES 2022. The survey is carried out at least twice in a rolling five-year period to produce representative data regarding income, poverty and access to basic amenities for Malaysian households.",
             "bm": "Data ini dihasilkan berdasarkan Survei Pendapatan Isi Rumah (HIS) serta Survei Pendapatan dan Perbelanjaan Isi Rumah (HIES) yang dilaksanakan dari tahun 1970 ke 2022, dengan survei yang terkini dilaksanakan pada tahun 2022. Survei itu dilaksanakan dua kali dalam tempoh lima tahun bagi tujuan menghasilkan data pendapatan, kemiskinan dan akses kepada kemudahan asas bagi isi rumah warganegara."
         },
-        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/hiesba_snapshot_state.parquet",
+        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/hiesba_snapshot_state_dummy.parquet",
         "link_csv": "https://storage.googleapis.com/dosm-public-economy/hiesba_snapshot_state.csv",
         "link_metadata": "https://storage.googleapis.com/dosm-public-economy/hiesba_snapshot_state.metadata",
         "variables": [
@@ -188,11 +188,15 @@
             "chart": {
                 "chart_type": "CHOROPLETH",
                 "chart_filters": {
-                    "SLICE_BY": [],
+                    "SLICE_BY": [
+                        "dummy"
+                    ],
                     "precision": 0
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "dummy"
+                    ],
                     "color": "greens",
                     "file_json": "state",
                     "format": {
@@ -235,11 +239,15 @@
             "chart": {
                 "chart_type": "CHOROPLETH",
                 "chart_filters": {
-                    "SLICE_BY": [],
+                    "SLICE_BY": [
+                        "dummy"
+                    ],
                     "precision": 0
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "dummy"
+                    ],
                     "color": "greens",
                     "file_json": "state",
                     "format": {
@@ -282,11 +290,15 @@
             "chart": {
                 "chart_type": "CHOROPLETH",
                 "chart_filters": {
-                    "SLICE_BY": [],
+                    "SLICE_BY": [
+                        "dummy"
+                    ],
                     "precision": 0
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "dummy"
+                    ],
                     "color": "greens",
                     "file_json": "state",
                     "format": {
@@ -329,11 +341,15 @@
             "chart": {
                 "chart_type": "CHOROPLETH",
                 "chart_filters": {
-                    "SLICE_BY": [],
+                    "SLICE_BY": [
+                        "dummy"
+                    ],
                     "precision": 1
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "dummy"
+                    ],
                     "color": "greens",
                     "file_json": "state",
                     "format": {
@@ -376,11 +392,15 @@
             "chart": {
                 "chart_type": "CHOROPLETH",
                 "chart_filters": {
-                    "SLICE_BY": [],
+                    "SLICE_BY": [
+                        "dummy"
+                    ],
                     "precision": 1
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "dummy"
+                    ],
                     "color": "greens",
                     "file_json": "state",
                     "format": {
@@ -423,11 +443,15 @@
             "chart": {
                 "chart_type": "CHOROPLETH",
                 "chart_filters": {
-                    "SLICE_BY": [],
+                    "SLICE_BY": [
+                        "dummy"
+                    ],
                     "precision": 0
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "dummy"
+                    ],
                     "color": "greens",
                     "file_json": "state",
                     "format": {
@@ -470,11 +494,15 @@
             "chart": {
                 "chart_type": "CHOROPLETH",
                 "chart_filters": {
-                    "SLICE_BY": [],
+                    "SLICE_BY": [
+                        "dummy"
+                    ],
                     "precision": 0
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "dummy"
+                    ],
                     "color": "greens",
                     "file_json": "state",
                     "format": {
@@ -517,11 +545,15 @@
             "chart": {
                 "chart_type": "CHOROPLETH",
                 "chart_filters": {
-                    "SLICE_BY": [],
+                    "SLICE_BY": [
+                        "dummy"
+                    ],
                     "precision": 0
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "dummy"
+                    ],
                     "color": "greens",
                     "file_json": "state",
                     "format": {
@@ -564,11 +596,15 @@
             "chart": {
                 "chart_type": "CHOROPLETH",
                 "chart_filters": {
-                    "SLICE_BY": [],
+                    "SLICE_BY": [
+                        "dummy"
+                    ],
                     "precision": 1
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "dummy"
+                    ],
                     "color": "greens",
                     "file_json": "state",
                     "format": {
@@ -611,11 +647,15 @@
             "chart": {
                 "chart_type": "CHOROPLETH",
                 "chart_filters": {
-                    "SLICE_BY": [],
+                    "SLICE_BY": [
+                        "dummy"
+                    ],
                     "precision": 1
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "dummy"
+                    ],
                     "color": "greens",
                     "file_json": "state",
                     "format": {
@@ -658,11 +698,15 @@
             "chart": {
                 "chart_type": "CHOROPLETH",
                 "chart_filters": {
-                    "SLICE_BY": [],
+                    "SLICE_BY": [
+                        "dummy"
+                    ],
                     "precision": 2
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "dummy"
+                    ],
                     "color": "reds",
                     "file_json": "state",
                     "format": {
@@ -705,11 +749,15 @@
             "chart": {
                 "chart_type": "CHOROPLETH",
                 "chart_filters": {
-                    "SLICE_BY": [],
+                    "SLICE_BY": [
+                        "dummy"
+                    ],
                     "precision": 2
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "dummy"
+                    ],
                     "color": "reds",
                     "file_json": "state",
                     "format": {
@@ -752,11 +800,15 @@
             "chart": {
                 "chart_type": "CHOROPLETH",
                 "chart_filters": {
-                    "SLICE_BY": [],
+                    "SLICE_BY": [
+                        "dummy"
+                    ],
                     "precision": 2
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "dummy"
+                    ],
                     "color": "reds",
                     "file_json": "state",
                     "format": {
@@ -799,11 +851,15 @@
             "chart": {
                 "chart_type": "CHOROPLETH",
                 "chart_filters": {
-                    "SLICE_BY": [],
+                    "SLICE_BY": [
+                        "dummy"
+                    ],
                     "precision": 1
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "dummy"
+                    ],
                     "color": "reds",
                     "file_json": "state",
                     "format": {
@@ -846,11 +902,15 @@
             "chart": {
                 "chart_type": "CHOROPLETH",
                 "chart_filters": {
-                    "SLICE_BY": [],
+                    "SLICE_BY": [
+                        "dummy"
+                    ],
                     "precision": 1
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "dummy"
+                    ],
                     "color": "reds",
                     "file_json": "state",
                     "format": {
@@ -893,11 +953,15 @@
             "chart": {
                 "chart_type": "CHOROPLETH",
                 "chart_filters": {
-                    "SLICE_BY": [],
+                    "SLICE_BY": [
+                        "dummy"
+                    ],
                     "precision": 1
                 },
                 "chart_variables": {
-                    "parents": [],
+                    "parents": [
+                        "dummy"
+                    ],
                     "color": "reds",
                     "file_json": "state",
                     "format": {
