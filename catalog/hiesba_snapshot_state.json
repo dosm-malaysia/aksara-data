@@ -1,0 +1,393 @@
+{
+    "file": {
+        "bucket": "dosm-public-economy",
+        "file_name": "hiesba_snapshot_state",
+        "category": "ECONOMY",
+        "category_en": "Economy",
+        "category_bm": "Ekonomi",
+        "subcategory": "HIES",
+        "subcategory_en": "Household Income & Expenditure",
+        "subcategory_bm": "Pendapatan & Perbelanjaan Isi Rumah",
+        "description": {
+            "en": "This data is is based on Household Income Surveys (HIS) and Household Income & Expenditure Surveys (HIES) carried out from 1970 to 2022, the latest of which is HIES 2022. The survey is carried out at least twice in a rolling five-year period to produce representative data regarding income, poverty and access to basic amenities for Malaysian households.",
+            "bm": "Data ini dihasilkan berdasarkan Survei Pendapatan Isi Rumah (HIS) serta Survei Pendapatan dan Perbelanjaan Isi Rumah (HIES) yang dilaksanakan dari tahun 1970 ke 2022, dengan survei yang terkini dilaksanakan pada tahun 2022. Survei itu dilaksanakan dua kali dalam tempoh lima tahun bagi tujuan menghasilkan data pendapatan, kemiskinan dan akses kepada kemudahan asas bagi isi rumah warganegara."
+        },
+        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/hiesba_snapshot_state.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-economy/hiesba_snapshot_state.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-economy/hiesba_snapshot_state.metadata",
+        "variables": [
+            {
+                "id": -1,
+                "name": "year",
+                "title_en": "Year",
+                "title_bm": "Tahun",
+                "desc_en": "[Integer] Year of publication, either 2016, 2019 or 2022",
+                "desc_bm": "[Integer] Tahun penerbitan laporan, sama ada 2016, 2019 atau 2022"
+            },
+            {
+                "id": -1,
+                "name": "state",
+                "title_en": "State",
+                "title_bm": "Negeri",
+                "desc_en": "[Categorical] Name of the state (16 in total)",
+                "desc_bm": "[Kategori] Nama negeri (16 keseluruhan)"
+            },
+            {
+                "id": 1,
+                "name": "mean",
+                "title_en": "Snapshot by State > Mean Income",
+                "title_bm": "Rumusan mengikut Negeri > Purata Pendapatan",
+                "desc_en": "[Integer] Mean monthly household income",
+                "desc_bm": "[Integer] Purata pendapatan isi rumah bulanan"
+            },
+            {
+                "id": 2,
+                "name": "cagr_mean",
+                "title_en": "Snapshot by State > Mean CAGR",
+                "title_bm": "Rumusan mengikut Negeri > CAGR Purata",
+                "desc_en": "[Float] Compound annual growth rate of mean household income since the last report",
+                "desc_bm": "[Apung] Kadar pertumbuhan tahunan kompaun bagi purata pendapatan isi rumah"
+            },
+            {
+                "id": 3,
+                "name": "median",
+                "title_en": "Snapshot by State > Median Income",
+                "title_bm": "Rumusan mengikut Negeri > Pendapatan Penengah",
+                "desc_en": "[Integer] Median monthly household income",
+                "desc_bm": "[Integer] Pendapatan isi rumah median bulanan"
+            },
+            {
+                "id": 4,
+                "name": "cagr_median",
+                "title_en": "Snapshot by State > Median CAGR",
+                "title_bm": "Rumusan mengikut Negeri > CAGR Penengah",
+                "desc_en": "[Float] Compound annual growth rate of median household income since the last report",
+                "desc_bm": "[Apung] Kadar pertumbuhan tahunan kompaun bagi penengah pendapatan isi rumah sejak laporan terakhir"
+            },
+            {
+                "id": 5,
+                "name": "gini",
+                "title_en": "Snapshot by State > Gini Coefficient",
+                "title_bm": "Rumusan mengikut Negeri > Pekali Gini",
+                "desc_en": "[Float] Gini coefficient (between 0 and 1), where 0 represents perfect equality",
+                "desc_bm": "[Apung] Pekali Gini (antara 0 dan 1), di mana 0 mewakili kesaksamaan yang sempurna"
+            },
+            {
+                "id": 6,
+                "name": "poverty",
+                "title_en": "Snapshot by State > Poverty Rate",
+                "title_bm": "Rumusan mengikut Negeri > Kadar Kemiskinan",
+                "desc_en": "[Float] Incidence of absolute poverty",
+                "desc_bm": "[Apung] Insiden kemiskinan mutlak"
+            }
+        ]
+    },
+    "catalog_data": [
+        {
+            "id": 1,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "STATE"
+                ],
+                "start": "2016",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-07-28 12:00",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is is based on Household Income Surveys (HIS) and Household Income & Expenditure Surveys (HIES) carried out from 1970 to 2022, the latest of which is HIES 2022. The survey is carried out at least twice in a rolling five-year period to produce representative data regarding income, poverty and access to basic amenities for Malaysian households.",
+                    "caveat": "For a full account of the relative standard errors for the survey as well as the detailed survey methodology, please refer to the [HIES Technical Notes](https://storage.googleapis.com/dosm-public-publications/technote_hies_income_en.pdf).",
+                    "publication": "The [Household Income & Expenditure Survey Report, 2022](https://storage.googleapis.com/dosm-public-publications/multiyear_2022_hies.pdf)."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan berdasarkan Survei Pendapatan Isi Rumah (HIS) serta Survei Pendapatan dan Perbelanjaan Isi Rumah (HIES) yang dilaksanakan dari tahun 1970 ke 2022, dengan survei yang terkini dilaksanakan pada tahun 2022. Survei itu dilaksanakan dua kali dalam tempoh lima tahun bagi tujuan menghasilkan data pendapatan, kemiskinan dan akses kepada kemudahan asas bagi isi rumah warganegara.",
+                    "caveat": "Untuk mendapat butiran penuh tentang ralat piawai survei serta metodologi yang terperinci, sila rujuk kepada [Nota Teknikal HIES](https://storage.googleapis.com/dosm-public-publications/technote_hies_income_bm.pdf).",
+                    "publication": "[Laporan Survei Pendapatan dan Perbelanjaan Isi Rumah, 2022](https://storage.googleapis.com/dosm-public-publications/multiyear_2022_hies.pdf)."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "year"
+                    ],
+                    "precision": 0
+                },
+                "chart_variables": {
+                    "parents": [
+                        "year"
+                    ],
+                    "color": "greens",
+                    "file_json": "state",
+                    "format": {
+                        "x": "state",
+                        "y": "mean"
+                    }
+                }
+            }
+        },
+        {
+            "id": 2,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "STATE"
+                ],
+                "start": "2016",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-07-28 12:00",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is is based on Household Income Surveys (HIS) and Household Income & Expenditure Surveys (HIES) carried out from 1970 to 2022, the latest of which is HIES 2022. The survey is carried out at least twice in a rolling five-year period to produce representative data regarding income, poverty and access to basic amenities for Malaysian households.",
+                    "caveat": "For a full account of the relative standard errors for the survey as well as the detailed survey methodology, please refer to the [HIES Technical Notes](https://storage.googleapis.com/dosm-public-publications/technote_hies_income_en.pdf).",
+                    "publication": "The [Household Income & Expenditure Survey Report, 2022](https://storage.googleapis.com/dosm-public-publications/multiyear_2022_hies.pdf)."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan berdasarkan Survei Pendapatan Isi Rumah (HIS) serta Survei Pendapatan dan Perbelanjaan Isi Rumah (HIES) yang dilaksanakan dari tahun 1970 ke 2022, dengan survei yang terkini dilaksanakan pada tahun 2022. Survei itu dilaksanakan dua kali dalam tempoh lima tahun bagi tujuan menghasilkan data pendapatan, kemiskinan dan akses kepada kemudahan asas bagi isi rumah warganegara.",
+                    "caveat": "Untuk mendapat butiran penuh tentang ralat piawai survei serta metodologi yang terperinci, sila rujuk kepada [Nota Teknikal HIES](https://storage.googleapis.com/dosm-public-publications/technote_hies_income_bm.pdf).",
+                    "publication": "[Laporan Survei Pendapatan dan Perbelanjaan Isi Rumah, 2022](https://storage.googleapis.com/dosm-public-publications/multiyear_2022_hies.pdf)."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "year"
+                    ],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [
+                        "year"
+                    ],
+                    "color": "greens",
+                    "file_json": "state",
+                    "format": {
+                        "x": "state",
+                        "y": "cagr_mean"
+                    }
+                }
+            }
+        },
+        {
+            "id": 3,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "STATE"
+                ],
+                "start": "2016",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-07-28 12:00",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is is based on Household Income Surveys (HIS) and Household Income & Expenditure Surveys (HIES) carried out from 1970 to 2022, the latest of which is HIES 2022. The survey is carried out at least twice in a rolling five-year period to produce representative data regarding income, poverty and access to basic amenities for Malaysian households.",
+                    "caveat": "For a full account of the relative standard errors for the survey as well as the detailed survey methodology, please refer to the [HIES Technical Notes](https://storage.googleapis.com/dosm-public-publications/technote_hies_income_en.pdf).",
+                    "publication": "The [Household Income & Expenditure Survey Report, 2022](https://storage.googleapis.com/dosm-public-publications/multiyear_2022_hies.pdf)."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan berdasarkan Survei Pendapatan Isi Rumah (HIS) serta Survei Pendapatan dan Perbelanjaan Isi Rumah (HIES) yang dilaksanakan dari tahun 1970 ke 2022, dengan survei yang terkini dilaksanakan pada tahun 2022. Survei itu dilaksanakan dua kali dalam tempoh lima tahun bagi tujuan menghasilkan data pendapatan, kemiskinan dan akses kepada kemudahan asas bagi isi rumah warganegara.",
+                    "caveat": "Untuk mendapat butiran penuh tentang ralat piawai survei serta metodologi yang terperinci, sila rujuk kepada [Nota Teknikal HIES](https://storage.googleapis.com/dosm-public-publications/technote_hies_income_bm.pdf).",
+                    "publication": "[Laporan Survei Pendapatan dan Perbelanjaan Isi Rumah, 2022](https://storage.googleapis.com/dosm-public-publications/multiyear_2022_hies.pdf)."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "year"
+                    ],
+                    "precision": 0
+                },
+                "chart_variables": {
+                    "parents": [
+                        "year"
+                    ],
+                    "color": "greens",
+                    "file_json": "state",
+                    "format": {
+                        "x": "state",
+                        "y": "median"
+                    }
+                }
+            }
+        },
+        {
+            "id": 4,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "STATE"
+                ],
+                "start": "2016",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-07-28 12:00",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is is based on Household Income Surveys (HIS) and Household Income & Expenditure Surveys (HIES) carried out from 1970 to 2022, the latest of which is HIES 2022. The survey is carried out at least twice in a rolling five-year period to produce representative data regarding income, poverty and access to basic amenities for Malaysian households.",
+                    "caveat": "For a full account of the relative standard errors for the survey as well as the detailed survey methodology, please refer to the [HIES Technical Notes](https://storage.googleapis.com/dosm-public-publications/technote_hies_income_en.pdf).",
+                    "publication": "The [Household Income & Expenditure Survey Report, 2022](https://storage.googleapis.com/dosm-public-publications/multiyear_2022_hies.pdf)."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan berdasarkan Survei Pendapatan Isi Rumah (HIS) serta Survei Pendapatan dan Perbelanjaan Isi Rumah (HIES) yang dilaksanakan dari tahun 1970 ke 2022, dengan survei yang terkini dilaksanakan pada tahun 2022. Survei itu dilaksanakan dua kali dalam tempoh lima tahun bagi tujuan menghasilkan data pendapatan, kemiskinan dan akses kepada kemudahan asas bagi isi rumah warganegara.",
+                    "caveat": "Untuk mendapat butiran penuh tentang ralat piawai survei serta metodologi yang terperinci, sila rujuk kepada [Nota Teknikal HIES](https://storage.googleapis.com/dosm-public-publications/technote_hies_income_bm.pdf).",
+                    "publication": "[Laporan Survei Pendapatan dan Perbelanjaan Isi Rumah, 2022](https://storage.googleapis.com/dosm-public-publications/multiyear_2022_hies.pdf)."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "year"
+                    ],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [
+                        "year"
+                    ],
+                    "color": "greens",
+                    "file_json": "state",
+                    "format": {
+                        "x": "state",
+                        "y": "cagr_median"
+                    }
+                }
+            }
+        },
+        {
+            "id": 5,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "STATE"
+                ],
+                "start": "2016",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-07-28 12:00",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is is based on Household Income Surveys (HIS) and Household Income & Expenditure Surveys (HIES) carried out from 1970 to 2022, the latest of which is HIES 2022. The survey is carried out at least twice in a rolling five-year period to produce representative data regarding income, poverty and access to basic amenities for Malaysian households.",
+                    "caveat": "For a full account of the relative standard errors for the survey as well as the detailed survey methodology, please refer to the [HIES Technical Notes](https://storage.googleapis.com/dosm-public-publications/technote_hies_income_en.pdf).",
+                    "publication": "The [Household Income & Expenditure Survey Report, 2022](https://storage.googleapis.com/dosm-public-publications/multiyear_2022_hies.pdf)."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan berdasarkan Survei Pendapatan Isi Rumah (HIS) serta Survei Pendapatan dan Perbelanjaan Isi Rumah (HIES) yang dilaksanakan dari tahun 1970 ke 2022, dengan survei yang terkini dilaksanakan pada tahun 2022. Survei itu dilaksanakan dua kali dalam tempoh lima tahun bagi tujuan menghasilkan data pendapatan, kemiskinan dan akses kepada kemudahan asas bagi isi rumah warganegara.",
+                    "caveat": "Untuk mendapat butiran penuh tentang ralat piawai survei serta metodologi yang terperinci, sila rujuk kepada [Nota Teknikal HIES](https://storage.googleapis.com/dosm-public-publications/technote_hies_income_bm.pdf).",
+                    "publication": "[Laporan Survei Pendapatan dan Perbelanjaan Isi Rumah, 2022](https://storage.googleapis.com/dosm-public-publications/multiyear_2022_hies.pdf)."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "year"
+                    ],
+                    "precision": 2
+                },
+                "chart_variables": {
+                    "parents": [
+                        "year"
+                    ],
+                    "color": "reds",
+                    "file_json": "state",
+                    "format": {
+                        "x": "state",
+                        "y": "gini"
+                    }
+                }
+            }
+        },
+        {
+            "id": 6,
+            "catalog_filters": {
+                "frequency": "INFREQUENT",
+                "geographic": [
+                    "STATE"
+                ],
+                "start": "2016",
+                "end": "2022",
+                "data_source": [
+                    "DOSM"
+                ]
+            },
+            "metadata_neutral": {
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-07-28 12:00",
+                "next_update": "-"
+            },
+            "metadata_lang": {
+                "en": {
+                    "methodology": "This data is is based on Household Income Surveys (HIS) and Household Income & Expenditure Surveys (HIES) carried out from 1970 to 2022, the latest of which is HIES 2022. The survey is carried out at least twice in a rolling five-year period to produce representative data regarding income, poverty and access to basic amenities for Malaysian households.",
+                    "caveat": "For a full account of the relative standard errors for the survey as well as the detailed survey methodology, please refer to the [HIES Technical Notes](https://storage.googleapis.com/dosm-public-publications/technote_hies_income_en.pdf).",
+                    "publication": "The [Household Income & Expenditure Survey Report, 2022](https://storage.googleapis.com/dosm-public-publications/multiyear_2022_hies.pdf)."
+                },
+                "bm": {
+                    "methodology": "Data ini dihasilkan berdasarkan Survei Pendapatan Isi Rumah (HIS) serta Survei Pendapatan dan Perbelanjaan Isi Rumah (HIES) yang dilaksanakan dari tahun 1970 ke 2022, dengan survei yang terkini dilaksanakan pada tahun 2022. Survei itu dilaksanakan dua kali dalam tempoh lima tahun bagi tujuan menghasilkan data pendapatan, kemiskinan dan akses kepada kemudahan asas bagi isi rumah warganegara.",
+                    "caveat": "Untuk mendapat butiran penuh tentang ralat piawai survei serta metodologi yang terperinci, sila rujuk kepada [Nota Teknikal HIES](https://storage.googleapis.com/dosm-public-publications/technote_hies_income_bm.pdf).",
+                    "publication": "[Laporan Survei Pendapatan dan Perbelanjaan Isi Rumah, 2022](https://storage.googleapis.com/dosm-public-publications/multiyear_2022_hies.pdf)."
+                }
+            },
+            "chart": {
+                "chart_type": "CHOROPLETH",
+                "chart_filters": {
+                    "SLICE_BY": [
+                        "year"
+                    ],
+                    "precision": 1
+                },
+                "chart_variables": {
+                    "parents": [
+                        "year"
+                    ],
+                    "color": "reds",
+                    "file_json": "state",
+                    "format": {
+                        "x": "state",
+                        "y": "poverty"
+                    }
+                }
+            }
+        }
+    ]
+}
