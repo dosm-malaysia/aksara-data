@@ -1,7 +1,6 @@
 {
     "file": {
         "bucket": "dosm-public-economy",
-        "manual_trigger":"yes",
         "file_name": "hiesba_timeseries_state",
         "category": "ECONOMY",
         "category_en": "Economy",
@@ -32,14 +31,6 @@
                 "title_bm": "Negeri",
                 "desc_en": "[Categorical] Name of the state (16 in total) or Malaysia",
                 "desc_bm": "[Kategori] Name negeri (16 keseluruhan) atau Malaysia"
-            },
-            {
-                "id": -1,
-                "name": "breakdown",
-                "title_en": "Breakdown",
-                "title_bm": "Pecahan",
-                "desc_en": "[String] Specific ethnic or geographic subgroup, only available at national level",
-                "desc_bm": "[Rentetan] Pecahan mengikut kumpulan etnik atau geografi, tetapi hanya di peringkat nasional"
             },
             {
                 "id": 1,
@@ -112,15 +103,13 @@
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "state",
-                        "breakdown"
+                        "state"
                     ],
                     "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
-                        "state",
-                        "breakdown"
+                        "state"
                     ],
                     "operation": "MEAN",
                     "format": {
@@ -167,15 +156,13 @@
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "state",
-                        "breakdown"
+                        "state"
                     ],
                     "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
-                        "state",
-                        "breakdown"
+                        "state"
                     ],
                     "operation": "MEAN",
                     "format": {
@@ -222,15 +209,13 @@
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "state",
-                        "breakdown"
+                        "state"
                     ],
                     "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
-                        "state",
-                        "breakdown"
+                        "state"
                     ],
                     "operation": "MEAN",
                     "format": {
@@ -277,15 +262,13 @@
                 "chart_type": "TIMESERIES",
                 "chart_filters": {
                     "SLICE_BY": [
-                        "state",
-                        "breakdown"
+                        "state"
                     ],
                     "precision": 1
                 },
                 "chart_variables": {
                     "parents": [
-                        "state",
-                        "breakdown"
+                        "state"
                     ],
                     "operation": "MEAN",
                     "format": {
