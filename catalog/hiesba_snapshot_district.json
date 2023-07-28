@@ -1,7 +1,7 @@
 {
     "file": {
         "bucket": "dosm-public-economy",
-        "file_name": "hiesba_snapshot_state",
+        "file_name": "hiesba_snapshot_district",
         "category": "ECONOMY",
         "category_en": "Economy",
         "category_bm": "Ekonomi",
@@ -12,9 +12,9 @@
             "en": "This data is is based on Household Income Surveys (HIS) and Household Income & Expenditure Surveys (HIES) carried out from 1970 to 2022, the latest of which is HIES 2022. The survey is carried out at least twice in a rolling five-year period to produce representative data regarding income, poverty and access to basic amenities for Malaysian households.",
             "bm": "Data ini dihasilkan berdasarkan Survei Pendapatan Isi Rumah (HIS) serta Survei Pendapatan dan Perbelanjaan Isi Rumah (HIES) yang dilaksanakan dari tahun 1970 ke 2022, dengan survei yang terkini dilaksanakan pada tahun 2022. Survei itu dilaksanakan dua kali dalam tempoh lima tahun bagi tujuan menghasilkan data pendapatan, kemiskinan dan akses kepada kemudahan asas bagi isi rumah warganegara."
         },
-        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/hiesba_snapshot_state.parquet",
-        "link_csv": "https://storage.googleapis.com/dosm-public-economy/hiesba_snapshot_state.csv",
-        "link_metadata": "https://storage.googleapis.com/dosm-public-economy/hiesba_snapshot_state.metadata",
+        "link_parquet": "https://storage.googleapis.com/dosm-public-economy/hiesba_snapshot_district.parquet",
+        "link_csv": "https://storage.googleapis.com/dosm-public-economy/hiesba_snapshot_district.csv",
+        "link_metadata": "https://storage.googleapis.com/dosm-public-economy/hiesba_snapshot_district.metadata",
         "variables": [
             {
                 "id": -1,
@@ -33,50 +33,58 @@
                 "desc_bm": "[Kategori] Nama negeri (16 keseluruhan)"
             },
             {
+                "id": -1,
+                "name": "district",
+                "title_en": "District",
+                "title_bm": "Daerah",
+                "desc_en": "[String] Name of the administrative district (160 in total)",
+                "desc_bm": "[Rentetan] Nama daerah pentadbiran (160 keseluruhan)"
+            },
+            {
                 "id": 1,
                 "name": "mean",
-                "title_en": "Snapshot by State > Mean Income",
-                "title_bm": "Rumusan mengikut Negeri > Purata Pendapatan",
+                "title_en": "Snapshot by District > Mean Income",
+                "title_bm": "Rumusan mengikut Daerah > Purata Pendapatan",
                 "desc_en": "[Integer] Mean monthly household income",
                 "desc_bm": "[Integer] Purata pendapatan isi rumah bulanan"
             },
             {
                 "id": 2,
                 "name": "cagr_mean",
-                "title_en": "Snapshot by State > Mean CAGR",
-                "title_bm": "Rumusan mengikut Negeri > CAGR Purata",
+                "title_en": "Snapshot by District > Mean CAGR",
+                "title_bm": "Rumusan mengikut Daerah > CAGR Purata",
                 "desc_en": "[Float] Compound annual growth rate of mean household income since the last report",
                 "desc_bm": "[Apung] Kadar pertumbuhan tahunan kompaun bagi purata pendapatan isi rumah"
             },
             {
                 "id": 3,
                 "name": "median",
-                "title_en": "Snapshot by State > Median Income",
-                "title_bm": "Rumusan mengikut Negeri > Pendapatan Penengah",
+                "title_en": "Snapshot by District > Median Income",
+                "title_bm": "Rumusan mengikut Daerah > Pendapatan Penengah",
                 "desc_en": "[Integer] Median monthly household income",
                 "desc_bm": "[Integer] Pendapatan isi rumah median bulanan"
             },
             {
                 "id": 4,
                 "name": "cagr_median",
-                "title_en": "Snapshot by State > Median CAGR",
-                "title_bm": "Rumusan mengikut Negeri > CAGR Penengah",
+                "title_en": "Snapshot by District > Median CAGR",
+                "title_bm": "Rumusan mengikut Daerah > CAGR Penengah",
                 "desc_en": "[Float] Compound annual growth rate of median household income since the last report",
                 "desc_bm": "[Apung] Kadar pertumbuhan tahunan kompaun bagi penengah pendapatan isi rumah sejak laporan terakhir"
             },
             {
                 "id": 5,
                 "name": "gini",
-                "title_en": "Snapshot by State > Gini Coefficient",
-                "title_bm": "Rumusan mengikut Negeri > Pekali Gini",
+                "title_en": "Snapshot by District > Gini Coefficient",
+                "title_bm": "Rumusan mengikut Daerah > Pekali Gini",
                 "desc_en": "[Float] Gini coefficient (between 0 and 1), where 0 represents perfect equality",
                 "desc_bm": "[Apung] Pekali Gini (antara 0 dan 1), di mana 0 mewakili kesaksamaan yang sempurna"
             },
             {
                 "id": 6,
                 "name": "poverty",
-                "title_en": "Snapshot by State > Poverty Rate",
-                "title_bm": "Rumusan mengikut Negeri > Kadar Kemiskinan",
+                "title_en": "Snapshot by District > Poverty Rate",
+                "title_bm": "Rumusan mengikut Daerah > Kadar Kemiskinan",
                 "desc_en": "[Float] Incidence of absolute poverty",
                 "desc_bm": "[Apung] Insiden kemiskinan mutlak"
             }
@@ -88,7 +96,8 @@
             "catalog_filters": {
                 "frequency": "INFREQUENT",
                 "geographic": [
-                    "STATE"
+                    "STATE",
+                    "DISTRICT"
                 ],
                 "start": "2016",
                 "end": "2022",
@@ -126,9 +135,9 @@
                         "year"
                     ],
                     "color": "greens",
-                    "file_json": "state",
+                    "file_json": "district",
                     "format": {
-                        "x": "state",
+                        "x": "district",
                         "y": "mean"
                     }
                 }
@@ -139,7 +148,8 @@
             "catalog_filters": {
                 "frequency": "INFREQUENT",
                 "geographic": [
-                    "STATE"
+                    "STATE",
+                    "DISTRICT"
                 ],
                 "start": "2016",
                 "end": "2022",
@@ -177,9 +187,9 @@
                         "year"
                     ],
                     "color": "greens",
-                    "file_json": "state",
+                    "file_json": "district",
                     "format": {
-                        "x": "state",
+                        "x": "district",
                         "y": "cagr_mean"
                     }
                 }
@@ -190,7 +200,8 @@
             "catalog_filters": {
                 "frequency": "INFREQUENT",
                 "geographic": [
-                    "STATE"
+                    "STATE",
+                    "DISTRICT"
                 ],
                 "start": "2016",
                 "end": "2022",
@@ -228,9 +239,9 @@
                         "year"
                     ],
                     "color": "greens",
-                    "file_json": "state",
+                    "file_json": "district",
                     "format": {
-                        "x": "state",
+                        "x": "district",
                         "y": "median"
                     }
                 }
@@ -241,7 +252,8 @@
             "catalog_filters": {
                 "frequency": "INFREQUENT",
                 "geographic": [
-                    "STATE"
+                    "STATE",
+                    "DISTRICT"
                 ],
                 "start": "2016",
                 "end": "2022",
@@ -279,9 +291,9 @@
                         "year"
                     ],
                     "color": "greens",
-                    "file_json": "state",
+                    "file_json": "district",
                     "format": {
-                        "x": "state",
+                        "x": "district",
                         "y": "cagr_median"
                     }
                 }
@@ -292,7 +304,8 @@
             "catalog_filters": {
                 "frequency": "INFREQUENT",
                 "geographic": [
-                    "STATE"
+                    "STATE",
+                    "DISTRICT"
                 ],
                 "start": "2016",
                 "end": "2022",
@@ -330,9 +343,9 @@
                         "year"
                     ],
                     "color": "reds",
-                    "file_json": "state",
+                    "file_json": "district",
                     "format": {
-                        "x": "state",
+                        "x": "district",
                         "y": "gini"
                     }
                 }
@@ -343,7 +356,8 @@
             "catalog_filters": {
                 "frequency": "INFREQUENT",
                 "geographic": [
-                    "STATE"
+                    "STATE",
+                    "DISTRICT"
                 ],
                 "start": "2016",
                 "end": "2022",
@@ -381,9 +395,9 @@
                         "year"
                     ],
                     "color": "reds",
-                    "file_json": "state",
+                    "file_json": "district",
                     "format": {
-                        "x": "state",
+                        "x": "district",
                         "y": "poverty"
                     }
                 }
