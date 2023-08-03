@@ -2,6 +2,7 @@
     "file": {
         "bucket": "dosm-public-pricecatcher",
         "file_name": "pricecatcher_2023-08_preview",
+        "manual_trigger": "",
         "category": "ECONOMY",
         "category_en": "Economy",
         "category_bm": "Ekonomi",
