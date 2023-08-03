@@ -22,15 +22,15 @@
                 "title_en": "Date",
                 "title_bm": "Tarikh",
                 "desc_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01",
-                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD diberi nilai 01-01"
+                "desc_bm": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai  01-01"
             },
             {
                 "id": -1,
                 "name": "state",
                 "title_en": "State",
                 "title_bm": "Negeri",
-                "desc_en": "[Categorical] Name of the state (16 in total).",
-                "desc_bm": "[Kategori] Name negeri (16 keseluruhan)."
+                "desc_en": "[Categorical] Name of the state (16 in total, or Supranational).",
+                "desc_bm": "[Kategori] Name negeri (16 keseluruhan) atau Malaysia"
             },
             {
                 "id": -1,
@@ -45,7 +45,7 @@
                 "name": "value",
                 "title_en": "GDP by State",
                 "title_bm": "KDNK mengikut Negeri",
-                "desc_en": "[Float] Value given the date, state, and series type.",
+                "desc_en": "[Float] Value (in RM millions) given the date, state, and series type.",
                 "desc_bm": "[Apung] Nilai bagi jenis siri dan negeri pada tarikh yang diperincikan."
             }
         ]
@@ -60,14 +60,14 @@
                     "STATE"
                 ],
                 "start": "2015",
-                "end": "2021",
+                "end": "2022",
                 "data_source": [
                     "DOSM"
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2021-12-31 23:59",
-                "last_updated": "2022-08-05 12:00",
+                "data_as_of": "2022-12-31 23:59",
+                "last_updated": "2023-06-28 12:00",
                 "next_update": "-"
             },
             "metadata_lang": {
