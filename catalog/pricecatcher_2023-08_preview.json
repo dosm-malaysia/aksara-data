@@ -2,7 +2,6 @@
     "file": {
         "bucket": "dosm-public-pricecatcher",
         "file_name": "pricecatcher_2023-08_preview",
-        "manual_trigger": "",
         "category": "ECONOMY",
         "category_en": "Economy",
         "category_bm": "Ekonomi",
@@ -75,9 +74,9 @@
                 ]
             },
             "metadata_neutral": {
-                "data_as_of": "2023-08-02 23:59",
-                "last_updated": "2023-08-03 09:00",
-                "next_update": "2023-08-04 09:00"
+                "data_as_of": "2023-08-05 23:59",
+                "last_updated": "2023-08-06 09:00",
+                "next_update": "2023-08-07 09:00"
             },
             "metadata_lang": {
                 "en": {
