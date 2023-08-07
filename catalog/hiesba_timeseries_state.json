@@ -2,6 +2,7 @@
     "file": {
         "bucket": "dosm-public-economy",
         "file_name": "hiesba_timeseries_state",
+        "manual_trigger":"",
         "category": "ECONOMY",
         "category_en": "Economy",
         "category_bm": "Ekonomi",
