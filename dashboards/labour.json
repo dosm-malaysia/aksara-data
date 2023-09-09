@@ -8,7 +8,7 @@
             "name": "timeseries",
             "chart_type": "timeseries_chart",
             "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/labour_timeseries.parquet",
-            "data_as_of": "2023-06-30 23:59",
+            "data_as_of": "2023-07-31 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -26,7 +26,7 @@
             "name": "bar_chart",
             "chart_type": "bar_meter",
             "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/labour_barmeter.parquet",
-            "data_as_of": "2023-06-30 23:59",
+            "data_as_of": "2023-07-31 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -52,7 +52,7 @@
             "name": "choropleth_malaysia",
             "chart_type": "choropleth_chart",
             "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/labour_choropleth.parquet",
-            "data_as_of": "2023-06-30 23:59",
+            "data_as_of": "2023-07-31 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
@@ -69,7 +69,7 @@
             "name": "statistics",
             "chart_type": "custom_chart",
             "chart_source": "https://storage.googleapis.com/dosm-public-dashboards/labour_timeseries_callout.parquet",
-            "data_as_of": "2023-06-30 23:59",
+            "data_as_of": "2023-07-31 23:59",
             "api_type": "static",
             "api_params": [],
             "variables": {
